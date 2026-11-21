@@ -1,0 +1,87 @@
+{
+  "slug": "wahras-salong",
+  "namn": "Wahras Salong",
+  "bolag": "Wahras Salong HB",
+  "bolagsform": "HB",
+  "orgnr": "969798-9680",
+  "logo": ["Wahras", "Salong"],
+  "tema": "salong",
+  "schemaTyp": "HairSalon",
+  "adress": "Södra Kungsgatan 15",
+  "postnr": "802 51",
+  "stad": "Gävle",
+  "lat": 60.6716189,
+  "lng": 17.1478228,
+  "telefon": "076-405 07 03",
+  "telefonIntl": "+46764050703",
+  "bokning": "https://www.bokadirekt.se/places/wahras-salong-53140",
+  "bokningEtikett": "Boka tid",
+  "bokningHero": "Boka tid online",
+  "instagram": "https://www.instagram.com/wahrassalong/",
+  "facebook": null,
+  "betyg": [
+    {"kalla": "Google", "snitt": "5,0", "antal": "164 omdömen"},
+    {"kalla": "Bokadirekt", "snitt": "4,9", "antal": "1 513 betyg"}
+  ],
+  "oppettider": [["Måndag", 10, 19], ["Tisdag", 10, 19], ["Onsdag", 10, 19], ["Torsdag", 10, 19], ["Fredag", 10, 19], ["Lördag", 10, 17], ["Söndag", null, null]],
+  "tjanster": {
+    "Herr & barber": [["Herrklippning", "30 min", "280 kr"], ["Hårklippning & skäggbehandling", "", "Se bokning"], ["Skäggtrimning + clean shave", "30 min", "200 kr"], ["Studentklippning (herr)", "30 min", "250 kr"], ["Pensionärsklippning (herr)", "20 min", "250 kr"], ["Barnklippning (kille)", "20 min", "250 kr"]],
+    "Dam": [["Damklippning", "", "Se bokning"], ["Tvätt & fön, kort hår", "30 min", "250 kr"], ["Tvätt & fön, långt hår", "45 min", "300 kr"], ["Studentklippning (dam)", "", "Se bokning"], ["Pensionärsklippning (dam)", "", "Se bokning"], ["Barnklippning", "", "Se bokning"]],
+    "Bryn & övrigt": [["Brynfärg + formning med tråd", "30 min", "275 kr"], ["Håltagning, öron", "", "Se bokning"]]
+  },
+  "varfor": [
+    {"big": "1 677", "titel": "betyg och omdömen", "text": "5,0 på Google och 4,9 på Bokadirekt. Kunderna kommer tillbaka – och berättar det för andra."},
+    {"big": "280 kr", "titel": "för en herrklippning", "text": "Student-, pensionärs- och barnpris från 250 kr. Skäggtrimning från 200 kr."},
+    {"big": "6 dagar", "titel": "i veckan", "text": "Öppet till 19 på vardagar och till 17 på lördagar. Mitt på Södra Kungsgatan."}
+  ],
+  "faq": [
+    ["Hur bokar jag tid?", "Enklast är att boka online via knappen \"Boka tid\" – där ser du alla lediga tider. Du kan också ringa oss på 076-405 07 03."],
+    ["Klipper ni barn?", "Ja. Barnklippning kostar från 250 kr och tar ungefär 20 minuter."],
+    ["Har ni student- och pensionärspris?", "Ja, studentklippning och pensionärsklippning kostar 250 kr."],
+    ["Gör ni skägg och rakning?", "Ja. Skäggtrimning med clean shave kostar 200 kr, och vi gör även kombinerad hårklippning och skäggbehandling."],
+    ["Har ni öppet på söndagar?", "Nej, söndagar är vi stängda. Måndag–fredag 10–19 och lördag 10–17."]
+  ],
+  "jobb": {"titel": "Vi söker en herrfrisör", "text": "Erfaren och serviceinriktad? Herr- och barnklippning och skäggtrimning. Hör av dig till Wahras.", "tel": "+46721286967"},
+  "seo": {"title": "Wahras Salong – Frisör & barberare i Gävle", "description": "Frisör och barberare på Södra Kungsgatan 15 i Gävle. Klippning, skägg, bryn och håltagning. 5,0 på Google. Boka online."},
+  "text": {
+    "rubrik": "Frisör och barberare mitt i Gävle",
+    "ingress": "Klippning för dam, herr och barn, skägg och rakning, bryn och håltagning – på Södra Kungsgatan 15. Boka online på en minut eller ring oss.",
+    "tjanstRubrik": "Vad vill du göra idag?",
+    "prisNot": "Priser från salongens publika prislista, november 2026. Se exakta priser och lediga tider när du bokar.",
+    "tjanstCta": "Se lediga tider",
+    "varforKicker": "Därför väljer Gävle Wahras",
+    "varforRubrik": "Nöjda kunder, rimliga priser, mitt i stan",
+    "kontaktRubrik": "Dags att fixa håret?",
+    "kontaktText": "Boka online dygnet runt, ring oss eller titta in. Följ oss på Instagram för nya klippningar och lediga tider.",
+    "pitchRubrik": "Wahras, era kunder letar efter er på Google – nu kan de hitta er",
+    "pitchIngress": "Ni har redan det svåraste: över 1 600 betyg och ett snitt på nästan fem stjärnor. Det som saknas är en egen plats på nätet där det förtroendet blir till bokningar. Den här sidan är redan byggd och kan vara live på wahrassalong.se inom 7 dagar.",
+    "enhet": "besök",
+    "enhetPlural": "besök",
+    "pratText": "Vill ni ställa frågor innan ni bestämmer er? Jag ringer gärna, eller kommer förbi salongen – tio minuter räcker."
+  },
+  "pitch": {
+    "snittpris": 280,
+    "doman": "wahrassalong.se",
+    "idag": ["Den som googlar er hamnar på Instagram eller i en katalog", "Två olika telefonnummer ligger ute på nätet", "Bryn och håltagning syns inte när någon söker", "Salongerna några dörrar bort syns lika mycket som ni"],
+    "medSida": ["Egen adress, wahrassalong.se, som ni äger", "Ett nummer, rätt öppettider och priser – allt på ett ställe", "Visar om ni har öppet just nu, och bokning ett tryck bort", "Byggd för mobilen, där de flesta letar efter salong"]
+  },
+  "mejl": {
+    "till": "wahrazosman@gmail.com",
+    "amne": "Wahras, jag har byggt en hemsida åt er salong",
+    "hej": "Wahras",
+    "ert": "salongen",
+    "iakttagelse": "När jag letade bland frisörer i Gävle fastnade jag för er: 5,0 på Google och över 1 500 betyg på Bokadirekt. Det säger mycket om hur ni tar hand om era kunder.",
+    "problem": "Men en sak slog mig – ni har ingen egen hemsida. Den som googlar er hamnar på Instagram, och två andra salonger ligger bara några dörrar bort på Södra Kungsgatan.",
+    "fordelar": [
+      ["Fler bokningar", "Den som läser era omdömen hittar priser, tider och en bokningsknapp på en gång."],
+      ["Ni syns för allt ni gör", "Bryn och håltagning får egna platser, så att fler hittar er när de söker på just det."],
+      ["Rätt uppgifter överallt", "Ett telefonnummer och rätt öppettider – inga missade samtal."],
+      ["Den är er", "Er egen adress, inte en plattform som kan ändra reglerna."]
+    ],
+    "prisJamforelse": "ungefär som 18 herrklippningar",
+    "kontaktVal": "kommer förbi salongen",
+    "psDatum": "7 december"
+  },
+  "kallor": ["Google Maps-profil", "bokadirekt.se/places/wahras-salong-53140", "allabolag.se (Wahras Salong Handelsbolag)", "frisorlistan.se/gavle/wahras-salong--C0U6M", "vakanser.se herrfrisör Gävle"],
+  "status": {"skickat": "2026-11-23", "schemalagtAv": "Elliot via Gmail (sveblushab)"}
+}
