@@ -26,24 +26,33 @@ def kr(n):
 
 
 def kontrollera(d):
+    besok = d.get("kanal") == "besok"
     for k in KRAV:
+        if besok and k == "mejl":
+            continue
         if k not in d or d[k] in (None, "", [], {}):
             fel(f"fält saknas: {k}")
     for k in TEXTKRAV:
         if not d["text"].get(k):
             fel(f"text.{k} saknas")
-    for k in MEJLKRAV:
+    for k in ([] if besok else MEJLKRAV):
         if not d["mejl"].get(k):
             fel(f"mejl.{k} saknas")
-    if d["bolagsform"] not in ("AB", "HB", "KB"):
-        fel("bolagsform måste vara AB, HB eller KB – enskild firma mejlas inte")
+    if besok:
+        for k in ("hej", "iakttagelse", "problem", "fordelar", "prisJamforelse", "psDatum"):
+            if not d.get("besok", {}).get(k):
+                fel(f"besok.{k} saknas")
+        if d.get("mejl"):
+            fel("kanal besok får inte ha mejl – enskild firma mejlas aldrig")
+    elif d["bolagsform"] not in ("AB", "HB", "KB"):
+        fel("bolagsform måste vara AB, HB eller KB – enskild firma mejlas inte (använd kanal: besok)")
     if d["tema"] not in TEMAN:
         fel(f"okänt tema {d['tema']} – välj bland {list(TEMAN)}")
     if len(d["oppettider"]) != 7:
         fel("oppettider måste ha 7 rader (måndag–söndag)")
     if len(d["varfor"]) != 3 or len(d["pitch"]["idag"]) != 4 or len(d["pitch"]["medSida"]) != 4:
         fel("varfor ska ha 3 kort, pitch.idag och pitch.medSida 4 punkter var")
-    if len(d["mejl"]["fordelar"]) != 4:
+    if len((d.get("besok") if besok else d["mejl"])["fordelar"]) != 4:
         fel("mejl.fordelar ska ha 4 punkter")
     if not re.fullmatch(r"\+46\d{7,10}", d["telefonIntl"]):
         fel("telefonIntl ska vara +46…")
@@ -72,6 +81,9 @@ def bygg_sida(d, s):
            "{{SALJARE}}": json.dumps(s, ensure_ascii=False)}
     for k, v in rep.items():
         html = html.replace(k, v.replace('"', "&quot;") if k in ("{{SEO_TITLE}}", "{{SEO_DESC}}") else v)
+    nav = d["text"].get("navTjanster")
+    if nav:
+        html = html.replace("Tjänster &amp; priser", nav.replace("&", "&amp;"))
     if "{{" in html:
         fel("mallfält kvar: " + re.search(r"\{\{\w+\}\}", html).group())
     out = ROT / d["slug"] / "index.html"
@@ -147,6 +159,31 @@ Oavsett vad ni väljer: lycka till.
     return ord_
 
 
+def bygg_besok(d, s):
+    """Ring-/besöksmanus för enskild firma (marknadsföringslagen: inga mejl utan samtycke)."""
+    b, lank = d["besok"], f'{BAS_URL}/{d["slug"]}/#forslag'
+    ford = "\n".join(f"  • {a} – {c}" for a, c in b["fordelar"])
+    txt = f'''BESÖK/RING – {d["namn"]}, {d["adress"]}, {d["stad"]} · {d["telefon"]}
+Kanal: personligt besök eller samtal (enskild firma – inga säljmejl).
+Visa sidan på mobilen: {lank}
+
+1. Hälsa: "Hej, jag heter {s["namn"]} och bygger hemsidor åt lokala företag. Är det du som är ansvarig här?" (fråga efter {b["hej"]})
+2. Beröm (konkret): {b["iakttagelse"]}
+3. Problemet (ärligt): {b["problem"]}
+4. Visa sidan: "Jag har redan byggt en åt er – titta." Låt dem scrolla själva.
+5. Fyra vinster:
+{ford}
+6. Pris: {kr(s["engang"])} en gång – {b["prisJamforelse"]} – och {kr(s["manad"])}/mån för domän, drift och små ändringar.
+7. Tre steg: säg ja → säg vad ni vill ändra → live inom 7 dagar på egen adress{(" (" + d["pitch"]["doman"] + ")") if d["pitch"].get("doman") else ""}.
+8. Fråga: "Vill ni att jag kör igång?" Nej → "Helt okej. Sidan ligger uppe till {b["psDatum"]} om ni ändrar er." Lämna nummer: {s["tel"]}.
+
+Får jag mejla dig sidan? Bara om de säger ja – anteckna samtycket (datum, namn) i Kontoret.
+'''
+    out = ROT / "_foretag" / d["slug"] / "besok.txt"
+    out.write_text(txt)
+    return len(txt.split())
+
+
 if __name__ == "__main__":
     if len(sys.argv) != 2:
         fel("ange slug")
@@ -157,5 +194,9 @@ if __name__ == "__main__":
         fel("slug i data.json stämmer inte med mappen")
     kontrollera(d)
     sida = bygg_sida(d, s)
-    n = bygg_mejl(d, s)
-    print(f"OK {slug}: {sida.relative_to(ROT)} + 3 mejl (mejl 1: {n} ord) · {BAS_URL}/{slug}/#forslag")
+    if d.get("kanal") == "besok":
+        n = bygg_besok(d, s)
+        print(f"OK {slug}: {sida.relative_to(ROT)} + besöksmanus ({n} ord) · {BAS_URL}/{slug}/#forslag")
+    else:
+        n = bygg_mejl(d, s)
+        print(f"OK {slug}: {sida.relative_to(ROT)} + 3 mejl (mejl 1: {n} ord) · {BAS_URL}/{slug}/#forslag")

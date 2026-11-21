@@ -16,11 +16,12 @@ def kolla(pw, slug):
     fel = []
     d = json.loads((ROT / "_foretag" / slug / "data.json").read_text())
     html = (ROT / slug / "index.html").read_text()
-    m1 = (ROT / "_foretag" / slug / "mejl1.txt").read_text()
+    mf = ROT / "_foretag" / slug / "mejl1.txt"
+    m1 = mf.read_text() if mf.exists() else (ROT / "_foretag" / slug / "besok.txt").read_text()
     if 'name="robots" content="noindex' not in html: fel.append("noindex saknas")
     if "Förhandsvisning" not in html: fel.append("bannern saknas")
     if "{{" in html: fel.append("mallfält kvar")
-    if f"/forslag/{slug}/#forslag" not in m1: fel.append("fel länk i mejlet")
+    if f"/forslag/{slug}/#forslag" not in m1: fel.append("fel länk i mejlet/manuset")
     if re.search(r"\[[^\]]*\]", m1): fel.append("hakparentes i mejlet")
     if d["telefon"].replace(" ", "")[:6] not in html.replace(" ", ""): fel.append("telefonnumret syns inte")
     b = pw.chromium.launch()

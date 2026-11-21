@@ -1,0 +1,108 @@
+{
+  "slug": "restaurang-baran",
+  "kanal": "besok",
+  "namn": "Restaurang Baran",
+  "bolag": "Restaurang Baran",
+  "bolagsform": "EF",
+  "logo": ["Baran", "Restaurang"],
+  "tema": "mat",
+  "schemaTyp": "Restaurant",
+  "adress": "Stenhagsgatan 12",
+  "postnr": "653 44",
+  "stad": "Karlstad",
+  "lat": 59.38497539999999,
+  "lng": 13.469067899999999,
+  "telefon": "054-56 27 00",
+  "telefonIntl": "+4654562700",
+  "bokning": "https://www.foodora.se/restaurant/kajg/restaurang-baran",
+  "bokningEtikett": "Beställ hem",
+  "bokningHero": "Beställ hem via Foodora",
+  "instagram": null,
+  "facebook": null,
+  "betyg": [
+    {"kalla": "Google", "snitt": "4,8", "antal": "291 omdömen"}
+  ],
+  "oppettider": [["Måndag", 11, 20.5], ["Tisdag", 11, 20.5], ["Onsdag", 11, 20.5], ["Torsdag", 11, 20.5], ["Fredag", 11, 21], ["Lördag", 12, 21], ["Söndag", 12, 20.5]],
+  "tjanster": {
+    "Iranska grillrätter": [
+      ["Koobideh", "med saffransris", "från 205 kr"],
+      ["Jojeh kebab", "iranska kycklingspett, saffransris", "från 195 kr"],
+      ["Kebab Nagini", "med saffransris", "från 209 kr"],
+      ["Kebab Bakhtiari", "", "från 249 kr"],
+      ["Kebab Barg filé", "med saffransris", "från 289 kr"],
+      ["Soltani – Barg & Koobideh", "med saffransris", "från 319 kr"]
+    ],
+    "Iranska grytor": [
+      ["Ghormeh sabzi", "örtgryta med nötkött och bönor", "215 kr"],
+      ["Zereshk polo", "saffransris med berberis och kyckling", "215 kr"],
+      ["Baghali polo med lammlägg", "bondbönor, dill och lammlägg", "245 kr"],
+      ["Qozi med lammlägg", "kryddbräserad lammlägg", "235 kr"],
+      ["Khoresht khalal", "lammgryta med mandel och saffran", "259 kr"]
+    ],
+    "Kurdiska & turkiska": [
+      ["Kurdisk shishkebab", "grillad tomat och paprika", "från 175 kr"],
+      ["Kycklingspett", "iranska kryddor, husets sås", "från 165 kr"],
+      ["Adana kebab", "", "195 kr"],
+      ["Lammracks", "grönsaker och yoghurtsås", "275 kr"],
+      ["Mix för en", "adana, lamm, kyckling, lammrack, kotlett", "245 kr"],
+      ["Mix för två", "", "490 kr"]
+    ],
+    "Vegetariskt & annat": [
+      ["Falafeltallrik med pommes", "", "154 kr"],
+      ["Halloumitallrik", "", "160 kr"],
+      ["Baklava", "1 st", "35 kr"]
+    ]
+  },
+  "varfor": [
+    {"big": "4,8", "titel": "av 5 på Google", "text": "291 omdömen. Gästerna nämner ofta den familjära känslan och smaker de inte hittar någon annanstans i Karlstad."},
+    {"big": "165 kr", "titel": "för kycklingspett", "text": "Grillrätter från 165 kr, iranska grytor från 215 kr och en mix för två för 490 kr."},
+    {"big": "7 dagar", "titel": "i veckan", "text": "Öppet varje dag från lunch till kväll på Stenhagsgatan i Våxnäs. Hämta, ät här eller beställ hem."}
+  ],
+  "faq": [
+    ["Kan jag beställa hem?", "Ja. Vi finns på Foodora och Wolt. Du kan också ringa oss på 054-56 27 00 och hämta själv."],
+    ["Har ni vegetariskt?", "Ja – falafeltallrik, halloumitallrik och grytor med okra och vita bönor som tillbehör."],
+    ["Vad är koobideh?", "Ett iranskt grillspett av kryddad färs, grillat över eld och serverat med saffransris och grillad tomat."],
+    ["Har ni öppet på helgen?", "Ja, alla dagar. Lördag 12–21 och söndag 12–20:30."],
+    ["Har ni något för två?", "Ja, vår turkiska mix för två personer kostar 490 kr."]
+  ],
+  "jobb": {"titel": "Vi söker en grillkock", "text": "Erfarenhet av kurdisk, turkisk och iransk grillmat? Heltid. Lämna CV i restaurangen eller mejla resturangbaran@gmail.com senast 11 december.", "tel": "+46762861150"},
+  "seo": {"title": "Restaurang Baran – Iransk & kurdisk grill i Karlstad", "description": "Iransk, kurdisk och turkisk grillmat på Stenhagsgatan 12 i Karlstad. Koobideh, jojeh kebab, grytor med saffransris. 4,8 på Google. Öppet alla dagar."},
+  "text": {
+    "rubrik": "Iransk och kurdisk grill i Karlstad",
+    "ingress": "Koobideh, jojeh kebab och långkokta grytor med saffransris – lagat efter familjens recept på Stenhagsgatan 12 i Våxnäs. Ät här, hämta eller beställ hem.",
+    "navTjanster": "Meny & priser",
+    "tjanstRubrik": "Vad är du sugen på?",
+    "prisNot": "Priser från restaurangens meny på Foodora, november 2026. \"Från\" betyder att priset beror på tillbehör.",
+    "tjanstCta": "Beställ hem",
+    "varforKicker": "Därför väljer Karlstad Baran",
+    "varforRubrik": "Hemlagat, prisvärt och öppet varje dag",
+    "kontaktRubrik": "Hungrig?",
+    "kontaktText": "Ring och beställ för avhämtning, beställ hem via Foodora eller kom förbi och ät här.",
+    "pitchRubrik": "Baran, Karlstad älskar er mat – nu kan de hitta er direkt",
+    "pitchIngress": "Ni har redan det svåraste: 4,8 i betyg och smaker ingen annan i Karlstad har. Det som saknas är en egen plats på nätet där gästerna ser menyn, ringer och beställer direkt hos er. Den här sidan är redan byggd och kan vara live på barankarlstad.se inom 7 dagar.",
+    "enhet": "beställning",
+    "enhetPlural": "beställningar",
+    "pratText": "Vill ni ställa frågor först? Jag ringer gärna, eller kommer förbi restaurangen – tio minuter räcker."
+  },
+  "pitch": {
+    "snittpris": 200,
+    "doman": "barankarlstad.se",
+    "idag": ["Den som googlar er hamnar i en matapp eller en katalog", "Menyn med iranska grytor syns bara inne i apparna", "Platsannonsen för grillkocken har ingen egen sida att peka på", "Andra kolgrillar i Karlstad har egna sidor och syns före er"],
+    "medSida": ["Egen adress, barankarlstad.se, som ni äger", "Hela menyn med priser – ett tryck till att ringa och beställa", "Visar om ni har öppet just nu och hur man hittar hit", "Byggd för mobilen, där folk letar mat på kvällen"]
+  },
+  "besok": {
+    "hej": "ägaren eller den som ansvarar för restaurangen",
+    "iakttagelse": "4,8 på Google med 291 omdömen – och gästerna lyfter fram den familjära känslan och iransk-kurdiska smaker man inte hittar på andra ställen i Karlstad.",
+    "problem": "Men ni har ingen egen hemsida. Den som googlar er hamnar på Foodora eller Wolt, där appen tar en del av varje beställning, och era grytor syns bara inne i apparna.",
+    "fordelar": [
+      ["Fler beställningar direkt", "menyn och ett ring-och-beställ-tryck på samma ställe"],
+      ["Hela menyn syns", "grytor och grillrätter hittas när folk söker på koobideh eller iransk mat i Karlstad"],
+      ["Rätt uppgifter", "öppettider, adress och nummer – inga missade gäster"],
+      ["Den är er", "egen adress, och platsannonser kan ligga där"]
+    ],
+    "prisJamforelse": "ungefär som 25 Adana kebab",
+    "psDatum": "8 december"
+  },
+  "kallor": ["Google Maps-profil (4,8, 291 omdömen, öppettider, telefon)", "foodora.se/restaurant/kajg/restaurang-baran (meny och priser)", "wolt.com/en/swe/karlstad/restaurant/restaurang-baran", "vakanser.se – Restaurang Baran söker grillkock (arbetsgivare Arivan, e-post resturangbaran@gmail.com)", "bolagsfakta.se / ratsit.se – Arivan, enskild firma, Stenhagsgatan 12", "Shopify domänkoll 2026-11-21: barankarlstad.se ledig, restaurangbaran.se upptagen"],
+  "status": {"kanal": "besök/ring – enskild firma, inga mejl", "byggd": "2026-11-21"}
+}
