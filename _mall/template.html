@@ -280,7 +280,7 @@ $('faq').innerHTML=D.faq.map(f=>`<details><summary>${esc(f[0])}</summary><p>${es
 $('kontaktCta').innerHTML=(D.bokning?`<a class="btn" href="${esc(D.bokning)}" rel="noopener">${esc(book.label)}</a>`:'')+`<a class="btn ghost" href="tel:${esc(D.telefonIntl)}">${esc(D.telefon)}</a>`+(D.instagram?`<a class="btn ghost" href="${esc(D.instagram)}" rel="noopener">Instagram</a>`:'')+(D.facebook?`<a class="btn ghost" href="${esc(D.facebook)}" rel="noopener">Facebook</a>`:'');
 if(D.jobb){$('jobs').hidden=false;$('jobs').innerHTML=`<div><h3>${esc(D.jobb.titel)}</h3><p style="opacity:.75;margin-top:6px">${esc(D.jobb.text)}</p></div>`+(D.jobb.tel?`<a class="btn ghost" href="tel:${esc(D.jobb.tel)}">Ring om jobbet</a>`:'')}
 $('foot').textContent=`© ${D.bolag} · ${adr} · Förhandsvisning, ej publicerad`;
-$('dock').innerHTML=`<a class="main" href="${esc(book.href)}" rel="noopener">${esc(book.label)}</a><a href="tel:${esc(D.telefonIntl)}">Ring</a><a href="#hitta">Hitta hit</a>`;
+$('dock').innerHTML=`<a class="main" href="${esc(book.href)}" rel="noopener">${esc(book.label)}</a>${D.bokning?`<a href="tel:${esc(D.telefonIntl)}">Ring</a>`:`<a href="#tjanster">Tjänster</a>`}<a href="#hitta">Hitta hit</a>`;
 const bg=$('burger'),dr=$('drawer');
 bg.addEventListener('click',()=>{const o=dr.classList.toggle('open');bg.setAttribute('aria-expanded',o)});
 dr.addEventListener('click',e=>{if(e.target.tagName==='A'){dr.classList.remove('open');bg.setAttribute('aria-expanded',false)}});

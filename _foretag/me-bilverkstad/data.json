@@ -1,0 +1,196 @@
+{
+  "slug": "me-bilverkstad",
+  "namn": "M.E. Bilverkstad",
+  "bolag": "M.E. Bilverkstad i Vagnhärad AB",
+  "bolagsform": "AB",
+  "logo": [
+    "M.E.",
+    "Bilverkstad"
+  ],
+  "tema": "verkstad",
+  "schemaTyp": "AutoRepair",
+  "adress": "Värmevägen 4",
+  "postnr": "619 71",
+  "stad": "Vagnhärad",
+  "lat": 58.9546612,
+  "lng": 17.4812124,
+  "telefon": "0156-550 70",
+  "telefonIntl": "+4615655070",
+  "bokning": null,
+  "instagram": null,
+  "facebook": null,
+  "betyg": [
+    {
+      "kalla": "Google",
+      "snitt": "4,6",
+      "antal": "59 omdömen"
+    }
+  ],
+  "oppettider": [
+    [
+      "Måndag",
+      7,
+      16.5
+    ],
+    [
+      "Tisdag",
+      7,
+      16.5
+    ],
+    [
+      "Onsdag",
+      7,
+      16.5
+    ],
+    [
+      "Torsdag",
+      7,
+      16.5
+    ],
+    [
+      "Fredag",
+      7,
+      14
+    ],
+    [
+      "Lördag",
+      null,
+      null
+    ],
+    [
+      "Söndag",
+      null,
+      null
+    ]
+  ],
+  "tjanster": {
+    "Verkstad": [
+      [
+        "Service",
+        "Personbilar",
+        "Ring för pris"
+      ],
+      [
+        "Reparationer",
+        "",
+        "Ring för pris"
+      ],
+      [
+        "Felsökning",
+        "När en varningslampa tänds",
+        "Ring för pris"
+      ]
+    ]
+  },
+  "varfor": [
+    {
+      "big": "4,6",
+      "titel": "av 5 på Google",
+      "text": "59 omdömen. Kunderna beskriver trevliga mekaniker och rimliga priser."
+    },
+    {
+      "big": "2009",
+      "titel": "sedan start",
+      "text": "Verkstaden på Värmevägen har servat bilar i Vagnhärad i över femton år."
+    },
+    {
+      "big": "07–16:30",
+      "titel": "måndag–torsdag",
+      "text": "Tidig start på morgonen, fredagar till 14."
+    }
+  ],
+  "faq": [
+    [
+      "Hur bokar jag tid?",
+      "Ring oss på 0156-550 70 under öppettiderna."
+    ],
+    [
+      "Kan ni felsöka när en varningslampa lyser?",
+      "Ja, kom in eller ring så tittar vi på det."
+    ],
+    [
+      "Har ni öppet på helgen?",
+      "Nej. Måndag–torsdag 07–16:30 och fredag 07–14."
+    ],
+    [
+      "Var ligger ni?",
+      "På Värmevägen 4 i Vagnhärad."
+    ]
+  ],
+  "seo": {
+    "title": "M.E. Bilverkstad – Bilverkstad i Vagnhärad",
+    "description": "Service, reparationer och felsökning på Värmevägen 4 i Vagnhärad. 4,6 på Google. Ring 0156-550 70."
+  },
+  "text": {
+    "navTjanster": "Tjänster",
+    "tjanstRubrik": "Vad behöver bilen?",
+    "prisNot": "Ring för pris – verkstaden ger besked innan arbetet börjar.",
+    "tjanstCta": "Ring och boka",
+    "varforKicker": "Därför väljer Vagnhärad M.E.",
+    "kontaktRubrik": "Behöver bilen hjälp?",
+    "kontaktText": "Ring oss för tidsbokning eller kom förbi under öppettiderna.",
+    "enhet": "jobb",
+    "enhetPlural": "jobb",
+    "pratText": "Vill ni ställa frågor innan ni bestämmer er? Jag ringer gärna eller tar ett kort videosamtal – tio minuter räcker.",
+    "rubrik": "Bilverkstad i Vagnhärad sedan 2009",
+    "ingress": "Service, reparationer och felsökning på Värmevägen 4 i Vagnhärad. Ring och boka – vi berättar vad som behöver göras innan vi börjar.",
+    "varforRubrik": "Kunnigt, hjälpsamt och nära",
+    "pitchRubrik": "M.E. Bilverkstad, kunderna hittar er på kartan – nu kan de hitta er på riktigt",
+    "pitchIngress": "Ni har redan det svåraste: nöjda kunder och ett snitt på 4,6. Det som saknas är en egen plats på nätet. Den här sidan är redan byggd och kan vara live på mebilverkstad.se inom 7 dagar."
+  },
+  "pitch": {
+    "snittpris": 2000,
+    "doman": "mebilverkstad.se",
+    "idag": [
+      "Den som googlar er hamnar i kataloger och en kedjelista",
+      "Två olika postnummer ligger ute på nätet",
+      "Det finns ingen egen sida som visar vad ni gör",
+      "Öppettiderna finns inte samlade på ett ställe"
+    ],
+    "medSida": [
+      "Egen adress, mebilverkstad.se, som ni äger",
+      "Rätt adress, nummer och öppettider på ett ställe",
+      "Visar om ni har öppet just nu – ett tryck för att ringa",
+      "Byggd för mobilen, där bilägare letar verkstad"
+    ]
+  },
+  "mejl": {
+    "till": "mebilverkstad@hotmail.com",
+    "amne": "M.E. Bilverkstad, jag har byggt en hemsida åt er",
+    "hej": "Alexander",
+    "ert": "verkstaden",
+    "iakttagelse": "När jag letade bland bilverkstäder runt Trosa fastnade jag för M.E. Bilverkstad: 4,6 på Google med 59 omdömen, och flera kunder skriver att ni tog er tid att hjälpa till även när det var mycket.",
+    "problem": "Men en sak slog mig – ni har ingen egen hemsida. Den som googlar er hamnar i kataloger, och där står till och med två olika postnummer.",
+    "fordelar": [
+      [
+        "Fler bokningar",
+        "Den som läser era omdömen kan ringa direkt med ett tryck."
+      ],
+      [
+        "Ni syns som er själva",
+        "Inte bara som en rad i en lista bland andra verkstäder."
+      ],
+      [
+        "Rätt uppgifter överallt",
+        "Rätt adress, nummer och öppettider – inga missade samtal."
+      ],
+      [
+        "Den är er",
+        "Er egen adress, som ni äger och styr."
+      ]
+    ],
+    "prisJamforelse": "ungefär 400 kr i månaden under första året",
+    "kontaktVal": "tar ett kort videosamtal",
+    "psDatum": "7 december"
+  },
+  "kallor": [
+    "Google Maps-profil (4,6, 59 omdömen, öppettider, 0156-550 70, postnr 610 73)",
+    "allabolag.se – M.E. Bilverkstad i Vagnhärad AB, reg. 2009, Värmevägen 4, 619 71",
+    "merinfo.se – styrelseledamot Alexander Ikonen",
+    "meca.se/hitta-verkstad – e-post mebilverkstad@hotmail.com",
+    "Shopify domänkoll 2026-11-21: mebilverkstad.se ledig"
+  ],
+  "status": {
+    "byggd": "2026-11-21"
+  }
+}

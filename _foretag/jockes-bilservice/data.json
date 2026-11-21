@@ -1,0 +1,199 @@
+{
+  "slug": "jockes-bilservice",
+  "namn": "Jockes Bilservice",
+  "bolag": "Jockes Bilservice Route 140 AB",
+  "bolagsform": "AB",
+  "logo": [
+    "Jockes",
+    "Bilservice"
+  ],
+  "tema": "verkstad",
+  "schemaTyp": "AutoRepair",
+  "adress": "Norra Kustvägen 33",
+  "postnr": "623 77",
+  "stad": "Klintehamn",
+  "lat": 57.3905377,
+  "lng": 18.1983502,
+  "telefon": "0498-24 05 26",
+  "telefonIntl": "+46498240526",
+  "bokning": null,
+  "instagram": null,
+  "facebook": null,
+  "betyg": [
+    {
+      "kalla": "Google",
+      "snitt": "4,6",
+      "antal": "34 omdömen"
+    }
+  ],
+  "oppettider": [
+    [
+      "Måndag",
+      8,
+      17
+    ],
+    [
+      "Tisdag",
+      8,
+      17
+    ],
+    [
+      "Onsdag",
+      8,
+      17
+    ],
+    [
+      "Torsdag",
+      8,
+      17
+    ],
+    [
+      "Fredag",
+      8,
+      17
+    ],
+    [
+      "Lördag",
+      null,
+      null
+    ],
+    [
+      "Söndag",
+      null,
+      null
+    ]
+  ],
+  "tjanster": {
+    "Verkstad": [
+      [
+        "Service och reparationer",
+        "Planerat eller akut",
+        "Ring för pris"
+      ]
+    ],
+    "Släpvagnar": [
+      [
+        "Hyra släpvagn",
+        "Flera släp att välja på",
+        "Ring för pris"
+      ]
+    ],
+    "Biltvätt": [
+      [
+        "Biltvätt",
+        "",
+        "Fråga på plats"
+      ]
+    ]
+  },
+  "varfor": [
+    {
+      "big": "4,6",
+      "titel": "av 5 på Google",
+      "text": "34 omdömen. Kunderna lyfter fram viljan att hjälpa – även när det är bråttom."
+    },
+    {
+      "big": "3 i 1",
+      "titel": "verkstad, släp och tvätt",
+      "text": "Laga bilen, hyr ett släp och tvätta – på samma ställe."
+    },
+    {
+      "big": "08–17",
+      "titel": "måndag–fredag",
+      "text": "Längs väg 140 i Klintehamn."
+    }
+  ],
+  "faq": [
+    [
+      "Hur bokar jag tid?",
+      "Ring oss på 0498-24 05 26 under öppettiderna."
+    ],
+    [
+      "Kan jag hyra släpvagn?",
+      "Ja, vi har flera släp att hyra. Ring och fråga vad som är ledigt."
+    ],
+    [
+      "Hjälper ni turister med akuta fel?",
+      "Ring oss så gör vi vårt bästa för att lösa det så snabbt som möjligt."
+    ],
+    [
+      "Har ni öppet på helgen?",
+      "Nej, vardagar 08–17."
+    ]
+  ],
+  "seo": {
+    "title": "Jockes Bilservice – Verkstad, släpvagnar och biltvätt i Klintehamn",
+    "description": "Bilverkstad, släpvagnsuthyrning och biltvätt på Norra Kustvägen 33 i Klintehamn, Gotland. 4,6 på Google."
+  },
+  "text": {
+    "navTjanster": "Tjänster",
+    "tjanstRubrik": "Vad behöver du hjälp med?",
+    "prisNot": "Ring för pris – verkstaden ger besked innan arbetet börjar.",
+    "tjanstCta": "Ring och boka",
+    "varforKicker": "Därför väljer Klintehamn Jockes",
+    "kontaktRubrik": "Behöver bilen hjälp?",
+    "kontaktText": "Ring oss för tidsbokning eller kom förbi under öppettiderna.",
+    "enhet": "jobb",
+    "enhetPlural": "jobb",
+    "pratText": "Vill ni ställa frågor innan ni bestämmer er? Jag ringer gärna eller tar ett kort videosamtal – tio minuter räcker.",
+    "rubrik": "Bilservice, släp och biltvätt i Klintehamn",
+    "ingress": "Verkstad, släpvagnar att hyra och biltvätt på Norra Kustvägen 33 längs väg 140. Ring och boka – vi hjälper dig vidare, planerat eller akut.",
+    "varforRubrik": "Hjälpsamma, kunniga och nära",
+    "pitchRubrik": "Jockes Bilservice, Gotland hittar er på kartan – nu kan de hitta er på riktigt",
+    "pitchIngress": "Ni har redan det svåraste: nöjda kunder och ett snitt på 4,6. Det som saknas är en egen plats på nätet. Den här sidan är redan byggd och kan vara live på en egen adress inom 7 dagar."
+  },
+  "pitch": {
+    "snittpris": 1500,
+    "doman": "",
+    "idag": [
+      "Den som googlar er hamnar i kataloger och en kedjelista",
+      "Att ni hyr ut släp syns knappt någonstans",
+      "Sommargäster som får problem hittar inte era tider",
+      "Det finns ingen egen sida som samlar allt ni gör"
+    ],
+    "medSida": [
+      "En egen adress som ni äger",
+      "Verkstad, släp och tvätt – allt på ett ställe",
+      "Visar om ni har öppet just nu – ett tryck för att ringa",
+      "Byggd för mobilen, där folk letar hjälp på vägen"
+    ]
+  },
+  "mejl": {
+    "till": "jacobsson.joakim@hotmail.se",
+    "amne": "Jockes Bilservice, jag har byggt en hemsida åt er",
+    "hej": "Joakim",
+    "ert": "verkstaden",
+    "iakttagelse": "När jag letade bland bilverkstäder på Gotland fastnade jag för Jockes Bilservice: 4,6 på Google, och kunderna skriver om hur långt ni går för att hjälpa till – planerat eller akut.",
+    "problem": "Men en sak slog mig – ni har ingen egen hemsida. Den som googlar er hamnar i kataloger, och att ni hyr ut släp och har biltvätt syns knappt alls.",
+    "fordelar": [
+      [
+        "Fler kunder",
+        "Den som läser era omdömen kan ringa direkt med ett tryck."
+      ],
+      [
+        "Allt ni gör syns",
+        "Verkstad, släpvagnar och tvätt får egna platser."
+      ],
+      [
+        "Rätt uppgifter överallt",
+        "Rätt nummer och öppettider – även för sommargästerna."
+      ],
+      [
+        "Den är er",
+        "Er egen adress, som ni äger och styr."
+      ]
+    ],
+    "prisJamforelse": "ungefär 400 kr i månaden under första året",
+    "kontaktVal": "tar ett kort videosamtal",
+    "psDatum": "7 december"
+  },
+  "kallor": [
+    "Google Maps-profil (4,6, 34 omdömen, öppettider, 0498-24 05 26, omdömen om släp och biltvätt)",
+    "meca.se/hitta-verkstad – Jockes Bilservice Route 140 AB, e-post jacobsson.joakim@hotmail.se",
+    "eniro.se – beskrivning bilvård i Klintehamn",
+    "Domän jockesbilservice.se registrerad men ingen sida hittad 2026-11-21"
+  ],
+  "status": {
+    "byggd": "2026-11-21"
+  }
+}
