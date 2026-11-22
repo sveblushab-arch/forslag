@@ -64,8 +64,6 @@ def kontrollera(d):
         fel("organisations-/personnummer får aldrig skrivas i data.json – ta bort det")
     if d.get("mejl", {}).get("variant") not in (None, "A", "B"):
         fel("mejl.variant ska vara A eller B")
-    if d.get("mejl", {}).get("variant") == "B" and not d["pitch"].get("doman"):
-        fel("variant B (ämne 'Förslag: <domän>') kräver en kontrollerad ledig domän i pitch.doman")
     if re.search(r"\[[A-ZÅÄÖ ]+\]|XXX|TODO|lorem", blob, re.I):
         fel("platshållare kvar i data.json")
 
@@ -130,6 +128,25 @@ Vill ni hellre prata först? Jag ringer gärna, eller {m["kontaktVal"]} när det
 
 P.S. Sidan ligger uppe till {m["psDatum"]}. Vill ni inte få fler mejl från mig räcker det att svara "nej tack".
 '''
+    if m.get("variant") == "B":
+        # A/B-test från v.48 (Elliots ja 22 nov): kort förstamejl, ca 100–150 ord. Samma ämne, länk, pris och löften.
+        m1 = f'''Hej {m["hej"]},
+
+Jag heter {s["namn"]} och bygger hemsidor åt lokala företag. {m["iakttagelse"]}
+
+{m["problem"]}
+
+Därför har jag byggt en hemsida åt er. Den är klar:
+{lank}
+
+Vill ni ha den är den live på er egen adress inom 7 dagar. {kr(s["engang"])} en gång och {kr(s["manad"])} i månaden – och ni betalar först när ni är nöjda.
+
+Är det intressant? Svara bara "ja", eller ring mig på {s["tel"]}.
+
+{sig}
+
+P.S. Sidan ligger uppe till {m["psDatum"]}. Vill ni inte få fler mejl från mig räcker det att svara "nej tack".
+'''
     m2 = f'''Hej igen {m["hej"]},
 
 Jag vet att det är mycket att göra på dagarna, så jag gör det kort.
@@ -154,14 +171,14 @@ Oavsett vad ni väljer: lycka till.
 {sig}
 '''
     ut = ROT / "_foretag" / d["slug"]
-    # A/B-test v.48 (ämnesrad): variant B = "Förslag: <domän>" – se _rapporter/vecka-2026-47.md
-    amne = f'Förslag: {d["pitch"]["doman"]}' if m.get("variant") == "B" else m["amne"]
+    amne = m["amne"]
     (ut / "mejl1.txt").write_text(f"Till: {m['till']}\nÄmne: {amne}\n\n{m1}")
     (ut / "mejl2.txt").write_text(f"Till: {m['till']}\nÄmne: Sv: {amne}\n\n{m2}")
     (ut / "mejl3.txt").write_text(f"Till: {m['till']}\nÄmne: Sv: {amne}\n\n{m3}")
     ord_ = len(m1.split())
-    if not 190 <= ord_ <= 320:
-        fel(f"mejl 1 har {ord_} ord – ska vara ca 200–300")
+    lo, hi = (80, 170) if m.get("variant") == "B" else (190, 320)
+    if not lo <= ord_ <= hi:
+        fel(f"mejl 1 har {ord_} ord – ska vara {lo}–{hi} (variant {m.get('variant', 'A')})")
     if re.search(r"\[|\]|XXX", m1):
         fel("platshållare kvar i mejl 1")
     if d["namn"].split()[0] not in m1:
