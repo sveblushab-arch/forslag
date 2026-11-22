@@ -120,7 +120,7 @@ Så enkelt får ni den:
 2. Säg vad ni vill ändra – bilder, färger, text. Jag fixar det.
 3. Inom 7 dagar är sidan live på er egen adress. Ni betalar först när ni är nöjda.
 
-Pris: {kr(s["engang"])} en gång – {m["prisJamforelse"]} – och {kr(s["manad"])} i månaden för domän, drift och små ändringar.
+Pris: {kr(s["engang"])} en gång – {m["prisJamforelse"]} – och {kr(s["manad"])} i månaden för domän, drift och små ändringar. Alla priser exkl. moms.
 
 Vill ni hellre prata först? Jag ringer gärna, eller {m["kontaktVal"]} när det passar er. Tio minuter räcker. Svara med en tid, eller ring mig på {s["tel"]}.
 
@@ -139,7 +139,7 @@ Jag heter {s["namn"]} och bygger hemsidor åt lokala företag. {m["iakttagelse"]
 Därför har jag byggt en hemsida åt er. Den är klar:
 {lank}
 
-Vill ni ha den är den live på er egen adress inom 7 dagar. {kr(s["engang"])} en gång och {kr(s["manad"])} i månaden – och ni betalar först när ni är nöjda.
+Vill ni ha den är den live på er egen adress inom 7 dagar. {kr(s["engang"])} en gång och {kr(s["manad"])} i månaden (exkl. moms) – och ni betalar först när ni är nöjda.
 
 Är det intressant? Svara bara "ja", eller ring mig på {s["tel"]}.
 
@@ -200,7 +200,7 @@ Visa sidan på mobilen: {lank}
 4. Visa sidan: "Jag har redan byggt en åt er – titta." Låt dem scrolla själva.
 5. Fyra vinster:
 {ford}
-6. Pris: {kr(s["engang"])} en gång – {b["prisJamforelse"]} – och {kr(s["manad"])}/mån för domän, drift och små ändringar.
+6. Pris: {kr(s["engang"])} en gång – {b["prisJamforelse"]} – och {kr(s["manad"])}/mån för domän, drift och små ändringar. Exkl. moms – säg det om de frågar.
 7. Tre steg: säg ja → säg vad ni vill ändra → live inom 7 dagar på egen adress{(" (" + d["pitch"]["doman"] + ")") if d["pitch"].get("doman") else ""}.
 8. Fråga: "Vill ni att jag kör igång?" Nej → "Helt okej. Sidan ligger uppe till {b["psDatum"]} om ni ändrar er." Lämna nummer: {s["tel"]}.
 
