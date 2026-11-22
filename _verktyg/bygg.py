@@ -102,7 +102,7 @@ def bygg_sida(d, s):
 def bygg_mejl(d, s):
     m, lank = d["mejl"], f'{BAS_URL}/{d["slug"]}/#forslag'
     ford = "\n".join(f"• {a}. {b}" for a, b in m["fordelar"])
-    sig = f'Varma hälsningar\n{s["namn"]}\n{s["foretag"]}\n{s["tel"]} · {s["mejl"]}'
+    sig = f'Varma hälsningar\n{s["namn"]}\n{s["foretag"]} · {s.get("webb", "")}\n{s["tel"]} · {s["mejl"]}'.replace(" · \n", "\n")
     m1 = f'''Hej {m["hej"]},
 
 Jag heter {s["namn"]} och bygger hemsidor åt lokala företag. {m["iakttagelse"]}
