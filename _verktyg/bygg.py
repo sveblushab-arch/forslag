@@ -14,6 +14,9 @@ KRAV = ["slug", "namn", "bolag", "bolagsform", "logo", "tema", "adress", "postnr
         "betyg", "oppettider", "tjanster", "varfor", "faq", "text", "pitch", "seo", "schemaTyp", "mejl"]
 TEXTKRAV = ["rubrik", "ingress", "tjanstRubrik", "prisNot", "varforKicker", "varforRubrik", "kontaktRubrik", "kontaktText",
             "pitchRubrik", "pitchIngress", "enhet", "enhetPlural", "pratText"]
+# Fält som aldrig får hamna i den publika sidan (mottagare, källor, interna anteckningar, id-nummer)
+PRIVAT = {"mejl", "besok", "kallor", "status", "orgnr", "personnr", "kanal", "epost", "notering", "ab"}
+IDNUMMER = re.compile(r"\b(?:\d{2})?\d{6}[-+]?\d{4}\b")
 MEJLKRAV = ["till", "amne", "hej", "iakttagelse", "problem", "fordelar", "prisJamforelse", "psDatum", "kontaktVal"]
 
 
@@ -57,6 +60,12 @@ def kontrollera(d):
     if not re.fullmatch(r"\+46\d{7,10}", d["telefonIntl"]):
         fel("telefonIntl ska vara +46…")
     blob = json.dumps(d, ensure_ascii=False)
+    if "orgnr" in d or "personnr" in d or IDNUMMER.search(re.sub(r"\+46\d+", "", blob)):
+        fel("organisations-/personnummer får aldrig skrivas i data.json – ta bort det")
+    if d.get("mejl", {}).get("variant") not in (None, "A", "B"):
+        fel("mejl.variant ska vara A eller B")
+    if d.get("mejl", {}).get("variant") == "B" and not d["pitch"].get("doman"):
+        fel("variant B (ämne 'Förslag: <domän>') kräver en kontrollerad ledig domän i pitch.doman")
     if re.search(r"\[[A-ZÅÄÖ ]+\]|XXX|TODO|lorem", blob, re.I):
         fel("platshållare kvar i data.json")
 
@@ -77,7 +86,7 @@ def bygg_sida(d, s):
            "{{ACCENT_D}}": t["acc_d"], "{{CLAY}}": t["clay"], "{{CLAY_D}}": t["clay_d"], "{{CLAY2}}": t["clay2"],
            "{{FONT_URL}}": t["font"], "{{FONT_CSS}}": t["font_css"], "{{FONT_W}}": t["w"],
            "{{SCHEMA}}": json.dumps(schema, ensure_ascii=False), "{{ILLUSTRATION}}": illustration(d["tema"]),
-           "{{DATA}}": json.dumps(d, ensure_ascii=False).replace("</", "<\\/"),
+           "{{DATA}}": json.dumps({k: v for k, v in d.items() if k not in PRIVAT}, ensure_ascii=False).replace("</", "<\\/"),
            "{{SALJARE}}": json.dumps(s, ensure_ascii=False)}
     for k, v in rep.items():
         html = html.replace(k, v.replace('"', "&quot;") if k in ("{{SEO_TITLE}}", "{{SEO_DESC}}") else v)
@@ -145,7 +154,8 @@ Oavsett vad ni väljer: lycka till.
 {sig}
 '''
     ut = ROT / "_foretag" / d["slug"]
-    amne = m["amne"]
+    # A/B-test v.48 (ämnesrad): variant B = "Förslag: <domän>" – se _rapporter/vecka-2026-47.md
+    amne = f'Förslag: {d["pitch"]["doman"]}' if m.get("variant") == "B" else m["amne"]
     (ut / "mejl1.txt").write_text(f"Till: {m['till']}\nÄmne: {amne}\n\n{m1}")
     (ut / "mejl2.txt").write_text(f"Till: {m['till']}\nÄmne: Sv: {amne}\n\n{m2}")
     (ut / "mejl3.txt").write_text(f"Till: {m['till']}\nÄmne: Sv: {amne}\n\n{m3}")
