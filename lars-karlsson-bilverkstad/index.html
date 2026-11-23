@@ -137,9 +137,59 @@ footer{padding:28px max(5vw,18px) 120px;font-size:14px;color:var(--muted);text-a
 @media(max-width:700px){.calc,.vs,.facts3,.steps,.offer{grid-template-columns:minmax(0,1fr)}}
 @media(max-width:420px){.hero .cta .btn{flex:1 1 100%}.chip b{font-size:22px}}
 @media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}.reveal{opacity:1;transform:none}}
+
+/* ===== Nästa nivå (2026-11-23): rörelse, djup och glas – i kundens egna färger ===== */
+.prog{position:fixed;top:0;left:0;right:0;height:3px;z-index:60;background:linear-gradient(90deg,var(--acc),color-mix(in srgb,var(--acc) 40%,#fff));transform-origin:0 50%;transform:scaleX(var(--p,0));pointer-events:none}
+.nav{transition:box-shadow .3s,background .3s}.nav.scrolled{box-shadow:0 10px 30px -18px rgba(0,0,0,.35);background:color-mix(in srgb,var(--bg) 78%,transparent)}
+.nav.scrolled .wrap{min-height:58px}
+.hero{position:relative;overflow:hidden;isolation:isolate}
+.hero>.wrap{position:relative;z-index:1}
+.aur{position:absolute;inset:0;z-index:0;pointer-events:none}
+.aur i{position:absolute;border-radius:50%;filter:blur(40px);animation:aur 18s ease-in-out infinite}
+.aur i:first-child{width:62vmax;height:62vmax;top:-34vmax;right:-20vmax;background:radial-gradient(circle,color-mix(in srgb,var(--acc) 34%,transparent),transparent 62%)}
+.aur i:last-child{width:46vmax;height:46vmax;bottom:-30vmax;left:-18vmax;background:radial-gradient(circle,color-mix(in srgb,var(--acc) 18%,transparent),transparent 62%);animation-delay:-8s}
+@keyframes aur{0%,100%{transform:translate(0,0) scale(1)}50%{transform:translate(6%,-6%) scale(1.15)}}
+.grid3d{position:absolute;left:-20%;right:-20%;bottom:-40px;height:240px;z-index:0;pointer-events:none;overflow:hidden}
+.grid3d::before{content:"";position:absolute;inset:0;background-image:linear-gradient(color-mix(in srgb,var(--acc) 22%,transparent) 1px,transparent 1px),linear-gradient(90deg,color-mix(in srgb,var(--acc) 22%,transparent) 1px,transparent 1px);background-size:64px 64px;transform:perspective(380px) rotateX(62deg);transform-origin:50% 0;animation:floor 4s linear infinite;-webkit-mask-image:linear-gradient(to bottom,transparent,#000 35%,#000 60%,transparent);mask-image:linear-gradient(to bottom,transparent,#000 35%,#000 60%,transparent)}
+@keyframes floor{to{background-position:0 64px}}
+.status{background:color-mix(in srgb,var(--card) 72%,transparent);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border:1px solid color-mix(in srgb,var(--line) 70%,transparent)}
+.status.open i{animation:pulse 1.8s ease-in-out infinite}
+@keyframes pulse{0%,100%{box-shadow:0 0 0 4px color-mix(in srgb,var(--ok) 25%,transparent)}50%{box-shadow:0 0 0 9px color-mix(in srgb,var(--ok) 0%,transparent)}}
+h1 .w{display:inline-block;opacity:0;transform:translateY(.45em);filter:blur(8px);animation:wrise .8s cubic-bezier(.2,.7,.2,1) forwards;animation-delay:calc(var(--i)*60ms + 120ms)}
+@keyframes wrise{to{opacity:1;transform:none;filter:none}}
+.hero .lead,.hero .cta,.hero .chips,.hero .status{animation:rise .8s cubic-bezier(.2,.7,.2,1) both}
+.hero .status{animation-delay:.05s}.hero .lead{animation-delay:.35s}.hero .cta{animation-delay:.48s}.hero .chips{animation-delay:.6s}
+@keyframes rise{from{opacity:0;transform:translateY(18px);filter:blur(6px)}to{opacity:1;transform:none;filter:none}}
+.art{animation:art 9s ease-in-out infinite;filter:drop-shadow(0 30px 40px color-mix(in srgb,var(--acc) 22%,transparent))}
+@keyframes art{0%,100%{transform:translateY(0) rotate(0)}50%{transform:translateY(-12px) rotate(-1.5deg)}}
+.chip{border:1px solid color-mix(in srgb,var(--line) 70%,transparent);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
+.btn{position:relative;overflow:hidden;isolation:isolate}
+.btn::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(110deg,transparent 30%,rgba(255,255,255,.35) 50%,transparent 70%);transform:translateX(-120%);transition:transform .7s}
+.btn:hover::after{transform:translateX(120%)}
+.marq{overflow:hidden;border-block:1px solid var(--line);background:var(--bg);padding:16px 0;-webkit-mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent);mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent)}
+.marq-in{display:flex;width:max-content;animation:marq 40s linear infinite}
+.marq span{display:inline-flex;align-items:center;gap:20px;padding-right:20px;font-family:var(--hf);font-weight:700;font-size:clamp(18px,2vw,24px);white-space:nowrap}
+.marq span::after{content:"✦";color:var(--acc);font-size:.6em}
+@keyframes marq{to{transform:translateX(-50%)}}
+.card{position:relative;overflow:hidden;transition:transform .35s cubic-bezier(.2,.7,.2,1),border-color .35s,box-shadow .35s}
+.card::before{content:"";position:absolute;inset:0;pointer-events:none;opacity:0;transition:opacity .3s;background:radial-gradient(320px circle at var(--mx,50%) var(--my,50%),color-mix(in srgb,var(--acc) 16%,transparent),transparent 60%)}
+.card:hover{transform:translateY(-6px);border-color:color-mix(in srgb,var(--acc) 55%,var(--line));box-shadow:0 24px 50px -26px color-mix(in srgb,var(--acc) 55%,transparent)}
+.card:hover::before{opacity:1}
+.item{transition:background .25s,padding .25s;border-radius:10px}.item:hover{background:color-mix(in srgb,var(--acc) 7%,transparent);padding-inline:10px}
+.tab{transition:background .2s,color .2s,border-color .2s,transform .2s}.tab:hover{transform:translateY(-1px);border-color:var(--acc)}
+.reveal{filter:blur(6px);transition:opacity .8s cubic-bezier(.2,.7,.2,1),transform .8s cubic-bezier(.2,.7,.2,1),filter .8s}.reveal.in{filter:none}
+.three .card{opacity:0;transform:translateY(24px)}.reveal.in .three .card{opacity:1;transform:none;transition-delay:calc(var(--i,0)*90ms + 150ms)}
+.reveal.in .three .card:hover{transform:translateY(-6px);transition-delay:0s}
+details{transition:background .2s}details[open] p{animation:rise .45s ease both}
+.map{transition:transform .35s,box-shadow .35s}.map:hover{transform:translateY(-4px);box-shadow:0 24px 50px -28px rgba(0,0,0,.4)}
+.sheet.open .pitch{animation:pop .45s cubic-bezier(.2,.8,.2,1) both}
+@keyframes pop{from{opacity:0;transform:translateY(26px) scale(.97)}to{opacity:1;transform:none}}
+.pbar{animation:rise .6s 1.2s both}
+@media(prefers-reduced-motion:reduce){.aur i,.grid3d::before,.art,.marq-in,h1 .w,.hero .lead,.hero .cta,.hero .chips,.hero .status,.status.open i,.pbar,.sheet.open .pitch{animation:none!important}h1 .w{opacity:1;transform:none;filter:none}.three .card{opacity:1;transform:none}.reveal{filter:none}}
 </style>
 </head>
 <body>
+<div class="prog" aria-hidden="true"></div>
 <a class="skip" href="#main">Hoppa till innehållet</a>
 <div class="demo"><b>Förhandsvisning</b> – ett förslag till <span data-f="namn"></span>, inte företagets officiella webbplats. <button type="button" id="openP2">Se förslaget →</button></div>
 
@@ -154,7 +204,7 @@ footer{padding:28px max(5vw,18px) 120px;font-size:14px;color:var(--muted);text-a
 </header>
 
 <main id="main">
-<section class="band hero" id="top"><div class="wrap">
+<section class="band hero" id="top"><div class="aur" aria-hidden="true"><i></i><i></i></div><div class="grid3d" aria-hidden="true"></div><div class="wrap">
   <div>
     <div class="status" id="status"><i></i><span>Öppettider</span></div>
     <h1 data-f="rubrik"></h1>
@@ -164,6 +214,7 @@ footer{padding:28px max(5vw,18px) 120px;font-size:14px;color:var(--muted);text-a
   </div>
   <div class="art" aria-hidden="true"><svg viewBox="0 0 400 400"><defs><linearGradient id="car" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#e2571a"/><stop offset="1" stop-color="#9a3412"/></linearGradient></defs><circle cx="200" cy="200" r="200" fill="#eef1f5"/><rect x="40" y="290" width="320" height="12" rx="6" fill="#c9d1db"/><ellipse cx="200" cy="300" rx="150" ry="12" fill="#111" opacity=".15"/><path d="M70 270 L90 205 Q100 180 130 178 L270 178 Q300 180 312 205 L332 270 Z" fill="url(#car)"/><path d="M118 196 L140 150 Q146 140 160 140 L240 140 Q254 140 260 150 L282 196 Z" fill="#c2410c"/><path d="M132 192 L150 156 L196 156 L196 192 Z M206 156 L250 156 L268 192 L206 192 Z" fill="#dfe9f5" opacity=".9"/><rect x="62" y="240" width="276" height="34" rx="10" fill="#9a3412"/><circle cx="125" cy="280" r="30" fill="#1c1c1e"/><circle cx="125" cy="280" r="13" fill="#c9cdd3"/><circle cx="275" cy="280" r="30" fill="#1c1c1e"/><circle cx="275" cy="280" r="13" fill="#c9cdd3"/><rect x="80" y="222" width="34" height="12" rx="6" fill="#ffe08a"/><rect x="286" y="222" width="34" height="12" rx="6" fill="#ff8a7a"/><g transform="translate(300 80) rotate(40)"><rect x="-8" y="0" width="16" height="110" rx="8" fill="#5b6470"/><path d="M-26 -10 a26 26 0 1 1 52 0 l-14 0 l0 -14 l-24 0 l0 14 z" fill="#5b6470"/></g></svg></div>
 </div></section>
+<div class="marq" aria-hidden="true"><div class="marq-in" id="marq"></div></div>
 
 <section class="band reveal" id="tjanster"><div class="wrap">
   <div class="head">
@@ -250,7 +301,7 @@ footer{padding:28px max(5vw,18px) 120px;font-size:14px;color:var(--muted);text-a
 
 <script>{
 const D={"slug": "lars-karlsson-bilverkstad", "namn": "Lars Karlsson Bilverkstad", "bolag": "Lars Karlsson Bilverkstad AB", "bolagsform": "AB", "logo": ["Lars Karlsson", "Bilverkstad"], "tema": "verkstad", "schemaTyp": "AutoRepair", "adress": "Hildur Ottelinsgatan 21 B", "postnr": "752 31", "stad": "Uppsala", "lat": 59.8585848, "lng": 17.6069735, "telefon": "018-54 35 60", "telefonIntl": "+4618543560", "bokning": null, "instagram": null, "facebook": null, "betyg": [{"kalla": "Google", "snitt": "4,2", "antal": "76 omdömen"}, {"kalla": "Reco", "snitt": "4,7", "antal": "3 omdömen"}], "oppettider": [["Måndag", 7, 17], ["Tisdag", 7, 17], ["Onsdag", 7, 17], ["Torsdag", 7, 17], ["Fredag", 7, 16], ["Lördag", null, null], ["Söndag", null, null]], "tjanster": {"Verkstad": [["Service", "Personbilar", "Ring för pris"], ["Reparationer", "", "Ring för pris"], ["Elfel och felsökning", "", "Ring för pris"], ["Reservdelar", "Nya eller begagnade – vi letar åt dig", "Ring för pris"]]}, "varfor": [{"big": "76", "titel": "omdömen på Google", "text": "Kunderna beskriver personlig service och en verkstad som klämmer in akuta jobb."}, {"big": "Ny + beg.", "titel": "reservdelar", "text": "Vi letar både nya och begagnade delar och föreslår bästa lösningen."}, {"big": "07–17", "titel": "måndag–torsdag", "text": "Fredagar 07–16, i norra Uppsala."}], "faq": [["Hur bokar jag tid?", "Ring oss på 018-54 35 60 under öppettiderna."], ["Kan ni laga elfel?", "Ja, vi felsöker och åtgärdar elfel."], ["Kan ni använda begagnade delar?", "Ja, vi letar både nya och begagnade reservdelar och föreslår vad som lönar sig."], ["Har ni öppet på helgen?", "Nej. Måndag–torsdag 07–17 och fredag 07–16."]], "seo": {"title": "Lars Karlsson Bilverkstad – Bilverkstad i Uppsala", "description": "Service, reparationer och elfel på Hildur Ottelinsgatan 21 B i Uppsala. Nya eller begagnade reservdelar. Ring 018-54 35 60."}, "text": {"navTjanster": "Tjänster", "tjanstRubrik": "Vad behöver bilen?", "prisNot": "Ring för pris – verkstaden ger besked innan arbetet börjar.", "tjanstCta": "Ring och boka", "varforKicker": "Därför väljer Uppsala Lars Karlsson", "kontaktRubrik": "Behöver bilen hjälp?", "kontaktText": "Ring oss för tidsbokning eller kom förbi under öppettiderna.", "enhet": "jobb", "enhetPlural": "jobb", "pratText": "Vill ni ställa frågor innan ni bestämmer er? Jag ringer gärna eller tar ett kort videosamtal – tio minuter räcker.", "rubrik": "Bilverkstad i Uppsala med personlig service", "ingress": "Service, reparationer och felsökning av elfel på Hildur Ottelinsgatan 21 B. Vi letar reservdelar – nya eller begagnade – och föreslår bästa lösningen.", "varforRubrik": "Personligt, flexibelt och ärligt", "pitchRubrik": "Lars Karlsson Bilverkstad, kunderna hittar er under ett kedjenamn – nu kan de hitta er", "pitchIngress": "Ni har redan det svåraste: kunder som kommer tillbaka och berömmer er service. Det som saknas är en egen plats på nätet med ert eget namn. Den här sidan är redan byggd och kan vara live på larskarlssonbilverkstad.se inom 7 dagar."}, "pitch": {"snittpris": 2000, "doman": "larskarlssonbilverkstad.se", "idag": ["På Google syns ni främst under kedjenamnet MekoPartner", "Ert eget namn och er historia syns knappt", "Att ni letar begagnade delar framgår ingenstans", "Det finns ingen egen sida med era tider och tjänster"], "medSida": ["Egen adress, larskarlssonbilverkstad.se", "Ert namn först – och allt ni gör på ett ställe", "Visar om ni har öppet just nu – ett tryck för att ringa", "Byggd för mobilen, där bilägare letar verkstad"]}};
-const S={"namn": "Elliot Bergström", "foretag": "SveBlush", "tel": "079-341 57 37", "mejl": "sveblushab@gmail.com", "engang": 4900, "manad": 249, "villkor": "Domän, drift, säkerhet och små ändringar ingår. Exkl. moms. Ingen bindningstid på driften."};
+const S={"namn": "Elliot Bergström", "foretag": "SveBlush", "tel": "079-341 57 37", "mejl": "sveblushab@gmail.com", "engang": 4900, "manad": 249, "villkor": "Domän, drift, säkerhet och små ändringar ingår. Exkl. moms. Ingen bindningstid på driften.", "webb": "sveblush.shop/pages/hemsidor"};
 const $=id=>document.getElementById(id);
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const F={...D.text,namn:D.namn};
@@ -300,6 +351,14 @@ $('openP').addEventListener('click',open);$('openP2').addEventListener('click',o
 sh.addEventListener('click',e=>{if(e.target===sh)close()});document.addEventListener('keydown',e=>{if(e.key==='Escape')close()});
 if(location.hash==='#forslag')open();
 let shown=false;addEventListener('scroll',()=>{if(!shown&&scrollY>document.body.scrollHeight*0.55){shown=true;open()}},{passive:true});
+/* nästa nivå: rubrik ord för ord, räknare, spotlight, löpband, scroll */
+const h1=document.querySelector('h1');if(h1){const tx=h1.textContent;h1.setAttribute('aria-label',tx);h1.innerHTML=tx.split(/(\s+)/).map((w,i)=>/^\s+$/.test(w)?w:`<span class="w" aria-hidden="true" style="--i:${i/2|0}">${esc(w)}</span>`).join('')}
+const RM=matchMedia('(prefers-reduced-motion: reduce)').matches;
+if(!RM)document.querySelectorAll('.chip b').forEach(b=>{const f=b.textContent,m=f.match(/^(\d+)(?:[,.](\d))?$/);if(!m)return;const end=parseFloat(f.replace(',','.')),dec=m[2]?1:0,t0=performance.now()+700;const tick=t=>{const k=Math.min(1,Math.max(0,(t-t0)/1100)),v=end*(1-Math.pow(1-k,3));b.textContent=k<1?v.toFixed(dec).replace('.',','):f;if(k<1)requestAnimationFrame(tick)};requestAnimationFrame(tick)});
+document.querySelectorAll('.three .card').forEach((c,i)=>c.style.setProperty('--i',i));
+document.addEventListener('pointermove',e=>{const c=e.target.closest&&e.target.closest('.card');if(!c)return;const r=c.getBoundingClientRect();c.style.setProperty('--mx',(e.clientX-r.left)+'px');c.style.setProperty('--my',(e.clientY-r.top)+'px')},{passive:true});
+const mq=[...new Set(Object.values(D.tjanster).flat().map(i=>i[0]))].slice(0,10);if(mq.length>2){const one=mq.map(n=>`<span>${esc(n)}</span>`).join('');$('marq').innerHTML=one+one}else document.querySelector('.marq').remove();
+const nav=document.querySelector('.nav'),prog=document.querySelector('.prog');const onS=()=>{const m=document.documentElement.scrollHeight-innerHeight;prog.style.setProperty('--p',m>0?scrollY/m:0);nav.classList.toggle('scrolled',scrollY>20)};addEventListener('scroll',onS,{passive:true});onS();
 /* mjuk inglidning */
 if('IntersectionObserver' in window){const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.12});document.querySelectorAll('.reveal').forEach(el=>io.observe(el))}else document.querySelectorAll('.reveal').forEach(el=>el.classList.add('in'));
 }</script>

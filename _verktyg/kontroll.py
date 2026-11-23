@@ -38,7 +38,7 @@ def kolla(pw, slug):
         if not pg.evaluate("document.querySelector('h1').textContent.trim().length>5"): fel.append("rubrik saknas")
         tomma = pg.evaluate("[...document.querySelectorAll('a.btn')].filter(a=>!a.getAttribute('href')||a.getAttribute('href')==='#').map(a=>a.textContent.trim()).filter(t=>t&&!['Jag vill ha sidan','Hellre prata först'].includes(t))")
         if tomma: fel.append(f"knappar utan länk: {tomma}")
-        pg.evaluate("document.querySelectorAll('.reveal').forEach(e=>e.classList.add('in'))")
+        pg.evaluate("document.querySelectorAll('.reveal').forEach(e=>e.classList.add('in'))"); pg.wait_for_timeout(1200)
         pg.screenshot(path=str(ROT / "_foretag" / slug / f"{namn}.png"), full_page=(namn == "dator"))
         pg.goto("about:blank"); pg.goto((ROT / slug / "index.html").as_uri() + "#forslag"); pg.wait_for_timeout(500)
         if not pg.evaluate("document.getElementById('sheet').classList.contains('open')"): fel.append(f"säljpanelen öppnas inte ({namn})")
