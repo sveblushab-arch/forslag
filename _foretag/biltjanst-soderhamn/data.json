@@ -1,0 +1,245 @@
+{
+  "tema": "verkstad",
+  "schemaTyp": "AutoRepair",
+  "bokning": null,
+  "instagram": null,
+  "facebook": null,
+  "slug": "biltjanst-soderhamn",
+  "namn": "Biltjänst Söderhamn",
+  "bolag": "Fordon & Biltjänst Söderhamn AB",
+  "bolagsform": "AB",
+  "logo": [
+    "Biltjänst",
+    "Söderhamn"
+  ],
+  "adress": "Blötängsvägen 10",
+  "postnr": "826 40",
+  "stad": "Söderhamn",
+  "lat": 61.296172,
+  "lng": 17.035768,
+  "telefon": "0270-132 52",
+  "telefonIntl": "+4627013252",
+  "betyg": [
+    {
+      "kalla": "Google",
+      "snitt": "4,2",
+      "antal": "91 omdömen"
+    }
+  ],
+  "oppettider": [
+    [
+      "Måndag",
+      7,
+      16
+    ],
+    [
+      "Tisdag",
+      7,
+      16
+    ],
+    [
+      "Onsdag",
+      7,
+      16
+    ],
+    [
+      "Torsdag",
+      7,
+      16
+    ],
+    [
+      "Fredag",
+      7,
+      16
+    ],
+    [
+      "Lördag",
+      null,
+      null
+    ],
+    [
+      "Söndag",
+      null,
+      null
+    ]
+  ],
+  "tjanster": {
+    "Verkstad": [
+      [
+        "Service",
+        "Godkänd Bilverkstad",
+        "Ring för pris"
+      ],
+      [
+        "Elbil och laddhybrid",
+        "Godkänd elbilsverkstad",
+        "Ring för pris"
+      ],
+      [
+        "Felsökning av elektronik",
+        "",
+        "Ring för pris"
+      ],
+      [
+        "Åtgärda anmärkningar",
+        "Efter besiktningen",
+        "Ring för pris"
+      ],
+      [
+        "Stenskottslagning",
+        "",
+        "Ring för pris"
+      ]
+    ],
+    "Däck": [
+      [
+        "Däckbyte",
+        "",
+        "Ring för pris"
+      ],
+      [
+        "Däckhotell",
+        "",
+        "Ring för pris"
+      ],
+      [
+        "Hjulinställning",
+        "",
+        "Ring för pris"
+      ]
+    ],
+    "Fler fordon": [
+      [
+        "Husbil (ej bodel)",
+        "",
+        "Ring för pris"
+      ],
+      [
+        "Lätta lastbilar",
+        "",
+        "Ring för pris"
+      ],
+      [
+        "Släpvagn",
+        "",
+        "Ring för pris"
+      ],
+      [
+        "Lånebil",
+        "",
+        "Fråga oss"
+      ]
+    ]
+  },
+  "varfor": [
+    {
+      "big": "91",
+      "titel": "omdömen på Google",
+      "text": "Snitt 4,2 – en av Söderhamns mest omdömesgivna verkstäder."
+    },
+    {
+      "big": "2001",
+      "titel": "sedan start",
+      "text": "Över 20 år på Blötängsvägen i Söderhamn."
+    },
+    {
+      "big": "07–16",
+      "titel": "måndag–fredag",
+      "text": "Lunchstängt 12–13. Lämna bilen på morgonen."
+    }
+  ],
+  "faq": [
+    [
+      "Hur bokar jag tid?",
+      "Ring oss på 0270-132 52 under öppettiderna."
+    ],
+    [
+      "Servar ni elbilar?",
+      "Ja, vi är Godkänd elbilsverkstad och servar el- och laddhybridbilar."
+    ],
+    [
+      "Kan ni åtgärda anmärkningar från besiktningen?",
+      "Ja, ring så bokar vi in bilen."
+    ],
+    [
+      "När har ni öppet?",
+      "Måndag–fredag 07–16, lunchstängt 12–13. Helger stängt."
+    ]
+  ],
+  "seo": {
+    "title": "Biltjänst Söderhamn – Bilverkstad i Söderhamn",
+    "description": "Service, elbil, däck och hjulinställning på Blötängsvägen 10 i Söderhamn. 4,2 på Google. Ring 0270-132 52."
+  },
+  "pitch": {
+    "snittpris": 2000,
+    "doman": "biltjanstsoderhamn.se",
+    "idag": [
+      "Den som googlar er hamnar i kataloger och en kedjelista",
+      "Olika öppettider ligger ute på olika sidor",
+      "Att ni är godkänd elbilsverkstad syns knappt",
+      "Det finns ingen egen sida som visar allt ni gör"
+    ],
+    "medSida": [
+      "Egen adress, biltjanstsoderhamn.se, som ni äger",
+      "Rätt nummer och öppettider på ett ställe",
+      "Visar om ni har öppet just nu – ett tryck för att ringa",
+      "Byggd för mobilen, där bilägare letar verkstad"
+    ]
+  },
+  "mejl": {
+    "till": "biltjanst.soderhamn@telia.com",
+    "amne": "Biltjänst Söderhamn, jag har byggt en hemsida åt er",
+    "hej": "Biltjänst Söderhamn",
+    "ert": "verkstaden",
+    "iakttagelse": "När jag letade bland bilverkstäder i Söderhamn fastnade jag för er: 91 omdömen på Google, ett snitt på 4,2 och över 20 år på Blötängsvägen.",
+    "problem": "Men en sak slog mig – ni har ingen egen hemsida. Den som googlar er hamnar i kataloger, och där står olika öppettider.",
+    "fordelar": [
+      [
+        "Fler samtal och bokningar",
+        "Den som läser era omdömen kan ringa direkt med ett tryck."
+      ],
+      [
+        "Ni syns som er själva",
+        "Med elbil och allt ni gör synligt – inte bara en rad i en lista."
+      ],
+      [
+        "Rätt uppgifter överallt",
+        "Rätt adress, nummer och öppettider – inga missade samtal."
+      ],
+      [
+        "Den är er",
+        "Er egen adress, som ni äger och styr."
+      ]
+    ],
+    "prisJamforelse": "ungefär 400 kr i månaden under första året",
+    "kontaktVal": "tar ett kort videosamtal",
+    "psDatum": "7 december"
+  },
+  "kallor": [
+    "meca.se/hitta-verkstad/soderhamn/fordon-biltjanst-soderhamn-ab – e-post biltjanst.soderhamn@telia.com, tel 0270-13252, öppettider 07–16 lunch 12–13, tjänster (kontrollerat 2026-11-23)",
+    "dackplatsen.se/soderhamn/meca-bilservice-soderhamn-fordon-biltjanst-ab – Google 4,2 / 91",
+    "allabolag.se – Fordon & Biltjänst Söderhamn AB, reg. 2001",
+    "hitta.se – Godkänd elbilsverkstad",
+    "Shopify domänkoll 2026-11-23: biltjanstsoderhamn.se ledig"
+  ],
+  "status": {
+    "byggd": "2026-11-23"
+  },
+  "text": {
+    "navTjanster": "Tjänster",
+    "tjanstRubrik": "Vad behöver bilen?",
+    "prisNot": "Ring för pris – verkstaden ger besked innan arbetet börjar.",
+    "tjanstCta": "Ring och boka",
+    "kontaktRubrik": "Behöver bilen hjälp?",
+    "kontaktText": "Ring oss för tidsbokning eller kom förbi under öppettiderna.",
+    "enhet": "jobb",
+    "enhetPlural": "jobb",
+    "pratText": "Vill ni ställa frågor innan ni bestämmer er? Jag ringer gärna eller tar ett kort videosamtal – tio minuter räcker.",
+    "rubrik": "Bilverkstad i Söderhamn sedan 2001",
+    "ingress": "Service, elbil, däck och hjulinställning på Blötängsvägen 10. Ring och boka – vi säger vad som behöver göras innan vi börjar.",
+    "varforKicker": "Därför väljer Söderhamn Biltjänst",
+    "varforRubrik": "Erfarna, godkända och nära",
+    "pitchRubrik": "Biltjänst, kunderna hittar er på kartan – nu kan de hitta er på riktigt",
+    "pitchIngress": "Ni har redan det svåraste: 91 omdömen och över 20 år i Söderhamn. Det som saknas är en egen plats på nätet. Den här sidan är redan byggd och kan vara live på biltjanstsoderhamn.se inom 7 dagar."
+  }
+}

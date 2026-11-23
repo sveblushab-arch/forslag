@@ -1,0 +1,244 @@
+{
+  "tema": "verkstad",
+  "schemaTyp": "AutoRepair",
+  "bokning": null,
+  "instagram": null,
+  "facebook": null,
+  "slug": "karwiks-bilverkstad",
+  "namn": "Kårwiks Bilverkstad",
+  "bolag": "Kårwiks Bilverkstad AB",
+  "bolagsform": "AB",
+  "logo": [
+    "Kårwiks",
+    "Bilverkstad"
+  ],
+  "adress": "Stationsvägen 30",
+  "postnr": "845 31",
+  "stad": "Svenstavik",
+  "lat": 62.7719758,
+  "lng": 14.4424074,
+  "telefon": "0687-100 08",
+  "telefonIntl": "+4668710008",
+  "betyg": [
+    {
+      "kalla": "Google",
+      "snitt": "4,7",
+      "antal": "77 omdömen"
+    }
+  ],
+  "oppettider": [
+    [
+      "Måndag",
+      8,
+      17
+    ],
+    [
+      "Tisdag",
+      8,
+      17
+    ],
+    [
+      "Onsdag",
+      8,
+      17
+    ],
+    [
+      "Torsdag",
+      8,
+      17
+    ],
+    [
+      "Fredag",
+      8,
+      17
+    ],
+    [
+      "Lördag",
+      null,
+      null
+    ],
+    [
+      "Söndag",
+      null,
+      null
+    ]
+  ],
+  "tjanster": {
+    "Verkstad": [
+      [
+        "Service och reparationer",
+        "Godkänd Bilverkstad",
+        "Ring för pris"
+      ],
+      [
+        "VW och Audi",
+        "Specialister",
+        "Ring för pris"
+      ],
+      [
+        "Elbil och laddhybrid",
+        "Service och reparation",
+        "Ring för pris"
+      ],
+      [
+        "Felsökning av elektronik",
+        "",
+        "Ring för pris"
+      ],
+      [
+        "Åtgärda anmärkningar",
+        "Efter besiktningen",
+        "Ring för pris"
+      ]
+    ],
+    "Däck och glas": [
+      [
+        "Däckbyte",
+        "",
+        "Ring för pris"
+      ],
+      [
+        "Däckhotell",
+        "",
+        "Ring för pris"
+      ],
+      [
+        "Stenskottslagning",
+        "",
+        "Ring för pris"
+      ]
+    ],
+    "Mer": [
+      [
+        "Bärgning dygnet runt",
+        "Via Assistancekåren",
+        "Ring"
+      ],
+      [
+        "Lånebil",
+        "",
+        "Fråga oss"
+      ],
+      [
+        "Gräsklippare och traktorer",
+        "",
+        "Ring för pris"
+      ]
+    ]
+  },
+  "varfor": [
+    {
+      "big": "4,7",
+      "titel": "av 5 på Google",
+      "text": "77 omdömen. Kunderna lyfter vänligt bemötande och hjälp direkt när något akut händer."
+    },
+    {
+      "big": "24/7",
+      "titel": "bärgning",
+      "text": "Bärgning dygnet runt via Assistancekåren – även när verkstaden är stängd."
+    },
+    {
+      "big": "08–17",
+      "titel": "måndag–fredag",
+      "text": "På Stationsvägen 30 i Svenstavik."
+    }
+  ],
+  "faq": [
+    [
+      "Hur bokar jag tid?",
+      "Ring oss på 0687-100 08 under öppettiderna."
+    ],
+    [
+      "Servar ni elbilar och laddhybrider?",
+      "Ja, vi gör service och reparationer på el- och laddhybridbilar."
+    ],
+    [
+      "Kan ni bärga min bil?",
+      "Ja, vi bärgar dygnet runt via Assistancekåren."
+    ],
+    [
+      "Lagar ni gräsklippare och traktorer?",
+      "Ja, hör av dig så tittar vi på det."
+    ],
+    [
+      "När har ni öppet?",
+      "Måndag–fredag 08–17. Helger stängt."
+    ]
+  ],
+  "seo": {
+    "title": "Kårwiks Bilverkstad – Bilverkstad i Svenstavik",
+    "description": "Service, VW/Audi, elbil, däck och bärgning dygnet runt på Stationsvägen 30 i Svenstavik. 4,7 på Google. Ring 0687-100 08."
+  },
+  "pitch": {
+    "snittpris": 2000,
+    "doman": "karwiksbilverkstad.se",
+    "idag": [
+      "Den som googlar er hamnar i kataloger och en kedjelista",
+      "Adressen karwiks.se finns, men visar ingen sida",
+      "Elbil, VW/Audi och bärgning syns inte när någon söker",
+      "Det finns ingen egen sida som visar allt ni gör"
+    ],
+    "medSida": [
+      "En egen sida på er adress, som ni äger",
+      "Rätt nummer och öppettider på ett ställe",
+      "Visar om ni har öppet just nu – ett tryck för att ringa",
+      "Byggd för mobilen, där bilägare letar hjälp"
+    ]
+  },
+  "mejl": {
+    "till": "info@karwiks.se",
+    "amne": "Kårwiks Bilverkstad, jag har byggt en hemsida åt er",
+    "hej": "Kårwiks Bilverkstad",
+    "ert": "verkstaden",
+    "iakttagelse": "När jag letade bland bilverkstäder i Jämtland fastnade jag för er: 4,7 på Google med 77 omdömen, och flera kunder skriver att ni hjälpte till direkt när det var akut.",
+    "problem": "Men en sak slog mig – ni har ingen egen hemsida. Den som googlar er hamnar i kataloger, och adressen karwiks.se visar ingen sida.",
+    "fordelar": [
+      [
+        "Fler samtal och bokningar",
+        "Den som läser era omdömen kan ringa direkt med ett tryck."
+      ],
+      [
+        "Ni syns som er själva",
+        "Med elbil, VW/Audi och bärgning synliga – inte bara en rad i en lista."
+      ],
+      [
+        "Rätt uppgifter överallt",
+        "Rätt adress, nummer och öppettider – inga missade samtal."
+      ],
+      [
+        "Den är er",
+        "Er egen adress, som ni äger och styr."
+      ]
+    ],
+    "prisJamforelse": "ungefär 400 kr i månaden under första året",
+    "kontaktVal": "tar ett kort videosamtal",
+    "psDatum": "7 december",
+    "variant": "B"
+  },
+  "kallor": [
+    "meca.se/hitta-verkstad/svenstavik/karwiks-bilverkstad-ab – e-post info@karwiks.se, tel 0687-10008, öppettider 08–17, tjänster (kontrollerat 2026-11-23)",
+    "kundernas.se/meca-bilservice-svenstavik-karwiks-bilverkstad – Google 4,7 / 77 omdömen",
+    "syna.se – Kårwiks Bilverkstad AB, reg. 2018",
+    "Shopify domänkoll 2026-11-23: karwiks.se upptagen (parkerad, ingen sida), karwiksbilverkstad.se ledig"
+  ],
+  "status": {
+    "byggd": "2026-11-23"
+  },
+  "text": {
+    "navTjanster": "Tjänster",
+    "tjanstRubrik": "Vad behöver bilen?",
+    "prisNot": "Ring för pris – verkstaden ger besked innan arbetet börjar.",
+    "tjanstCta": "Ring och boka",
+    "kontaktRubrik": "Behöver bilen hjälp?",
+    "kontaktText": "Ring oss för tidsbokning eller kom förbi under öppettiderna.",
+    "enhet": "jobb",
+    "enhetPlural": "jobb",
+    "pratText": "Vill ni ställa frågor innan ni bestämmer er? Jag ringer gärna eller tar ett kort videosamtal – tio minuter räcker.",
+    "rubrik": "Bilverkstad och bärgning i Svenstavik",
+    "ingress": "Service, VW och Audi, elbil, däck och bärgning dygnet runt – på Stationsvägen 30. Ring och boka.",
+    "varforKicker": "Därför väljer Berg Kårwiks",
+    "varforRubrik": "Hjälp direkt, året runt",
+    "pitchRubrik": "Kårwiks, kunderna hittar er på kartan – nu kan de hitta er på riktigt",
+    "pitchIngress": "Ni har redan det svåraste: 77 omdömen och ett snitt på 4,7. Det som saknas är en egen plats på nätet. Den här sidan är redan byggd och kan vara live inom 7 dagar – på karwiksbilverkstad.se eller er egen karwiks.se."
+  }
+}

@@ -1,0 +1,232 @@
+{
+  "tema": "salong",
+  "schemaTyp": "HairSalon",
+  "facebook": "https://www.facebook.com/Happy-Salong-815174345240331/",
+  "instagram": "https://www.instagram.com/happy_salong/",
+  "slug": "happy-salong",
+  "namn": "Happy Salong",
+  "bolag": "Happy Omed Salong AB",
+  "bolagsform": "AB",
+  "logo": [
+    "Happy",
+    "Salong"
+  ],
+  "adress": "Stora Östergatan 38",
+  "postnr": "271 34",
+  "stad": "Ystad",
+  "lat": 55.430414,
+  "lng": 13.826631,
+  "telefon": "0411-145 22",
+  "telefonIntl": "+4641114522",
+  "bokning": "https://www.bokadirekt.se/places/happy-salong-39082",
+  "betyg": [
+    {
+      "kalla": "Bokadirekt",
+      "snitt": "4,7",
+      "antal": "över 1 300 betyg"
+    }
+  ],
+  "oppettider": [
+    [
+      "Måndag",
+      9,
+      18
+    ],
+    [
+      "Tisdag",
+      9,
+      18
+    ],
+    [
+      "Onsdag",
+      9,
+      18
+    ],
+    [
+      "Torsdag",
+      9,
+      18
+    ],
+    [
+      "Fredag",
+      9,
+      18
+    ],
+    [
+      "Lördag",
+      10,
+      15
+    ],
+    [
+      "Söndag",
+      null,
+      null
+    ]
+  ],
+  "tjanster": {
+    "Herr & skägg": [
+      [
+        "Herrklippning",
+        "25 min",
+        "330 kr"
+      ],
+      [
+        "Herrklippning med skägg",
+        "40 min",
+        "450 kr"
+      ],
+      [
+        "Skäggklippning",
+        "25 min",
+        "230 kr"
+      ],
+      [
+        "Studentklippning herr",
+        "20 min",
+        "280 kr"
+      ],
+      [
+        "Pensionärsklippning män",
+        "20 min",
+        "280 kr"
+      ]
+    ],
+    "Dam & barn": [
+      [
+        "Damklippning",
+        "40 min",
+        "450 kr"
+      ],
+      [
+        "Flickor klippning",
+        "30 min",
+        "350 kr"
+      ],
+      [
+        "Barn under 12 år",
+        "20 min",
+        "230 kr"
+      ],
+      [
+        "Hårtvätt",
+        "5 min",
+        "från 50 kr"
+      ]
+    ]
+  },
+  "varfor": [
+    {
+      "big": "1 300",
+      "titel": "betyg på Bokadirekt",
+      "text": "Snitt 4,7 – en av Ystads mest bokade salonger."
+    },
+    {
+      "big": "330 kr",
+      "titel": "för en herrklippning",
+      "text": "Student och pensionär 280 kr, barn under 12 år 230 kr."
+    },
+    {
+      "big": "6 dagar",
+      "titel": "i veckan",
+      "text": "Vardagar 09–18 och lördag 10–15 på Stora Östergatan."
+    }
+  ],
+  "faq": [
+    [
+      "Hur bokar jag tid?",
+      "Boka online via knappen \"Boka tid\" eller ring oss på 0411-145 22."
+    ],
+    [
+      "Klipper ni skägg?",
+      "Ja. Skäggklippning 230 kr, hår och skägg 450 kr."
+    ],
+    [
+      "Har ni student- och pensionärspris?",
+      "Ja, 280 kr för studentklippning och pensionärsklippning för män."
+    ],
+    [
+      "Klipper ni barn?",
+      "Ja, barn under 12 år för 230 kr."
+    ],
+    [
+      "Har ni öppet på söndagar?",
+      "Nej. Vardagar 09–18 och lördag 10–15."
+    ]
+  ],
+  "seo": {
+    "title": "Happy Salong – Frisör och barberare i Ystad",
+    "description": "Frisör och barberare på Stora Östergatan 38 i Ystad. Herr, dam, barn och skägg. 4,7 på Bokadirekt. Boka online."
+  },
+  "pitch": {
+    "snittpris": 330,
+    "doman": "happysalongystad.se",
+    "idag": [
+      "Den som googlar er hamnar på Bokadirekt, Instagram eller Facebook",
+      "Två olika telefonnummer ligger ute på nätet",
+      "Priserna syns bara för den som går in i bokningen",
+      "Andra salonger i centrum syns lika mycket som ni"
+    ],
+    "medSida": [
+      "Egen adress, happysalongystad.se, som ni äger",
+      "Ett nummer, rätt öppettider och priser – allt på ett ställe",
+      "Visar om ni har öppet just nu, och bokning ett tryck bort",
+      "Byggd för mobilen, där de flesta letar efter frisör"
+    ]
+  },
+  "mejl": {
+    "till": "happysalong2020@gmail.com",
+    "amne": "Happy Salong, jag har byggt en hemsida åt er",
+    "hej": "Omed",
+    "ert": "salongen",
+    "iakttagelse": "När jag letade bland frisörer i Ystad fastnade jag för Happy Salong: över 1 300 betyg på Bokadirekt med ett snitt på 4,7. Det säger mycket om hur ni tar hand om era kunder.",
+    "problem": "Men en sak slog mig – ni har ingen egen hemsida. Den som googlar er hamnar på Bokadirekt, Instagram eller Facebook, och två olika telefonnummer ligger ute.",
+    "fordelar": [
+      [
+        "Fler bokningar",
+        "Den som läser era omdömen hittar priser, tider och en bokningsknapp på en gång."
+      ],
+      [
+        "Ni syns för allt ni gör",
+        "Herr, dam, barn och skägg med priser direkt – utan att gå in i bokningen."
+      ],
+      [
+        "Rätt uppgifter överallt",
+        "Rätt nummer, öppettider och priser – inga missade kunder."
+      ],
+      [
+        "Den är er",
+        "Er egen adress, inte en plattform som kan ändra reglerna."
+      ]
+    ],
+    "prisJamforelse": "ungefär 400 kr i månaden under första året",
+    "kontaktVal": "tar ett kort videosamtal",
+    "psDatum": "7 december"
+  },
+  "kallor": [
+    "bokadirekt.se/places/happy-salong-39082 – 4,7, 999+ femmor + 380 övriga betyg, öppettider, tjänster och priser (nov 2026)",
+    "Platsbanken annons 31319789 (Happy Omed Salong AB, Stora Östergatan 38) – e-post happysalong2020@gmail.com (kontrollerat via JobTech 2026-11-23)",
+    "hitta.se – tel 0411-145 22 och 073-879 85 83, Instagram, Facebook",
+    "allabolag.se – Happy Omed Salong AB",
+    "Shopify domänkoll 2026-11-23: happysalong.se upptagen (ingen sida för Ystad hittad), happysalongystad.se ledig"
+  ],
+  "status": {
+    "byggd": "2026-11-23"
+  },
+  "text": {
+    "navTjanster": "Priser",
+    "tjanstRubrik": "Vad vill du göra idag?",
+    "tjanstCta": "Se lediga tider",
+    "kontaktRubrik": "Dags att fixa håret?",
+    "enhet": "besök",
+    "enhetPlural": "besök",
+    "pratText": "Vill ni ställa frågor innan ni bestämmer er? Jag ringer gärna, eller tar ett kort videosamtal – tio minuter räcker.",
+    "rubrik": "Frisör och barberare mitt i Ystad",
+    "ingress": "Klippning för herr, dam och barn och skägg på Stora Östergatan 38. Boka online på en minut eller ring oss.",
+    "prisNot": "Priser från salongens prislista på Bokadirekt, november 2026. Se lediga tider när du bokar.",
+    "varforKicker": "Därför väljer Ystad Happy Salong",
+    "varforRubrik": "Nöjda kunder, schyssta priser",
+    "kontaktText": "Boka online dygnet runt, ring oss eller titta in på Stora Östergatan. Följ oss på Instagram.",
+    "pitchRubrik": "Happy Salong, era kunder letar efter er på Google – nu kan de hitta er",
+    "pitchIngress": "Ni har redan det svåraste: över 1 300 betyg och ett snitt på 4,7. Det som saknas är en egen plats på nätet där det blir till bokningar. Den här sidan är redan byggd och kan vara live på happysalongystad.se inom 7 dagar."
+  }
+}

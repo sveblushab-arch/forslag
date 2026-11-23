@@ -1,0 +1,255 @@
+{
+  "tema": "salong",
+  "schemaTyp": "HairSalon",
+  "facebook": "https://www.facebook.com/p/Tingvalla-klipp-style-100063529452006/",
+  "instagram": "https://www.instagram.com/tingvallaklippstyle",
+  "slug": "tingvalla-klipp-style",
+  "namn": "Tingvalla Klipp & Style",
+  "bolag": "By Saad Hairstyle AB",
+  "bolagsform": "AB",
+  "logo": [
+    "Tingvalla",
+    "Klipp & Style"
+  ],
+  "adress": "Tingvallavägen 11",
+  "postnr": "195 31",
+  "stad": "Märsta",
+  "lat": 59.6203407,
+  "lng": 17.8422121,
+  "telefon": "073-597 80 95",
+  "telefonIntl": "+46735978095",
+  "bokning": "https://www.bokadirekt.se/places/klipp-style-frisor-barbershop-140507",
+  "betyg": [
+    {
+      "kalla": "Google",
+      "snitt": "4,9",
+      "antal": "220 omdömen"
+    }
+  ],
+  "oppettider": [
+    [
+      "Måndag",
+      10,
+      18.5
+    ],
+    [
+      "Tisdag",
+      10,
+      18.5
+    ],
+    [
+      "Onsdag",
+      10,
+      18.5
+    ],
+    [
+      "Torsdag",
+      10,
+      18.5
+    ],
+    [
+      "Fredag",
+      10,
+      18.5
+    ],
+    [
+      "Lördag",
+      10,
+      18
+    ],
+    [
+      "Söndag",
+      null,
+      null
+    ]
+  ],
+  "tjanster": {
+    "Herr & skägg": [
+      [
+        "Herrklippning",
+        "30 min",
+        "370 kr"
+      ],
+      [
+        "Hår & skägg",
+        "45 min",
+        "470 kr"
+      ],
+      [
+        "Skägg inkl. vaxning",
+        "20 min",
+        "280 kr"
+      ],
+      [
+        "Barn, pojke upp till 10 år",
+        "30 min",
+        "270 kr"
+      ]
+    ],
+    "Dam": [
+      [
+        "Damklippning inkl. tvätt och fön",
+        "45 min",
+        "599 kr"
+      ],
+      [
+        "Damklippning, långt/tjockt hår",
+        "60 min",
+        "699 kr"
+      ],
+      [
+        "Barn, flicka upp till 10 år",
+        "40 min",
+        "499 kr"
+      ],
+      [
+        "Tvätt & fön, kort hår",
+        "35 min",
+        "från 350 kr"
+      ],
+      [
+        "Lyxstyling, vågigt",
+        "60 min",
+        "750 kr"
+      ]
+    ],
+    "Färg & behandling": [
+      [
+        "Bottenfärg",
+        "90 min",
+        "899 kr"
+      ],
+      [
+        "Färgning, kort hår",
+        "90 min",
+        "1 490 kr"
+      ],
+      [
+        "Slingor & nyansering, kort",
+        "150 min",
+        "från 2 499 kr"
+      ],
+      [
+        "Keratinbehandling",
+        "150 min",
+        "från 2 700 kr"
+      ]
+    ]
+  },
+  "varfor": [
+    {
+      "big": "4,9",
+      "titel": "av 5 på Google",
+      "text": "220 omdömen. Kunderna lyfter varmt bemötande och frisörer som tar sig tid."
+    },
+    {
+      "big": "370 kr",
+      "titel": "för en herrklippning",
+      "text": "Hår och skägg 470 kr, skägg med vaxning 280 kr."
+    },
+    {
+      "big": "6 dagar",
+      "titel": "i veckan",
+      "text": "Vardagar 10–18:30 och lördag 10–18 på Tingvallavägen."
+    }
+  ],
+  "faq": [
+    [
+      "Hur bokar jag tid?",
+      "Boka online via knappen \"Boka tid\" eller ring oss på 073-597 80 95."
+    ],
+    [
+      "Gör ni fades och skägg?",
+      "Ja. Hår och skägg kostar 470 kr och skägg med vaxning 280 kr."
+    ],
+    [
+      "Färgar ni och gör slingor?",
+      "Ja, bottenfärg från 899 kr och slingor med nyansering från 2 499 kr."
+    ],
+    [
+      "Gör ni keratinbehandling?",
+      "Ja, från 2 700 kr."
+    ],
+    [
+      "Har ni öppet på lördagar?",
+      "Ja, 10–18. Söndagar stängt."
+    ]
+  ],
+  "seo": {
+    "title": "Tingvalla Klipp & Style – Frisör och barberare i Märsta",
+    "description": "Frisör och barbershop på Tingvallavägen 11 i Märsta. Herr, skägg, dam, färg och keratin. 4,9 på Google. Boka online."
+  },
+  "pitch": {
+    "snittpris": 450,
+    "doman": "tingvallaklippstyle.se",
+    "idag": [
+      "Den som googlar er hamnar på Instagram, Facebook eller Bokadirekt",
+      "Salongen heter olika saker på olika ställen",
+      "220 omdömen på Google – men bara 6 syns där man bokar",
+      "Färg, slingor och keratin syns inte när någon söker"
+    ],
+    "medSida": [
+      "Egen adress, tingvallaklippstyle.se, som ni äger",
+      "Ett namn, rätt nummer, tider och priser – allt på ett ställe",
+      "Visar om ni har öppet just nu, och bokning ett tryck bort",
+      "Byggd för mobilen, där de flesta letar efter frisör"
+    ]
+  },
+  "mejl": {
+    "till": "tingvallaklippstyle@hotmail.com",
+    "amne": "Tingvalla Klipp & Style, jag har byggt en hemsida åt er",
+    "hej": "Saad",
+    "ert": "salongen",
+    "iakttagelse": "När jag letade bland frisörer i Märsta fastnade jag för Tingvalla Klipp & Style: 4,9 på Google med 220 omdömen, och kunderna skriver om varmt bemötande och frisörer som tar sig tid.",
+    "problem": "Men en sak slog mig – ni har ingen egen hemsida. Den som googlar er hamnar på Instagram eller Facebook, och salongen heter olika saker på olika ställen.",
+    "fordelar": [
+      [
+        "Fler bokningar",
+        "Den som läser era omdömen hittar priser, tider och en bokningsknapp på en gång."
+      ],
+      [
+        "Ni syns för allt ni gör",
+        "Färg, slingor och keratin får egna platser, inte bara herrklippning."
+      ],
+      [
+        "Rätt uppgifter överallt",
+        "Rätt nummer, öppettider och priser – inga missade kunder."
+      ],
+      [
+        "Den är er",
+        "Er egen adress, inte en plattform som kan ändra reglerna."
+      ]
+    ],
+    "prisJamforelse": "ungefär 400 kr i månaden under första året",
+    "kontaktVal": "tar ett kort videosamtal",
+    "psDatum": "7 december",
+    "variant": "B"
+  },
+  "kallor": [
+    "bokadirekt.se/places/klipp-style-frisor-barbershop-140507 – 5,0 / 6 betyg, öppettider, tjänster och priser, tel (nov 2026)",
+    "kundernas.se/tingvalla-klipp-style – Google 4,9 / 220 omdömen",
+    "Platsbanken annons 31744097 och 31743781 (By Saad hairstyle AB, Tingvallavägen 11, Märsta) – e-post tingvallaklippstyle@hotmail.com (kontrollerat via JobTech 2026-11-23)",
+    "hitta.se – By Saad Hairstyle AB",
+    "Shopify domänkoll 2026-11-23: tingvallaklippstyle.se ledig"
+  ],
+  "status": {
+    "byggd": "2026-11-23"
+  },
+  "text": {
+    "navTjanster": "Priser",
+    "tjanstRubrik": "Vad vill du göra idag?",
+    "tjanstCta": "Se lediga tider",
+    "kontaktRubrik": "Dags att fixa håret?",
+    "enhet": "besök",
+    "enhetPlural": "besök",
+    "pratText": "Vill ni ställa frågor innan ni bestämmer er? Jag ringer gärna, eller tar ett kort videosamtal – tio minuter räcker.",
+    "rubrik": "Frisör och barberare i Märsta",
+    "ingress": "Herr, skägg, dam, färg och keratin på Tingvallavägen 11. Boka online på en minut eller ring oss.",
+    "prisNot": "Priser från salongens prislista på Bokadirekt, november 2026. Se lediga tider när du bokar.",
+    "varforKicker": "Därför väljer Märsta Tingvalla",
+    "varforRubrik": "Varmt bemötande, skarpa fades",
+    "kontaktText": "Boka online dygnet runt, ring oss eller titta in på Tingvallavägen. Följ oss på Instagram.",
+    "pitchRubrik": "Tingvalla Klipp & Style, era kunder letar efter er på Google – nu kan de hitta er",
+    "pitchIngress": "Ni har redan det svåraste: 220 omdömen och ett snitt på 4,9. Det som saknas är en egen plats på nätet där det blir till bokningar. Den här sidan är redan byggd och kan vara live på tingvallaklippstyle.se inom 7 dagar."
+  }
+}

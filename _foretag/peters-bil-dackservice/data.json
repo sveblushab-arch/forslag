@@ -1,0 +1,244 @@
+{
+  "tema": "verkstad",
+  "schemaTyp": "AutoRepair",
+  "bokning": null,
+  "instagram": null,
+  "facebook": null,
+  "slug": "peters-bil-dackservice",
+  "namn": "Peters Bil & Däckservice",
+  "bolag": "Peters Bil & Däckservice AB",
+  "bolagsform": "AB",
+  "logo": [
+    "Peters",
+    "Bil & Däck"
+  ],
+  "adress": "Östra Storgatan 24",
+  "postnr": "598 74",
+  "stad": "Mariannelund",
+  "lat": 57.617025,
+  "lng": 15.5780791,
+  "telefon": "0496-105 23",
+  "telefonIntl": "+4649610523",
+  "betyg": [
+    {
+      "kalla": "Google",
+      "snitt": "4,1",
+      "antal": "35 omdömen"
+    }
+  ],
+  "oppettider": [
+    [
+      "Måndag",
+      7,
+      16
+    ],
+    [
+      "Tisdag",
+      7,
+      16
+    ],
+    [
+      "Onsdag",
+      7,
+      16
+    ],
+    [
+      "Torsdag",
+      7,
+      16
+    ],
+    [
+      "Fredag",
+      7,
+      13
+    ],
+    [
+      "Lördag",
+      null,
+      null
+    ],
+    [
+      "Söndag",
+      null,
+      null
+    ]
+  ],
+  "tjanster": {
+    "Verkstad": [
+      [
+        "Service och oljebyte",
+        "Personbilar",
+        "Ring för pris"
+      ],
+      [
+        "Kamremsbyte",
+        "",
+        "Ring för pris"
+      ],
+      [
+        "Bromsar",
+        "Skivor, belägg och felsökning",
+        "Ring för pris"
+      ],
+      [
+        "Felsökning av elektronik",
+        "",
+        "Ring för pris"
+      ],
+      [
+        "Batteritest och batteribyte",
+        "",
+        "Ring för pris"
+      ]
+    ],
+    "Däck": [
+      [
+        "Däckbyte",
+        "",
+        "Ring för pris"
+      ],
+      [
+        "Däckhotell",
+        "",
+        "Ring för pris"
+      ],
+      [
+        "Hjulinställning och balansering",
+        "",
+        "Ring för pris"
+      ],
+      [
+        "Nya däck",
+        "",
+        "Ring för pris"
+      ]
+    ],
+    "Fler fordon": [
+      [
+        "Husbil (ej bodel)",
+        "",
+        "Ring för pris"
+      ],
+      [
+        "Transportbil och lätt lastbil",
+        "",
+        "Ring för pris"
+      ],
+      [
+        "Hästtransport och släpvagn",
+        "",
+        "Ring för pris"
+      ]
+    ]
+  },
+  "varfor": [
+    {
+      "big": "35",
+      "titel": "omdömen på Google",
+      "text": "Snitt 4,1. Kunderna skriver om snabb och bra hjälp – även för bilister på semester."
+    },
+    {
+      "big": "3 i 1",
+      "titel": "bil, däck och släp",
+      "text": "Service, däck och husbil, häst- och släpvagnar på samma ställe."
+    },
+    {
+      "big": "5 dagar",
+      "titel": "i veckan",
+      "text": "Måndag–torsdag 07–16 och fredag 07–13 på Östra Storgatan."
+    }
+  ],
+  "faq": [
+    [
+      "Hur bokar jag tid?",
+      "Ring oss på 0496-105 23 under öppettiderna."
+    ],
+    [
+      "Byter ni och förvarar däck?",
+      "Ja. Vi byter, balanserar och förvarar däck, och säljer nya."
+    ],
+    [
+      "Servar ni husbilar och släp?",
+      "Ja, husbilar (ej bodel), transportbilar, hästtransporter och släpvagnar."
+    ],
+    [
+      "Har ni öppet på helgen?",
+      "Nej. Måndag–torsdag 07–16 och fredag 07–13."
+    ]
+  ],
+  "seo": {
+    "title": "Peters Bil & Däckservice – Bilverkstad i Mariannelund",
+    "description": "Service, däck, bromsar och felsökning på Östra Storgatan 24 i Mariannelund. Ring 0496-105 23."
+  },
+  "pitch": {
+    "snittpris": 2000,
+    "doman": "petersbilochdack.se",
+    "idag": [
+      "Den som googlar er hamnar i kataloger och en kedjelista",
+      "Verkstaden syns under flera olika namn på nätet",
+      "Det finns ingen egen sida som visar allt ni gör",
+      "Husbil, hästtransport och släp syns inte när någon söker"
+    ],
+    "medSida": [
+      "Egen adress, petersbilochdack.se, som ni äger",
+      "Ett namn, rätt nummer och öppettider på ett ställe",
+      "Visar om ni har öppet just nu – ett tryck för att ringa",
+      "Byggd för mobilen, där bilägare letar verkstad"
+    ]
+  },
+  "mejl": {
+    "till": "petersbilverkstad@gmail.com",
+    "amne": "Peters Bil & Däckservice, jag har byggt en hemsida åt er",
+    "hej": "Peter",
+    "ert": "verkstaden",
+    "iakttagelse": "När jag letade bland verkstäder runt Eksjö fastnade jag för Peters Bil & Däckservice: 35 omdömen på Google, och en kund skriver att ni räddade semestern när bilen krånglade.",
+    "problem": "Men en sak slog mig – ni har ingen egen hemsida. Den som googlar er hamnar i kataloger och en kedjelista, och verkstaden syns under flera olika namn.",
+    "fordelar": [
+      [
+        "Fler samtal och bokningar",
+        "Den som läser era omdömen kan ringa direkt med ett tryck."
+      ],
+      [
+        "Ni syns som er själva",
+        "Inte bara som en rad i en kedjas lista – med däck, husbil och släp synliga."
+      ],
+      [
+        "Rätt uppgifter överallt",
+        "Rätt adress, nummer och öppettider – inga missade samtal."
+      ],
+      [
+        "Den är er",
+        "Er egen adress, som ni äger och styr."
+      ]
+    ],
+    "prisJamforelse": "ungefär 400 kr i månaden under första året",
+    "kontaktVal": "tar ett kort videosamtal",
+    "psDatum": "7 december"
+  },
+  "kallor": [
+    "mekopartner.se/hitta-verkstad/mariannelund/peters-bil-dackservice-ab – e-post petersbilverkstad@gmail.com, tel, öppettider, tjänster (kontrollerat 2026-11-23)",
+    "kundernas.se/mekopartner-bilverkstad-mariannelund-peters-bil-dackservice – Google 4,1 / 35 omdömen",
+    "allabolag.se – Peters Bil & Däckservice AB, ledamot Peter",
+    "Shopify domänkoll 2026-11-23: petersbilochdack.se ledig"
+  ],
+  "status": {
+    "byggd": "2026-11-23"
+  },
+  "text": {
+    "navTjanster": "Tjänster",
+    "tjanstRubrik": "Vad behöver bilen?",
+    "prisNot": "Ring för pris – verkstaden ger besked innan arbetet börjar.",
+    "tjanstCta": "Ring och boka",
+    "kontaktRubrik": "Behöver bilen hjälp?",
+    "kontaktText": "Ring oss för tidsbokning eller kom förbi under öppettiderna.",
+    "enhet": "jobb",
+    "enhetPlural": "jobb",
+    "pratText": "Vill ni ställa frågor innan ni bestämmer er? Jag ringer gärna eller tar ett kort videosamtal – tio minuter räcker.",
+    "rubrik": "Bil och däck i Mariannelund",
+    "ingress": "Service, däckbyte, bromsar och felsökning på Östra Storgatan 24. Ring och boka – vi säger vad som behöver göras innan vi börjar.",
+    "varforKicker": "Därför väljer Mariannelund Peters",
+    "varforRubrik": "Snabb hjälp, mitt i samhället",
+    "pitchRubrik": "Peters, kunderna hittar er på kartan – nu kan de hitta er på riktigt",
+    "pitchIngress": "Ni har redan det svåraste: kunder som kommer tillbaka. Det som saknas är en egen plats på nätet. Den här sidan är redan byggd och kan vara live på petersbilochdack.se inom 7 dagar."
+  }
+}
