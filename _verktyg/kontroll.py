@@ -28,7 +28,7 @@ def kolla(pw, slug):
     if re.search(r"\[[^\]]*\]", m1): fel.append("hakparentes i mejlet")
     if d["telefon"].replace(" ", "")[:6] not in html.replace(" ", ""): fel.append("telefonnumret syns inte")
     b = pw.chromium.launch()
-    for w, h, namn in [(1366, 900, "dator"), (390, 844, "mobil")]:
+    for w, h, namn in [(1366, 900, "dator"), (390, 844, "mobil"), (360, 740, "litenmobil")]:
         pg = b.new_page(viewport={"width": w, "height": h}, device_scale_factor=1 if w > 500 else 2)
         js = []
         pg.on("pageerror", lambda e: js.append(str(e)))
@@ -36,10 +36,23 @@ def kolla(pw, slug):
         if js: fel.append(f"skriptfel ({namn}): {js[0][:80]}")
         if pg.evaluate("document.documentElement.scrollWidth") > w + 1: fel.append(f"sidledsscroll på {namn}")
         if not pg.evaluate("document.querySelector('h1').textContent.trim().length>5"): fel.append("rubrik saknas")
+        # Mobil och dator ska se rena ut: inget sticker ut, inget är för litet att trycka på eller läsa.
+        pg.evaluate("document.querySelectorAll('.reveal').forEach(e=>e.classList.add('in'))"); pg.wait_for_timeout(1200)
+        ut = pg.evaluate("""() => { const vw = document.documentElement.clientWidth, bad = [];
+          const clipped = el => { for (let p = el.parentElement; p && p !== document.body; p = p.parentElement) { const o = getComputedStyle(p); if (/(hidden|clip|auto|scroll)/.test(o.overflowX)) return true; } return false; };
+          for (const el of document.querySelectorAll('body *')) { if (el.closest('#sheet,[aria-hidden=true],.skip')) continue; const r = el.getBoundingClientRect(); if (!r.width || !r.height) continue;
+            if ((r.right > vw + 1 || r.left < -1) && !clipped(el)) bad.push((el.id || el.className || el.tagName).toString().slice(0, 30)); }
+          return [...new Set(bad)].slice(0, 5); }""")
+        if ut: fel.append(f"utanför skärmen ({namn}): {ut}")
+        sma = pg.evaluate("""() => [...document.querySelectorAll('a.btn, button, .dock a, .tab, summary')].filter(e => { if (e.closest('#sheet')) return false; const r = e.getBoundingClientRect(); return r.width && r.height && r.height < 43.5; }).map(e => e.textContent.trim().slice(0, 25)).slice(0, 5)""")
+        if namn != "dator" and sma: fel.append(f"för små tryckytor ({namn}): {sma}")
+        lit = pg.evaluate("""() => [...document.querySelectorAll('p, li, summary, .item h3, .lead')].filter(e => { if (e.closest('#sheet,.demo,footer,[aria-hidden=true]')) return false; const r = e.getBoundingClientRect(); return r.width && parseFloat(getComputedStyle(e).fontSize) < 13; }).map(e => e.textContent.trim().slice(0, 25)).slice(0, 5)""")
+        if lit: fel.append(f"för liten text ({namn}): {lit}")
+        if pg.evaluate("(() => { const h = document.querySelector('h1'); return h.scrollWidth > h.clientWidth + 1; })()"): fel.append(f"rubriken får inte plats ({namn})")
         tomma = pg.evaluate("[...document.querySelectorAll('a.btn')].filter(a=>!a.getAttribute('href')||a.getAttribute('href')==='#').map(a=>a.textContent.trim()).filter(t=>t&&!['Jag vill ha sidan','Hellre prata först'].includes(t))")
         if tomma: fel.append(f"knappar utan länk: {tomma}")
         pg.evaluate("document.querySelectorAll('.reveal').forEach(e=>e.classList.add('in'))"); pg.wait_for_timeout(1200)
-        pg.screenshot(path=str(ROT / "_foretag" / slug / f"{namn}.png"), full_page=(namn == "dator"))
+        if namn != "litenmobil": pg.screenshot(path=str(ROT / "_foretag" / slug / f"{namn}.png"), full_page=(namn == "dator"))
         pg.goto("about:blank"); pg.goto((ROT / slug / "index.html").as_uri() + "#forslag"); pg.wait_for_timeout(500)
         if not pg.evaluate("document.getElementById('sheet').classList.contains('open')"): fel.append(f"säljpanelen öppnas inte ({namn})")
         pg.close()

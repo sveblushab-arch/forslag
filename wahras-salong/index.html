@@ -38,7 +38,7 @@ p{margin:0}
 
 /* Förhandsvisningsbanner */
 .demo{position:relative;z-index:31;background:#000;color:#fff;font-size:13px;text-align:center;padding:8px 16px}
-.demo button{background:none;border:0;color:var(--hi);font:600 13px Inter,sans-serif;text-decoration:underline;cursor:pointer;padding:6px 4px;min-height:32px}
+.demo button{background:none;border:0;color:var(--hi);font:600 13px Inter,sans-serif;text-decoration:underline;cursor:pointer;padding:6px 6px;min-height:44px}
 
 /* Flytande glasmeny */
 .nav{position:sticky;top:10px;z-index:30;margin:10px auto 0;max-width:1200px;padding:0 max(2vw,10px)}
@@ -391,6 +391,7 @@ $('heroCta').innerHTML=D.bokning
 $('chips').innerHTML=D.betyg.map(b=>`<div class="chip"><b>${esc(b.snitt)}</b><div><span class="stars">★★★★★</span><br>${esc(b.kalla)} · ${esc(b.antal)}</div></div>`).join('');
 /* rubriken ord för ord – sista ordet glänser */
 const h1=document.querySelector('h1'),tx=h1.textContent;h1.setAttribute('aria-label',tx);let wi=0;
+const fitH1=()=>{h1.style.fontSize='';let f=parseFloat(getComputedStyle(h1).fontSize);while(h1.scrollWidth>h1.clientWidth+1&&f>26){f*=.94;h1.style.fontSize=f+'px'}};addEventListener('resize',fitH1);
 h1.innerHTML=tx.split(/(\s+)/).map(w=>/^\s+$/.test(w)?w:`<span class="w" aria-hidden="true" style="--i:${wi++}">${esc(w)}</span>`).join('');
 /* tjänster med glidande flikar */
 $('tjanstCta').href=book.href;$('tjanstCta').innerHTML=esc(D.bokning?(D.text.tjanstCta||'Se lediga tider'):'Ring och fråga')+' '+arrow;
@@ -399,7 +400,7 @@ const clk='<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="c
 const moveInd=()=>{const s=tabs.querySelector('[aria-selected=true]'),ind=tabs.querySelector('.ind');if(s&&ind){ind.style.width=s.offsetWidth+'px';ind.style.transform=`translateX(${s.offsetLeft}px)`}};
 const show=n=>{tabs.querySelectorAll('.tab').forEach(t=>t.setAttribute('aria-selected',t.dataset.n===n));menu.innerHTML=cats[n].map((i,k)=>`<div class="item" style="--i:${k}"><h3>${esc(i[0])}</h3><span class="pr">${esc(i[2])}</span>${i[1]?`<span class="t">${clk}${esc(i[1])}</span>`:''}</div>`).join('');moveInd()};
 if(names.length>1){tabs.innerHTML='<span class="ind" aria-hidden="true"></span>'+names.map(n=>`<button class="tab" role="tab" type="button" data-n="${esc(n)}">${esc(n)}</button>`).join('');tabs.addEventListener('click',e=>{const b=e.target.closest('.tab');if(b)show(b.dataset.n)})}else tabs.remove();
-show(names[0]);addEventListener('resize',moveInd);if(document.fonts)document.fonts.ready.then(moveInd);
+show(names[0]);fitH1();addEventListener('resize',moveInd);if(document.fonts)document.fonts.ready.then(()=>{moveInd();fitH1()});
 /* löpband med riktiga tjänster */
 const mq=[...new Set(Object.values(cats).flat().map(i=>i[0]))].slice(0,10);
 if(mq.length>2){const one=mq.map(n=>`<span>${esc(n)}</span>`).join('');$('marq').innerHTML=one+one}else document.querySelector('.marq').remove();
