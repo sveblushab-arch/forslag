@@ -5,7 +5,7 @@ Hej Taraneh,
 
 Jag heter Elliot Bergström och bygger hemsidor åt lokala företag. När jag letade bland frisörer i Vallentuna fastnade jag för Kam och Sax: över 200 betyg på Bokadirekt med ett snitt på 4,5, och priser för alla – från pensionärs-drop-in till skinfade.
 
-Men en sak slog mig – ni har ingen egen hemsida. Den som googlar er hamnar på Bokadirekt eller Instagram, och salonger med samma namn i andra städer dyker upp i samma sökning.
+Men en sak slog mig – ni har ingen egen hemsida. Den som googlar er hamnar på Bokadirekt eller Instagram, och där syns varken pensionärs-drop-in eller elevpriser.
 
 Därför har jag byggt en hemsida åt er. Den är klar:
 https://sveblushab-arch.github.io/forslag/kam-och-sax/#forslag
