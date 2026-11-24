@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Sista kontroll före utskick (automation.md DEL B steg 2).
 
-Användning: python3 _verktyg/sista_kontroll.py <slug> [<slug> ...] [--mejl 1|2|3]
+Användning: python3 _verktyg/sista_kontroll.py <slug> [<slug> ...] [--mejl 1|2|3|lank]
+(variant B = förstamejl utan länk; --mejl lank = svaret med länken som inkorgen skickar)
 
 Kontrollerar per slug: mejlfilen finns, rätt mottagare (Till: = data.json mejl/epost
 om den finns), företagsnamnet i ämne och text, exakt en länk och att den är
@@ -20,7 +21,7 @@ ROT = pathlib.Path(__file__).resolve().parent.parent
 def kontrollera(slug, nr):
     fel = []
     mapp = ROT / "_foretag" / slug
-    fil = mapp / f"mejl{nr}.txt"
+    fil = mapp / f"mejl{nr}.txt"  # nr = 1, 2, 3 eller "_lank"
     if not fil.exists():
         return [f"{fil.name} saknas"], None
     rader = fil.read_text(encoding="utf-8").split("\n")
@@ -40,8 +41,11 @@ def kontrollera(slug, nr):
     if namn and nr == 1 and namn not in body:
         fel.append(f"företagsnamnet '{namn}' saknas i texten")
     lankar = re.findall(r"https?://\S+", body)
-    if nr == 1:
-        ratt = f"https://sveblushab-arch.github.io/forslag/{slug}/#forslag"
+    ratt = f"https://sveblushab-arch.github.io/forslag/{slug}/#forslag"
+    utan_lank = nr == 1 and (data.get("mejl") or {}).get("variant") == "B" and (data.get("mejl") or {}).get("test") == "lank-2"  # test 2: förstamejl utan länk
+    if utan_lank and lankar:
+        fel.append(f"variant B ska inte ha någon länk i förstamejlet: {lankar}")
+    elif (nr == 1 and not utan_lank) or nr == "_lank":
         if lankar != [ratt]:
             fel.append(f"länkar {lankar} – ska vara exakt [{ratt}]")
     if re.search(r"[\[\]{}]|XXX|TODO|<[a-z]", body + amne):
@@ -61,7 +65,7 @@ def main():
     args = sys.argv[1:]
     nr = 1
     if "--mejl" in args:
-        i = args.index("--mejl"); nr = int(args[i + 1]); del args[i:i + 2]
+        i = args.index("--mejl"); nr = args[i + 1]; nr = "_lank" if nr in ("lank", "_lank") else int(nr); del args[i:i + 2]
     if not args:
         print(__doc__); sys.exit(2)
     ok, alla_ok = [], True

@@ -62,6 +62,8 @@ def kontrollera(d):
     blob = json.dumps(d, ensure_ascii=False)
     if "orgnr" in d or "personnr" in d or IDNUMMER.search(re.sub(r"\+46\d+", "", blob)):
         fel("organisations-/personnummer får aldrig skrivas i data.json – ta bort det")
+    if d.get("mejl", {}).get("test") not in (None, "lank-2"):
+        fel("mejl.test ska vara \"lank-2\" (A/B-test 2 från 25 nov) eller saknas")
     if d.get("mejl", {}).get("variant") not in (None, "A", "B"):
         fel("mejl.variant ska vara A eller B")
     if re.search(r"\[[A-ZÅÄÖ ]+\]|XXX|TODO|lorem", blob, re.I):
@@ -124,6 +126,34 @@ Ska jag göra klart den åt er? Ett "ja" räcker.
 
 P.S. Sidan ligger uppe till {m["psDatum"]}.{kalla} Vill ni inte få fler mejl från mig räcker det att svara "nej tack".
 '''
+    if m.get("variant") == "B" and m.get("test") == "lank-2":
+        # A/B-test 2 (från 25 nov, Elliots ja 24 nov): förstamejl UTAN länk – intresse-CTA, länken
+        # skickas automatiskt (mejl_lank.txt) av inkorgsuppgiften när de svarar.
+        m1 = f'''Hej {m["hej"]},
+
+Jag heter {s["namn"]} och bygger hemsidor åt lokala företag. {m["iakttagelse"]}
+
+{m["problem"]}
+
+Så jag har byggt en hemsida åt er, med era tjänster, öppettider och omdömen. Den är redan klar.
+
+Vill ni ha den är den live på er egen adress inom 7 dagar. {kr(s["engang"])} en gång och {kr(s["manad"])} i månaden, exkl. moms – och ni betalar först när ni är nöjda.
+
+Vill ni se den? Svara bara "ja", så skickar jag länken.
+
+{sig}
+
+P.S. Sidan ligger uppe till {m["psDatum"]}.{kalla} Vill ni inte få fler mejl från mig räcker det att svara "nej tack".
+'''
+    mlank = f'''Hej {m["hej"]},
+
+Tack! Här är sidan jag har byggt åt {d["namn"]}:
+{lank}
+
+Titta gärna på mobilen – det är där de flesta av era kunder kommer att se den. Säg till om något ska ändras, eller svara "ja" om ni vill att jag gör klart den. {kr(s["engang"])} en gång och {kr(s["manad"])} i månaden, exkl. moms – ni betalar först när ni är nöjda.
+
+{sig}
+'''
     m2 = f'''Hej igen {m["hej"]},
 
 Jag vet att det är mycket att göra på dagarna, så jag gör det kort.
@@ -154,6 +184,7 @@ Oavsett vad ni väljer: lycka till.
     (ut / "mejl1.txt").write_text(f"Till: {m['till']}\nÄmne: {amne}\n\n{m1}")
     (ut / "mejl2.txt").write_text(f"Till: {m['till']}\nÄmne: Sv: {amne}\n\n{m2}")
     (ut / "mejl3.txt").write_text(f"Till: {m['till']}\nÄmne: Sv: {amne}\n\n{m3}")
+    (ut / "mejl_lank.txt").write_text(f"Till: {m['till']}\nÄmne: Sv: {amne}\n\n{mlank}")
     ord_ = len(m1.split())
     lo, hi = 70, 175
     if not lo <= ord_ <= hi:
