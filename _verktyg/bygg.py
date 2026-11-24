@@ -103,49 +103,26 @@ def bygg_mejl(d, s):
     m, lank = d["mejl"], f'{BAS_URL}/{d["slug"]}/#forslag'
     ford = "\n".join(f"• {a}. {b}" for a, b in m["fordelar"])
     sig = f'Varma hälsningar\n{s["namn"]}\n{s["foretag"]} · {s.get("webb", "")}\n{s["tel"]} · {s["mejl"]}'.replace(" · \n", "\n")
+    # Förstamejl v2 (24 nov, efter forskning: Gong/Woodpecker/Instantly – under ca 125 ord, ett enda
+    # intresse-CTA, max två länkar, källa till adressen enligt GDPR art. 14). Samma text för A och B;
+    # från 25 nov testar variant A/B ämnesraden (sätts i data.json av Del A).
+    kalla = f' Er adress hittade jag på {m["adressKalla"]}.' if m.get("adressKalla") else ""
     m1 = f'''Hej {m["hej"]},
 
 Jag heter {s["namn"]} och bygger hemsidor åt lokala företag. {m["iakttagelse"]}
 
 {m["problem"]}
 
-Därför har jag byggt en hemsida åt er. Den är klar, och ni kan titta på den här:
+Så jag har byggt en hemsida åt er. Den är redan klar:
 {lank}
 
-Varför den gör skillnad för {m.get("ert", "er")}:
-{ford}
+Vill ni ha den är den live på er egen adress inom 7 dagar. {kr(s["engang"])} en gång och {kr(s["manad"])} i månaden, exkl. moms – och ni betalar först när ni är nöjda.
 
-Så enkelt får ni den:
-1. Svara "ja" på det här mejlet.
-2. Säg vad ni vill ändra – bilder, färger, text. Jag fixar det.
-3. Inom 7 dagar är sidan live på er egen adress. Ni betalar först när ni är nöjda.
-
-Pris: {kr(s["engang"])} en gång – {m["prisJamforelse"]} – och {kr(s["manad"])} i månaden för domän, drift och små ändringar. Alla priser exkl. moms.
-
-Vill ni hellre prata först? Jag ringer gärna, eller {m["kontaktVal"]} när det passar er. Tio minuter räcker. Svara med en tid, eller ring mig på {s["tel"]}.
+Ska jag göra klart den åt er? Ett "ja" räcker.
 
 {sig}
 
-P.S. Sidan ligger uppe till {m["psDatum"]}. Vill ni inte få fler mejl från mig räcker det att svara "nej tack".
-'''
-    if m.get("variant") == "B":
-        # A/B-test från v.48 (Elliots ja 22 nov): kort förstamejl, ca 100–150 ord. Samma ämne, länk, pris och löften.
-        m1 = f'''Hej {m["hej"]},
-
-Jag heter {s["namn"]} och bygger hemsidor åt lokala företag. {m["iakttagelse"]}
-
-{m["problem"]}
-
-Därför har jag byggt en hemsida åt er. Den är klar:
-{lank}
-
-Vill ni ha den är den live på er egen adress inom 7 dagar. {kr(s["engang"])} en gång och {kr(s["manad"])} i månaden (exkl. moms) – och ni betalar först när ni är nöjda.
-
-Är det intressant? Svara bara "ja", eller ring mig på {s["tel"]}.
-
-{sig}
-
-P.S. Sidan ligger uppe till {m["psDatum"]}. Vill ni inte få fler mejl från mig räcker det att svara "nej tack".
+P.S. Sidan ligger uppe till {m["psDatum"]}.{kalla} Vill ni inte få fler mejl från mig räcker det att svara "nej tack".
 '''
     m2 = f'''Hej igen {m["hej"]},
 
@@ -156,6 +133,8 @@ Sidan jag byggt åt er ligger kvar här: {lank}
 Två sätt att gå vidare, välj det som passar bäst:
 1. Svara "ja, testa" – så lägger jag in era egna bilder, utan kostnad, innan ni bestämmer er.
 2. Svara med en tid – så ringer jag er eller {m["kontaktVal"]} i tio minuter.
+
+Ni behöver inte göra något själva – texter, bilder, domän och Google-uppgifter sköter jag.
 
 Varma hälsningar
 {s["namn"]} · {s["tel"]}
@@ -176,9 +155,9 @@ Oavsett vad ni väljer: lycka till.
     (ut / "mejl2.txt").write_text(f"Till: {m['till']}\nÄmne: Sv: {amne}\n\n{m2}")
     (ut / "mejl3.txt").write_text(f"Till: {m['till']}\nÄmne: Sv: {amne}\n\n{m3}")
     ord_ = len(m1.split())
-    lo, hi = (80, 170) if m.get("variant") == "B" else (190, 320)
+    lo, hi = 70, 175
     if not lo <= ord_ <= hi:
-        fel(f"mejl 1 har {ord_} ord – ska vara {lo}–{hi} (variant {m.get('variant', 'A')})")
+        fel(f"mejl 1 har {ord_} ord – ska vara {lo}–{hi} (sikta på ca 110–130; korta iakttagelse/problem)")
     if re.search(r"\[|\]|XXX", m1):
         fel("platshållare kvar i mejl 1")
     if d["namn"].split()[0] not in m1:
