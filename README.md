@@ -18,3 +18,7 @@ Mappar som börjar med `_` publiceras inte av GitHub Pages.
 - Domän upptagen (Shopify-koll) → webbsök domänen; ingen sida → föreslå variant med ort (t.ex. kamochsaxvallentuna.se).
 - Sökbudget (lärdom 2026-11-24): WebSearch har 200 sökningar per körning, delat av alla agenter. Börja med MECA:s översiktslista https://www.meca.se/hitta-verkstad – den visar e-post för alla MECA-verkstäder (gmail/hotmail/telia-adress = oftast ingen egen sida) – och sålla där innan du söker. Max 2 parallella agenter.
 - Google Maps och Pages-adressen går inte att hämta från molnmiljön – kontrollera publicering med GitHub-connectorn (filer + Actions "pages build and deployment").
+
+
+## Sista kontroll före utskick (sedan 24 nov)
+`python3 _verktyg/sista_kontroll.py <slug> … [--mejl 2|3]` kontrollerar mottagare, företagsnamn, exakt en rätt länk, platshållare, Signatur (`class="bento`), enskild firma och `_verktyg/sparrlista.txt`, och skriver ut to/subject/body som JSON för send_message. Gmail-kontrollerna (tidigare mejl, avsändarnamn, taket) och kontroll.py körs fortfarande separat. Nytt nej → lägg adressen i sparrlista.txt.
