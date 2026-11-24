@@ -1,0 +1,265 @@
+{
+  "slug": "tagessons-bilservice",
+  "namn": "Tagessons Bilservice",
+  "bolag": "Tagessons Bilservice AB",
+  "bolagsform": "AB",
+  "logo": [
+    "Tagessons",
+    "Bilservice"
+  ],
+  "tema": "verkstad",
+  "schemaTyp": "AutoRepair",
+  "adress": "Drottninggatan 38",
+  "postnr": "285 31",
+  "stad": "Markaryd",
+  "lat": 56.464805,
+  "lng": 13.598805,
+  "telefon": "0433-127 00",
+  "telefonIntl": "+4643312700",
+  "bokning": null,
+  "instagram": null,
+  "facebook": null,
+  "betyg": [
+    {
+      "kalla": "Google",
+      "snitt": "4,2",
+      "antal": "29 omdömen"
+    }
+  ],
+  "oppettider": [
+    [
+      "Måndag",
+      7.5,
+      16.5
+    ],
+    [
+      "Tisdag",
+      7.5,
+      16.5
+    ],
+    [
+      "Onsdag",
+      7.5,
+      16.5
+    ],
+    [
+      "Torsdag",
+      7.5,
+      16.5
+    ],
+    [
+      "Fredag",
+      7.5,
+      16.5
+    ],
+    [
+      "Lördag",
+      null,
+      null
+    ],
+    [
+      "Söndag",
+      null,
+      null
+    ]
+  ],
+  "tjanster": {
+    "Verkstad": [
+      [
+        "Service och oljebyte",
+        "Personbilar",
+        "Ring för pris"
+      ],
+      [
+        "Bromsar",
+        "Skivor, klossar, trummor",
+        "Ring för pris"
+      ],
+      [
+        "Kamremsbyte",
+        "",
+        "Ring för pris"
+      ],
+      [
+        "Kopplingsbyte",
+        "",
+        "Ring för pris"
+      ],
+      [
+        "Hjulinställning",
+        "",
+        "Ring för pris"
+      ],
+      [
+        "El- och laddhybrid",
+        "Certifierad verkstad",
+        "Ring för pris"
+      ],
+      [
+        "Elektronikfelsökning",
+        "",
+        "Ring för pris"
+      ]
+    ],
+    "Däck & kaross": [
+      [
+        "Däckbyte och däckhotell",
+        "Även däckförsäljning",
+        "Ring för pris"
+      ],
+      [
+        "Glas och stenskott",
+        "",
+        "Ring för pris"
+      ],
+      [
+        "Plåt, lack och rostskydd",
+        "",
+        "Ring för pris"
+      ],
+      [
+        "Dragkrok och motorvärmare",
+        "",
+        "Ring för pris"
+      ],
+      [
+        "Rekond och tvätt",
+        "",
+        "Ring för pris"
+      ]
+    ],
+    "Fler fordon": [
+      [
+        "Husbil, husvagn och släp",
+        "",
+        "Ring för pris"
+      ],
+      [
+        "MC och moped",
+        "",
+        "Ring för pris"
+      ],
+      [
+        "Låne- och hyrbil",
+        "Hämtning och lämning",
+        "Ring för pris"
+      ]
+    ]
+  },
+  "varfor": [
+    {
+      "big": "4,2",
+      "titel": "av 5 på Google",
+      "text": "29 omdömen. Kunderna lyfter hjälpsam personal, snabb service och rimliga priser."
+    },
+    {
+      "big": "2014",
+      "titel": "sedan start",
+      "text": "Verkstaden på Drottninggatan har servat bilar i Markaryd i över tio år."
+    },
+    {
+      "big": "07:30",
+      "titel": "öppnar varje vardag",
+      "text": "Måndag–fredag 07:30–16:30. Lördag och söndag stängt."
+    }
+  ],
+  "faq": [
+    [
+      "Hur bokar jag tid?",
+      "Ring oss på 0433-127 00 under öppettiderna."
+    ],
+    [
+      "Har ni däckhotell?",
+      "Ja, och vi säljer och byter däck."
+    ],
+    [
+      "Servar ni el- och laddhybrider?",
+      "Ja, verkstaden är certifierad för el- och hybridbilar."
+    ],
+    [
+      "Kan jag lämna nyckeln utanför öppettid?",
+      "Ja, det finns nyckelinkast."
+    ],
+    [
+      "Var ligger ni?",
+      "På Drottninggatan 38 i Markaryd."
+    ]
+  ],
+  "seo": {
+    "title": "Tagessons Bilservice – Bilverkstad i Markaryd",
+    "description": "Service, däck, bromsar, kamrem, glas och plåt på Drottninggatan 38 i Markaryd. Ring 0433-127 00."
+  },
+  "text": {
+    "navTjanster": "Tjänster",
+    "tjanstRubrik": "Vad behöver bilen?",
+    "prisNot": "Ring för pris – verkstaden ger besked innan arbetet börjar.",
+    "tjanstCta": "Ring och boka",
+    "varforKicker": "Därför väljer Markaryd Tagessons",
+    "kontaktRubrik": "Behöver bilen hjälp?",
+    "kontaktText": "Ring oss för tidsbokning eller kom förbi under öppettiderna.",
+    "enhet": "jobb",
+    "enhetPlural": "jobb",
+    "pratText": "Vill ni ställa frågor innan ni bestämmer er? Jag ringer gärna, eller tar ett kort videosamtal – tio minuter räcker.",
+    "rubrik": "Bilservice på Drottninggatan i Markaryd",
+    "ingress": "Service, däck, bromsar, glas, plåt och rekond på Drottninggatan 38 i Markaryd. Ring och boka – vi berättar vad som behöver göras innan vi börjar.",
+    "varforRubrik": "Allt bilen behöver på ett ställe",
+    "pitchRubrik": "Tagessons Bilservice, kunderna hittar er på kartan – nu kan de hitta er på riktigt",
+    "pitchIngress": "Ni har redan det svåraste: nöjda kunder och ett snitt på 4,2. Det som saknas är en egen plats på nätet. Den här sidan är redan byggd och kan vara live på tagessonsbilservice.se inom 7 dagar."
+  },
+  "pitch": {
+    "snittpris": 2000,
+    "doman": "tagessonsbilservice.se",
+    "idag": [
+      "Den som googlar er hamnar på MECA:s kedjelista och i kataloger",
+      "Öppettiderna skiljer sig: 16.30 på ett ställe, 12 på ett annat",
+      "Två andra verkstäder i Markaryd har egna hemsidor",
+      "Allt ni gör – från kamrem till rekond – syns inte samlat"
+    ],
+    "medSida": [
+      "Egen adress, tagessonsbilservice.se, som ni äger",
+      "Rätt adress, nummer och öppettider på ett ställe",
+      "Visar om ni har öppet just nu – ett tryck för att ringa",
+      "Byggd för mobilen, där bilägare letar verkstad"
+    ]
+  },
+  "mejl": {
+    "till": "tagessons-bilservice@hotmail.com",
+    "amne": "Tagessons Bilservice, jag har byggt en hemsida åt er",
+    "hej": "Tagessons Bilservice",
+    "ert": "verkstaden",
+    "iakttagelse": "När jag letade bland bilverkstäder i Markaryd fastnade jag för Tagessons Bilservice: 4,2 på Google med 29 omdömen, och kunderna lyfter hjälpsam personal och snabb service.",
+    "problem": "Men en sak slog mig – ni har ingen egen hemsida. Den som googlar er hamnar i kataloger, där det står olika öppettider – 12 på ett ställe, 16.30 på ett annat.",
+    "fordelar": [
+      [
+        "Fler bokningar",
+        "Den som läser era omdömen kan ringa direkt med ett tryck."
+      ],
+      [
+        "Ni syns som er själva",
+        "Inte bara som en rad i en kedjelista bland andra verkstäder."
+      ],
+      [
+        "Rätt uppgifter överallt",
+        "Rätt adress, nummer och öppettider – inga missade samtal."
+      ],
+      [
+        "Den är er",
+        "Er egen adress, tagessonsbilservice.se, som ni äger och styr."
+      ]
+    ],
+    "prisJamforelse": "ungefär 400 kr i månaden under första året",
+    "kontaktVal": "tar ett kort videosamtal",
+    "psDatum": "8 december",
+    "variant": "B"
+  },
+  "kallor": [
+    "meca.se/hitta-verkstad/markaryd/tagessons-bilservice-ab – e-post tagessons-bilservice@hotmail.com, tel 0433-127 00, mån–fre 07.30–16.30, tjänster, ingen egen webbplats",
+    "kundernas.se/meca-bilservice-markaryd-tagessons-bilservice – Google 4,2 av 29, tider 07.30–12 (avviker från MECA, ej verifierad profil)",
+    "hitta.se – Tagessons Bilservice AB, registrerat 2014, ingen webbplats (bara Facebook)",
+    "Konkurrenter med egna sidor: bjornsautoservice.se, atdack.se",
+    "Shopify domänkoll 2026-11-24: tagessonsbilservice.se ledig"
+  ],
+  "status": {
+    "byggd": "2026-11-24"
+  }
+}

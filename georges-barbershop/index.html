@@ -434,6 +434,9 @@ $('faq').innerHTML=D.faq.map(f=>`<details><summary>${esc(f[0])}</summary><p>${es
 $('kontaktCta').innerHTML=(D.bokning?`<a class="btn" href="${esc(D.bokning)}" rel="noopener">${esc(book.label)} ${arrow}</a><a class="btn ghost" href="tel:${esc(D.telefonIntl)}">${esc(D.telefon)}</a>`:`<a class="btn" href="tel:${esc(D.telefonIntl)}">Ring ${esc(D.telefon)} ${arrow}</a>`)+(D.instagram?`<a class="btn ghost" href="${esc(D.instagram)}" rel="noopener">Instagram</a>`:'')+(D.facebook?`<a class="btn ghost" href="${esc(D.facebook)}" rel="noopener">Facebook</a>`:'');
 if(D.jobb){$('jobs').hidden=false;$('jobs').innerHTML=`<div><h3 style="color:#f6f3f1">${esc(D.jobb.titel)}</h3><p style="margin-top:6px">${esc(D.jobb.text)}</p></div>`+(D.jobb.tel?`<a class="btn ghost" href="tel:${esc(D.jobb.tel)}">Ring om jobbet</a>`:'')}
 $('word').textContent=D.logo.filter(Boolean).join(' ');
+/* Ordmärket i foten krymper tills hela namnet får plats (förbättring 24 nov) */
+const fitWord=()=>{const w=$('word');w.style.fontSize='';let fs=parseFloat(getComputedStyle(w).fontSize),n=0;while(w.scrollWidth>w.clientWidth+1&&fs>20&&n<60){fs*=.95;w.style.fontSize=fs+'px';n++}};
+fitWord();if(document.fonts&&document.fonts.ready)document.fonts.ready.then(fitWord);addEventListener('resize',fitWord);
 $('foot').textContent=`© ${D.bolag} · ${adr} · Förhandsvisning, ej publicerad`;
 $('dock').innerHTML=`<a class="main" href="${esc(book.href)}" rel="noopener">${esc(book.label)}</a>${D.bokning?`<a href="tel:${esc(D.telefonIntl)}">Ring</a>`:`<a href="#tjanster">Tjänster</a>`}<a href="#hitta">Hitta hit</a>`;
 const bg=$('burger'),dr=$('drawer');

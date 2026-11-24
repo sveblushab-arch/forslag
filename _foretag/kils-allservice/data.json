@@ -1,0 +1,233 @@
+{
+  "slug": "kils-allservice",
+  "namn": "Kils Allservice",
+  "bolag": "Kils Allservice AB",
+  "bolagsform": "AB",
+  "logo": [
+    "Kils",
+    "Allservice"
+  ],
+  "tema": "verkstad",
+  "schemaTyp": "AutoRepair",
+  "adress": "Årstidsvägen 16",
+  "postnr": "665 35",
+  "stad": "Kil",
+  "lat": null,
+  "lng": null,
+  "telefon": "0554-403 45",
+  "telefonIntl": "+4655440345",
+  "bokning": null,
+  "instagram": null,
+  "facebook": null,
+  "betyg": [
+    {
+      "kalla": "Google",
+      "snitt": "4,6",
+      "antal": "38 omdömen"
+    }
+  ],
+  "oppettider": [
+    [
+      "Måndag",
+      7,
+      17
+    ],
+    [
+      "Tisdag",
+      7,
+      17
+    ],
+    [
+      "Onsdag",
+      7,
+      17
+    ],
+    [
+      "Torsdag",
+      7,
+      17
+    ],
+    [
+      "Fredag",
+      7,
+      15
+    ],
+    [
+      "Lördag",
+      null,
+      null
+    ],
+    [
+      "Söndag",
+      null,
+      null
+    ]
+  ],
+  "tjanster": {
+    "Verkstad": [
+      [
+        "Service",
+        "Personbilar",
+        "Ring för pris"
+      ],
+      [
+        "Besiktning",
+        "",
+        "Ring för pris"
+      ],
+      [
+        "Felsökning elektronik",
+        "",
+        "Ring för pris"
+      ],
+      [
+        "El- och hybridbil",
+        "Certifierad verkstad",
+        "Ring för pris"
+      ],
+      [
+        "Rengöring av automatlådeolja",
+        "",
+        "Ring för pris"
+      ]
+    ],
+    "Kaross & mer": [
+      [
+        "Lackering",
+        "",
+        "Ring för pris"
+      ],
+      [
+        "Stenskottslagning",
+        "",
+        "Ring för pris"
+      ],
+      [
+        "Husbil och transportbil",
+        "Husbil utom bodelen",
+        "Ring för pris"
+      ],
+      [
+        "Låne- eller hyrbil",
+        "Medan bilen är inne",
+        "Ring för pris"
+      ]
+    ]
+  },
+  "varfor": [
+    {
+      "big": "4,6",
+      "titel": "av 5 på Google",
+      "text": "38 omdömen. Kunderna lyfter trevligt bemötande och snabb hjälp, även vid akuta stopp."
+    },
+    {
+      "big": "07–17",
+      "titel": "måndag–torsdag",
+      "text": "Tidig start på morgonen, fredagar till 15."
+    },
+    {
+      "big": "El & hybrid",
+      "titel": "certifierad verkstad",
+      "text": "Service och felsökning även på el- och hybridbilar."
+    }
+  ],
+  "faq": [
+    [
+      "Hur bokar jag tid?",
+      "Ring oss på 0554-403 45 under öppettiderna."
+    ],
+    [
+      "Servar ni el- och hybridbilar?",
+      "Ja, verkstaden är certifierad för el- och hybridbilar."
+    ],
+    [
+      "Kan jag få låne- eller hyrbil?",
+      "Ja, fråga när du bokar."
+    ],
+    [
+      "Har ni öppet på helgen?",
+      "Nej. Måndag–torsdag 07–17 och fredag 07–15."
+    ],
+    [
+      "Var ligger ni?",
+      "På Årstidsvägen 16 i Kil."
+    ]
+  ],
+  "seo": {
+    "title": "Kils Allservice – Bilverkstad i Kil",
+    "description": "Service, felsökning, el- och hybridbilar, lackering och stenskott på Årstidsvägen 16 i Kil. 4,6 på Google. Ring 0554-403 45."
+  },
+  "text": {
+    "navTjanster": "Tjänster",
+    "tjanstRubrik": "Vad behöver bilen?",
+    "prisNot": "Ring för pris – verkstaden ger besked innan arbetet börjar.",
+    "tjanstCta": "Ring och boka",
+    "varforKicker": "Därför väljer Kil Allservice",
+    "kontaktRubrik": "Behöver bilen hjälp?",
+    "kontaktText": "Ring oss för tidsbokning eller kom förbi under öppettiderna.",
+    "enhet": "jobb",
+    "enhetPlural": "jobb",
+    "pratText": "Vill ni ställa frågor innan ni bestämmer er? Jag ringer gärna, eller tar ett kort videosamtal – tio minuter räcker.",
+    "rubrik": "Service och reparationer i Kil",
+    "ingress": "Service, felsökning, lackering och el- och hybridbilar på Årstidsvägen 16 i Kil. Ring och boka – vi berättar vad som behöver göras innan vi börjar.",
+    "varforRubrik": "Snabb hjälp när bilen krånglar",
+    "pitchRubrik": "Kils Allservice, kunderna hittar er på kartan – nu kan de hitta er på riktigt",
+    "pitchIngress": "Ni har redan det svåraste: nöjda kunder och ett snitt på 4,6. Det som saknas är en egen plats på nätet. Den här sidan är redan byggd och kan vara live på kilsallservice.se inom 7 dagar."
+  },
+  "pitch": {
+    "snittpris": 2000,
+    "doman": "kilsallservice.se",
+    "idag": [
+      "Den som googlar er hamnar på MECA:s kedjelista och i kataloger",
+      "En äldre katalog visar fortfarande handelsbolaget",
+      "En gammal katalog länkar till en hemsida som inte finns",
+      "Att ni servar el- och hybridbilar syns inte när någon söker"
+    ],
+    "medSida": [
+      "Egen adress, kilsallservice.se, som ni äger",
+      "Rätt adress, nummer och öppettider på ett ställe",
+      "Visar om ni har öppet just nu – ett tryck för att ringa",
+      "Byggd för mobilen, där bilägare letar verkstad"
+    ]
+  },
+  "mejl": {
+    "till": "kilsallservice@telia.com",
+    "amne": "Kils Allservice, jag har byggt en hemsida åt er",
+    "hej": "Kils Allservice",
+    "ert": "verkstaden",
+    "iakttagelse": "När jag letade bland bilverkstäder i Värmland fastnade jag för Kils Allservice: 4,6 på Google med 38 omdömen, och kunderna skriver om trevligt bemötande och snabb hjälp – även vid akuta stopp.",
+    "problem": "Men en sak slog mig – ni har ingen egen hemsida. Den som googlar er hamnar på MECA:s lista och i kataloger, och en av dem visar fortfarande det gamla handelsbolaget.",
+    "fordelar": [
+      [
+        "Fler bokningar",
+        "Den som läser era omdömen kan ringa direkt med ett tryck."
+      ],
+      [
+        "Ni syns som er själva",
+        "Inte bara som en rad i en kedjelista bland andra verkstäder."
+      ],
+      [
+        "Rätt uppgifter överallt",
+        "Rätt adress, nummer och öppettider – inga missade samtal."
+      ],
+      [
+        "Den är er",
+        "Er egen adress, kilsallservice.se, som ni äger och styr."
+      ]
+    ],
+    "prisJamforelse": "ungefär 400 kr i månaden under första året",
+    "kontaktVal": "tar ett kort videosamtal",
+    "psDatum": "8 december",
+    "variant": "B"
+  },
+  "kallor": [
+    "meca.se/hitta-verkstad/kil/kils-allservice-ab – e-post kilsallservice@telia.com, tel 0554-403 45, mån–tor 07–17, fre 07–15, tjänster, ingen egen webbplats (hämtad igen 2026-11-24)",
+    "kundernas.se/meca-bilservice-kil-kils-allservice – Google 4,6 av 38, webb = MECA-sidan",
+    "allabolag.se – Kils Allservice AB, registrerat 2021, ordförande Ewa",
+    "bilverkstad.eu – gammal post för Kils Allservice HB med www.kilsallservice.se",
+    "Shopify domänkoll 2026-11-24: kilsallservice.se ledig (ej registrerad)"
+  ],
+  "status": {
+    "byggd": "2026-11-24"
+  }
+}

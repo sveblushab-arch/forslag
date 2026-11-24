@@ -1,0 +1,243 @@
+{
+  "slug": "autofix-ljungby",
+  "namn": "Autofix i Ljungby",
+  "bolag": "Autofix i Ljungby Handelsbolag",
+  "bolagsform": "HB",
+  "logo": [
+    "Autofix",
+    "Ljungby"
+  ],
+  "tema": "verkstad",
+  "schemaTyp": "AutoRepair",
+  "adress": "Kånnavägen 7",
+  "postnr": "341 31",
+  "stad": "Ljungby",
+  "lat": 56.828042,
+  "lng": 13.927292,
+  "telefon": "0372-199 00",
+  "telefonIntl": "+4637219900",
+  "bokning": null,
+  "instagram": null,
+  "facebook": null,
+  "betyg": [
+    {
+      "kalla": "Google",
+      "snitt": "4,8",
+      "antal": "65 omdömen"
+    }
+  ],
+  "oppettider": [
+    [
+      "Måndag",
+      8,
+      17
+    ],
+    [
+      "Tisdag",
+      8,
+      17
+    ],
+    [
+      "Onsdag",
+      8,
+      17
+    ],
+    [
+      "Torsdag",
+      8,
+      17
+    ],
+    [
+      "Fredag",
+      8,
+      17
+    ],
+    [
+      "Lördag",
+      null,
+      null
+    ],
+    [
+      "Söndag",
+      null,
+      null
+    ]
+  ],
+  "tjanster": {
+    "Verkstad": [
+      [
+        "Service",
+        "Personbilar",
+        "Ring för pris"
+      ],
+      [
+        "Kamremsbyte",
+        "",
+        "Ring för pris"
+      ],
+      [
+        "Bromsfelsökning",
+        "",
+        "Ring för pris"
+      ],
+      [
+        "Elektronikfelsökning",
+        "",
+        "Ring för pris"
+      ],
+      [
+        "Batteribyte och batteritest",
+        "",
+        "Ring för pris"
+      ],
+      [
+        "Lampbyte",
+        "",
+        "Ring för pris"
+      ]
+    ],
+    "AC & däck": [
+      [
+        "AC-service och reparation",
+        "",
+        "Ring för pris"
+      ],
+      [
+        "Däckbyte och hjulskifte",
+        "",
+        "Ring för pris"
+      ],
+      [
+        "Däckhotell",
+        "",
+        "Ring för pris"
+      ],
+      [
+        "Balansering",
+        "",
+        "Ring för pris"
+      ],
+      [
+        "Lätta lastbilar och släp",
+        "",
+        "Ring för pris"
+      ]
+    ]
+  },
+  "varfor": [
+    {
+      "big": "4,8",
+      "titel": "av 5 på Google",
+      "text": "65 omdömen. Kunderna lyfter kunnig personal, noggranna reparationer och rimliga priser."
+    },
+    {
+      "big": "2013",
+      "titel": "sedan start",
+      "text": "Verkstaden på Kånnavägen har hjälpt bilägare i Ljungby i över tio år."
+    },
+    {
+      "big": "08–17",
+      "titel": "måndag–fredag",
+      "text": "Samma tider hela veckan – lördag och söndag stängt."
+    }
+  ],
+  "faq": [
+    [
+      "Hur bokar jag tid?",
+      "Ring oss på 0372-199 00 under öppettiderna."
+    ],
+    [
+      "Gör ni AC-service?",
+      "Ja, både AC-service, kontroll och reparation."
+    ],
+    [
+      "Har ni däckhotell?",
+      "Ja, och vi byter och balanserar däck."
+    ],
+    [
+      "Har ni öppet på helgen?",
+      "Nej. Måndag–fredag 08–17."
+    ],
+    [
+      "Var ligger ni?",
+      "På Kånnavägen 7 i Ljungby."
+    ]
+  ],
+  "seo": {
+    "title": "Autofix i Ljungby – Bilverkstad i Ljungby",
+    "description": "Service, AC, däck, kamrem och felsökning på Kånnavägen 7 i Ljungby. 4,8 på Google. Ring 0372-199 00."
+  },
+  "text": {
+    "navTjanster": "Tjänster",
+    "tjanstRubrik": "Vad behöver bilen?",
+    "prisNot": "Ring för pris – verkstaden ger besked innan arbetet börjar.",
+    "tjanstCta": "Ring och boka",
+    "varforKicker": "Därför väljer Ljungby Autofix",
+    "kontaktRubrik": "Behöver bilen hjälp?",
+    "kontaktText": "Ring oss för tidsbokning eller kom förbi under öppettiderna.",
+    "enhet": "jobb",
+    "enhetPlural": "jobb",
+    "pratText": "Vill ni ställa frågor innan ni bestämmer er? Jag ringer gärna, eller tar ett kort videosamtal – tio minuter räcker.",
+    "rubrik": "Bilverkstad på Kånnavägen i Ljungby",
+    "ingress": "Service, AC, däckbyte, kamrem och felsökning på Kånnavägen 7 i Ljungby. Ring och boka – vi berättar vad som behöver göras innan vi börjar.",
+    "varforRubrik": "Kunnigt, noggrant och nära",
+    "pitchRubrik": "Autofix i Ljungby, kunderna hittar er på kartan – nu kan de hitta er på riktigt",
+    "pitchIngress": "Ni har redan det svåraste: nöjda kunder och ett snitt på 4,8. Det som saknas är en egen plats på nätet. Den här sidan är redan byggd och kan vara live på autofixiljungby.se inom 7 dagar."
+  },
+  "pitch": {
+    "snittpris": 2000,
+    "doman": "autofixiljungby.se",
+    "idag": [
+      "Den som googlar er hamnar på MECA:s kedjelista och i kataloger",
+      "Ett svagt Trustpilot-betyg drar ned ert snitt på jämförelsesajter",
+      "Andra verkstäder i Ljungby har egna hemsidor",
+      "AC, däckhotell och kamrem syns inte samlat någonstans"
+    ],
+    "medSida": [
+      "Egen adress, autofixiljungby.se, som ni äger",
+      "Rätt adress, nummer och öppettider på ett ställe",
+      "Visar om ni har öppet just nu – ett tryck för att ringa",
+      "Byggd för mobilen, där bilägare letar verkstad"
+    ]
+  },
+  "mejl": {
+    "till": "autofix@hotmail.se",
+    "amne": "Autofix i Ljungby, jag har byggt en hemsida åt er",
+    "hej": "Autofix i Ljungby",
+    "ert": "verkstaden",
+    "iakttagelse": "När jag letade bland bilverkstäder i Ljungby fastnade jag för Autofix i Ljungby: 4,8 på Google med 65 omdömen, och kunderna lyfter kunnig personal och rimliga priser.",
+    "problem": "Men en sak slog mig – ni har ingen egen hemsida. Den som googlar er hamnar på MECA:s lista och i kataloger, medan andra verkstäder i Ljungby har egna sidor.",
+    "fordelar": [
+      [
+        "Fler bokningar",
+        "Den som läser era omdömen kan ringa direkt med ett tryck."
+      ],
+      [
+        "Ni syns som er själva",
+        "Inte bara som en rad i en kedjelista bland andra verkstäder."
+      ],
+      [
+        "Rätt uppgifter överallt",
+        "Rätt adress, nummer och öppettider – inga missade samtal."
+      ],
+      [
+        "Den är er",
+        "Er egen adress, autofixiljungby.se, som ni äger och styr."
+      ]
+    ],
+    "prisJamforelse": "ungefär 400 kr i månaden under första året",
+    "kontaktVal": "tar ett kort videosamtal",
+    "psDatum": "8 december",
+    "variant": "A"
+  },
+  "kallor": [
+    "meca.se/hitta-verkstad/ljungby/autofix-i-ljungby-hb – e-post autofix@hotmail.se, tel 0372-199 00, mån–fre 08–17, tjänster, ingen egen webbplats",
+    "kundernas.se/meca-bilservice-ljungby-autofix-i-ljungby – Google 4,8 av 65, Trustpilot 2,0 av 11, mån–fre 08–17",
+    "allabolag.se – Autofix i Ljungby Handelsbolag, registrerat 2013, Kånnavägen 7, ingen webbplats",
+    "Konkurrent med egen sida: Björn & Tommy Bilservice (btbilservice.se)",
+    "Shopify domänkoll 2026-11-24: autofixljungby.se upptagen, autofixiljungby.se ledig"
+  ],
+  "status": {
+    "byggd": "2026-11-24"
+  }
+}

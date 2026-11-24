@@ -1,0 +1,197 @@
+{
+  "slug": "varnamo-bil-mc",
+  "namn": "Värnamo Bil & MC-service",
+  "bolag": "Värnamo Bil & Mc-Service AB",
+  "bolagsform": "AB",
+  "logo": [
+    "Värnamo",
+    "Bil & MC"
+  ],
+  "tema": "verkstad",
+  "schemaTyp": "AutoRepair",
+  "adress": "Smedgatan 32",
+  "postnr": "331 35",
+  "stad": "Värnamo",
+  "lat": 57.1897177,
+  "lng": 14.0340118,
+  "telefon": "0370-469 20",
+  "telefonIntl": "+4637046920",
+  "bokning": null,
+  "instagram": null,
+  "facebook": null,
+  "betyg": [
+    {
+      "kalla": "Google",
+      "snitt": "4,7",
+      "antal": "67 omdömen"
+    }
+  ],
+  "oppettider": [
+    [
+      "Måndag",
+      7,
+      17
+    ],
+    [
+      "Tisdag",
+      7,
+      17
+    ],
+    [
+      "Onsdag",
+      7,
+      17
+    ],
+    [
+      "Torsdag",
+      7,
+      17
+    ],
+    [
+      "Fredag",
+      7,
+      17
+    ],
+    [
+      "Lördag",
+      null,
+      null
+    ],
+    [
+      "Söndag",
+      null,
+      null
+    ]
+  ],
+  "tjanster": {
+    "Verkstad": [
+      [
+        "Bilservice",
+        "Personbilar",
+        "Ring för pris"
+      ],
+      [
+        "Reparationer",
+        "",
+        "Ring för pris"
+      ],
+      [
+        "MC-service",
+        "",
+        "Ring för pris"
+      ]
+    ]
+  },
+  "varfor": [
+    {
+      "big": "4,7",
+      "titel": "av 5 på Google",
+      "text": "67 omdömen. Kunderna beskriver professionell och snabb service till ett bra pris."
+    },
+    {
+      "big": "1990",
+      "titel": "sedan start",
+      "text": "Verkstaden på Smedgatan har funnits i Värnamo i över 35 år."
+    },
+    {
+      "big": "07–17",
+      "titel": "måndag–fredag",
+      "text": "Tidig start varje vardag. Lördag och söndag stängt."
+    }
+  ],
+  "faq": [
+    [
+      "Hur bokar jag tid?",
+      "Ring oss på 0370-469 20 under öppettiderna."
+    ],
+    [
+      "Servar ni motorcyklar?",
+      "Ja, vi gör service på både bil och MC."
+    ],
+    [
+      "Har ni öppet på helgen?",
+      "Nej. Måndag–fredag 07–17."
+    ],
+    [
+      "Var ligger ni?",
+      "På Smedgatan 32 i Värnamo – tryck på Hitta hit för vägbeskrivning."
+    ]
+  ],
+  "seo": {
+    "title": "Värnamo Bil & MC-service – Bilverkstad i Värnamo",
+    "description": "Service och reparationer av bil och MC på Smedgatan 32 i Värnamo. 4,7 på Google. Ring 0370-469 20."
+  },
+  "text": {
+    "navTjanster": "Tjänster",
+    "tjanstRubrik": "Vad behöver bilen?",
+    "prisNot": "Ring för pris – verkstaden ger besked innan arbetet börjar.",
+    "tjanstCta": "Ring och boka",
+    "varforKicker": "Därför väljer Värnamo oss",
+    "kontaktRubrik": "Behöver bilen hjälp?",
+    "kontaktText": "Ring oss för tidsbokning eller kom förbi under öppettiderna.",
+    "enhet": "jobb",
+    "enhetPlural": "jobb",
+    "pratText": "Vill ni ställa frågor innan ni bestämmer er? Jag ringer gärna, eller tar ett kort videosamtal – tio minuter räcker.",
+    "rubrik": "Bil- och MC-service i Värnamo",
+    "ingress": "Service och reparationer för bil och motorcykel på Smedgatan 32 i Värnamo. Ring och boka – vi berättar vad som behöver göras innan vi börjar.",
+    "varforRubrik": "Snabbt, proffsigt och nära",
+    "pitchRubrik": "Värnamo Bil & MC-service, kunderna hittar er på kartan – nu kan de hitta er på riktigt",
+    "pitchIngress": "Ni har redan det svåraste: nöjda kunder och ett snitt på 4,7. Det som saknas är en egen plats på nätet. Den här sidan är redan byggd och kan vara live på varnamobilomc.se inom 7 dagar."
+  },
+  "pitch": {
+    "snittpris": 2000,
+    "doman": "varnamobilomc.se",
+    "idag": [
+      "Google-profilen länkar till MECA:s kedjesida",
+      "hitta.se visar 2,5 i betyg – långt under era 4,7 på Google",
+      "En kund skriver att verkstaden kan vara svår att hitta",
+      "Konkurrenter i Värnamo syns med fler omdömen"
+    ],
+    "medSida": [
+      "Egen adress, varnamobilomc.se, som ni äger",
+      "Rätt adress, nummer och öppettider på ett ställe",
+      "Visar om ni har öppet just nu – ett tryck för att ringa",
+      "Byggd för mobilen, där bilägare letar verkstad"
+    ]
+  },
+  "mejl": {
+    "till": "vmobilomc@gmail.com",
+    "amne": "Värnamo Bil & MC-service, jag har byggt en hemsida åt er",
+    "hej": "Värnamo Bil & MC-service",
+    "ert": "verkstaden",
+    "iakttagelse": "När jag letade bland bilverkstäder i Värnamo fastnade jag för Värnamo Bil & MC-service: 4,7 på Google med 67 omdömen, och kunderna beskriver professionell och snabb service till ett bra pris.",
+    "problem": "Men en sak slog mig – ni har ingen egen hemsida. Google-profilen länkar till MECA:s kedjesida, och på hitta.se står ett betyg på 2,5 – långt under era 4,7.",
+    "fordelar": [
+      [
+        "Fler bokningar",
+        "Den som läser era omdömen kan ringa direkt med ett tryck."
+      ],
+      [
+        "Ni syns som er själva",
+        "Inte bara som en rad i en kedjelista bland andra verkstäder."
+      ],
+      [
+        "Rätt uppgifter överallt",
+        "Rätt adress, nummer och öppettider – inga missade samtal."
+      ],
+      [
+        "Den är er",
+        "Er egen adress, varnamobilomc.se, som ni äger och styr."
+      ]
+    ],
+    "prisJamforelse": "ungefär 400 kr i månaden under första året",
+    "kontaktVal": "tar ett kort videosamtal",
+    "psDatum": "8 december",
+    "variant": "A"
+  },
+  "kallor": [
+    "meca.se hitta-verkstad-listan – Värnamo Bil & MC-service AB, Smedgatan 32, 0370-46920, vmobilomc@gmail.com, mån–fre 07–17",
+    "kundernas.se/meca-bilservice-varnamo-varnamo-bil-mc-service – Google 4,7 av 67, webb = MECA-sidan, mån–fre 07–17, koordinater",
+    "hitta.se – Värnamo Bil & Mc-Service AB, aktiebolag, registrerat 1990, webb bara MECA-länk, Reco 2,5 av 2",
+    "reco.se – ingen egen webbplats",
+    "Shopify domänkoll 2026-11-24: varnamobilomc.se ledig"
+  ],
+  "status": {
+    "byggd": "2026-11-24"
+  }
+}

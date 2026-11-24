@@ -1,0 +1,234 @@
+{
+  "slug": "barbertop-hedemora",
+  "namn": "BarberTOP",
+  "bolag": "Barber Top Hedemora AB",
+  "bolagsform": "AB",
+  "logo": [
+    "Barber",
+    "TOP"
+  ],
+  "tema": "salong",
+  "schemaTyp": "HairSalon",
+  "adress": "Åsgatan 57",
+  "postnr": "776 31",
+  "stad": "Hedemora",
+  "lat": null,
+  "lng": null,
+  "telefon": "073-582 22 35",
+  "telefonIntl": "+46735822235",
+  "bokning": "https://www.bokadirekt.se/places/barbertop-45804",
+  "instagram": null,
+  "facebook": null,
+  "betyg": [
+    {
+      "kalla": "Bokadirekt",
+      "snitt": "4,9",
+      "antal": "499 betyg"
+    }
+  ],
+  "oppettider": [
+    [
+      "Måndag",
+      10,
+      18
+    ],
+    [
+      "Tisdag",
+      10,
+      18
+    ],
+    [
+      "Onsdag",
+      10,
+      18
+    ],
+    [
+      "Torsdag",
+      10,
+      18
+    ],
+    [
+      "Fredag",
+      10,
+      18
+    ],
+    [
+      "Lördag",
+      10,
+      14
+    ],
+    [
+      "Söndag",
+      null,
+      null
+    ]
+  ],
+  "tjanster": {
+    "Herr": [
+      [
+        "Herrklippning",
+        "",
+        "från 400 kr"
+      ],
+      [
+        "Fadeklippning",
+        "",
+        "från 400 kr"
+      ],
+      [
+        "Klippning med skägg",
+        "",
+        "från 750 kr"
+      ],
+      [
+        "Trimma långskägg",
+        "",
+        "från 400 kr"
+      ]
+    ],
+    "Dam, barn & pension": [
+      [
+        "Damklippning, kort hår",
+        "",
+        "från 400 kr"
+      ],
+      [
+        "Damklippning, långt hår",
+        "",
+        "från 500 kr"
+      ],
+      [
+        "Barn under 10 år",
+        "",
+        "från 300 kr"
+      ],
+      [
+        "Barn 11–14 år",
+        "",
+        "från 350 kr"
+      ],
+      [
+        "Pensionärsklippning",
+        "",
+        "från 300 kr"
+      ]
+    ]
+  },
+  "varfor": [
+    {
+      "big": "499",
+      "titel": "betyg på Bokadirekt",
+      "text": "Snitt 4,9 – nästan nio av tio ger full pott."
+    },
+    {
+      "big": "300 kr",
+      "titel": "barn och pensionärer",
+      "text": "Barnklippning under 10 år och pensionärsklippning från 300 kr."
+    },
+    {
+      "big": "6 dagar",
+      "titel": "i veckan",
+      "text": "Vardagar 10–18 och lördag 10–14 på Åsgatan 57."
+    }
+  ],
+  "faq": [
+    [
+      "Hur bokar jag tid?",
+      "Boka online via knappen \"Boka tid\" eller ring 073-582 22 35."
+    ],
+    [
+      "Klipper ni damer och barn?",
+      "Ja. Damklippning från 400 kr, barn under 10 år från 300 kr."
+    ],
+    [
+      "Vad kostar klippning med skägg?",
+      "Från 750 kr."
+    ],
+    [
+      "Har ni öppet på söndagar?",
+      "Nej. Vardagar 10–18 och lördag 10–14."
+    ],
+    [
+      "Var ligger ni?",
+      "På Åsgatan 57 i Hedemora."
+    ]
+  ],
+  "seo": {
+    "title": "BarberTOP – Barberare i Hedemora",
+    "description": "Barberare på Åsgatan 57 i Hedemora. Herrklippning, fade, skägg, dam- och barnklippning. 4,9 på Bokadirekt. Boka online."
+  },
+  "text": {
+    "navTjanster": "Priser",
+    "tjanstRubrik": "Vad vill du göra idag?",
+    "tjanstCta": "Se lediga tider",
+    "kontaktRubrik": "Dags för en ny klippning?",
+    "enhet": "besök",
+    "enhetPlural": "besök",
+    "pratText": "Vill ni ställa frågor innan ni bestämmer er? Jag ringer gärna, eller tar ett kort videosamtal – tio minuter räcker.",
+    "rubrik": "Barberare mitt i Hedemora",
+    "ingress": "Herrklippning, fade och skägg – och klippning för damer, barn och pensionärer – på Åsgatan 57 i Hedemora. Boka online eller ring.",
+    "prisNot": "Priser från salongens prislista på Bokadirekt, november 2026. Se exakta priser och lediga tider när du bokar.",
+    "varforKicker": "Därför väljer Hedemora BarberTOP",
+    "varforRubrik": "Nästan bara femmor",
+    "kontaktText": "Boka online dygnet runt, ring oss eller titta in på Åsgatan 57.",
+    "pitchRubrik": "BarberTOP, era kunder letar efter er på Google – nu kan de hitta er",
+    "pitchIngress": "Ni har redan det svåraste: 499 betyg med snittet 4,9. Det som saknas är en egen plats på nätet där det blir till bokningar. Den här sidan är redan byggd och kan vara live på barbertophedemora.se inom 7 dagar."
+  },
+  "pitch": {
+    "snittpris": 420,
+    "doman": "barbertophedemora.se",
+    "idag": [
+      "Den som googlar er hamnar på Bokadirekt och i kataloger",
+      "Namnet stavas olika på nätet – BarberTOP och Barber Top",
+      "Lördagens öppettider skiljer sig mellan sajterna",
+      "Instagramlänken på Bokadirekt fungerar inte"
+    ],
+    "medSida": [
+      "Egen adress, barbertophedemora.se, som ni äger",
+      "Rätt nummer, öppettider och priser – allt på ett ställe",
+      "Visar om ni har öppet just nu, och bokning ett tryck bort",
+      "Byggd för mobilen, där de flesta letar efter barberare"
+    ]
+  },
+  "mejl": {
+    "till": "barbertop.hedemora@gmail.com",
+    "amne": "BarberTOP, jag har byggt en hemsida åt er",
+    "hej": "BarberTOP",
+    "ert": "salongen",
+    "iakttagelse": "När jag letade bland barberare i Hedemora fastnade jag för BarberTOP: 499 betyg på Bokadirekt med ett snitt på 4,9 – nästan nio av tio ger full pott.",
+    "problem": "Men en sak slog mig – ni har ingen egen hemsida. Den som googlar er hamnar på Bokadirekt och i kataloger, och där står olika öppettider för lördag.",
+    "fordelar": [
+      [
+        "Fler bokningar",
+        "Den som läser era betyg hittar priser, tider och en bokningsknapp på en gång."
+      ],
+      [
+        "Ni syns för allt ni gör",
+        "Fade, skägg, dam-, barn- och pensionärsklippning får egna platser."
+      ],
+      [
+        "Rätt uppgifter överallt",
+        "Rätt nummer, öppettider och priser – inga missade kunder."
+      ],
+      [
+        "Den är er",
+        "Er egen adress, inte en plattform som kan ändra reglerna."
+      ]
+    ],
+    "prisJamforelse": "ungefär 400 kr i månaden under första året",
+    "kontaktVal": "tar ett kort videosamtal",
+    "psDatum": "8 december",
+    "variant": "A"
+  },
+  "kallor": [
+    "bokadirekt.se/places/barbertop-45804 – adress, telefon, e-post barbertop.hedemora@gmail.com (under Länkar), öppettider, 4,9 av 499 betyg (437 femmor), tjänster och priser, ingen hemsida",
+    "allabolag.se – Barber Top Hedemora AB, aktiebolag, registrerat 2024",
+    "hitta.se – Barber Top Hedemora AB, Åsgatan 57, ingen hemsida",
+    "onlinefrisör.se – samma e-post, ingen hemsida",
+    "yourwellbeing.se – Google 4,6, mån–lör 10–18 (avviker från Bokadirekt på lördag)",
+    "Shopify domänkoll 2026-11-24: barbertophedemora.se ledig"
+  ],
+  "status": {
+    "byggd": "2026-11-24"
+  }
+}
