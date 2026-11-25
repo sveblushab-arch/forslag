@@ -41,7 +41,7 @@ def kontrollera(slug, nr):
     if namn and nr == 1 and namn not in body:
         fel.append(f"företagsnamnet '{namn}' saknas i texten")
     lankar = re.findall(r"https?://\S+", body)
-    ratt = f"https://sveblushab-arch.github.io/forslag/{slug}/#forslag"
+    ratt = f"https://forslag.sveblush.shop/{slug}/#forslag"
     utan_lank = nr == 1 and (data.get("mejl") or {}).get("variant") == "B" and (data.get("mejl") or {}).get("test") == "lank-2"  # test 2: förstamejl utan länk
     if utan_lank and lankar:
         fel.append(f"variant B ska inte ha någon länk i förstamejlet: {lankar}")

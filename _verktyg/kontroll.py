@@ -24,15 +24,17 @@ def kolla(pw, slug):
     if re.search(r"\b(?:\d{2})?\d{6}[-+]?\d{4}\b", re.sub(r"\+46\d+", "", html)): fel.append("id-nummer (org.nr/personnr) i sidan")
     if d.get("mejl", {}).get("till") and d["mejl"]["till"] in html: fel.append("mottagarens adress läcker in i sidan")
     if '"kallor":' in html or '"status": {' in html: fel.append("interna fält läcker in i sidan")
-    lank = f"/forslag/{slug}/#forslag"
+    # Ny adress från 25 nov: forslag.sveblush.shop/<slug>/ – gamla github.io/forslag/<slug>/ (redan skickade mejl) godkänns också
+    lankar = (f"forslag.sveblush.shop/{slug}/#forslag", f"/forslag/{slug}/#forslag")
+    har = lambda t: any(l in t for l in lankar)
     mj = d.get("mejl", {})
     if mj.get("variant") == "B" and mj.get("test") == "lank-2":
         # A/B-test 2: variant B ska SAKNA länk i förstamejlet – länken finns i mejl_lank.txt (och i påminnelse 1)
-        if "/forslag/" in m1: fel.append("variant B (lank-2) har länk i förstamejlet")
+        if "/forslag/" in m1 or "forslag.sveblush.shop" in m1: fel.append("variant B (lank-2) har länk i förstamejlet")
         ml = ROT / "_foretag" / slug / "mejl_lank.txt"
-        if not ml.exists() or lank not in ml.read_text(): fel.append("mejl_lank.txt saknar rätt länk")
-        if lank not in (ROT / "_foretag" / slug / "mejl2.txt").read_text(): fel.append("påminnelse 1 saknar länken")
-    elif lank not in m1: fel.append("fel länk i mejlet/manuset")
+        if not ml.exists() or not har(ml.read_text()): fel.append("mejl_lank.txt saknar rätt länk")
+        if not har((ROT / "_foretag" / slug / "mejl2.txt").read_text()): fel.append("påminnelse 1 saknar länken")
+    elif not har(m1): fel.append("fel länk i mejlet/manuset")
     if re.search(r"\[[^\]]*\]", m1): fel.append("hakparentes i mejlet")
     if d["telefon"].replace(" ", "")[:6] not in html.replace(" ", ""): fel.append("telefonnumret syns inte")
     b = pw.chromium.launch()

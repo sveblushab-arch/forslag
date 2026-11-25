@@ -4,7 +4,7 @@ Till: kilsallservice@telia.com
 Hej Kils Allservice,
 
 Tack! Här är sidan jag har byggt åt Kils Allservice:
-https://sveblushab-arch.github.io/forslag/kils-allservice/#forslag
+https://forslag.sveblush.shop/kils-allservice/#forslag
 
 Titta gärna på mobilen – det är där de flesta av era kunder kommer att se den. Säg till om något ska ändras, eller svara "ja" om ni vill att jag gör klart den. 4 900 kr en gång och 249 kr i månaden, exkl. moms – ni betalar först när ni är nöjda.
 

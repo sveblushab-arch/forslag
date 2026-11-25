@@ -1,5 +1,5 @@
 # Ringlista fredag 27 nov (efter påminnelse 1 kl. 09:30)
-Mejlade mån 23 nov, inget svar ännu. Manus: _verktyg/ringmanus.md. Länk: https://sveblushab-arch.github.io/forslag/<slug>/
+Mejlade mån 23 nov, inget svar ännu. Manus: _verktyg/ringmanus.md. Länk: https://forslag.sveblush.shop/<slug>/
 
 | # | Företag | Ort | Telefon | Fråga efter | Sida |
 |---|---|---|---|---|---|

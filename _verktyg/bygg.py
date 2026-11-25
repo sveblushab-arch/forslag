@@ -9,7 +9,7 @@ import json, sys, pathlib, re, datetime
 from teman import TEMAN, illustration
 
 ROT = pathlib.Path(__file__).resolve().parent.parent
-BAS_URL = "https://sveblushab-arch.github.io/forslag"
+BAS_URL = "https://forslag.sveblush.shop"
 KRAV = ["slug", "namn", "bolag", "bolagsform", "logo", "tema", "adress", "postnr", "stad", "telefon", "telefonIntl",
         "betyg", "oppettider", "tjanster", "varfor", "faq", "text", "pitch", "seo", "schemaTyp", "mejl"]
 TEXTKRAV = ["rubrik", "ingress", "tjanstRubrik", "prisNot", "varforKicker", "varforRubrik", "kontaktRubrik", "kontaktText",
