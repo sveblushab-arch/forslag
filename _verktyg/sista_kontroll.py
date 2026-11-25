@@ -46,7 +46,8 @@ def kontrollera(slug, nr):
     if utan_lank and lankar:
         fel.append(f"variant B ska inte ha någon länk i förstamejlet: {lankar}")
     elif (nr == 1 and not utan_lank) or nr == "_lank":
-        if lankar != [ratt]:
+        gammal = f"https://sveblushab-arch.github.io/forslag/{slug}/#forslag"  # byggt före 25 nov 08:20 – skickas vidare automatiskt
+        if lankar not in ([ratt], [gammal]):
             fel.append(f"länkar {lankar} – ska vara exakt [{ratt}]")
     if re.search(r"[\[\]{}]|XXX|TODO|<[a-z]", body + amne):
         fel.append("hakparenteser eller platshållare kvar")
