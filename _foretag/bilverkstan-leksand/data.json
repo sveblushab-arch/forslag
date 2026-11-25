@@ -1,0 +1,219 @@
+{
+  "slug": "bilverkstan-leksand",
+  "namn": "Bilverkstan i Leksand",
+  "bolag": "Bilverkstan i Leksand AB",
+  "bolagsform": "AB",
+  "logo": [
+    "Bilverkstan",
+    "i Leksand"
+  ],
+  "tema": "verkstad",
+  "schemaTyp": "AutoRepair",
+  "adress": "Övermo Maskinvägen 2",
+  "postnr": "793 35",
+  "stad": "Leksand",
+  "lat": 60.7225489,
+  "lng": 15.0195354,
+  "telefon": "0247-120 30",
+  "telefonIntl": "+4624712030",
+  "bokning": "https://boka.meca.se?workshop=6b84f1f0-a28f-e611-80e9-5065f38b3531",
+  "instagram": null,
+  "facebook": null,
+  "betyg": [
+    {
+      "kalla": "Google",
+      "snitt": "4,6",
+      "antal": "73 omdömen"
+    }
+  ],
+  "oppettider": [
+    [
+      "Måndag",
+      7,
+      16
+    ],
+    [
+      "Tisdag",
+      7,
+      16
+    ],
+    [
+      "Onsdag",
+      7,
+      16
+    ],
+    [
+      "Torsdag",
+      7,
+      16
+    ],
+    [
+      "Fredag",
+      7,
+      16
+    ],
+    [
+      "Lördag",
+      null,
+      null
+    ],
+    [
+      "Söndag",
+      null,
+      null
+    ]
+  ],
+  "tjanster": {
+    "Verkstad": [
+      [
+        "Service och reparation",
+        "Personbilar",
+        "Ring för pris"
+      ],
+      [
+        "El- och hybridbilar",
+        "Godkänd elbilverkstad",
+        "Ring för pris"
+      ],
+      [
+        "Felsökning",
+        "Elektronik och diagnos",
+        "Ring för pris"
+      ],
+      [
+        "Däckhotell",
+        "Förvaring av hjul",
+        "Ring för pris"
+      ],
+      [
+        "Stenskott",
+        "Lagning av stenskott",
+        "Ring för pris"
+      ],
+      [
+        "Lånebil",
+        "Låne- eller hyrbil",
+        "Ring för pris"
+      ]
+    ]
+  },
+  "varfor": [
+    {
+      "big": "4,6",
+      "titel": "av 5 på Google",
+      "text": "73 omdömen. En kund skriver att ni kunde klämma in extra reparationer med kort varsel."
+    },
+    {
+      "big": "6",
+      "titel": "tjänster under ett tak",
+      "text": "Från service till lånebil – ring och fråga vad bilen behöver."
+    },
+    {
+      "big": "07–16",
+      "titel": "måndag–fredag",
+      "text": "Måndag–fredag 07–16. Lördag och söndag stängt."
+    }
+  ],
+  "faq": [
+    [
+      "Hur bokar jag tid?",
+      "Boka online via knappen Boka eller ring oss på 0247-120 30."
+    ],
+    [
+      "Vad kostar det?",
+      "Ring för pris – verkstaden ger besked innan arbetet börjar."
+    ],
+    [
+      "Servar ni el- och hybridbilar?",
+      "Ja, verkstaden är certifierad för el- och hybridbilar."
+    ],
+    [
+      "Har ni öppet på helgen?",
+      "Nej. Måndag–fredag 07–16."
+    ],
+    [
+      "Var ligger ni?",
+      "På Övermo Maskinvägen 2 i Leksand – tryck på Hitta hit för vägbeskrivning."
+    ]
+  ],
+  "seo": {
+    "title": "Bilverkstan i Leksand – Bilverkstad i Leksand",
+    "description": "Service och reparation, El- och hybridbilar, Felsökning på Övermo Maskinvägen 2 i Leksand. 4,6 på Google. Ring 0247-120 30."
+  },
+  "text": {
+    "navTjanster": "Tjänster",
+    "tjanstRubrik": "Vad behöver bilen?",
+    "prisNot": "Ring för pris – verkstaden ger besked innan arbetet börjar.",
+    "tjanstCta": "Boka tid",
+    "varforKicker": "Därför väljer Leksand oss",
+    "kontaktRubrik": "Behöver bilen hjälp?",
+    "kontaktText": "Boka online, ring oss eller kom förbi under öppettiderna.",
+    "enhet": "jobb",
+    "enhetPlural": "jobb",
+    "pratText": "Vill ni ställa frågor innan ni bestämmer er? Jag ringer gärna, eller tar ett kort videosamtal – tio minuter räcker.",
+    "rubrik": "Bilverkstad i Leksand",
+    "ingress": "Service och reparationer – även el- och hybridbilar – på Övermo Maskinvägen 2 i Leksand. 4,6 på Google med 73 omdömen. Ring och boka – vi berättar vad som behöver göras innan vi börjar.",
+    "varforRubrik": "Snabbt, kunnigt och nära",
+    "pitchRubrik": "Bilverkstan i Leksand, kunderna hittar er på kartan – nu kan de hitta er på riktigt",
+    "pitchIngress": "Ni har redan det svåraste: nöjda kunder och ett snitt på 4,6. Det som saknas är en egen plats på nätet. Den här sidan är redan byggd och kan vara live på bilverkstanleksand.se inom 7 dagar."
+  },
+  "pitch": {
+    "snittpris": 2000,
+    "doman": "bilverkstanleksand.se",
+    "idag": [
+      "Två Google-profiler med olika adresser",
+      "Den ena anger stängning 12.00 i stället för 16",
+      "Båda länkar bara till MECA:s allmänna sida",
+      "Ingen egen hemsida med era tjänster"
+    ],
+    "medSida": [
+      "Egen adress, bilverkstanleksand.se, som ni äger",
+      "Rätt adress, nummer och öppettider på ett ställe",
+      "Visar om ni har öppet just nu – ett tryck för att ringa",
+      "Byggd för mobilen, där bilägare letar verkstad"
+    ]
+  },
+  "mejl": {
+    "till": "leksand@mecaverkstad.se",
+    "amne": "Bilverkstan i Leksand, jag har byggt en hemsida åt er",
+    "hej": "Bilverkstan i Leksand",
+    "ert": "verkstaden",
+    "iakttagelse": "Jag fastnade för Bilverkstan i Leksand: 4,6 på Google med 73 omdömen, och en kund fick extra reparationer inklämda med kort varsel.",
+    "problem": "Men ni har ingen egen hemsida, och på Google finns två profiler med olika adresser.",
+    "adressKalla": "MECA:s verkstadssida",
+    "fordelar": [
+      [
+        "Fler bokningar",
+        "Den som läser era omdömen kan ringa direkt med ett tryck."
+      ],
+      [
+        "Ni syns som er själva",
+        "Inte bara som en rad i en kedjelista bland andra verkstäder."
+      ],
+      [
+        "Rätt uppgifter överallt",
+        "Rätt adress, nummer och öppettider – inga missade samtal."
+      ],
+      [
+        "Den är er",
+        "Er egen adress, bilverkstanleksand.se, som ni äger och styr."
+      ]
+    ],
+    "prisJamforelse": "ungefär 400 kr i månaden under första året",
+    "kontaktVal": "tar ett kort videosamtal",
+    "psDatum": "9 december",
+    "variant": "B",
+    "test": "lank-2"
+  },
+  "kallor": [
+    "https://www.meca.se/hitta-verkstad/kalmar/bilcity-kalmar-ab – MECA:s lista: adress, telefon, e-post, öppettider, lunch, tjänster, bokningslänk, koordinater",
+    "https://kundernas.se/bilverkstan-i-leksand-ab-meca – Google-betyg 4,6 (73), telefon, webbplats meca.se, kundcitat",
+    "https://kundernas.se/meca-bilservice-leksand-bilverkstan-i-leksand – andra Google-profilen 4,8 (25) med adress Moskogevägen 25",
+    "syna.se – bolagsform AB (bekräftad av uppdragsgivaren enligt brief, ej omkontrollerad av mig)",
+    "Shopify domänkoll 2026-11-25: bilverkstanleksand.se ledig"
+  ],
+  "status": {
+    "byggd": "2026-11-25",
+    "variant": "B"
+  }
+}

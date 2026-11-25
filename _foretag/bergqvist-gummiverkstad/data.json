@@ -1,0 +1,219 @@
+{
+  "slug": "bergqvist-gummiverkstad",
+  "namn": "Bergqvist Gummiverkstad",
+  "bolag": "Bergqvist Gummiverkstad Aktiebolag",
+  "bolagsform": "AB",
+  "logo": [
+    "Bergqvist",
+    "Gummi"
+  ],
+  "tema": "verkstad",
+  "schemaTyp": "AutoRepair",
+  "adress": "Industrigatan 9",
+  "postnr": "686 30",
+  "stad": "Sunne",
+  "lat": 59.8332172,
+  "lng": 13.1498439,
+  "telefon": "0565-71 14 35",
+  "telefonIntl": "+46565711435",
+  "bokning": "https://boka.meca.se?workshop=92d779a8-f58e-e611-80f4-5065f38bc5d1",
+  "instagram": null,
+  "facebook": null,
+  "betyg": [
+    {
+      "kalla": "Google",
+      "snitt": "4,8",
+      "antal": "73 omdömen"
+    }
+  ],
+  "oppettider": [
+    [
+      "Måndag",
+      7,
+      16.5
+    ],
+    [
+      "Tisdag",
+      7,
+      16.5
+    ],
+    [
+      "Onsdag",
+      7,
+      16.5
+    ],
+    [
+      "Torsdag",
+      7,
+      16.5
+    ],
+    [
+      "Fredag",
+      7,
+      16.5
+    ],
+    [
+      "Lördag",
+      null,
+      null
+    ],
+    [
+      "Söndag",
+      null,
+      null
+    ]
+  ],
+  "tjanster": {
+    "Verkstad": [
+      [
+        "Däckbyte",
+        "Hjulskifte",
+        "Ring för pris"
+      ],
+      [
+        "Däckhotell",
+        "Förvaring av hjul",
+        "Ring för pris"
+      ],
+      [
+        "Hjulinställning",
+        "",
+        "Ring för pris"
+      ],
+      [
+        "Service",
+        "Service på personbilar",
+        "Ring för pris"
+      ],
+      [
+        "AC-service",
+        "Kontroll och reparation",
+        "Ring för pris"
+      ],
+      [
+        "Transportbilar",
+        "Service även på transportbilar",
+        "Ring för pris"
+      ]
+    ]
+  },
+  "varfor": [
+    {
+      "big": "4,8",
+      "titel": "av 5 på Google",
+      "text": "73 omdömen. Kunderna beskriver bra och snabb service och ett trevligt bemötande."
+    },
+    {
+      "big": "1992",
+      "titel": "sedan start",
+      "text": "Bergqvist Gummiverkstad har skött Sunnebornas däck i över 30 år."
+    },
+    {
+      "big": "5 dagar",
+      "titel": "i veckan",
+      "text": "Måndag–fredag 07–16.30. Lördag och söndag stängt."
+    }
+  ],
+  "faq": [
+    [
+      "Hur bokar jag tid?",
+      "Boka online via knappen Boka eller ring oss på 0565-71 14 35."
+    ],
+    [
+      "Vad kostar det?",
+      "Ring för pris – verkstaden ger besked innan arbetet börjar."
+    ],
+    [
+      "Har ni däckhotell?",
+      "Ja, vi förvarar era hjul mellan säsongerna."
+    ],
+    [
+      "Har ni öppet på helgen?",
+      "Nej. Måndag–fredag 07–16.30."
+    ],
+    [
+      "Var ligger ni?",
+      "På Industrigatan 9 i Sunne – tryck på Hitta hit för vägbeskrivning."
+    ]
+  ],
+  "seo": {
+    "title": "Bergqvist Gummiverkstad – Bilverkstad i Sunne",
+    "description": "Däckbyte, Däckhotell, Hjulinställning på Industrigatan 9 i Sunne. 4,8 på Google. Ring 0565-71 14 35."
+  },
+  "text": {
+    "navTjanster": "Tjänster",
+    "tjanstRubrik": "Vad behöver bilen?",
+    "prisNot": "Ring för pris – verkstaden ger besked innan arbetet börjar.",
+    "tjanstCta": "Boka tid",
+    "varforKicker": "Därför väljer Sunne oss",
+    "kontaktRubrik": "Behöver bilen hjälp?",
+    "kontaktText": "Boka online, ring oss eller kom förbi under öppettiderna.",
+    "enhet": "jobb",
+    "enhetPlural": "jobb",
+    "pratText": "Vill ni ställa frågor innan ni bestämmer er? Jag ringer gärna, eller tar ett kort videosamtal – tio minuter räcker.",
+    "rubrik": "Däck och service i Sunne",
+    "ingress": "Däckbyte och däckhotell på Industrigatan 9 i Sunne. 4,8 på Google med 73 omdömen. Ring och boka – vi berättar vad som behöver göras innan vi börjar.",
+    "varforRubrik": "Snabbt, kunnigt och nära",
+    "pitchRubrik": "Bergqvist Gummiverkstad, kunderna hittar er på kartan – nu kan de hitta er på riktigt",
+    "pitchIngress": "Ni har redan det svåraste: nöjda kunder och ett snitt på 4,8. Det som saknas är en egen plats på nätet. Den här sidan är redan byggd och kan vara live på bergqvistgummiverkstad.se inom 7 dagar."
+  },
+  "pitch": {
+    "snittpris": 2000,
+    "doman": "bergqvistgummiverkstad.se",
+    "idag": [
+      "Google-profilen heter First Stop Sunne och länkar till kedjan",
+      "hitta.se visar ingen webbplats",
+      "En äldre hitta.se-post har en annan adress, Strandvägen 23",
+      "Hjulinställning och AC syns inte när man googlar"
+    ],
+    "medSida": [
+      "Egen adress, bergqvistgummiverkstad.se, som ni äger",
+      "Rätt adress, nummer och öppettider på ett ställe",
+      "Visar om ni har öppet just nu – ett tryck för att ringa",
+      "Byggd för mobilen, där bilägare letar verkstad"
+    ]
+  },
+  "mejl": {
+    "till": "bergqvistgv.info@telia.com",
+    "amne": "Bergqvist Gummiverkstad, jag har byggt en hemsida åt er",
+    "hej": "Bergqvist Gummiverkstad",
+    "ert": "verkstaden",
+    "iakttagelse": "Jag fastnade för Bergqvist Gummiverkstad i Sunne: 4,8 på Google med 73 omdömen, och kunderna beskriver snabb service.",
+    "problem": "Men ni har ingen egen hemsida – Google-profilen länkar till First Stops kedjesida, inte till er.",
+    "adressKalla": "MECA:s verkstadssida",
+    "fordelar": [
+      [
+        "Fler bokningar",
+        "Den som läser era omdömen kan ringa direkt med ett tryck."
+      ],
+      [
+        "Ni syns som er själva",
+        "Inte bara som en rad i en kedjelista bland andra verkstäder."
+      ],
+      [
+        "Rätt uppgifter överallt",
+        "Rätt adress, nummer och öppettider – inga missade samtal."
+      ],
+      [
+        "Den är er",
+        "Er egen adress, bergqvistgummiverkstad.se, som ni äger och styr."
+      ]
+    ],
+    "prisJamforelse": "ungefär 400 kr i månaden under första året",
+    "kontaktVal": "tar ett kort videosamtal",
+    "psDatum": "9 december",
+    "variant": "A",
+    "test": "lank-2"
+  },
+  "kallor": [
+    "https://www.meca.se/hitta-verkstad/sunne/bergqvist-gummiverkstad-ab (via MECA:s listsida) – adress, telefon, e-post, öppettider, tjänster, koordinater, bokningslänk",
+    "https://dackplatsen.se/sunne/bergqvist-gummiverkstad-ab-first-stop – Google 4,8 (73), tider mån–fre 07–16.30",
+    "https://www.allabolag.se/foretag/bergqvist-gummiverkstad-aktiebolag/sunne/bilar/2K0ZNKUI5YCZW – aktiebolag, aktivt, reg. 1992, ingen webbplats",
+    "https://www.hitta.se/verksamhet/bergqvist-gummiverkstad-ab-first-stop-sunne-ccmpuvvb – telefon, ingen webbplats, omdömesteman",
+    "Shopify domänkoll 2026-11-25: bergqvistgummiverkstad.se ledig"
+  ],
+  "status": {
+    "byggd": "2026-11-25",
+    "variant": "A"
+  }
+}

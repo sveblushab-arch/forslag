@@ -1,0 +1,209 @@
+{
+  "slug": "ulricehamns-auto",
+  "namn": "Ulricehamns Auto",
+  "bolag": "Ulricehamns Auto AB",
+  "bolagsform": "AB",
+  "logo": [
+    "Ulricehamns",
+    "Auto"
+  ],
+  "tema": "verkstad",
+  "schemaTyp": "AutoRepair",
+  "adress": "Karlsnäsvägen 4",
+  "postnr": "523 37",
+  "stad": "Ulricehamn",
+  "lat": 57.804772,
+  "lng": 13.411249,
+  "telefon": "0321-134 66",
+  "telefonIntl": "+4632113466",
+  "bokning": "https://boka.mekopartner.se?workshop=3802-002",
+  "instagram": null,
+  "facebook": null,
+  "betyg": [
+    {
+      "kalla": "Google",
+      "snitt": "4,4",
+      "antal": "71 omdömen"
+    }
+  ],
+  "oppettider": [
+    [
+      "Måndag",
+      8,
+      17
+    ],
+    [
+      "Tisdag",
+      8,
+      17
+    ],
+    [
+      "Onsdag",
+      8,
+      17
+    ],
+    [
+      "Torsdag",
+      8,
+      17
+    ],
+    [
+      "Fredag",
+      8,
+      17
+    ],
+    [
+      "Lördag",
+      null,
+      null
+    ],
+    [
+      "Söndag",
+      null,
+      null
+    ]
+  ],
+  "tjanster": {
+    "Verkstad": [
+      [
+        "Däckbyte",
+        "Hjulskifte",
+        "Ring för pris"
+      ],
+      [
+        "Felsökning",
+        "Elektronik och diagnos",
+        "Ring för pris"
+      ],
+      [
+        "Husbil",
+        "Exklusive bodelen",
+        "Ring för pris"
+      ],
+      [
+        "Lätta lastbilar",
+        "",
+        "Ring för pris"
+      ],
+      [
+        "Lånebil",
+        "Låne- eller hyrbil",
+        "Ring för pris"
+      ]
+    ]
+  },
+  "varfor": [
+    {
+      "big": "4,4",
+      "titel": "av 5 på Google",
+      "text": "71 omdömen. Kunderna lyfter trevligt bemötande, snabb service och mycket kunnig personal."
+    },
+    {
+      "big": "2014",
+      "titel": "sedan start",
+      "text": "Ulricehamns Auto har funnits på Karlsnäsvägen sedan 2014."
+    },
+    {
+      "big": "08–17",
+      "titel": "måndag–fredag",
+      "text": "Måndag–fredag 08–17. Lördag och söndag stängt."
+    }
+  ],
+  "faq": [
+    [
+      "Hur bokar jag tid?",
+      "Boka online via knappen Boka eller ring oss på 0321-134 66."
+    ],
+    [
+      "Vad kostar det?",
+      "Ring för pris – verkstaden ger besked innan arbetet börjar."
+    ],
+    [
+      "Har ni öppet på helgen?",
+      "Nej. Måndag–fredag 08–17."
+    ],
+    [
+      "Var ligger ni?",
+      "På Karlsnäsvägen 4 i Ulricehamn – tryck på Hitta hit för vägbeskrivning."
+    ]
+  ],
+  "seo": {
+    "title": "Ulricehamns Auto – Bilverkstad i Ulricehamn",
+    "description": "Däckbyte, Felsökning, Husbil på Karlsnäsvägen 4 i Ulricehamn. 4,4 på Google. Ring 0321-134 66."
+  },
+  "text": {
+    "navTjanster": "Tjänster",
+    "tjanstRubrik": "Vad behöver bilen?",
+    "prisNot": "Ring för pris – verkstaden ger besked innan arbetet börjar.",
+    "tjanstCta": "Boka tid",
+    "varforKicker": "Därför väljer Ulricehamn oss",
+    "kontaktRubrik": "Behöver bilen hjälp?",
+    "kontaktText": "Boka online, ring oss eller kom förbi under öppettiderna.",
+    "enhet": "jobb",
+    "enhetPlural": "jobb",
+    "pratText": "Vill ni ställa frågor innan ni bestämmer er? Jag ringer gärna, eller tar ett kort videosamtal – tio minuter räcker.",
+    "rubrik": "Bilverkstad i Ulricehamn",
+    "ingress": "Däckbyte och felsökning på Karlsnäsvägen 4 i Ulricehamn. 4,4 på Google med 71 omdömen. Ring och boka – vi berättar vad som behöver göras innan vi börjar.",
+    "varforRubrik": "Snabbt, kunnigt och nära",
+    "pitchRubrik": "Ulricehamns Auto, kunderna hittar er på kartan – nu kan de hitta er på riktigt",
+    "pitchIngress": "Ni har redan det svåraste: nöjda kunder och ett snitt på 4,4. Det som saknas är en egen plats på nätet. Den här sidan är redan byggd och kan vara live på ulricehamnsauto.se inom 7 dagar."
+  },
+  "pitch": {
+    "snittpris": 2000,
+    "doman": "ulricehamnsauto.se",
+    "idag": [
+      "Google-profilen länkar till MekoPartners kedjesida",
+      "kundernas.se anger stängning 12.30 i stället för 17",
+      "Ingen egen hemsida med era tjänster",
+      "Kunder kan tro att ni har stängt på eftermiddagen"
+    ],
+    "medSida": [
+      "Egen adress, ulricehamnsauto.se, som ni äger",
+      "Rätt adress, nummer och öppettider på ett ställe",
+      "Visar om ni har öppet just nu – ett tryck för att ringa",
+      "Byggd för mobilen, där bilägare letar verkstad"
+    ]
+  },
+  "mejl": {
+    "till": "meka_dack_autoservice@hotmail.com",
+    "amne": "Ulricehamns Auto, jag har byggt en hemsida åt er",
+    "hej": "Ulricehamns Auto",
+    "ert": "verkstaden",
+    "iakttagelse": "Jag fastnade för Ulricehamns Auto i Ulricehamn: 4,4 på Google med 71 omdömen, och kunderna lyfter kunnig personal.",
+    "problem": "Men ni har ingen egen hemsida, och på kundernas.se står att ni stänger 12.30 – inte 17.",
+    "adressKalla": "MekoPartners verkstadssida",
+    "fordelar": [
+      [
+        "Fler bokningar",
+        "Den som läser era omdömen kan ringa direkt med ett tryck."
+      ],
+      [
+        "Ni syns som er själva",
+        "Inte bara som en rad i en kedjelista bland andra verkstäder."
+      ],
+      [
+        "Rätt uppgifter överallt",
+        "Rätt adress, nummer och öppettider – inga missade samtal."
+      ],
+      [
+        "Den är er",
+        "Er egen adress, ulricehamnsauto.se, som ni äger och styr."
+      ]
+    ],
+    "prisJamforelse": "ungefär 400 kr i månaden under första året",
+    "kontaktVal": "tar ett kort videosamtal",
+    "psDatum": "9 december",
+    "variant": "B",
+    "test": "lank-2"
+  },
+  "kallor": [
+    "https://www.mekopartner.se/hitta-verkstad/ – adress, telefon, e-post, öppettider, tjänster, bokningslänk",
+    "https://kundernas.se/mekopartner-bilverkstad-ulricehamn-ulricehamns-auto – Google-betyg 4,4 (71), koordinater, vad kunder lyfter",
+    "https://funnelfeedr.com/en/company/se/ulricehamns-auto-ab- – aktiebolag, aktivt, grundat 2014, webbplats mekopartner.se",
+    "Shopify domänkoll 2026-11-25: ulricehamnsauto.se ledig"
+  ],
+  "status": {
+    "byggd": "2026-11-25",
+    "variant": "B"
+  }
+}

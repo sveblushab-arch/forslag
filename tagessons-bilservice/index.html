@@ -437,6 +437,8 @@ $('word').textContent=D.logo.filter(Boolean).join(' ');
 /* Ordmärket i foten krymper tills hela namnet får plats (förbättring 24 nov) */
 const fitWord=()=>{const w=$('word');w.style.fontSize='';let fs=parseFloat(getComputedStyle(w).fontSize),n=0;while(w.scrollWidth>w.clientWidth+1&&fs>20&&n<60){fs*=.95;w.style.fontSize=fs+'px';n++}};
 fitWord();if(document.fonts&&document.fonts.ready)document.fonts.ready.then(fitWord);addEventListener('resize',fitWord);
+const fitBig=()=>document.querySelectorAll('.card .big').forEach(b=>{b.style.fontSize='';let fs=parseFloat(getComputedStyle(b).fontSize),n=0;const w=b.textContent;b.textContent=b.dataset.n||w;while(b.scrollWidth>b.clientWidth+1&&fs>24&&n<40){fs*=.94;b.style.fontSize=fs+'px';n++}b.textContent=w});
+fitBig();if(document.fonts&&document.fonts.ready)document.fonts.ready.then(fitBig);addEventListener('resize',fitBig);
 $('foot').textContent=`© ${D.bolag} · ${adr} · Förhandsvisning, ej publicerad`;
 $('dock').innerHTML=`<a class="main" href="${esc(book.href)}" rel="noopener">${esc(book.label)}</a>${D.bokning?`<a href="tel:${esc(D.telefonIntl)}">Ring</a>`:`<a href="#tjanster">Tjänster</a>`}<a href="#hitta">Hitta hit</a>`;
 const bg=$('burger'),dr=$('drawer');

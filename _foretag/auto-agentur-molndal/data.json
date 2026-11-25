@@ -1,0 +1,224 @@
+{
+  "slug": "auto-agentur-molndal",
+  "namn": "Auto-Agentur i Mölndal",
+  "bolag": "Auto-Agentur i Mölndal Aktiebolag",
+  "bolagsform": "AB",
+  "logo": [
+    "Auto-Agentur",
+    "Mölndal"
+  ],
+  "tema": "verkstad",
+  "schemaTyp": "AutoRepair",
+  "adress": "Möbelgatan 11",
+  "postnr": "431 33",
+  "stad": "Mölndal",
+  "lat": 57.642598,
+  "lng": 12.0297321,
+  "telefon": "031-87 70 55",
+  "telefonIntl": "+4631877055",
+  "bokning": null,
+  "instagram": null,
+  "facebook": null,
+  "betyg": [
+    {
+      "kalla": "Google",
+      "snitt": "4,8",
+      "antal": "36 omdömen"
+    }
+  ],
+  "oppettider": [
+    [
+      "Måndag",
+      7.5,
+      16.5
+    ],
+    [
+      "Tisdag",
+      7.5,
+      16.5
+    ],
+    [
+      "Onsdag",
+      7.5,
+      16.5
+    ],
+    [
+      "Torsdag",
+      7.5,
+      16.5
+    ],
+    [
+      "Fredag",
+      7,
+      15
+    ],
+    [
+      "Lördag",
+      null,
+      null
+    ],
+    [
+      "Söndag",
+      null,
+      null
+    ]
+  ],
+  "tjanster": {
+    "Verkstad": [
+      [
+        "Däckbyte",
+        "Hjulskifte",
+        "Ring för pris"
+      ],
+      [
+        "Däckhotell",
+        "Förvaring av hjul",
+        "Ring för pris"
+      ],
+      [
+        "Felsökning",
+        "Elektronik och diagnos",
+        "Ring för pris"
+      ],
+      [
+        "Plåt och lack",
+        "Kaross, plåt och lack",
+        "Ring för pris"
+      ],
+      [
+        "Stenskott",
+        "Lagning av stenskott",
+        "Ring för pris"
+      ],
+      [
+        "Husbil",
+        "",
+        "Ring för pris"
+      ],
+      [
+        "Lånebil",
+        "Låne- eller hyrbil",
+        "Ring för pris"
+      ]
+    ]
+  },
+  "varfor": [
+    {
+      "big": "4,8",
+      "titel": "av 5 på Google",
+      "text": "36 omdömen. Kunderna lyfter personlig service, ärlig hjälp i många år och snabbt däckbyte."
+    },
+    {
+      "big": "1990",
+      "titel": "sedan start",
+      "text": "Auto-Agentur har funnits på Möbelgatan i Mölndal i över 35 år."
+    },
+    {
+      "big": "5 dagar",
+      "titel": "i veckan",
+      "text": "Måndag–torsdag 07.30–16.30, fredag 07–15. Lördag och söndag stängt."
+    }
+  ],
+  "faq": [
+    [
+      "Hur bokar jag tid?",
+      "Ring oss på 031-87 70 55 under öppettiderna."
+    ],
+    [
+      "Vad kostar det?",
+      "Ring för pris – verkstaden ger besked innan arbetet börjar."
+    ],
+    [
+      "Har ni däckhotell?",
+      "Ja, vi förvarar era hjul mellan säsongerna."
+    ],
+    [
+      "Har ni öppet på helgen?",
+      "Nej. Måndag–torsdag 07.30–16.30, fredag 07–15."
+    ],
+    [
+      "Var ligger ni?",
+      "På Möbelgatan 11 i Mölndal – tryck på Hitta hit för vägbeskrivning."
+    ]
+  ],
+  "seo": {
+    "title": "Auto-Agentur i Mölndal – Bilverkstad i Mölndal",
+    "description": "Däckbyte, Däckhotell, Felsökning på Möbelgatan 11 i Mölndal. 4,8 på Google. Ring 031-87 70 55."
+  },
+  "text": {
+    "navTjanster": "Tjänster",
+    "tjanstRubrik": "Vad behöver bilen?",
+    "prisNot": "Ring för pris – verkstaden ger besked innan arbetet börjar.",
+    "tjanstCta": "Ring och boka",
+    "varforKicker": "Därför väljer Mölndal oss",
+    "kontaktRubrik": "Behöver bilen hjälp?",
+    "kontaktText": "Ring oss för tidsbokning eller kom förbi under öppettiderna.",
+    "enhet": "jobb",
+    "enhetPlural": "jobb",
+    "pratText": "Vill ni ställa frågor innan ni bestämmer er? Jag ringer gärna, eller tar ett kort videosamtal – tio minuter räcker.",
+    "rubrik": "Bilverkstad och däck i Mölndal",
+    "ingress": "Däckbyte och däckhotell på Möbelgatan 11 i Mölndal. 4,8 på Google med 36 omdömen. Ring och boka – vi berättar vad som behöver göras innan vi börjar.",
+    "varforRubrik": "Snabbt, kunnigt och nära",
+    "pitchRubrik": "Auto-Agentur i Mölndal, kunderna hittar er på kartan – nu kan de hitta er på riktigt",
+    "pitchIngress": "Ni har redan det svåraste: nöjda kunder och ett snitt på 4,8. Det som saknas är en egen plats på nätet. Den här sidan är redan byggd och kan vara live på autoagenturmolndal.se inom 7 dagar."
+  },
+  "pitch": {
+    "snittpris": 2000,
+    "doman": "autoagenturmolndal.se",
+    "idag": [
+      "Google-profilen länkar till MECA:s kedjesida",
+      "Google-profilen är inte verifierad",
+      "Reco listar er som \"AutoAgentur AB\" under Åkeri",
+      "Plåt, lack och stenskott syns inte när man googlar"
+    ],
+    "medSida": [
+      "Egen adress, autoagenturmolndal.se, som ni äger",
+      "Rätt adress, nummer och öppettider på ett ställe",
+      "Visar om ni har öppet just nu – ett tryck för att ringa",
+      "Byggd för mobilen, där bilägare letar verkstad"
+    ]
+  },
+  "mejl": {
+    "till": "mbhd@msn.com",
+    "amne": "Auto-Agentur i Mölndal, jag har byggt en hemsida åt er",
+    "hej": "Auto-Agentur i Mölndal",
+    "ert": "verkstaden",
+    "iakttagelse": "Jag fastnade för Auto-Agentur i Mölndal: 4,8 på Google med 36 omdömen, och kunderna lyfter ärlig, personlig service.",
+    "problem": "Men ni har ingen egen hemsida – Google länkar till MECA:s kedjesida, och Reco listar er som åkeri.",
+    "adressKalla": "MECA:s verkstadssida",
+    "fordelar": [
+      [
+        "Fler bokningar",
+        "Den som läser era omdömen kan ringa direkt med ett tryck."
+      ],
+      [
+        "Ni syns som er själva",
+        "Inte bara som en rad i en kedjelista bland andra verkstäder."
+      ],
+      [
+        "Rätt uppgifter överallt",
+        "Rätt adress, nummer och öppettider – inga missade samtal."
+      ],
+      [
+        "Den är er",
+        "Er egen adress, autoagenturmolndal.se, som ni äger och styr."
+      ]
+    ],
+    "prisJamforelse": "ungefär 400 kr i månaden under första året",
+    "kontaktVal": "tar ett kort videosamtal",
+    "psDatum": "9 december",
+    "variant": "B",
+    "test": "lank-2"
+  },
+  "kallor": [
+    "https://www.meca.se/hitta-verkstad/molndal/auto-agentur-i-molndal-ab – adress, telefon, e-post, öppettider, tjänster, koordinater (via MECA-listan)",
+    "https://kundernas.se/meca-bilservice-molndal-auto-agentur-i-molndal – Google-betyg 4,8 (36), öppettider, webbplats = MECA-sidan, vad kunder lyfter",
+    "https://www.allabolag.se/foretag/auto-agentur-i-m%C3%B6lndal-aktiebolag/m%C3%B6lndal/transportf%C3%B6rmedling/2K0MPEQI5YI2J – aktiebolag, aktivt, registrerat 1990, 3 anställda, ingen webbplats",
+    "https://www.reco.se/auto-agentur-i-molndal-ab-molndal – Reco-post utan webbplats",
+    "Shopify domänkoll 2026-11-25: autoagenturmolndal.se ledig"
+  ],
+  "status": {
+    "byggd": "2026-11-25",
+    "variant": "B"
+  }
+}

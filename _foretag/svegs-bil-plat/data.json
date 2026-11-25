@@ -1,0 +1,224 @@
+{
+  "slug": "svegs-bil-plat",
+  "namn": "Svegs Bil & Plåt",
+  "bolag": "Svegs Bil & Plåt AB",
+  "bolagsform": "AB",
+  "logo": [
+    "Svegs",
+    "Bil & Plåt"
+  ],
+  "tema": "verkstad",
+  "schemaTyp": "AutoRepair",
+  "adress": "Kyrkogatan 10",
+  "postnr": "842 32",
+  "stad": "Sveg",
+  "lat": 62.03292,
+  "lng": 14.35724,
+  "telefon": "0680-129 99",
+  "telefonIntl": "+4668012999",
+  "bokning": null,
+  "instagram": null,
+  "facebook": null,
+  "betyg": [
+    {
+      "kalla": "Google",
+      "snitt": "4,5",
+      "antal": "74 omdömen"
+    }
+  ],
+  "oppettider": [
+    [
+      "Måndag",
+      7,
+      17
+    ],
+    [
+      "Tisdag",
+      7,
+      17
+    ],
+    [
+      "Onsdag",
+      7,
+      17
+    ],
+    [
+      "Torsdag",
+      7,
+      17
+    ],
+    [
+      "Fredag",
+      7,
+      12
+    ],
+    [
+      "Lördag",
+      null,
+      null
+    ],
+    [
+      "Söndag",
+      null,
+      null
+    ]
+  ],
+  "tjanster": {
+    "Verkstad": [
+      [
+        "Service och reparation",
+        "Personbilar",
+        "Ring för pris"
+      ],
+      [
+        "Plåtverkstad",
+        "Egen plåtverkstad",
+        "Ring för pris"
+      ],
+      [
+        "AC-reparation",
+        "",
+        "Ring för pris"
+      ],
+      [
+        "Hjulinställning",
+        "",
+        "Ring för pris"
+      ],
+      [
+        "Däck och däckhotell",
+        "Försäljning och förvaring",
+        "Ring för pris"
+      ],
+      [
+        "El- och hybridbilar",
+        "Certifierad verkstad",
+        "Ring för pris"
+      ],
+      [
+        "Hämta och lämna",
+        "",
+        "Ring för pris"
+      ]
+    ]
+  },
+  "varfor": [
+    {
+      "big": "4,5",
+      "titel": "av 5 på Google",
+      "text": "74 omdömen. Kunderna lyfter kunniga mekaniker och akut hjälp när bilen strejkar mitt under resan."
+    },
+    {
+      "big": "7",
+      "titel": "tjänster under ett tak",
+      "text": "Från service till hämta och lämna – ring och fråga vad bilen behöver."
+    },
+    {
+      "big": "07–17",
+      "titel": "måndag–torsdag",
+      "text": "Måndag–torsdag 07–17, fredag 07–12. Lördag och söndag stängt."
+    }
+  ],
+  "faq": [
+    [
+      "Hur bokar jag tid?",
+      "Ring oss på 0680-129 99 under öppettiderna."
+    ],
+    [
+      "Vad kostar det?",
+      "Ring för pris – verkstaden ger besked innan arbetet börjar."
+    ],
+    [
+      "Servar ni el- och hybridbilar?",
+      "Ja, verkstaden är certifierad för el- och hybridbilar."
+    ],
+    [
+      "Har ni öppet på helgen?",
+      "Nej. Måndag–torsdag 07–17, fredag 07–12."
+    ],
+    [
+      "Var ligger ni?",
+      "På Kyrkogatan 10 i Sveg – tryck på Hitta hit för vägbeskrivning."
+    ]
+  ],
+  "seo": {
+    "title": "Svegs Bil & Plåt – Bilverkstad i Sveg",
+    "description": "Service och reparation, Plåtverkstad, AC-reparation på Kyrkogatan 10 i Sveg. 4,5 på Google. Ring 0680-129 99."
+  },
+  "text": {
+    "navTjanster": "Tjänster",
+    "tjanstRubrik": "Vad behöver bilen?",
+    "prisNot": "Ring för pris – verkstaden ger besked innan arbetet börjar.",
+    "tjanstCta": "Ring och boka",
+    "varforKicker": "Därför väljer Sveg oss",
+    "kontaktRubrik": "Behöver bilen hjälp?",
+    "kontaktText": "Ring oss för tidsbokning eller kom förbi under öppettiderna.",
+    "enhet": "jobb",
+    "enhetPlural": "jobb",
+    "pratText": "Vill ni ställa frågor innan ni bestämmer er? Jag ringer gärna, eller tar ett kort videosamtal – tio minuter räcker.",
+    "rubrik": "Bil och plåt i Sveg",
+    "ingress": "Service, reparationer och plåtverkstad på Kyrkogatan 10 i Sveg. 4,5 på Google med 74 omdömen. Ring och boka – vi berättar vad som behöver göras innan vi börjar.",
+    "varforRubrik": "Snabbt, kunnigt och nära",
+    "pitchRubrik": "Svegs Bil & Plåt, kunderna hittar er på kartan – nu kan de hitta er på riktigt",
+    "pitchIngress": "Ni har redan det svåraste: nöjda kunder och ett snitt på 4,5. Det som saknas är en egen plats på nätet. Den här sidan är redan byggd och kan vara live på svegsbilochplat.se inom 7 dagar."
+  },
+  "pitch": {
+    "snittpris": 2000,
+    "doman": "svegsbilochplat.se",
+    "idag": [
+      "Google-profilen länkar till Mekonomens gamla kedjesida",
+      "hitta.se visar ett annat telefonnummer",
+      "hitta.se saknar öppettider",
+      "Plåtverkstaden syns inte när man googlar"
+    ],
+    "medSida": [
+      "Egen adress, svegsbilochplat.se, som ni äger",
+      "Rätt adress, nummer och öppettider på ett ställe",
+      "Visar om ni har öppet just nu – ett tryck för att ringa",
+      "Byggd för mobilen, där bilägare letar verkstad"
+    ]
+  },
+  "mejl": {
+    "till": "sveg@mekopartner.se",
+    "amne": "Svegs Bil & Plåt, jag har byggt en hemsida åt er",
+    "hej": "Svegs Bil & Plåt",
+    "ert": "verkstaden",
+    "iakttagelse": "Jag fastnade för Svegs Bil & Plåt i Sveg: 4,5 på Google med 74 omdömen, och kunderna lyfter akut hjälp mitt under resan.",
+    "problem": "Men ni har ingen egen hemsida – Google länkar till Mekonomens gamla kedjesida, och hitta.se har ett annat nummer.",
+    "adressKalla": "MekoPartners verkstadssida",
+    "fordelar": [
+      [
+        "Fler bokningar",
+        "Den som läser era omdömen kan ringa direkt med ett tryck."
+      ],
+      [
+        "Ni syns som er själva",
+        "Inte bara som en rad i en kedjelista bland andra verkstäder."
+      ],
+      [
+        "Rätt uppgifter överallt",
+        "Rätt adress, nummer och öppettider – inga missade samtal."
+      ],
+      [
+        "Den är er",
+        "Er egen adress, svegsbilochplat.se, som ni äger och styr."
+      ]
+    ],
+    "prisJamforelse": "ungefär 400 kr i månaden under första året",
+    "kontaktVal": "tar ett kort videosamtal",
+    "psDatum": "9 december",
+    "variant": "B",
+    "test": "lank-2"
+  },
+  "kallor": [
+    "https://www.mekopartner.se/hitta-verkstad/ – adress, telefon, e-post, öppettider, tjänster, koordinater",
+    "https://kundernas.se/mekonomen-bilverkstad-sveg-svegs-bil-plat – Google-betyg 4,5 / 74, webbplats = Mekonomens kedjesida",
+    "https://www.allabolag.se/foretag/svegs-bil-pl%C3%A5t-ab/sveg/bilreparationer/2K2Y35VI5YD2A – aktiebolag",
+    "https://www.hitta.se/svegs+bil+och+pl%C3%A5t+ab/sveg/mmgvfhguv – aktiebolag, ingen webbplats",
+    "Shopify domänkoll 2026-11-25: svegsbilochplat.se ledig"
+  ],
+  "status": {
+    "byggd": "2026-11-25",
+    "variant": "B"
+  }
+}

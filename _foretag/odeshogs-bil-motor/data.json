@@ -1,0 +1,194 @@
+{
+  "slug": "odeshogs-bil-motor",
+  "namn": "Ödeshögs Bil & Motor",
+  "bolag": "Ödeshögs Bil- och Motor Aktiebolag",
+  "bolagsform": "AB",
+  "logo": [
+    "Ödeshögs",
+    "Bil & Motor"
+  ],
+  "tema": "verkstad",
+  "schemaTyp": "AutoRepair",
+  "adress": "Öningegatan 10",
+  "postnr": "599 33",
+  "stad": "Ödeshög",
+  "lat": 58.232837,
+  "lng": 14.652107,
+  "telefon": "0144-101 45",
+  "telefonIntl": "+4614410145",
+  "bokning": null,
+  "instagram": null,
+  "facebook": null,
+  "betyg": [
+    {
+      "kalla": "Google",
+      "snitt": "4,8",
+      "antal": "25 omdömen"
+    }
+  ],
+  "oppettider": [
+    [
+      "Måndag",
+      7,
+      16.5
+    ],
+    [
+      "Tisdag",
+      7,
+      16.5
+    ],
+    [
+      "Onsdag",
+      7,
+      16.5
+    ],
+    [
+      "Torsdag",
+      7,
+      16.5
+    ],
+    [
+      "Fredag",
+      7,
+      16.5
+    ],
+    [
+      "Lördag",
+      null,
+      null
+    ],
+    [
+      "Söndag",
+      null,
+      null
+    ]
+  ],
+  "tjanster": {
+    "Verkstad": [
+      [
+        "Bilservice",
+        "Personbilar",
+        "Ring för pris"
+      ],
+      [
+        "Reparationer",
+        "",
+        "Ring för pris"
+      ]
+    ]
+  },
+  "varfor": [
+    {
+      "big": "4,8",
+      "titel": "av 5 på Google",
+      "text": "25 omdömen. Kunderna lyfter alltid bra service och bra pris."
+    },
+    {
+      "big": "1963",
+      "titel": "sedan start",
+      "text": "Ödeshögs Bil & Motor har funnits i Ödeshög i över 60 år."
+    },
+    {
+      "big": "5 dagar",
+      "titel": "i veckan",
+      "text": "Måndag–fredag 07–16.30. Lördag och söndag stängt."
+    }
+  ],
+  "faq": [
+    [
+      "Hur bokar jag tid?",
+      "Ring oss på 0144-101 45 under öppettiderna."
+    ],
+    [
+      "Vad kostar det?",
+      "Ring för pris – verkstaden ger besked innan arbetet börjar."
+    ],
+    [
+      "Har ni öppet på helgen?",
+      "Nej. Måndag–fredag 07–16.30."
+    ],
+    [
+      "Var ligger ni?",
+      "På Öningegatan 10 i Ödeshög – tryck på Hitta hit för vägbeskrivning."
+    ]
+  ],
+  "seo": {
+    "title": "Ödeshögs Bil & Motor – Bilverkstad i Ödeshög",
+    "description": "Bilservice, Reparationer på Öningegatan 10 i Ödeshög. 4,8 på Google. Ring 0144-101 45."
+  },
+  "text": {
+    "navTjanster": "Tjänster",
+    "tjanstRubrik": "Vad behöver bilen?",
+    "prisNot": "Ring för pris – verkstaden ger besked innan arbetet börjar.",
+    "tjanstCta": "Ring och boka",
+    "varforKicker": "Därför väljer Ödeshög oss",
+    "kontaktRubrik": "Behöver bilen hjälp?",
+    "kontaktText": "Ring oss för tidsbokning eller kom förbi under öppettiderna.",
+    "enhet": "jobb",
+    "enhetPlural": "jobb",
+    "pratText": "Vill ni ställa frågor innan ni bestämmer er? Jag ringer gärna, eller tar ett kort videosamtal – tio minuter räcker.",
+    "rubrik": "Bil och motor i Ödeshög",
+    "ingress": "Bilservice och reparationer på Öningegatan 10 i Ödeshög. 4,8 på Google med 25 omdömen. Ring och boka – vi berättar vad som behöver göras innan vi börjar.",
+    "varforRubrik": "Snabbt, kunnigt och nära",
+    "pitchRubrik": "Ödeshögs Bil & Motor, kunderna hittar er på kartan – nu kan de hitta er på riktigt",
+    "pitchIngress": "Ni har redan det svåraste: nöjda kunder och ett snitt på 4,8. Det som saknas är en egen plats på nätet. Den här sidan är redan byggd och kan vara live på odeshogsbilochmotor.se inom 7 dagar."
+  },
+  "pitch": {
+    "snittpris": 2000,
+    "doman": "odeshogsbilochmotor.se",
+    "idag": [
+      "Google-profilen länkar till MECA:s kedjesida",
+      "kundernas.se anger stängning 12.00 i stället för 16.30",
+      "Ingen egen hemsida med era tjänster",
+      "60 år i Ödeshög syns ingenstans på nätet"
+    ],
+    "medSida": [
+      "Egen adress, odeshogsbilochmotor.se, som ni äger",
+      "Rätt adress, nummer och öppettider på ett ställe",
+      "Visar om ni har öppet just nu – ett tryck för att ringa",
+      "Byggd för mobilen, där bilägare letar verkstad"
+    ]
+  },
+  "mejl": {
+    "till": "obm.niklas@gmail.com",
+    "amne": "Ödeshögs Bil & Motor, jag har byggt en hemsida åt er",
+    "hej": "Ödeshögs Bil & Motor",
+    "ert": "verkstaden",
+    "iakttagelse": "Jag fastnade för Ödeshögs Bil & Motor i Ödeshög: 4,8 på Google med 25 omdömen, och kunderna nämner bra service och bra pris.",
+    "problem": "Men ni har ingen egen hemsida, och på kundernas.se står att ni stänger 12 – inte 16.30.",
+    "adressKalla": "MECA:s verkstadssida",
+    "fordelar": [
+      [
+        "Fler bokningar",
+        "Den som läser era omdömen kan ringa direkt med ett tryck."
+      ],
+      [
+        "Ni syns som er själva",
+        "Inte bara som en rad i en kedjelista bland andra verkstäder."
+      ],
+      [
+        "Rätt uppgifter överallt",
+        "Rätt adress, nummer och öppettider – inga missade samtal."
+      ],
+      [
+        "Den är er",
+        "Er egen adress, odeshogsbilochmotor.se, som ni äger och styr."
+      ]
+    ],
+    "prisJamforelse": "ungefär 400 kr i månaden under första året",
+    "kontaktVal": "tar ett kort videosamtal",
+    "psDatum": "9 december",
+    "variant": "A",
+    "test": "lank-2"
+  },
+  "kallor": [
+    "MECA:s verkstadslista på meca.se (hämtad via https://www.meca.se/hitta-verkstad/kalmar/bilcity-kalmar-ab som visar hela listan) – adress, telefon, e-post obm.niklas@gmail.com, öppettider mån–fre 07.00–16.30, koordinater",
+    "https://kundernas.se/meca-bilservice-odeshog-odeshogs-bil-motor – Google-betyg 4,8 (25), adress och telefon bekräftade",
+    "allabolag.se (företagssida Ödeshögs Bil- och Motor Aktiebolag) – aktiebolag, aktivt, registrerat 1963, bilverkstad + drivmedel, ingen webbplats",
+    "Shopify domänkoll 2026-11-25: odeshogsbilochmotor.se ledig"
+  ],
+  "status": {
+    "byggd": "2026-11-25",
+    "variant": "A"
+  }
+}

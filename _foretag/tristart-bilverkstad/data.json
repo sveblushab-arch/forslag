@@ -1,0 +1,209 @@
+{
+  "slug": "tristart-bilverkstad",
+  "namn": "Tristart Bilverkstad",
+  "bolag": "Tristart Bilverkstad AB",
+  "bolagsform": "AB",
+  "logo": [
+    "Tristart",
+    "Bilverkstad"
+  ],
+  "tema": "verkstad",
+  "schemaTyp": "AutoRepair",
+  "adress": "Hantverkargatan 9",
+  "postnr": "821 30",
+  "stad": "Bollnäs",
+  "lat": 61.343606,
+  "lng": 16.373663,
+  "telefon": "0278-101 10",
+  "telefonIntl": "+4627810110",
+  "bokning": null,
+  "instagram": null,
+  "facebook": null,
+  "betyg": [
+    {
+      "kalla": "Google",
+      "snitt": "4,6",
+      "antal": "52 omdömen"
+    }
+  ],
+  "oppettider": [
+    [
+      "Måndag",
+      7.5,
+      17
+    ],
+    [
+      "Tisdag",
+      7.5,
+      17
+    ],
+    [
+      "Onsdag",
+      7.5,
+      17
+    ],
+    [
+      "Torsdag",
+      7.5,
+      17
+    ],
+    [
+      "Fredag",
+      7.5,
+      17
+    ],
+    [
+      "Lördag",
+      null,
+      null
+    ],
+    [
+      "Söndag",
+      null,
+      null
+    ]
+  ],
+  "tjanster": {
+    "Verkstad": [
+      [
+        "Service",
+        "Service på personbilar",
+        "Ring för pris"
+      ],
+      [
+        "Felsökning",
+        "Elektronik och diagnos",
+        "Ring för pris"
+      ],
+      [
+        "El- och hybridbilar",
+        "Certifierad verkstad",
+        "Ring för pris"
+      ],
+      [
+        "Rekond",
+        "Rengöring av bilen",
+        "Ring för pris"
+      ]
+    ]
+  },
+  "varfor": [
+    {
+      "big": "4,6",
+      "titel": "av 5 på Google",
+      "text": "52 omdömen. En kund skriver att ni fixade bilen på tio minuter samma timme som de hörde av sig."
+    },
+    {
+      "big": "4",
+      "titel": "tjänster under ett tak",
+      "text": "Från service till rekond – ring och fråga vad bilen behöver."
+    },
+    {
+      "big": "5 dagar",
+      "titel": "i veckan",
+      "text": "Måndag–fredag 07.30–17. Lördag och söndag stängt."
+    }
+  ],
+  "faq": [
+    [
+      "Hur bokar jag tid?",
+      "Ring oss på 0278-101 10 under öppettiderna."
+    ],
+    [
+      "Vad kostar det?",
+      "Ring för pris – verkstaden ger besked innan arbetet börjar."
+    ],
+    [
+      "Servar ni el- och hybridbilar?",
+      "Ja, verkstaden är certifierad för el- och hybridbilar."
+    ],
+    [
+      "Har ni öppet på helgen?",
+      "Nej. Måndag–fredag 07.30–17."
+    ],
+    [
+      "Var ligger ni?",
+      "På Hantverkargatan 9 i Bollnäs – tryck på Hitta hit för vägbeskrivning."
+    ]
+  ],
+  "seo": {
+    "title": "Tristart Bilverkstad – Bilverkstad i Bollnäs",
+    "description": "Service, Felsökning, El- och hybridbilar på Hantverkargatan 9 i Bollnäs. 4,6 på Google. Ring 0278-101 10."
+  },
+  "text": {
+    "navTjanster": "Tjänster",
+    "tjanstRubrik": "Vad behöver bilen?",
+    "prisNot": "Ring för pris – verkstaden ger besked innan arbetet börjar.",
+    "tjanstCta": "Ring och boka",
+    "varforKicker": "Därför väljer Bollnäs oss",
+    "kontaktRubrik": "Behöver bilen hjälp?",
+    "kontaktText": "Ring oss för tidsbokning eller kom förbi under öppettiderna.",
+    "enhet": "jobb",
+    "enhetPlural": "jobb",
+    "pratText": "Vill ni ställa frågor innan ni bestämmer er? Jag ringer gärna, eller tar ett kort videosamtal – tio minuter räcker.",
+    "rubrik": "Bilverkstad i Bollnäs",
+    "ingress": "Service och felsökning på Hantverkargatan 9 i Bollnäs. 4,6 på Google med 52 omdömen. Ring och boka – vi berättar vad som behöver göras innan vi börjar.",
+    "varforRubrik": "Snabbt, kunnigt och nära",
+    "pitchRubrik": "Tristart Bilverkstad, kunderna hittar er på kartan – nu kan de hitta er på riktigt",
+    "pitchIngress": "Ni har redan det svåraste: nöjda kunder och ett snitt på 4,6. Det som saknas är en egen plats på nätet. Den här sidan är redan byggd och kan vara live på tristartbilverkstad.se inom 7 dagar."
+  },
+  "pitch": {
+    "snittpris": 2000,
+    "doman": "tristartbilverkstad.se",
+    "idag": [
+      "Google och MECA använder olika namn",
+      "hitta.se-posten saknar telefon och öppettider",
+      "Ingen egen hemsida med era tjänster",
+      "Rekond syns inte när man googlar"
+    ],
+    "medSida": [
+      "Egen adress, tristartbilverkstad.se, som ni äger",
+      "Rätt adress, nummer och öppettider på ett ställe",
+      "Visar om ni har öppet just nu – ett tryck för att ringa",
+      "Byggd för mobilen, där bilägare letar verkstad"
+    ]
+  },
+  "mejl": {
+    "till": "tristarbilverkstad@gmail.com",
+    "amne": "Tristart Bilverkstad, jag har byggt en hemsida åt er",
+    "hej": "Tristart Bilverkstad",
+    "ert": "verkstaden",
+    "iakttagelse": "Jag fastnade för Tristart Bilverkstad i Bollnäs: 4,6 på Google med 52 omdömen, och en kund fick bilen fixad inom en timme.",
+    "problem": "Men ni har ingen egen hemsida, och på Google och MECA heter ni olika saker.",
+    "adressKalla": "MECA:s verkstadssida",
+    "fordelar": [
+      [
+        "Fler bokningar",
+        "Den som läser era omdömen kan ringa direkt med ett tryck."
+      ],
+      [
+        "Ni syns som er själva",
+        "Inte bara som en rad i en kedjelista bland andra verkstäder."
+      ],
+      [
+        "Rätt uppgifter överallt",
+        "Rätt adress, nummer och öppettider – inga missade samtal."
+      ],
+      [
+        "Den är er",
+        "Er egen adress, tristartbilverkstad.se, som ni äger och styr."
+      ]
+    ],
+    "prisJamforelse": "ungefär 400 kr i månaden under första året",
+    "kontaktVal": "tar ett kort videosamtal",
+    "psDatum": "9 december",
+    "variant": "A",
+    "test": "lank-2"
+  },
+  "kallor": [
+    "https://www.meca.se/hitta-verkstad/bollnas/tristart-bilverkstad-ab – adress, telefon, e-post, öppettider, koordinater, tjänster (via MECA:s fullständiga verkstadslista)",
+    "https://kundernas.se/tristar-bilverkstad-tvatt – Google-betyg 4,6 (52), adress, telefon 0278-101 10, öppettider mån–fre 07:30–17:00, ingen webbplats, kundcitat",
+    "https://www.hitta.se/verksamhet/tristart-bilverkstad-ab-hlppxiilc – bolagsform aktiebolag, adress, ingen webbplats",
+    "https://www.hitta.se/verksamhet/tristar-bilverkstad-och-tvatt-jactdjccm – separat post (enskild firma) med samma adress",
+    "Shopify domänkoll 2026-11-25: tristartbilverkstad.se ledig"
+  ],
+  "status": {
+    "byggd": "2026-11-25",
+    "variant": "A"
+  }
+}

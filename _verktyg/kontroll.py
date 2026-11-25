@@ -24,7 +24,15 @@ def kolla(pw, slug):
     if re.search(r"\b(?:\d{2})?\d{6}[-+]?\d{4}\b", re.sub(r"\+46\d+", "", html)): fel.append("id-nummer (org.nr/personnr) i sidan")
     if d.get("mejl", {}).get("till") and d["mejl"]["till"] in html: fel.append("mottagarens adress läcker in i sidan")
     if '"kallor":' in html or '"status": {' in html: fel.append("interna fält läcker in i sidan")
-    if f"/forslag/{slug}/#forslag" not in m1: fel.append("fel länk i mejlet/manuset")
+    lank = f"/forslag/{slug}/#forslag"
+    mj = d.get("mejl", {})
+    if mj.get("variant") == "B" and mj.get("test") == "lank-2":
+        # A/B-test 2: variant B ska SAKNA länk i förstamejlet – länken finns i mejl_lank.txt (och i påminnelse 1)
+        if "/forslag/" in m1: fel.append("variant B (lank-2) har länk i förstamejlet")
+        ml = ROT / "_foretag" / slug / "mejl_lank.txt"
+        if not ml.exists() or lank not in ml.read_text(): fel.append("mejl_lank.txt saknar rätt länk")
+        if lank not in (ROT / "_foretag" / slug / "mejl2.txt").read_text(): fel.append("påminnelse 1 saknar länken")
+    elif lank not in m1: fel.append("fel länk i mejlet/manuset")
     if re.search(r"\[[^\]]*\]", m1): fel.append("hakparentes i mejlet")
     if d["telefon"].replace(" ", "")[:6] not in html.replace(" ", ""): fel.append("telefonnumret syns inte")
     b = pw.chromium.launch()
@@ -49,6 +57,10 @@ def kolla(pw, slug):
         lit = pg.evaluate("""() => [...document.querySelectorAll('p, li, summary, .item h3, .lead')].filter(e => { if (e.closest('#sheet,.demo,footer,[aria-hidden=true]')) return false; const r = e.getBoundingClientRect(); return r.width && parseFloat(getComputedStyle(e).fontSize) < 13; }).map(e => e.textContent.trim().slice(0, 25)).slice(0, 5)""")
         if lit: fel.append(f"för liten text ({namn}): {lit}")
         if pg.evaluate("(() => { const h = document.querySelector('h1'); return h.scrollWidth > h.clientWidth + 1; })()"): fel.append(f"rubriken får inte plats ({namn})")
+        # Lärdom 25 nov: "07.30–16.30" i varför-kortets stora siffra klipptes på dator utan att något annat larmade.
+        pg.wait_for_timeout(1500)
+        stor = pg.evaluate("[...document.querySelectorAll('.card .big, .bento .big, .stat .big')].filter(e => e.getBoundingClientRect().width && e.scrollWidth > e.clientWidth + 1).map(e => e.textContent.trim()).slice(0, 3)")
+        if stor: fel.append(f"stor siffra får inte plats ({namn}): {stor}")
         tomma = pg.evaluate("[...document.querySelectorAll('a.btn')].filter(a=>!a.getAttribute('href')||a.getAttribute('href')==='#').map(a=>a.textContent.trim()).filter(t=>t&&!['Jag vill ha sidan','Hellre prata först'].includes(t))")
         if tomma: fel.append(f"knappar utan länk: {tomma}")
         pg.evaluate("document.querySelectorAll('.reveal').forEach(e=>e.classList.add('in'))"); pg.wait_for_timeout(1200)

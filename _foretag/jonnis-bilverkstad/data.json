@@ -1,0 +1,218 @@
+{
+  "slug": "jonnis-bilverkstad",
+  "namn": "Jonnis Bilverkstad",
+  "bolag": "Jonnis Bilverkstad AB",
+  "bolagsform": "AB",
+  "logo": [
+    "Jonnis",
+    "Bilverkstad"
+  ],
+  "tema": "verkstad",
+  "schemaTyp": "AutoRepair",
+  "adress": "Stohagsgatan 26",
+  "postnr": "602 28",
+  "stad": "Norrköping",
+  "lat": 58.583163,
+  "lng": 16.210543,
+  "telefon": "011-14 53 90",
+  "telefonIntl": "+4611145390",
+  "bokning": null,
+  "instagram": null,
+  "facebook": null,
+  "betyg": [
+    {
+      "kalla": "Google",
+      "snitt": "4,9",
+      "antal": "331 omdömen"
+    }
+  ],
+  "oppettider": [
+    [
+      "Måndag",
+      8,
+      17
+    ],
+    [
+      "Tisdag",
+      8,
+      17
+    ],
+    [
+      "Onsdag",
+      8,
+      17
+    ],
+    [
+      "Torsdag",
+      8,
+      17
+    ],
+    [
+      "Fredag",
+      8,
+      15
+    ],
+    [
+      "Lördag",
+      null,
+      null
+    ],
+    [
+      "Söndag",
+      null,
+      null
+    ]
+  ],
+  "tjanster": {
+    "Verkstad": [
+      [
+        "Service",
+        "Service på alla vanliga bilmärken",
+        "Ring för pris"
+      ],
+      [
+        "Däckbyte",
+        "Hjulskifte",
+        "Ring för pris"
+      ],
+      [
+        "El- och hybridbilar",
+        "Certifierad verkstad",
+        "Ring för pris"
+      ],
+      [
+        "Felsökning",
+        "Elektronik och diagnos",
+        "Ring för pris"
+      ],
+      [
+        "Företagsbilar",
+        "Fleetverkstad",
+        "Ring för pris"
+      ],
+      [
+        "Lånebil",
+        "Låne- eller hyrbil",
+        "Ring för pris"
+      ]
+    ]
+  },
+  "varfor": [
+    {
+      "big": "4,9",
+      "titel": "av 5 på Google",
+      "text": "331 omdömen. Kunderna lyfter alltid bra service, trevligt bemötande och snabb hjälp."
+    },
+    {
+      "big": "2020",
+      "titel": "sedan start",
+      "text": "Jonnis Bilverkstad AB har drivit verkstaden på Stohagsgatan sedan 2020."
+    },
+    {
+      "big": "08–17",
+      "titel": "måndag–torsdag",
+      "text": "Måndag–torsdag 08–17, fredag 08–15. Lördag och söndag stängt."
+    }
+  ],
+  "faq": [
+    [
+      "Hur bokar jag tid?",
+      "Ring oss på 011-14 53 90 under öppettiderna."
+    ],
+    [
+      "Vad kostar det?",
+      "Ring för pris – verkstaden ger besked innan arbetet börjar."
+    ],
+    [
+      "Servar ni el- och hybridbilar?",
+      "Ja, verkstaden är certifierad för el- och hybridbilar."
+    ],
+    [
+      "Har ni öppet på helgen?",
+      "Nej. Måndag–torsdag 08–17, fredag 08–15."
+    ],
+    [
+      "Var ligger ni?",
+      "På Stohagsgatan 26 i Norrköping – tryck på Hitta hit för vägbeskrivning."
+    ]
+  ],
+  "seo": {
+    "title": "Jonnis Bilverkstad – Bilverkstad i Norrköping",
+    "description": "Service, Däckbyte, El- och hybridbilar på Stohagsgatan 26 i Norrköping. 4,9 på Google. Ring 011-14 53 90."
+  },
+  "text": {
+    "navTjanster": "Tjänster",
+    "tjanstRubrik": "Vad behöver bilen?",
+    "prisNot": "Ring för pris – verkstaden ger besked innan arbetet börjar.",
+    "tjanstCta": "Ring och boka",
+    "varforKicker": "Därför väljer Norrköping oss",
+    "kontaktRubrik": "Behöver bilen hjälp?",
+    "kontaktText": "Ring oss för tidsbokning eller kom förbi under öppettiderna.",
+    "enhet": "jobb",
+    "enhetPlural": "jobb",
+    "pratText": "Vill ni ställa frågor innan ni bestämmer er? Jag ringer gärna, eller tar ett kort videosamtal – tio minuter räcker.",
+    "rubrik": "Bilverkstad mitt i Norrköping",
+    "ingress": "Service och däckbyte på Stohagsgatan 26 i Norrköping. 4,9 på Google med 331 omdömen. Ring och boka – vi berättar vad som behöver göras innan vi börjar.",
+    "varforRubrik": "Snabbt, kunnigt och nära",
+    "pitchRubrik": "Jonnis Bilverkstad, kunderna hittar er på kartan – nu kan de hitta er på riktigt",
+    "pitchIngress": "Ni har redan det svåraste: nöjda kunder och ett snitt på 4,9. Det som saknas är en egen plats på nätet. Den här sidan är redan byggd och kan vara live på jonnisbilverkstad.se inom 7 dagar."
+  },
+  "pitch": {
+    "snittpris": 2000,
+    "doman": "jonnisbilverkstad.se",
+    "idag": [
+      "Google-profilen länkar till MECA:s kedjesida",
+      "Ingen egen hemsida – bara kataloger som Eniro och hitta.se",
+      "331 omdömen syns bara på Google",
+      "Kunden måste leta upp telefon och öppettider själv"
+    ],
+    "medSida": [
+      "Egen adress, jonnisbilverkstad.se, som ni äger",
+      "Rätt adress, nummer och öppettider på ett ställe",
+      "Visar om ni har öppet just nu – ett tryck för att ringa",
+      "Byggd för mobilen, där bilägare letar verkstad"
+    ]
+  },
+  "mejl": {
+    "till": "jonnisbilverkstad@hotmail.com",
+    "amne": "Jonnis Bilverkstad, jag har byggt en hemsida åt er",
+    "hej": "Jonnis Bilverkstad",
+    "ert": "verkstaden",
+    "iakttagelse": "Jag fastnade för Jonnis Bilverkstad i Norrköping: 4,9 på Google med 331 omdömen, och kunderna lyfter snabb hjälp och trevligt bemötande.",
+    "problem": "Men ni har ingen egen hemsida – den som googlar er hittar bara MECA:s kedjesida och kataloger.",
+    "adressKalla": "MECA:s verkstadssida",
+    "fordelar": [
+      [
+        "Fler bokningar",
+        "Den som läser era omdömen kan ringa direkt med ett tryck."
+      ],
+      [
+        "Ni syns som er själva",
+        "Inte bara som en rad i en kedjelista bland andra verkstäder."
+      ],
+      [
+        "Rätt uppgifter överallt",
+        "Rätt adress, nummer och öppettider – inga missade samtal."
+      ],
+      [
+        "Den är er",
+        "Er egen adress, jonnisbilverkstad.se, som ni äger och styr."
+      ]
+    ],
+    "prisJamforelse": "ungefär 400 kr i månaden under första året",
+    "kontaktVal": "tar ett kort videosamtal",
+    "psDatum": "9 december",
+    "variant": "A",
+    "test": "lank-2"
+  },
+  "kallor": [
+    "https://www.meca.se/hitta-verkstad/norrkoping/jonnis-bilverkstad-ab – adress, telefon, e-post, öppettider, tjänster, koordinater",
+    "https://kundernas.se/meca-jonnis-bilverkstad – Google-betyg 4,9 (331), telefon och öppettider bekräftade",
+    "allabolag.se (företagssida Jonnis Bilverkstad AB, Norrköping) – aktiebolag, aktivt, registrerat 2020, adress Stohagsgatan 26",
+    "Shopify domänkoll 2026-11-25: jonnisbilverkstad.se ledig"
+  ],
+  "status": {
+    "byggd": "2026-11-25",
+    "variant": "A"
+  }
+}
