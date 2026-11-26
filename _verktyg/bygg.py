@@ -104,7 +104,7 @@ def bygg_sida(d, s):
     rep = {"{{SEO_TITLE}}": d["seo"]["title"], "{{SEO_DESC}}": d["seo"]["description"], "{{ACCENT}}": t["acc"],
            "{{ACCENT_D}}": t["acc_d"], "{{CLAY}}": t["clay"], "{{CLAY_D}}": t["clay_d"], "{{CLAY2}}": t["clay2"],
            "{{FONT_URL}}": t["font"], "{{FONT_CSS}}": t["font_css"], "{{FONT_W}}": t["w"],
-           "{{SCHEMA}}": json.dumps(schema, ensure_ascii=False), "{{ILLUSTRATION}}": illustration(d["tema"]),
+           "{{TEMA}}": d["tema"], "{{SCHEMA}}": json.dumps(schema, ensure_ascii=False), "{{ILLUSTRATION}}": illustration(d["tema"]),
            "{{DATA}}": json.dumps({k: v for k, v in d.items() if k not in PRIVAT}, ensure_ascii=False).replace("</", "<\\/"),
            "{{SALJARE}}": json.dumps(s, ensure_ascii=False)}
     for k, v in rep.items():

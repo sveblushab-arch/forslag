@@ -14,9 +14,9 @@ BUTIK = """<svg viewBox="0 0 400 400"><circle cx="200" cy="200" r="200" fill="{B
 
 TEMAN = {
     # tema: färger (ljus/mörk), typsnitt, illustration, schema-typ
-    "salong":   dict(clay="#ecd3c8", clay_d="#3a2626", clay2="#f5e6de", acc="#7a1f3d", acc_d="#e58aa6", a2="#8e2a4a", a3="#5e1630", bg="#f6e6df", mid="#d8b7a9", font="DM+Serif+Display", font_css='"DM Serif Display",Georgia,serif', w="400", ill=SALONG),
-    "verkstad": dict(clay="#dde3ea", clay_d="#1f2630", clay2="#eef1f5", acc="#c2410c", acc_d="#ff9a62", a2="#e2571a", a3="#9a3412", bg="#eef1f5", mid="#c9d1db", font="Barlow+Condensed:wght@700", font_css='"Barlow Condensed",Inter,sans-serif', w="700", ill=VERKSTAD),
-    "hantverk": dict(clay="#e8e1d4", clay_d="#2b2721", clay2="#f3eee5", acc="#1f4e79", acc_d="#86b6e6", a2="#d97706", a3="#163a5a", bg="#f3eee5", mid="#d6cbb8", font="Fraunces:wght@600", font_css='"Fraunces",Georgia,serif', w="600", ill=HANTVERK),
+    "salong":   dict(clay="#efdfd6", clay_d="#2a1a20", clay2="#f8f0ea", acc="#8e3b52", acc_d="#f2b8c6", a2="#b4566b", a3="#5e2333", bg="#f6ede6", mid="#e0c6ba", font="Fraunces:ital,opsz,wght@0,9..144,500;1,9..144,500", font_css='"Fraunces",Georgia,serif', w="500", ill=SALONG),
+    "verkstad": dict(clay="#e3e7df", clay_d="#161a1f", clay2="#f1f3ee", acc="#3f5f0b", acc_d="#c6f16d", a2="#9bc53d", a3="#2f4708", bg="#eef1ea", mid="#c9d3bc", font="Archivo:wght@800;900", font_css='"Archivo",Inter,sans-serif', w="900", ill=VERKSTAD),
+    "hantverk": dict(clay="#e3e9e3", clay_d="#13201a", clay2="#f1f4ef", acc="#2f6b4f", acc_d="#9cd3b4", a2="#c8892b", a3="#1e4a35", bg="#eef2ec", mid="#c9d6cb", font="Manrope:wght@800", font_css='"Manrope",Inter,sans-serif', w="800", ill=HANTVERK),
     "stad":     dict(clay="#dbeff2", clay_d="#16292c", clay2="#ecf7f8", acc="#0e7490", acc_d="#6fd0e6", a2="#f59e0b", a3="#0b566b", bg="#ecf7f8", mid="#bfe2e8", font="Plus+Jakarta+Sans:wght@800", font_css='"Plus Jakarta Sans",Inter,sans-serif', w="800", ill=STAD),
     "mat":      dict(clay="#f6e2c6", clay_d="#33261a", clay2="#fbf0e2", acc="#b42318", acc_d="#ff8a7a", a2="#d9480f", a3="#7a1a12", bg="#fbf0e2", mid="#e8b26a", font="Playfair+Display:wght@700", font_css='"Playfair Display",Georgia,serif', w="700", ill=MAT),
     "butik":    dict(clay="#e4e7f2", clay_d="#1f2233", clay2="#f1f3f9", acc="#3949ab", acc_d="#9aa7ff", a2="#5c6bc0", a3="#283593", bg="#f1f3f9", mid="#c5cae9", font="Outfit:wght@700", font_css='"Outfit",Inter,sans-serif', w="700", ill=BUTIK),

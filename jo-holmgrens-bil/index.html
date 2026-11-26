@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="sv">
+<html lang="sv" data-bransch="verkstad">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -12,23 +12,23 @@
 <meta property="og:type" content="website">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "AutoRepair", "name": "J-O Holmgrens Bil & Rep", "telephone": "+46767880868", "address": {"@type": "PostalAddress", "streetAddress": "Bäckfors 18", "postalCode": "934 94", "addressLocality": "Kåge", "addressCountry": "SE"}, "geo": {"@type": "GeoCoordinates", "latitude": 64.9141488, "longitude": 20.5464334}}</script>
 <style>
 /* SveBlush Signatur – mall för alla kundsidor (2026-11-23). Kundens färger och typsnitt, SveBlush-kvalitet. */
 @property --ang{syntax:'<angle>';inherits:false;initial-value:0deg}
 :root{color-scheme:light dark;
-  --bg:light-dark(#fbfaf8,#0f0e10);--clay:light-dark(#dde3ea,#1f2630);--clay2:light-dark(#eef1f5,#18161a);
-  --ink:light-dark(#141216,#f4f1ef);--muted:light-dark(#57525a,#bdb6b9);--acc:light-dark(#c2410c,#ff9a62);
+  --bg:light-dark(#fbfaf8,#0f0e10);--clay:light-dark(#e3e7df,#161a1f);--clay2:light-dark(#f1f3ee,#18161a);
+  --ink:light-dark(#141216,#f4f1ef);--muted:light-dark(#57525a,#bdb6b9);--acc:light-dark(#3f5f0b,#c6f16d);
   --accInk:light-dark(#fff,#141216);--line:light-dark(#e7e1dc,#2c282c);--card:light-dark(#fff,#161418);--ok:light-dark(#18794e,#6fd3a0);
-  --hi:#ff9a62;--hiRaw:#c2410c;--stage:color-mix(in srgb,#c2410c 10%,#09080a);--sT:#f6f3f1;--sM:#b8b1b5;--sL:rgba(255,255,255,.09);
-  --hf:"Barlow Condensed",Inter,sans-serif;--ease:cubic-bezier(.2,.7,.2,1)}
+  --hi:#c6f16d;--hiRaw:#3f5f0b;--stage:color-mix(in srgb,#3f5f0b 10%,#09080a);--sT:#f6f3f1;--sM:#b8b1b5;--sL:rgba(255,255,255,.09);
+  --hf:"Archivo",Inter,sans-serif;--ease:cubic-bezier(.2,.7,.2,1)}
 :root[data-theme=light]{color-scheme:light}:root[data-theme=dark]{color-scheme:dark}
 *{box-sizing:border-box;min-width:0}
 html{scroll-behavior:smooth;scroll-padding-top:96px;-webkit-text-size-adjust:100%}
 body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 Inter,system-ui,-apple-system,sans-serif;overflow-x:clip;-webkit-font-smoothing:antialiased}
 a{color:inherit}img,svg{display:block;max-width:100%}
-h1,h2,h3{font-family:var(--hf);font-weight:700;line-height:1.02;text-wrap:balance;margin:0;letter-spacing:-.02em}
+h1,h2,h3{font-family:var(--hf);font-weight:900;line-height:1.02;text-wrap:balance;margin:0;letter-spacing:-.02em}
 h2{font-size:clamp(34px,5vw,64px)}h3{font-size:20px;line-height:1.2}
 p{margin:0}
 .wrap{max-width:1200px;margin:0 auto;padding:0 max(4vw,18px)}
@@ -44,7 +44,7 @@ p{margin:0}
 .nav{position:sticky;top:10px;z-index:30;margin:10px auto 0;max-width:1200px;padding:0 max(2vw,10px)}
 .nav .bar{display:flex;align-items:center;gap:18px;min-height:62px;padding:8px 8px 8px 22px;border-radius:999px;background:rgba(14,12,15,.62);border:1px solid rgba(255,255,255,.12);backdrop-filter:blur(18px) saturate(1.5);-webkit-backdrop-filter:blur(18px) saturate(1.5);color:var(--sT);box-shadow:0 18px 50px -24px rgba(0,0,0,.6);transition:background .3s,box-shadow .3s}
 .nav.scrolled .bar{background:rgba(14,12,15,.82)}
-.logo{font-family:var(--hf);font-weight:700;font-size:22px;text-decoration:none;margin-right:auto;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:var(--sT)}.logo span{color:var(--hi)}
+.logo{font-family:var(--hf);font-weight:900;font-size:22px;text-decoration:none;margin-right:auto;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:var(--sT)}.logo span{color:var(--hi)}
 .menu{display:flex;gap:4px;font-size:14.5px}.menu a{text-decoration:none;color:var(--sM);padding:10px 14px;border-radius:999px;transition:color .2s,background .2s}.menu a:hover{color:var(--sT);background:rgba(255,255,255,.07)}
 .burger{display:none;width:46px;height:46px;border:1px solid rgba(255,255,255,.16);border-radius:50%;background:rgba(255,255,255,.04);color:var(--sT);cursor:pointer;flex:none}
 .drawer{display:none;margin-top:8px;border-radius:24px;background:rgba(14,12,15,.92);border:1px solid rgba(255,255,255,.12);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);padding:8px 22px 14px}
@@ -89,7 +89,7 @@ p{margin:0}
 .cta{display:flex;gap:12px;flex-wrap:wrap}
 .chips{display:flex;gap:10px;flex-wrap:wrap;margin-top:32px}
 .chip{display:flex;align-items:center;gap:12px;border-radius:18px;padding:11px 16px;font-size:13.5px;color:var(--sM);background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1)}
-.chip b{font-family:var(--hf);font-weight:700;font-size:30px;color:var(--sT);line-height:1;font-variant-numeric:tabular-nums}
+.chip b{font-family:var(--hf);font-weight:900;font-size:30px;color:var(--sT);line-height:1;font-variant-numeric:tabular-nums}
 .stars{color:var(--hi);letter-spacing:1px;font-size:13px}
 .rise{animation:rise .9s var(--ease) both}.d1{animation-delay:.05s}.d2{animation-delay:.45s}.d3{animation-delay:.58s}.d4{animation-delay:.7s}.d5{animation-delay:.3s}
 @keyframes rise{from{opacity:0;transform:translateY(20px);filter:blur(8px)}to{opacity:1;transform:none;filter:none}}
@@ -104,20 +104,20 @@ p{margin:0}
 @keyframes spin{to{--ang:360deg}}
 .art{width:min(70%,260px);aspect-ratio:1;animation:float 8s ease-in-out infinite;filter:drop-shadow(0 30px 40px rgba(0,0,0,.45))}
 @keyframes float{0%,100%{transform:translateY(0) rotate(0)}50%{transform:translateY(-12px) rotate(-2deg)}}
-.clock{font-family:var(--hf);font-weight:700;font-size:clamp(34px,3.6vw,46px);line-height:1;font-variant-numeric:tabular-nums;color:var(--sT)}
+.clock{font-family:var(--hf);font-weight:900;font-size:clamp(34px,3.6vw,46px);line-height:1;font-variant-numeric:tabular-nums;color:var(--sT)}
 .dayline{height:6px;border-radius:3px;background:rgba(255,255,255,.1);margin-top:14px;overflow:hidden}.dayline i{display:block;height:100%;width:var(--d,0%);background:linear-gradient(90deg,var(--hi),#fff);border-radius:3px;transition:width 1s var(--ease)}
 .t-note{font-size:13px;color:var(--sM);margin-top:8px}
 .gauge{display:flex;align-items:center;gap:14px}
 .gauge svg{width:72px;height:72px;transform:rotate(-90deg);flex:none}
 .gauge circle{fill:none;stroke-width:7}.gauge .tr{stroke:rgba(255,255,255,.1)}.gauge .fg{stroke:var(--hi);stroke-linecap:round;stroke-dasharray:201;stroke-dashoffset:201;transition:stroke-dashoffset 1.6s var(--ease) .6s}
-.gauge b{font-family:var(--hf);font-weight:700;font-size:34px;line-height:1;color:var(--sT)}
+.gauge b{font-family:var(--hf);font-weight:900;font-size:34px;line-height:1;color:var(--sT)}
 .t-adr a{color:var(--sT);text-decoration:none;font-weight:600;padding:10px 0}.t-adr a:hover{color:var(--hi)}
 .t-adr p{font-size:15px;color:var(--sT)}
 
 /* Löpband */
 .marq{overflow:hidden;background:var(--bg);border-bottom:1px solid var(--line);padding:22px 0;-webkit-mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent);mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent)}
 .marq-in{display:flex;width:max-content;animation:marq 44s linear infinite}
-.marq span{display:inline-flex;align-items:center;gap:26px;padding-right:26px;font-family:var(--hf);font-weight:700;font-size:clamp(24px,3vw,40px);white-space:nowrap;letter-spacing:-.01em}
+.marq span{display:inline-flex;align-items:center;gap:26px;padding-right:26px;font-family:var(--hf);font-weight:900;font-size:clamp(24px,3vw,40px);white-space:nowrap;letter-spacing:-.01em}
 .marq span:nth-child(even){color:transparent;-webkit-text-stroke:1.2px color-mix(in srgb,var(--ink) 60%,transparent)}
 .marq span::after{content:"✦";color:var(--acc);font-size:.5em;-webkit-text-stroke:0}
 @keyframes marq{to{transform:translateX(-50%)}}
@@ -148,7 +148,7 @@ p{margin:0}
 .card{position:relative;overflow:hidden;background:var(--card);border:1px solid var(--line);border-radius:26px;padding:32px;transition:transform .4s var(--ease),border-color .3s,box-shadow .4s}
 .card::before{content:"";position:absolute;inset:0;pointer-events:none;opacity:0;transition:opacity .3s;background:radial-gradient(340px circle at var(--mx,50%) var(--my,50%),color-mix(in srgb,var(--acc) 15%,transparent),transparent 60%)}
 .card:hover{transform:translateY(-6px);border-color:color-mix(in srgb,var(--acc) 55%,var(--line));box-shadow:0 30px 60px -34px color-mix(in srgb,var(--acc) 60%,transparent)}.card:hover::before{opacity:1}
-.card .big{font-family:var(--hf);font-weight:700;font-size:clamp(46px,5.4vw,72px);line-height:.95;color:var(--acc);margin-bottom:18px;white-space:nowrap;font-variant-numeric:tabular-nums;letter-spacing:-.03em}
+.card .big{font-family:var(--hf);font-weight:900;font-size:clamp(46px,5.4vw,72px);line-height:.95;color:var(--acc);margin-bottom:18px;white-space:nowrap;font-variant-numeric:tabular-nums;letter-spacing:-.03em}
 .card h3{font-family:Inter,sans-serif;font-weight:600;font-size:18px;letter-spacing:0}
 .card p{color:var(--muted);margin-top:8px}
 .three .card:first-child{background:var(--ink);color:var(--bg);border-color:var(--ink)}.three .card:first-child p{color:color-mix(in srgb,var(--bg) 72%,transparent)}.three .card:first-child .big{color:var(--hi)}
@@ -193,7 +193,7 @@ details p{padding:0 22px 22px;color:var(--muted);max-width:62ch;animation:rise .
 .contact .lead{color:var(--sM);font-size:clamp(17px,1.6vw,20px);max-width:36em;margin:22px 0 34px}
 .jobs{border-top:1px solid var(--sL);margin-top:64px;padding-top:30px;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;align-items:center}
 .jobs p{color:var(--sM)}
-.word{margin-top:clamp(60px,8vw,100px);font-family:var(--hf);font-weight:700;font-size:clamp(48px,13vw,200px);line-height:.85;letter-spacing:-.04em;white-space:nowrap;text-align:center;background:linear-gradient(180deg,rgba(255,255,255,.24),rgba(255,255,255,0) 88%);-webkit-background-clip:text;background-clip:text;color:transparent;user-select:none;overflow:hidden;padding:0 10px 4px}
+.word{margin-top:clamp(60px,8vw,100px);font-family:var(--hf);font-weight:900;font-size:clamp(48px,13vw,200px);line-height:.85;letter-spacing:-.04em;white-space:nowrap;text-align:center;background:linear-gradient(180deg,rgba(255,255,255,.24),rgba(255,255,255,0) 88%);-webkit-background-clip:text;background-clip:text;color:transparent;user-select:none;overflow:hidden;padding:0 10px 4px}
 footer{padding:28px max(5vw,18px) 120px;font-size:13.5px;color:var(--muted);text-align:center}
 .dock{display:none}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
@@ -215,13 +215,13 @@ footer{padding:28px max(5vw,18px) 120px;font-size:13.5px;color:var(--muted);text
 .calc{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:24px;align-items:center;background:var(--clay2);border-radius:22px;padding:26px}
 .calc label{font-weight:600;display:block;margin-bottom:4px}
 .calc input[type=range]{width:100%;accent-color:var(--acc);height:44px}
-.res strong{font-family:var(--hf);font-weight:700;font-size:clamp(42px,6vw,64px);line-height:1;display:block;color:var(--acc);font-variant-numeric:tabular-nums}
+.res strong{font-family:var(--hf);font-weight:900;font-size:clamp(42px,6vw,64px);line-height:1;display:block;color:var(--acc);font-variant-numeric:tabular-nums}
 .res span{color:var(--muted);font-size:14px}
 .vs{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:16px}
 .vs div{border:1px solid var(--line);border-radius:20px;padding:22px}.vs div.now{background:var(--card)}.vs div.new{border:2px solid var(--acc);box-shadow:0 20px 40px -30px color-mix(in srgb,var(--acc) 70%,transparent)}
 .vs ul{margin:10px 0 0;padding-left:18px}.vs li{margin:6px 0}
 .facts3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
-.facts3 div{border-top:2px solid var(--ink);padding-top:12px}.facts3 b{font-family:var(--hf);font-weight:700;font-size:40px;line-height:1;display:block}.facts3 span{font-size:14px;color:var(--muted)}
+.facts3 div{border-top:2px solid var(--ink);padding-top:12px}.facts3 b{font-family:var(--hf);font-weight:900;font-size:40px;line-height:1;display:block}.facts3 span{font-size:14px;color:var(--muted)}
 .steps{counter-reset:s;list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
 .steps li{counter-increment:s;background:var(--card);border:1px solid var(--line);border-radius:20px;padding:20px}
 .steps li::before{content:counter(s);display:grid;place-items:center;width:36px;height:36px;border-radius:50%;background:var(--acc);color:var(--accInk);font-weight:700;margin-bottom:12px}
@@ -252,6 +252,29 @@ footer{padding:28px max(5vw,18px) 120px;font-size:13.5px;color:var(--muted);text
 }
 @media(max-width:420px){.hero .cta .btn,.contact .cta .btn{flex:1 1 100%}.chip b{font-size:26px}.bento{gap:10px}.tile{padding:16px}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}.hero h1 .w{opacity:1;transform:none;filter:none}.reveal{opacity:1;transform:none;filter:none}.hours li .tr i{width:var(--w)}}
+/* Signatur 2 (26 nov, Elliots ja): egen design per bransch + snabbmodul */
+html[data-bransch=verkstad] .hero h1{text-transform:uppercase;font-size:clamp(46px,7.2vw,112px);line-height:.9;letter-spacing:-.035em}
+html[data-bransch=verkstad] h2{letter-spacing:-.03em}
+html[data-bransch=salong] .hero h1{font-weight:500;letter-spacing:-.025em}html[data-bransch=salong] .hero h1 .w:last-child{font-style:italic}
+html[data-bransch=hantverk] .hero h1{letter-spacing:-.04em}
+.snabb{padding:clamp(56px,8vw,100px) 0}
+.snabb .box{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);gap:clamp(20px,4vw,52px);background:var(--card);border:1px solid var(--line);border-radius:32px;padding:clamp(22px,4vw,48px);align-items:start}
+.snabb h2{font-size:clamp(30px,4.4vw,56px)}.snabb .sub{color:var(--muted);margin-top:12px;font-size:17px;max-width:30em}
+.sform{display:grid;gap:14px}.sform label{display:grid;gap:6px;font-size:14px;color:var(--muted);font-weight:500}
+.sform .in{height:54px;border-radius:14px;border:1px solid var(--line);background:var(--bg);color:var(--ink);font:500 17px Inter,sans-serif;padding:0 16px;width:100%}
+.plate{display:flex;height:62px;border-radius:12px;overflow:hidden;border:2px solid #111;background:#fff;max-width:340px}
+.plate .eu{width:36px;flex:none;background:#1d4fb8;color:#ffd200;font:700 13px Inter,sans-serif;display:flex;align-items:flex-end;justify-content:center;padding-bottom:7px}
+.plate input{flex:1;width:100%;border:0;background:#fff;color:#111;font:800 28px var(--hf);letter-spacing:.14em;text-transform:uppercase;padding:0 14px;outline:0}
+.pills{display:flex;flex-wrap:wrap;gap:8px}
+.pill{min-height:46px;padding:0 18px;border-radius:999px;border:1px solid var(--line);background:transparent;color:var(--ink);font:600 15px Inter,sans-serif;cursor:pointer;transition:background .2s,color .2s}
+.pill[aria-pressed=true]{background:var(--acc);color:var(--accInk);border-color:var(--acc)}
+.snote{font-size:14px;color:var(--ink);background:var(--clay2);border-radius:14px;padding:12px 14px}
+.ba{position:relative;height:clamp(240px,40vw,460px);border-radius:24px;overflow:hidden;background:repeating-linear-gradient(45deg,#c9c6be 0 18px,#bebab1 18px 36px)}
+.ba .after{position:absolute;top:0;left:0;bottom:0;width:var(--pos,55%);overflow:hidden;background:linear-gradient(160deg,var(--clay2),var(--clay) 55%,var(--acc));border-right:3px solid #fff}
+.ba .tag{position:absolute;top:14px;font-size:13px;font-weight:600;padding:6px 12px;border-radius:999px;background:rgba(0,0,0,.72);color:#fff}
+.ba .hint{position:absolute;left:14px;bottom:14px;font-size:13px;padding:6px 12px;border-radius:999px;background:rgba(255,255,255,.88);color:#111}
+.snabb input[type=range]{width:100%;height:32px;accent-color:var(--acc)}
+@media(max-width:880px){.snabb .box{grid-template-columns:minmax(0,1fr)}}
 </style>
 </head>
 <body>
@@ -281,13 +304,15 @@ footer{padding:28px max(5vw,18px) 120px;font-size:13.5px;color:var(--muted);text
       <div class="chips rise d4" id="chips"></div>
     </div>
     <div class="bento rise d5" id="bento">
-      <div class="tile t-art" aria-hidden="true"><span class="ring"></span><div class="art"><svg viewBox="0 0 400 400"><defs><linearGradient id="car" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#e2571a"/><stop offset="1" stop-color="#9a3412"/></linearGradient></defs><circle cx="200" cy="200" r="200" fill="#eef1f5"/><rect x="40" y="290" width="320" height="12" rx="6" fill="#c9d1db"/><ellipse cx="200" cy="300" rx="150" ry="12" fill="#111" opacity=".15"/><path d="M70 270 L90 205 Q100 180 130 178 L270 178 Q300 180 312 205 L332 270 Z" fill="url(#car)"/><path d="M118 196 L140 150 Q146 140 160 140 L240 140 Q254 140 260 150 L282 196 Z" fill="#c2410c"/><path d="M132 192 L150 156 L196 156 L196 192 Z M206 156 L250 156 L268 192 L206 192 Z" fill="#dfe9f5" opacity=".9"/><rect x="62" y="240" width="276" height="34" rx="10" fill="#9a3412"/><circle cx="125" cy="280" r="30" fill="#1c1c1e"/><circle cx="125" cy="280" r="13" fill="#c9cdd3"/><circle cx="275" cy="280" r="30" fill="#1c1c1e"/><circle cx="275" cy="280" r="13" fill="#c9cdd3"/><rect x="80" y="222" width="34" height="12" rx="6" fill="#ffe08a"/><rect x="286" y="222" width="34" height="12" rx="6" fill="#ff8a7a"/><g transform="translate(300 80) rotate(40)"><rect x="-8" y="0" width="16" height="110" rx="8" fill="#5b6470"/><path d="M-26 -10 a26 26 0 1 1 52 0 l-14 0 l0 -14 l-24 0 l0 14 z" fill="#5b6470"/></g></svg></div></div>
+      <div class="tile t-art" aria-hidden="true"><span class="ring"></span><div class="art"><svg viewBox="0 0 400 400"><defs><linearGradient id="car" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#9bc53d"/><stop offset="1" stop-color="#2f4708"/></linearGradient></defs><circle cx="200" cy="200" r="200" fill="#eef1ea"/><rect x="40" y="290" width="320" height="12" rx="6" fill="#c9d3bc"/><ellipse cx="200" cy="300" rx="150" ry="12" fill="#111" opacity=".15"/><path d="M70 270 L90 205 Q100 180 130 178 L270 178 Q300 180 312 205 L332 270 Z" fill="url(#car)"/><path d="M118 196 L140 150 Q146 140 160 140 L240 140 Q254 140 260 150 L282 196 Z" fill="#3f5f0b"/><path d="M132 192 L150 156 L196 156 L196 192 Z M206 156 L250 156 L268 192 L206 192 Z" fill="#dfe9f5" opacity=".9"/><rect x="62" y="240" width="276" height="34" rx="10" fill="#2f4708"/><circle cx="125" cy="280" r="30" fill="#1c1c1e"/><circle cx="125" cy="280" r="13" fill="#c9cdd3"/><circle cx="275" cy="280" r="30" fill="#1c1c1e"/><circle cx="275" cy="280" r="13" fill="#c9cdd3"/><rect x="80" y="222" width="34" height="12" rx="6" fill="#ffe08a"/><rect x="286" y="222" width="34" height="12" rx="6" fill="#ff8a7a"/><g transform="translate(300 80) rotate(40)"><rect x="-8" y="0" width="16" height="110" rx="8" fill="#5b6470"/><path d="M-26 -10 a26 26 0 1 1 52 0 l-14 0 l0 -14 l-24 0 l0 14 z" fill="#5b6470"/></g></svg></div></div>
       <div class="tile t-clock"><small>Klockan nu</small><div class="clock" id="clock">--:--</div><div class="dayline" aria-hidden="true"><i id="dayline"></i></div><p class="t-note" id="clockNote"></p></div>
       <div class="tile t-rate" id="rateTile"><small id="rateSrc">Betyg</small><div class="gauge"><svg viewBox="0 0 72 72" aria-hidden="true"><circle class="tr" cx="36" cy="36" r="32"/><circle class="fg" id="gauge" cx="36" cy="36" r="32"/></svg><div><b id="rateNum"></b><p class="t-note" id="rateCnt" style="margin:4px 0 0"></p></div></div></div>
     </div>
   </div>
 </section>
 <div class="marq" aria-hidden="true"><div class="marq-in" id="marq"></div></div>
+
+<section class="snabb reveal" id="snabb" aria-label="Snabbval"><div class="wrap" id="snabbIn"></div></section>
 
 <section class="band reveal" id="tjanster"><div class="wrap">
   <div class="head">
@@ -430,6 +455,27 @@ const adr=`${D.adress}, ${D.postnr} ${D.stad}`;$('adr').textContent=adr;
 const dirUrl='https://www.google.com/maps/dir/?api=1&destination='+encodeURIComponent(adr);$('dir').href=dirUrl;
 $('bento').insertAdjacentHTML('beforeend',`<div class="tile t-adr" style="grid-column:1/-1;display:flex;justify-content:space-between;align-items:center;gap:6px 14px;flex-wrap:wrap"><div><small>Hitta hit</small><p>${esc(adr)}</p></div><a href="${esc(dirUrl)}" rel="noopener">Vägbeskrivning →</a></div>`);
 $('loadMap').addEventListener('click',()=>{$('map').innerHTML=`<iframe title="Karta till ${esc(D.namn)}" src="https://www.google.com/maps?q=${encodeURIComponent(adr)}&output=embed"></iframe>`});
+/* Signatur 2: snabbmodul per bransch – bygger bara på företagets egna uppgifter */
+{const sIn=$('snabbIn'),alla=[...new Set(Object.values(cats).flat().map(i=>i[0]))].slice(0,6),T=D.tema;
+ const pills=(id)=>`<div class="pills" id="${id}">${alla.map((n,k)=>`<button type="button" class="pill" aria-pressed="${k===0}" data-n="${esc(n)}">${esc(n)}</button>`).join('')}</div>`;
+ const demo=`<p class="snote" id="snote" hidden>Förhandsvisning: på er riktiga sida går förfrågan direkt till ${esc(D.namn)}. Ring ${esc(D.telefon)} så länge.</p>`;
+ const vald=()=>{const b=sIn.querySelector('.pill[aria-pressed=true]');return b?b.dataset.n:''};
+ const knappar=box=>box.addEventListener('click',e=>{const b=e.target.closest('.pill');if(!b)return;box.querySelectorAll('.pill').forEach(x=>x.setAttribute('aria-pressed',x===b));sIn.dispatchEvent(new Event('val'))});
+ if(T==='verkstad'){
+  sIn.innerHTML=`<div class="box"><div><p class="label"><b>→</b>Snabbokning</p><h2>Boka på 20 sekunder</h2><p class="sub">Välj vad bilen behöver och skriv registreringsnumret – verkstaden ringer upp och bekräftar tiden.</p></div>
+  <form class="sform" id="sform"><label>Vad behöver bilen?${pills('sp')}</label><label for="regnr">Registreringsnummer<span class="plate"><span class="eu" aria-hidden="true">S</span><input id="regnr" autocomplete="off" maxlength="7" placeholder="ABC 123"></span></label>
+  <label for="stel">Telefon<input class="in" id="stel" type="tel" autocomplete="tel" placeholder="070-123 45 67"></label><button class="btn" type="submit">Skicka bokningsförfrågan</button>${demo}</form></div>`;
+ }else if(T==='salong'){
+  sIn.innerHTML=`<div class="box"><div><p class="label"><b>→</b>Boka</p><h2>Boka på en minut</h2><p class="sub">Välj behandling så kommer du direkt till bokningen.</p></div>
+  <div class="sform"><label>Behandling${pills('sp')}</label><a class="btn" id="sboka" href="${esc(book.href)}" rel="noopener"></a></div></div>`;
+  const up=()=>{$('sboka').textContent=(D.bokning?'Boka ':'Ring och boka ')+vald().toLowerCase()};sIn.addEventListener('val',up);up();
+ }else if(T==='hantverk'){
+  sIn.innerHTML=`<div class="box"><div><p class="label"><b>→</b>Före och efter</p><h2>Se skillnaden</h2><div class="ba" id="ba" style="margin-top:20px"><span class="tag" style="right:14px">Före</span><div class="after"><span class="tag" style="left:14px">Efter</span></div><span class="hint">Era egna bilder läggs in här</span></div><label style="display:block;margin-top:10px;font-size:14px;color:var(--muted)">Dra för att jämföra<input type="range" id="baR" min="5" max="95" value="55"></label></div>
+  <form class="sform" id="sform"><h3>Offert i tre steg</h3><label>1. Vad vill ni göra?${pills('sp')}</label><label for="sstor">2. Ungefär hur stort?<input class="in" id="sstor" type="text" placeholder="t.ex. badrum 6 m²"></label><label for="stel">3. Ert telefonnummer<input class="in" id="stel" type="tel" autocomplete="tel" placeholder="070-123 45 67"></label><button class="btn" type="submit">Begär offert</button>${demo}</form></div>`;
+  $('baR').addEventListener('input',e=>$('ba').style.setProperty('--pos',e.target.value+'%'));
+ }else document.getElementById('snabb').remove();
+ if($('sp'))knappar($('sp'));
+ if($('sform'))$('sform').addEventListener('submit',e=>{e.preventDefault();$('snote').hidden=false});}
 $('faq').innerHTML=D.faq.map(f=>`<details><summary>${esc(f[0])}</summary><p>${esc(f[1])}</p></details>`).join('');
 $('kontaktCta').innerHTML=(D.bokning?`<a class="btn" href="${esc(D.bokning)}" rel="noopener">${esc(book.label)} ${arrow}</a><a class="btn ghost" href="tel:${esc(D.telefonIntl)}">${esc(D.telefon)}</a>`:`<a class="btn" href="tel:${esc(D.telefonIntl)}">Ring ${esc(D.telefon)} ${arrow}</a>`)+(D.instagram?`<a class="btn ghost" href="${esc(D.instagram)}" rel="noopener">Instagram</a>`:'')+(D.facebook?`<a class="btn ghost" href="${esc(D.facebook)}" rel="noopener">Facebook</a>`:'');
 if(D.jobb){$('jobs').hidden=false;$('jobs').innerHTML=`<div><h3 style="color:#f6f3f1">${esc(D.jobb.titel)}</h3><p style="margin-top:6px">${esc(D.jobb.text)}</p></div>`+(D.jobb.tel?`<a class="btn ghost" href="tel:${esc(D.jobb.tel)}">Ring om jobbet</a>`:'')}

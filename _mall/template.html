@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="sv">
+<html lang="sv" data-bransch="{{TEMA}}">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -252,6 +252,29 @@ footer{padding:28px max(5vw,18px) 120px;font-size:13.5px;color:var(--muted);text
 }
 @media(max-width:420px){.hero .cta .btn,.contact .cta .btn{flex:1 1 100%}.chip b{font-size:26px}.bento{gap:10px}.tile{padding:16px}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}.hero h1 .w{opacity:1;transform:none;filter:none}.reveal{opacity:1;transform:none;filter:none}.hours li .tr i{width:var(--w)}}
+/* Signatur 2 (26 nov, Elliots ja): egen design per bransch + snabbmodul */
+html[data-bransch=verkstad] .hero h1{text-transform:uppercase;font-size:clamp(46px,7.2vw,112px);line-height:.9;letter-spacing:-.035em}
+html[data-bransch=verkstad] h2{letter-spacing:-.03em}
+html[data-bransch=salong] .hero h1{font-weight:500;letter-spacing:-.025em}html[data-bransch=salong] .hero h1 .w:last-child{font-style:italic}
+html[data-bransch=hantverk] .hero h1{letter-spacing:-.04em}
+.snabb{padding:clamp(56px,8vw,100px) 0}
+.snabb .box{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);gap:clamp(20px,4vw,52px);background:var(--card);border:1px solid var(--line);border-radius:32px;padding:clamp(22px,4vw,48px);align-items:start}
+.snabb h2{font-size:clamp(30px,4.4vw,56px)}.snabb .sub{color:var(--muted);margin-top:12px;font-size:17px;max-width:30em}
+.sform{display:grid;gap:14px}.sform label{display:grid;gap:6px;font-size:14px;color:var(--muted);font-weight:500}
+.sform .in{height:54px;border-radius:14px;border:1px solid var(--line);background:var(--bg);color:var(--ink);font:500 17px Inter,sans-serif;padding:0 16px;width:100%}
+.plate{display:flex;height:62px;border-radius:12px;overflow:hidden;border:2px solid #111;background:#fff;max-width:340px}
+.plate .eu{width:36px;flex:none;background:#1d4fb8;color:#ffd200;font:700 13px Inter,sans-serif;display:flex;align-items:flex-end;justify-content:center;padding-bottom:7px}
+.plate input{flex:1;width:100%;border:0;background:#fff;color:#111;font:800 28px var(--hf);letter-spacing:.14em;text-transform:uppercase;padding:0 14px;outline:0}
+.pills{display:flex;flex-wrap:wrap;gap:8px}
+.pill{min-height:46px;padding:0 18px;border-radius:999px;border:1px solid var(--line);background:transparent;color:var(--ink);font:600 15px Inter,sans-serif;cursor:pointer;transition:background .2s,color .2s}
+.pill[aria-pressed=true]{background:var(--acc);color:var(--accInk);border-color:var(--acc)}
+.snote{font-size:14px;color:var(--ink);background:var(--clay2);border-radius:14px;padding:12px 14px}
+.ba{position:relative;height:clamp(240px,40vw,460px);border-radius:24px;overflow:hidden;background:repeating-linear-gradient(45deg,#c9c6be 0 18px,#bebab1 18px 36px)}
+.ba .after{position:absolute;top:0;left:0;bottom:0;width:var(--pos,55%);overflow:hidden;background:linear-gradient(160deg,var(--clay2),var(--clay) 55%,var(--acc));border-right:3px solid #fff}
+.ba .tag{position:absolute;top:14px;font-size:13px;font-weight:600;padding:6px 12px;border-radius:999px;background:rgba(0,0,0,.72);color:#fff}
+.ba .hint{position:absolute;left:14px;bottom:14px;font-size:13px;padding:6px 12px;border-radius:999px;background:rgba(255,255,255,.88);color:#111}
+.snabb input[type=range]{width:100%;height:32px;accent-color:var(--acc)}
+@media(max-width:880px){.snabb .box{grid-template-columns:minmax(0,1fr)}}
 </style>
 </head>
 <body>
@@ -288,6 +311,8 @@ footer{padding:28px max(5vw,18px) 120px;font-size:13.5px;color:var(--muted);text
   </div>
 </section>
 <div class="marq" aria-hidden="true"><div class="marq-in" id="marq"></div></div>
+
+<section class="snabb reveal" id="snabb" aria-label="Snabbval"><div class="wrap" id="snabbIn"></div></section>
 
 <section class="band reveal" id="tjanster"><div class="wrap">
   <div class="head">
@@ -430,6 +455,27 @@ const adr=`${D.adress}, ${D.postnr} ${D.stad}`;$('adr').textContent=adr;
 const dirUrl='https://www.google.com/maps/dir/?api=1&destination='+encodeURIComponent(adr);$('dir').href=dirUrl;
 $('bento').insertAdjacentHTML('beforeend',`<div class="tile t-adr" style="grid-column:1/-1;display:flex;justify-content:space-between;align-items:center;gap:6px 14px;flex-wrap:wrap"><div><small>Hitta hit</small><p>${esc(adr)}</p></div><a href="${esc(dirUrl)}" rel="noopener">Vägbeskrivning →</a></div>`);
 $('loadMap').addEventListener('click',()=>{$('map').innerHTML=`<iframe title="Karta till ${esc(D.namn)}" src="https://www.google.com/maps?q=${encodeURIComponent(adr)}&output=embed"></iframe>`});
+/* Signatur 2: snabbmodul per bransch – bygger bara på företagets egna uppgifter */
+{const sIn=$('snabbIn'),alla=[...new Set(Object.values(cats).flat().map(i=>i[0]))].slice(0,6),T=D.tema;
+ const pills=(id)=>`<div class="pills" id="${id}">${alla.map((n,k)=>`<button type="button" class="pill" aria-pressed="${k===0}" data-n="${esc(n)}">${esc(n)}</button>`).join('')}</div>`;
+ const demo=`<p class="snote" id="snote" hidden>Förhandsvisning: på er riktiga sida går förfrågan direkt till ${esc(D.namn)}. Ring ${esc(D.telefon)} så länge.</p>`;
+ const vald=()=>{const b=sIn.querySelector('.pill[aria-pressed=true]');return b?b.dataset.n:''};
+ const knappar=box=>box.addEventListener('click',e=>{const b=e.target.closest('.pill');if(!b)return;box.querySelectorAll('.pill').forEach(x=>x.setAttribute('aria-pressed',x===b));sIn.dispatchEvent(new Event('val'))});
+ if(T==='verkstad'){
+  sIn.innerHTML=`<div class="box"><div><p class="label"><b>→</b>Snabbokning</p><h2>Boka på 20 sekunder</h2><p class="sub">Välj vad bilen behöver och skriv registreringsnumret – verkstaden ringer upp och bekräftar tiden.</p></div>
+  <form class="sform" id="sform"><label>Vad behöver bilen?${pills('sp')}</label><label for="regnr">Registreringsnummer<span class="plate"><span class="eu" aria-hidden="true">S</span><input id="regnr" autocomplete="off" maxlength="7" placeholder="ABC 123"></span></label>
+  <label for="stel">Telefon<input class="in" id="stel" type="tel" autocomplete="tel" placeholder="070-123 45 67"></label><button class="btn" type="submit">Skicka bokningsförfrågan</button>${demo}</form></div>`;
+ }else if(T==='salong'){
+  sIn.innerHTML=`<div class="box"><div><p class="label"><b>→</b>Boka</p><h2>Boka på en minut</h2><p class="sub">Välj behandling så kommer du direkt till bokningen.</p></div>
+  <div class="sform"><label>Behandling${pills('sp')}</label><a class="btn" id="sboka" href="${esc(book.href)}" rel="noopener"></a></div></div>`;
+  const up=()=>{$('sboka').textContent=(D.bokning?'Boka ':'Ring och boka ')+vald().toLowerCase()};sIn.addEventListener('val',up);up();
+ }else if(T==='hantverk'){
+  sIn.innerHTML=`<div class="box"><div><p class="label"><b>→</b>Före och efter</p><h2>Se skillnaden</h2><div class="ba" id="ba" style="margin-top:20px"><span class="tag" style="right:14px">Före</span><div class="after"><span class="tag" style="left:14px">Efter</span></div><span class="hint">Era egna bilder läggs in här</span></div><label style="display:block;margin-top:10px;font-size:14px;color:var(--muted)">Dra för att jämföra<input type="range" id="baR" min="5" max="95" value="55"></label></div>
+  <form class="sform" id="sform"><h3>Offert i tre steg</h3><label>1. Vad vill ni göra?${pills('sp')}</label><label for="sstor">2. Ungefär hur stort?<input class="in" id="sstor" type="text" placeholder="t.ex. badrum 6 m²"></label><label for="stel">3. Ert telefonnummer<input class="in" id="stel" type="tel" autocomplete="tel" placeholder="070-123 45 67"></label><button class="btn" type="submit">Begär offert</button>${demo}</form></div>`;
+  $('baR').addEventListener('input',e=>$('ba').style.setProperty('--pos',e.target.value+'%'));
+ }else document.getElementById('snabb').remove();
+ if($('sp'))knappar($('sp'));
+ if($('sform'))$('sform').addEventListener('submit',e=>{e.preventDefault();$('snote').hidden=false});}
 $('faq').innerHTML=D.faq.map(f=>`<details><summary>${esc(f[0])}</summary><p>${esc(f[1])}</p></details>`).join('');
 $('kontaktCta').innerHTML=(D.bokning?`<a class="btn" href="${esc(D.bokning)}" rel="noopener">${esc(book.label)} ${arrow}</a><a class="btn ghost" href="tel:${esc(D.telefonIntl)}">${esc(D.telefon)}</a>`:`<a class="btn" href="tel:${esc(D.telefonIntl)}">Ring ${esc(D.telefon)} ${arrow}</a>`)+(D.instagram?`<a class="btn ghost" href="${esc(D.instagram)}" rel="noopener">Instagram</a>`:'')+(D.facebook?`<a class="btn ghost" href="${esc(D.facebook)}" rel="noopener">Facebook</a>`:'');
 if(D.jobb){$('jobs').hidden=false;$('jobs').innerHTML=`<div><h3 style="color:#f6f3f1">${esc(D.jobb.titel)}</h3><p style="margin-top:6px">${esc(D.jobb.text)}</p></div>`+(D.jobb.tel?`<a class="btn ghost" href="tel:${esc(D.jobb.tel)}">Ring om jobbet</a>`:'')}
