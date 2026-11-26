@@ -1,0 +1,205 @@
+{
+  "slug": "atta-abrahim-kalltorp",
+  "namn": "Atta & Abrahim Bilverkstad",
+  "bolag": "Atta & Abrahim Bilverkstad AB",
+  "bolagsform": "AB",
+  "logo": [
+    "Atta & Abrahim",
+    "Kålltorp"
+  ],
+  "tema": "verkstad",
+  "schemaTyp": "AutoRepair",
+  "adress": "Kyrkåsplatsen 10",
+  "postnr": "416 52",
+  "stad": "Göteborg",
+  "lat": null,
+  "lng": null,
+  "telefon": "031-707 59 14",
+  "telefonIntl": "+46317075914",
+  "bokning": "https://boka.mekopartner.se?workshop=3382-229",
+  "instagram": null,
+  "facebook": null,
+  "betyg": [
+    {
+      "kalla": "Google",
+      "snitt": "4,2",
+      "antal": "54 omdömen"
+    }
+  ],
+  "oppettider": [
+    [
+      "Måndag",
+      8,
+      17
+    ],
+    [
+      "Tisdag",
+      8,
+      17
+    ],
+    [
+      "Onsdag",
+      8,
+      17
+    ],
+    [
+      "Torsdag",
+      8,
+      17
+    ],
+    [
+      "Fredag",
+      8,
+      17
+    ],
+    [
+      "Lördag",
+      10,
+      15
+    ],
+    [
+      "Söndag",
+      null,
+      null
+    ]
+  ],
+  "tjanster": {
+    "Verkstad": [
+      [
+        "Regelbunden bilservice",
+        "Alla bilar välkomna",
+        "Se bokning"
+      ],
+      [
+        "Däckbyte",
+        "Hjulskifte",
+        "Se bokning"
+      ],
+      [
+        "Däckservice",
+        "Inkl. balansering",
+        "Se bokning"
+      ],
+      [
+        "Avancerade reparationer",
+        "Motor och elektronik",
+        "Ring för pris"
+      ]
+    ]
+  },
+  "varfor": [
+    {
+      "big": "54",
+      "titel": "omdömen på Google",
+      "text": "Snitt 4,2. Kunderna lyfter mycket god service och trevligt bemötande."
+    },
+    {
+      "big": "6 dagar",
+      "titel": "i veckan",
+      "text": "Vardagar 08–17 och lördagar 10–15 – även för den som jobbar dagtid."
+    },
+    {
+      "big": "24/7",
+      "titel": "boka online",
+      "text": "Boka tid när det passar dig, dygnet runt, eller ring oss."
+    }
+  ],
+  "faq": [
+    [
+      "Hur bokar jag tid?",
+      "Boka online via knappen Boka tid eller ring 031-707 59 14."
+    ],
+    [
+      "Har ni öppet på lördagar?",
+      "Ja, lördagar 10–15. Vardagar 08–17."
+    ],
+    [
+      "Byter ni däck?",
+      "Ja, däckbyte och däckservice inklusive balansering."
+    ],
+    [
+      "Var ligger ni?",
+      "På Kyrkåsplatsen 10 i Kålltorp, Göteborg – tryck på Hitta hit."
+    ]
+  ],
+  "seo": {
+    "title": "Atta & Abrahim Bilverkstad – Bilverkstad i Kålltorp, Göteborg",
+    "description": "Service, däck och reparationer på Kyrkåsplatsen 10 i Göteborg. 4,2 på Google. Boka online eller ring 031-707 59 14."
+  },
+  "text": {
+    "navTjanster": "Tjänster",
+    "tjanstRubrik": "Vad behöver bilen?",
+    "prisNot": "Ring för pris – verkstaden ger besked innan arbetet börjar.",
+    "tjanstCta": "Boka tid",
+    "varforKicker": "Därför väljer Kålltorp oss",
+    "kontaktRubrik": "Behöver bilen hjälp?",
+    "kontaktText": "Boka tid online, ring oss eller kom förbi under öppettiderna.",
+    "enhet": "jobb",
+    "enhetPlural": "jobb",
+    "pratText": "Vill ni ställa frågor innan ni bestämmer er? Jag ringer gärna, eller tar ett kort videosamtal – tio minuter räcker.",
+    "rubrik": "Bilverkstaden mitt i Kålltorp",
+    "ingress": "Service, däck och reparationer på Kyrkåsplatsen 10 i Göteborg. 4,2 på Google med 54 omdömen. Öppet även lördagar – boka online eller ring.",
+    "varforRubrik": "Snabbt, kunnigt och nära",
+    "pitchRubrik": "Atta & Abrahim, 54 omdömen förtjänar en egen sida",
+    "pitchIngress": "Ni har redan nöjda kunder och onlinebokning. Det som saknas är en egen plats på nätet med rätt adress och tider. Den här sidan är redan byggd och kan vara live på kalltorpsbilverkstad.se inom 7 dagar."
+  },
+  "pitch": {
+    "snittpris": 2000,
+    "doman": "kalltorpsbilverkstad.se",
+    "idag": [
+      "Google-profilen leder bara till MekoPartners kedjesida",
+      "Två olika gatuadresser ute på nätet",
+      "Lördagstiderna skiljer sig mellan källorna",
+      "Ingen egen hemsida med era tjänster"
+    ],
+    "medSida": [
+      "Egen adress, kalltorpsbilverkstad.se, som ni äger",
+      "En adress och rätt öppettider på ett ställe",
+      "Visar om ni har öppet just nu – boka ett tryck bort",
+      "Byggd för mobilen, där bilägare letar verkstad"
+    ]
+  },
+  "mejl": {
+    "till": "kalltorp@mekopartner.se",
+    "amne": "Atta & Abrahim Bilverkstad, jag har byggt en hemsida åt er",
+    "hej": "Atta & Abrahim Bilverkstad",
+    "ert": "verkstaden",
+    "iakttagelse": "Jag fastnade för er verkstad i Kålltorp: 4,2 på Google med 54 omdömen, och kunderna lyfter mycket god service och trevligt bemötande.",
+    "problem": "Men ni har ingen egen hemsida, och uppgifterna spretar: Kundernas sida säger Kyrkåsgatan 10 och lördag 10–16, medan MekoPartners sida säger Kyrkåsplatsen 10 och 10–15.",
+    "adressKalla": "MekoPartners verkstadssida",
+    "fordelar": [
+      [
+        "Fler bokningar",
+        "Den som läser era omdömen kan ringa eller boka direkt med ett tryck."
+      ],
+      [
+        "Ni syns som er själva",
+        "Inte bara som en rad i MekoPartners lista bland andra verkstäder."
+      ],
+      [
+        "Rätt uppgifter överallt",
+        "Rätt adress, nummer och öppettider – inga missade samtal."
+      ],
+      [
+        "Den är er",
+        "Er egen adress, kalltorpsbilverkstad.se, som ni äger och styr."
+      ]
+    ],
+    "prisJamforelse": "ungefär 400 kr i månaden under första året",
+    "kontaktVal": "kommer förbi",
+    "psDatum": "10 december",
+    "variant": "A",
+    "test": "lank-2"
+  },
+  "kallor": [
+    "https://www.mekopartner.se/hitta-verkstad/goteborg/atta-abrahim-bilverkstad-ab/ – bolagsnamn, e-post kalltorp@mekopartner.se, adress Kyrkåsplatsen 10, tider mån–fre 08–17 lör 10–15, tjänster, bokningslänk",
+    "https://kundernas.se/mekopartner-bilverkstad-goteborg-mekopartner-kalltorp – Google 4,2 (54 omdömen), Kyrkåsgatan 10, lör 10–16, omdömen, webbplats = MekoPartner-sidan",
+    "Shopify domänkoll 2026-11-26: kalltorpsbilverkstad.se ledig"
+  ],
+  "status": {
+    "byggd": "2026-11-26",
+    "variant": "A",
+    "kopsignal": 6,
+    "signaler": "54 omdömen (4,2), två adresser + olika lördagstider, onlinebokning, verkstad"
+  }
+}

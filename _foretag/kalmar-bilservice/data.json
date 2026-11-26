@@ -1,0 +1,230 @@
+{
+  "slug": "kalmar-bilservice",
+  "namn": "Kalmar Bilservice",
+  "bolag": "Kalmar Bilservice AB",
+  "bolagsform": "AB",
+  "logo": [
+    "Kalmar",
+    "Bilservice"
+  ],
+  "tema": "verkstad",
+  "schemaTyp": "AutoRepair",
+  "adress": "Företagarevägen 10",
+  "postnr": "394 70",
+  "stad": "Kalmar",
+  "lat": 56.6750530906381,
+  "lng": 16.2525049872413,
+  "telefon": "0480-100 22",
+  "telefonIntl": "+4648010022",
+  "bokning": null,
+  "instagram": null,
+  "facebook": null,
+  "betyg": [
+    {
+      "kalla": "Google",
+      "snitt": "4,8",
+      "antal": "60 omdömen"
+    }
+  ],
+  "oppettider": [
+    [
+      "Måndag",
+      7.5,
+      17
+    ],
+    [
+      "Tisdag",
+      7.5,
+      17
+    ],
+    [
+      "Onsdag",
+      7.5,
+      17
+    ],
+    [
+      "Torsdag",
+      7.5,
+      17
+    ],
+    [
+      "Fredag",
+      7.5,
+      17
+    ],
+    [
+      "Lördag",
+      null,
+      null
+    ],
+    [
+      "Söndag",
+      null,
+      null
+    ]
+  ],
+  "tjanster": {
+    "Verkstad": [
+      [
+        "Godkänd bilverkstad",
+        "Service och reparation",
+        "Ring för pris"
+      ],
+      [
+        "Elektronik och felsökning",
+        "",
+        "Ring för pris"
+      ],
+      [
+        "El- och hybridbilar",
+        "Certifierad verkstad",
+        "Ring för pris"
+      ],
+      [
+        "Däckbyte",
+        "Hjulskifte",
+        "Ring för pris"
+      ],
+      [
+        "Däckhotell",
+        "",
+        "Ring för pris"
+      ],
+      [
+        "Stenskottslagning",
+        "",
+        "Ring för pris"
+      ],
+      [
+        "Lånebil",
+        "Låne- eller hyrbil",
+        "Ring för pris"
+      ],
+      [
+        "Fleetverkstad",
+        "För företag med fordon",
+        "Ring för pris"
+      ]
+    ]
+  },
+  "varfor": [
+    {
+      "big": "4,8",
+      "titel": "av 5 på Google",
+      "text": "60 omdömen. En kund körde ända från Karlskrona för felsökning och reparation."
+    },
+    {
+      "big": "8",
+      "titel": "tjänster under ett tak",
+      "text": "Från service och felsökning till däckhotell och lånebil."
+    },
+    {
+      "big": "07.30",
+      "titel": "öppnar vardagar",
+      "text": "Måndag–fredag 07.30–17.00, lunch 12.00–12.30. Helger stängt."
+    }
+  ],
+  "faq": [
+    [
+      "Hur bokar jag tid?",
+      "Ring oss på 0480-100 22 under öppettiderna."
+    ],
+    [
+      "Kan ni laga el- och hybridbilar?",
+      "Ja, verkstaden är certifierad för el- och hybridbilar."
+    ],
+    [
+      "Har ni lånebil?",
+      "Ja, låne- eller hyrbil finns – fråga när du bokar."
+    ],
+    [
+      "Har ni öppet på helgen?",
+      "Nej. Måndag–fredag 07.30–17.00, lunch 12.00–12.30."
+    ],
+    [
+      "Var ligger ni?",
+      "På Företagarevägen 10 i Kalmar – tryck på Hitta hit för vägbeskrivning."
+    ]
+  ],
+  "seo": {
+    "title": "Kalmar Bilservice – Bilverkstad i Kalmar",
+    "description": "Service, felsökning, el- och hybridbilar och däck på Företagarevägen 10 i Kalmar. 4,8 på Google. Ring 0480-100 22."
+  },
+  "text": {
+    "navTjanster": "Tjänster",
+    "tjanstRubrik": "Vad behöver bilen?",
+    "prisNot": "Ring för pris – verkstaden ger besked innan arbetet börjar.",
+    "tjanstCta": "Ring och boka",
+    "varforKicker": "Därför väljer Kalmar oss",
+    "kontaktRubrik": "Behöver bilen hjälp?",
+    "kontaktText": "Ring oss för tidsbokning eller kom förbi under öppettiderna.",
+    "enhet": "jobb",
+    "enhetPlural": "jobb",
+    "pratText": "Vill ni ställa frågor innan ni bestämmer er? Jag ringer gärna, eller tar ett kort videosamtal – tio minuter räcker.",
+    "rubrik": "Bilverkstad mitt i Kalmar",
+    "ingress": "Service, felsökning, el- och hybridbilar och däck på Företagarevägen 10. 4,8 på Google med 60 omdömen. Ring och boka – lånebil finns.",
+    "varforRubrik": "Snabbt, kunnigt och nära",
+    "pitchRubrik": "Kalmar Bilservice, kunderna hittar er på kartan – nu kan de hitta er på riktigt",
+    "pitchIngress": "Ni har redan det svåraste: nöjda kunder och ett snitt på 4,8. Det som saknas är en egen plats på nätet. Den här sidan är redan byggd och kan vara live på kalmarbilservice-ab.se inom 7 dagar."
+  },
+  "pitch": {
+    "snittpris": 2000,
+    "doman": "kalmarbilservice-ab.se",
+    "idag": [
+      "Google-profilen länkar bara till MECA:s kedjesida",
+      "MECA och Kundernas sida visar olika lunchtider",
+      "Ingen egen hemsida med era tjänster",
+      "El- och hybridcertifieringen syns bara i kedjans lista"
+    ],
+    "medSida": [
+      "Egen adress, kalmarbilservice-ab.se, som ni äger",
+      "Rätt nummer och öppettider på ett ställe",
+      "Visar om ni har öppet just nu – ett tryck för att ringa",
+      "Byggd för mobilen, där bilägare letar verkstad"
+    ]
+  },
+  "mejl": {
+    "till": "kalmar@mecabilservice.se",
+    "amne": "Kalmar Bilservice, jag har byggt en hemsida åt er",
+    "hej": "Kalmar Bilservice",
+    "ert": "verkstaden",
+    "iakttagelse": "Jag fastnade för Kalmar Bilservice: 4,8 på Google med 60 omdömen, och en kund körde ända från Karlskrona för felsökning och reparation.",
+    "problem": "Men ni har ingen egen hemsida, och MECA:s sida säger lunchstängt 12–12.30 medan Kundernas sida visar öppet hela dagen.",
+    "adressKalla": "MECA:s verkstadssida",
+    "fordelar": [
+      [
+        "Fler bokningar",
+        "Den som läser era omdömen kan ringa eller boka direkt med ett tryck."
+      ],
+      [
+        "Ni syns som er själva",
+        "Inte bara som en rad i MECAs lista bland andra verkstäder."
+      ],
+      [
+        "Rätt uppgifter överallt",
+        "Rätt adress, nummer och öppettider – inga missade samtal."
+      ],
+      [
+        "Den är er",
+        "Er egen adress, kalmarbilservice-ab.se, som ni äger och styr."
+      ]
+    ],
+    "prisJamforelse": "ungefär 400 kr i månaden under första året",
+    "kontaktVal": "tar ett kort videosamtal",
+    "psDatum": "10 december",
+    "variant": "B",
+    "test": "lank-2"
+  },
+  "kallor": [
+    "https://www.meca.se/hitta-verkstad/kalmar/bilcity-kalmar-ab – MECA:s verkstadslista, posten Kalmar Bilservice AB: e-post kalmar@mecabilservice.se, telefon, tider mån–fre 07.30–17 lunch 12–12.30, tjänster, koordinater",
+    "https://kundernas.se/meca-bilservice-kalmar-bilservice – Google 4,8 (60 omdömen), tider utan lunch, omdömen (kund från Karlskrona), webbplats = MECA-sidan",
+    "allabolag.se (Kalmar Bilservice AB) – aktiebolag, aktivt, registrerat 2019, omsättning 3 564 tkr, resultat +64 tkr, ingen webbplats",
+    "Shopify domänkoll 2026-11-26: kalmarbilservice.se upptagen (ingen sida i sökning), kalmarbilservice-ab.se ledig"
+  ],
+  "status": {
+    "byggd": "2026-11-26",
+    "variant": "B",
+    "kopsignal": 6,
+    "signaler": "60 omdömen (4,8), olika lunchtider MECA/Kundernas, 3,6 Mkr med vinst, verkstad"
+  }
+}

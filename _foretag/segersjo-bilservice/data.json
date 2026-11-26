@@ -1,0 +1,206 @@
+{
+  "slug": "segersjo-bilservice",
+  "namn": "Segersjö Bilservice",
+  "bolag": "Segersjö Bilservice AB",
+  "bolagsform": "AB",
+  "logo": [
+    "Segersjö",
+    "Bilservice"
+  ],
+  "tema": "verkstad",
+  "schemaTyp": "AutoRepair",
+  "adress": "Drottningvägen 12",
+  "postnr": "147 31",
+  "stad": "Tumba",
+  "lat": null,
+  "lng": null,
+  "telefon": "08-530 363 63",
+  "telefonIntl": "+46853036363",
+  "bokning": "https://boka.mekopartner.se?workshop=3214-134",
+  "instagram": null,
+  "facebook": null,
+  "betyg": [
+    {
+      "kalla": "Google",
+      "snitt": "4,5",
+      "antal": "82 omdömen"
+    }
+  ],
+  "oppettider": [
+    [
+      "Måndag",
+      8,
+      17
+    ],
+    [
+      "Tisdag",
+      8,
+      17
+    ],
+    [
+      "Onsdag",
+      8,
+      17
+    ],
+    [
+      "Torsdag",
+      8,
+      17
+    ],
+    [
+      "Fredag",
+      8,
+      15
+    ],
+    [
+      "Lördag",
+      null,
+      null
+    ],
+    [
+      "Söndag",
+      null,
+      null
+    ]
+  ],
+  "tjanster": {
+    "Verkstad": [
+      [
+        "Regelbunden bilservice",
+        "Alla bilar välkomna",
+        "Se bokning"
+      ],
+      [
+        "Däckservice",
+        "Däckbyte och balansering",
+        "Se bokning"
+      ],
+      [
+        "Avancerade reparationer",
+        "Motor och elektronik",
+        "Ring för pris"
+      ],
+      [
+        "Drop-in",
+        "Eller boka tid i förväg",
+        "Ring för pris"
+      ]
+    ]
+  },
+  "varfor": [
+    {
+      "big": "4,5",
+      "titel": "av 5 på Google",
+      "text": "82 omdömen från bilägare i Tumba och Botkyrka."
+    },
+    {
+      "big": "08–17",
+      "titel": "måndag–torsdag",
+      "text": "Fredag 08–15. Lunchstängt 12.00–12.45. Helger stängt."
+    },
+    {
+      "big": "24/7",
+      "titel": "boka online",
+      "text": "Boka tid när det passar dig – eller kom på drop-in."
+    }
+  ],
+  "faq": [
+    [
+      "Hur bokar jag tid?",
+      "Boka online via knappen Boka tid eller ring 08-530 363 63."
+    ],
+    [
+      "Kan jag komma utan bokning?",
+      "Ja, verkstaden har drop-in – eller boka tid i förväg."
+    ],
+    [
+      "När har ni öppet?",
+      "Måndag–torsdag 08–17, fredag 08–15, lunchstängt 12.00–12.45."
+    ],
+    [
+      "Var ligger ni?",
+      "På Drottningvägen 12 i Tumba – tryck på Hitta hit."
+    ]
+  ],
+  "seo": {
+    "title": "Segersjö Bilservice – Bilverkstad i Tumba",
+    "description": "Service, däck och reparationer på Drottningvägen 12 i Tumba. 4,5 på Google. Boka online eller ring 08-530 363 63."
+  },
+  "text": {
+    "navTjanster": "Tjänster",
+    "tjanstRubrik": "Vad behöver bilen?",
+    "prisNot": "Ring för pris – verkstaden ger besked innan arbetet börjar.",
+    "tjanstCta": "Boka tid",
+    "varforKicker": "Därför väljer Tumba oss",
+    "kontaktRubrik": "Behöver bilen hjälp?",
+    "kontaktText": "Boka tid online, ring oss eller kom förbi under öppettiderna.",
+    "enhet": "jobb",
+    "enhetPlural": "jobb",
+    "pratText": "Vill ni ställa frågor innan ni bestämmer er? Jag ringer gärna, eller tar ett kort videosamtal – tio minuter räcker.",
+    "rubrik": "Bilservice mitt i Tumba",
+    "ingress": "Service, däck och reparationer på Drottningvägen 12. 4,5 på Google med 82 omdömen. Boka online, ring eller kom på drop-in.",
+    "varforRubrik": "Snabbt, kunnigt och nära",
+    "pitchRubrik": "Segersjö Bilservice, 82 omdömen förtjänar rätt öppettider",
+    "pitchIngress": "Ni har redan nöjda kunder och ett snitt på 4,5. Det som saknas är en egen plats på nätet där tiderna stämmer. Den här sidan är redan byggd och kan vara live på segersjobilservice.se inom 7 dagar."
+  },
+  "pitch": {
+    "snittpris": 2000,
+    "doman": "segersjobilservice.se",
+    "idag": [
+      "Google-profilen leder bara till MekoPartners kedjesida",
+      "Däckplatsens sida ser ut att ni öppnar 12.45",
+      "Ingen egen hemsida med era tjänster",
+      "Drop-in syns inte när någon söker"
+    ],
+    "medSida": [
+      "Egen adress, segersjobilservice.se, som ni äger",
+      "Rätt öppettider på ett ställe – 08.00, inte 12.45",
+      "Visar om ni har öppet just nu – boka ett tryck bort",
+      "Byggd för mobilen, där bilägare letar verkstad"
+    ]
+  },
+  "mejl": {
+    "till": "segersjo@mekopartner.se",
+    "amne": "Segersjö Bilservice, jag har byggt en hemsida åt er",
+    "hej": "Segersjö Bilservice",
+    "ert": "verkstaden",
+    "iakttagelse": "Jag fastnade för Segersjö Bilservice i Tumba: 4,5 på Google med 82 omdömen, och ni tar både bokade tider och drop-in.",
+    "problem": "Men ni har ingen egen hemsida, och på Däckplatsens sida ser det ut som att ni öppnar först 12.45 – MekoPartners sida säger 08.00.",
+    "adressKalla": "MekoPartners verkstadssida",
+    "fordelar": [
+      [
+        "Fler bokningar",
+        "Den som läser era omdömen kan ringa eller boka direkt med ett tryck."
+      ],
+      [
+        "Ni syns som er själva",
+        "Inte bara som en rad i MekoPartners lista bland andra verkstäder."
+      ],
+      [
+        "Rätt uppgifter överallt",
+        "Rätt adress, nummer och öppettider – inga missade samtal."
+      ],
+      [
+        "Den är er",
+        "Er egen adress, segersjobilservice.se, som ni äger och styr."
+      ]
+    ],
+    "prisJamforelse": "ungefär 400 kr i månaden under första året",
+    "kontaktVal": "kommer förbi",
+    "psDatum": "10 december",
+    "variant": "B",
+    "test": "lank-2"
+  },
+  "kallor": [
+    "https://www.mekopartner.se/hitta-verkstad/tumba/segersjo-bilservice-ab – Segersjö Bilservice AB, adress, telefon, e-post segersjo@mekopartner.se, tider mån–tor 08–17 fre 08–15 lunch 12–12.45, drop-in, tjänstetext, bokningslänk",
+    "https://dackplatsen.se/tumba/mekopartner-bilverkstad-tumba-segersjo-bilservice-ab – Google 4,5 (82 omdömen), tider som börjar 12.45",
+    "https://www.reco.se/mekopartner-bilverkstad-segersjo-bilservice – ingen webbplats angiven",
+    "Shopify domänkoll 2026-11-26: segersjobilservice.se ledig"
+  ],
+  "status": {
+    "byggd": "2026-11-26",
+    "variant": "B",
+    "kopsignal": 6,
+    "signaler": "82 omdömen (4,5), Däckplatsen visar öppning 12.45 (MekoPartner 08.00), onlinebokning, verkstad"
+  }
+}

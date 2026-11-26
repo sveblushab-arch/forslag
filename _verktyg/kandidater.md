@@ -41,3 +41,25 @@ BoBo:s Däck (Stora Mellösa), Alunda Bilservice, Tystberga Bil & Verkstad (Reco
 
 ## Bortvalda 26 nov (sök inte igen)
 Gnesta Allservice (gnesta-allservice.se), Din Verkstad i Strängnäs (din-verkstad.se), Bilhuset i Lindome (egen sida), Alex Däck Huddinge (mecahuddinge.se), Vallentuna Bil och Däckservice (vallentunabilservice.se), JBA Motor (jbamotor.se + bilhandel), Ydre Bil & Däck (ydrebilodack.se), Br Hörlings (horlings.se), Kisa Bilservice (EF), Kungshult Bilservice (trol. EF), T Wahlgren Ekeby (bensinstation/Statoil), VH Autoservice (inget bolag), Eriks Bilservice Hackås (eriksbilservice.com oklar, inget betyg), Viksjö Bilcenter (omdömen kan gälla f.d. Autoexperten), AB Sture Karlbergs Skogås (4,0 på gränsen, olika telefonnummer, oklar koppling), Södermans Holmsund (sodermans.nu), Havdhems Bilservice (egen domän), Stiven Handen (stivenbilservice.se), MLV Malmö (egen domän), MECA Boden (stängd).
+
+## Extra leadjakt 26 nov 09:41 – byggda (flyttade härifrån)
+Kalmar Bilservice AB (MECA Kalmar), Atta & Abrahim Bilverkstad AB (MekoPartner Kålltorp, Göteborg), Segersjö Bilservice AB (MekoPartner Tumba), Sun Nails Beauty AB (Täby, Bokadirekt), HH Bilservice KB (MekoPartner Kungsbacka).
+
+## Extra leadjakt 26 nov – nästan klara (betyg finns, en sak saknas)
+- **Bilstrups Motor AB, Vänersborg (MekoPartner)** – vanersborg@mekopartner.se, 0521-155 94, Nygatan 67, Google 4,6/100 (kundernas.se/bilstrups-motor), AB, olika tider kundernas/MekoPartner (≈6 p). Kundernas anger bilstrupsmotor.se – kolla om sidan finns (sökning gav 0 träffar, hämtning blockerad).
+- **Ingarvet Däck & Bilservice AB, Falun (MekoPartner)** – ingarvet@mekopartner.se, 023-591 43, Västermalmsvägen 10, Google 4,8/25 (dackplatsen visar 13–17 – trol. fel, kolla MekoPartner-sidan → +2 spretig info).
+- **Fairies Nails and Beauty, Göteborg** – Linnégatan 3, fairiesnailsandbeauty@gmail.com, Bokadirekt 4,6/1852, två telefonnummer på profilen. Saknar bolagsform + öppettider.
+- **Flower Nails & Beauty, Jönköping** – Kanalgatan 11, flowernails.beauty@gmail.com, Bokadirekt 4,2/1206, tider finns. Saknar bolagsform (trol. EF).
+- **Vegas Salong, Borås** – Bergslenagatan 36A, Bokadirekt 4,8/186, gmail. Saknar bolagsform (trol. EF).
+- **M:beauty, Stockholm** – Birger Jarlsgatan 77, m.beauty.kontakt@gmail.com, Bokadirekt 4,9/636. Saknar tider + bolagsform.
+- **Hudik Bilteknik AB, Hudiksvall (MekoPartner)** – hudikbilteknik@gmail.com, 076-830 68 94, Movägen 14, onlinebokning. Saknar Google-betyg.
+- Kedjelistor utan betyg (allt annat från MECA-/MekoPartner-listan finns): Fosie Bilverkstad AB (Malmö, nu 040-49 43 53), Tornby Bilservice AB (Linköping), MK Motor AB (Hovmantorp), Dicks Bil & Motor & Co AB (Lomma), Vellinge Bilverkstad AB, HC Bilservice AB (Karlskrona), Fordonskyla i Varberg AB, Bilmek Bromma AB, Automekanik AB (Bandhagen).
+- Annonserar nu men e-post saknas: Effekt i Strömstad AB (frisör, annons 23 nov), Hårteam i Ystad AB (frisör, annons 9 nov).
+
+## Bortvalda 26 nov förmiddag (sök inte igen)
+Madsens Autoteknik Laholm (e-post egen domän), Din Meko Bilvård Malmö (dinmekopartner.se), FDH i Jönköping (förlust 2025), Pelles Bil & Däck Halmstad (EF), MECA Lund (3,5), Bilpastorn, Bilakuten Södertälje, Autowork, Billagret, Vendelsö Personbilar, Arlandastad Bilverkstad, SC Motorsport Arboga, Motordepån Skälby, Farsta Däckcenter, JM Bilservice Hudiksvall, Bilfix Sundsvall (alla egen domän), Stockholms Fordonsgrupp (sfgab.se), Rosa's Beauty Malmö (förlust), Degge Salong (låg oms.), Top Notch, Januari salongen, Lilla My, IdahLou (EF), Salong Abbe, Salong Villan, Salong NoC, Salong TILLIT, Mr. Barbershop (egna sidor/domäner).
+
+## Källtips (26 nov förmiddag)
+- Hela kedjelistor: MECA https://www.meca.se/hitta-verkstad/uddevalla/bil-lastvagnscenter-ab (läs i 4 delar à 100 000 tecken), MekoPartner https://www.mekopartner.se/hitta-verkstad/ (2 delar).
+- Betyg för kedjeverkstäder: dackplatsen.se/<ort> och dackplatsen.se/kedjor/mekopartner ger många per anrop.
+- Salonger: WebSearch allowed_domains ["bokadirekt.se"] + "@gmail.com" + bransch → profil med e-post, tider, priser, betyg. Flaskhals = bolagsform (ca 3 av 4 är EF). JobTech-API och Platsbanken går inte från molnet; jobbsafari.se speglar Platsbanken (bra +3-signal, sällan e-post).

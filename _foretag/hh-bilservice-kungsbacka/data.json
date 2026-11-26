@@ -1,0 +1,207 @@
+{
+  "slug": "hh-bilservice-kungsbacka",
+  "namn": "HH Bilservice",
+  "bolag": "HH Bilservice KB",
+  "bolagsform": "KB",
+  "logo": [
+    "HH",
+    "Bilservice"
+  ],
+  "tema": "verkstad",
+  "schemaTyp": "AutoRepair",
+  "adress": "Kabelgatan 2E",
+  "postnr": "434 37",
+  "stad": "Kungsbacka",
+  "lat": 57.50505964439019,
+  "lng": 12.06870340541972,
+  "telefon": "0300-759 95",
+  "telefonIntl": "+4630075995",
+  "bokning": "https://boka.mekopartner.se?workshop=3493-103",
+  "instagram": null,
+  "facebook": null,
+  "betyg": [
+    {
+      "kalla": "Google",
+      "snitt": "4,8",
+      "antal": "24 omdömen"
+    }
+  ],
+  "oppettider": [
+    [
+      "Måndag",
+      7.5,
+      16.5
+    ],
+    [
+      "Tisdag",
+      7.5,
+      16.5
+    ],
+    [
+      "Onsdag",
+      7.5,
+      16.5
+    ],
+    [
+      "Torsdag",
+      7.5,
+      16.5
+    ],
+    [
+      "Fredag",
+      7.5,
+      16.5
+    ],
+    [
+      "Lördag",
+      null,
+      null
+    ],
+    [
+      "Söndag",
+      null,
+      null
+    ]
+  ],
+  "tjanster": {
+    "Verkstad": [
+      [
+        "Regelbunden bilservice",
+        "Alla bilar välkomna",
+        "Se bokning"
+      ],
+      [
+        "Däckservice",
+        "Däckbyte och balansering",
+        "Se bokning"
+      ],
+      [
+        "Avancerade reparationer",
+        "Motor och elektronik",
+        "Ring för pris"
+      ],
+      [
+        "Drop-in",
+        "Eller boka tid i förväg",
+        "Ring för pris"
+      ]
+    ]
+  },
+  "varfor": [
+    {
+      "big": "4,8",
+      "titel": "av 5 på Google",
+      "text": "24 omdömen. En kund kunde lämna in bilen samma dag som hen ringde."
+    },
+    {
+      "big": "07.30",
+      "titel": "öppnar vardagar",
+      "text": "Måndag–fredag 07.30–16.30. Helger stängt."
+    },
+    {
+      "big": "24/7",
+      "titel": "boka online",
+      "text": "Boka tid när det passar dig – eller ring oss."
+    }
+  ],
+  "faq": [
+    [
+      "Hur bokar jag tid?",
+      "Boka online via knappen Boka tid eller ring 0300-759 95."
+    ],
+    [
+      "Kan jag komma utan bokning?",
+      "Ja, verkstaden har drop-in – eller boka tid i förväg."
+    ],
+    [
+      "När har ni öppet?",
+      "Måndag–fredag 07.30–16.30. Lördag och söndag stängt."
+    ],
+    [
+      "Var ligger ni?",
+      "På Kabelgatan 2E i Kungsbacka – tryck på Hitta hit."
+    ]
+  ],
+  "seo": {
+    "title": "HH Bilservice – Bilverkstad i Kungsbacka",
+    "description": "Service, däck och reparationer på Kabelgatan 2E i Kungsbacka. 4,8 på Google. Boka online eller ring 0300-759 95."
+  },
+  "text": {
+    "navTjanster": "Tjänster",
+    "tjanstRubrik": "Vad behöver bilen?",
+    "prisNot": "Ring för pris – verkstaden ger besked innan arbetet börjar.",
+    "tjanstCta": "Boka tid",
+    "varforKicker": "Därför väljer Kungsbacka oss",
+    "kontaktRubrik": "Behöver bilen hjälp?",
+    "kontaktText": "Boka tid online, ring oss eller kom förbi under öppettiderna.",
+    "enhet": "jobb",
+    "enhetPlural": "jobb",
+    "pratText": "Vill ni ställa frågor innan ni bestämmer er? Jag ringer gärna, eller tar ett kort videosamtal – tio minuter räcker.",
+    "rubrik": "Bilverkstad i Kungsbacka",
+    "ingress": "Service, däck och reparationer på Kabelgatan 2E. 4,8 på Google med 24 omdömen. Boka online, ring eller kom på drop-in.",
+    "varforRubrik": "Snabbt, kunnigt och nära",
+    "pitchRubrik": "HH Bilservice, kunderna hittar er på kartan – nu kan de hitta er på riktigt",
+    "pitchIngress": "Ni har redan det svåraste: nöjda kunder och ett snitt på 4,8. Det som saknas är en egen plats på nätet med rätt adress. Den här sidan är redan byggd och kan vara live på hhbilservice.se inom 7 dagar."
+  },
+  "pitch": {
+    "snittpris": 2000,
+    "doman": "hhbilservice.se",
+    "idag": [
+      "Google-profilen leder bara till MekoPartners kedjesida",
+      "Två olika gatunummer ute på nätet",
+      "Ingen egen hemsida med era tjänster",
+      "Onlinebokningen syns inte när någon söker"
+    ],
+    "medSida": [
+      "Egen adress, hhbilservice.se, som ni äger",
+      "Rätt adress och öppettider på ett ställe",
+      "Visar om ni har öppet just nu – boka ett tryck bort",
+      "Byggd för mobilen, där bilägare letar verkstad"
+    ]
+  },
+  "mejl": {
+    "till": "varla@mekopartner.se",
+    "amne": "HH Bilservice, jag har byggt en hemsida åt er",
+    "hej": "HH Bilservice",
+    "ert": "verkstaden",
+    "iakttagelse": "Jag fastnade för HH Bilservice i Kungsbacka: 4,8 på Google med 24 omdömen, och en kund skriver att bilen kunde lämnas in samma dag hen ringde.",
+    "problem": "Men ni har ingen egen hemsida, och adressen spretar – på Hitta står Kabelgatan 4, medan MekoPartners och Kundernas sidor säger Kabelgatan 2E.",
+    "adressKalla": "MekoPartners verkstadssida",
+    "fordelar": [
+      [
+        "Fler bokningar",
+        "Den som läser era omdömen kan ringa eller boka direkt med ett tryck."
+      ],
+      [
+        "Ni syns som er själva",
+        "Inte bara som en rad i MekoPartners lista bland andra verkstäder."
+      ],
+      [
+        "Rätt uppgifter överallt",
+        "Rätt adress, nummer och öppettider – inga missade samtal."
+      ],
+      [
+        "Den är er",
+        "Er egen adress, hhbilservice.se, som ni äger och styr."
+      ]
+    ],
+    "prisJamforelse": "ungefär 400 kr i månaden under första året",
+    "kontaktVal": "tar ett kort videosamtal",
+    "psDatum": "10 december",
+    "variant": "B",
+    "test": "lank-2"
+  },
+  "kallor": [
+    "https://www.mekopartner.se/hitta-verkstad/kungsbacka/hh-bilservice-2/ – adress Kabelgatan 2E, telefon, e-post varla@mekopartner.se, tider mån–fre 07.30–16.30, tjänstetext, drop-in, bokningslänk",
+    "https://kundernas.se/mekopartner-bilverkstad-kungsbacka-hh-bilservice – Google 4,8 (24 omdömen), tider, omdöme (inlämning samma dag)",
+    "allabolag.se (HH Bilservice Kommanditbolag) – kommanditbolag, aktivt sedan 2004, ingen webbplats",
+    "hitta.se (MekoPartner HH Bilservice, Kungsbacka) – adress Kabelgatan 4",
+    "Shopify domänkoll 2026-11-26: hhbilservice.se ledig"
+  ],
+  "status": {
+    "byggd": "2026-11-26",
+    "variant": "B",
+    "kopsignal": 4,
+    "signaler": "24 omdömen (4,8), Kabelgatan 4 vs 2E, onlinebokning, verkstad"
+  }
+}
