@@ -15,7 +15,7 @@ KRAV = ["slug", "namn", "bolag", "bolagsform", "logo", "tema", "adress", "postnr
 TEXTKRAV = ["rubrik", "ingress", "tjanstRubrik", "prisNot", "varforKicker", "varforRubrik", "kontaktRubrik", "kontaktText",
             "pitchRubrik", "pitchIngress", "enhet", "enhetPlural", "pratText"]
 # Fält som aldrig får hamna i den publika sidan (mottagare, källor, interna anteckningar, id-nummer)
-PRIVAT = {"mejl", "besok", "kallor", "status", "orgnr", "personnr", "kanal", "epost", "notering", "ab"}
+PRIVAT = {"mejl", "besok", "kallor", "status", "orgnr", "personnr", "kanal", "epost", "notering", "ab", "domankoll", "kopsignal", "signaler"}
 IDNUMMER = re.compile(r"\b(?:\d{2})?\d{6}[-+]?\d{4}\b")
 MEJLKRAV = ["till", "amne", "hej", "iakttagelse", "problem", "fordelar", "prisJamforelse", "psDatum", "kontaktVal"]
 
@@ -68,6 +68,15 @@ def kontrollera(d):
         fel("mejl.variant ska vara A eller B")
     if re.search(r"\[[A-ZÅÄÖ ]+\]|XXX|TODO|lorem", blob, re.I):
         fel("platshållare kvar i data.json")
+    # Domänkoll (26 nov, efter tre missar: MD Bilreparationer, Jockes Bilservice, Sun Nails hade egna sidor).
+    # Krav för nya mejl-leads: domankoll = {"namnDoman": "<namn>.se", "status": "ledig" | "parkerad", "bevis": "..."}.
+    # "ledig" = Shopify-kollen säger ledig. "parkerad" = domänen öppnad och visar bara registrarens parkeringssida.
+    # Upptagen domän som inte kunnat öppnas och visats parkerad = HOPPA ÖVER företaget.
+    if d.get("kanal") != "besok" and not (ROT / "_foretag" / d["slug"] / "mejl1.txt").exists():
+        dk = d.get("domankoll") or {}
+        if not dk.get("namnDoman") or dk.get("status") not in ("ledig", "parkerad") or not dk.get("bevis"):
+            fel("domankoll saknas eller är inte godkänd – öppna <namn>.se (och varianter med ort) och skriv "
+                "domankoll {namnDoman, status: ledig|parkerad, bevis}. Har företaget en egen sida: hoppa över det.")
     # Leadjakt 26 nov: inga webbadresser i mejltexten (Gmail gör dem till länkar → fler länkar, sämre leverans)
     mj = d.get("mejl", {})
     doman = re.compile(r"\b[\w-]+\.(?:se|com|nu|net|org|io)\b", re.I)
