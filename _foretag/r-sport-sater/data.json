@@ -1,0 +1,220 @@
+{
+  "slug": "r-sport-sater",
+  "namn": "R-Sport Sweden",
+  "bolag": "R-Sport Sweden AB",
+  "bolagsform": "AB",
+  "logo": [
+    "R-Sport",
+    "Säter"
+  ],
+  "tema": "verkstad",
+  "schemaTyp": "AutoRepair",
+  "adress": "Nisshyttevägen 2",
+  "postnr": "783 90",
+  "stad": "Säter",
+  "lat": 60.330239,
+  "lng": 15.781666,
+  "telefon": "0225-521 75",
+  "telefonIntl": "+4622552175",
+  "bokning": null,
+  "instagram": null,
+  "facebook": null,
+  "betyg": [
+    {
+      "kalla": "Google",
+      "snitt": "4,2",
+      "antal": "49 omdömen"
+    }
+  ],
+  "oppettider": [
+    [
+      "Måndag",
+      7,
+      16
+    ],
+    [
+      "Tisdag",
+      7,
+      16
+    ],
+    [
+      "Onsdag",
+      7,
+      16
+    ],
+    [
+      "Torsdag",
+      7,
+      16
+    ],
+    [
+      "Fredag",
+      7,
+      16
+    ],
+    [
+      "Lördag",
+      null,
+      null
+    ],
+    [
+      "Söndag",
+      null,
+      null
+    ]
+  ],
+  "tjanster": {
+    "Verkstad": [
+      [
+        "Service och reparation",
+        "Alla bilmärken",
+        "Ring för pris"
+      ],
+      [
+        "Plåt och lackering",
+        "Egen plåtverkstad",
+        "Ring för pris"
+      ],
+      [
+        "Däckbyte och däckhotell",
+        "",
+        "Ring för pris"
+      ],
+      [
+        "El- och hybridbilar",
+        "Certifierad verkstad",
+        "Ring för pris"
+      ],
+      [
+        "Elektronik och felsökning",
+        "",
+        "Ring för pris"
+      ],
+      [
+        "Rekond",
+        "",
+        "Ring för pris"
+      ],
+      [
+        "Lånebil",
+        "Låne- eller hyrbil",
+        "Ring för pris"
+      ]
+    ]
+  },
+  "varfor": [
+    {
+      "big": "4,2",
+      "titel": "av 5 på Google",
+      "text": "49 omdömen. En kund sammanfattar: ”Snabbt och seriöst.”"
+    },
+    {
+      "big": "7",
+      "titel": "tjänster under ett tak",
+      "text": "Från service till plåt, lack och rekond – ring och fråga."
+    },
+    {
+      "big": "07–16",
+      "titel": "måndag–fredag",
+      "text": "Måndag–fredag 07–16. Lördag och söndag stängt."
+    }
+  ],
+  "faq": [
+    [
+      "Hur bokar jag tid?",
+      "Ring oss på 0225-521 75 under öppettiderna."
+    ],
+    [
+      "Vad kostar det?",
+      "Ring för pris – verkstaden ger besked innan arbetet börjar."
+    ],
+    [
+      "Gör ni plåt och lack?",
+      "Ja, verkstaden har plåtverkstad och lackering – ring för pris."
+    ],
+    [
+      "Var ligger ni?",
+      "På Nisshyttevägen 2 i Säter – tryck på Hitta hit för vägbeskrivning."
+    ]
+  ],
+  "seo": {
+    "title": "R-Sport Sweden – Bilverkstad i Säter",
+    "description": "Service och reparation, Plåt och lackering på Nisshyttevägen 2 i Säter. 4,2 på Google. Ring 0225-521 75."
+  },
+  "text": {
+    "navTjanster": "Tjänster",
+    "tjanstRubrik": "Vad behöver bilen?",
+    "prisNot": "Ring för pris – verkstaden ger besked innan arbetet börjar.",
+    "tjanstCta": "Ring och boka",
+    "varforKicker": "Därför väljer Säter oss",
+    "kontaktRubrik": "Behöver bilen hjälp?",
+    "kontaktText": "Ring oss för tidsbokning eller kom förbi under öppettiderna.",
+    "enhet": "jobb",
+    "enhetPlural": "jobb",
+    "pratText": "Vill ni ställa frågor innan ni bestämmer er? Jag ringer gärna, eller tar ett kort videosamtal – tio minuter räcker.",
+    "rubrik": "Bil, plåt och lack i Säter",
+    "ingress": "Service, plåt, lack och däck på Nisshyttevägen 2 i Säter. 4,2 på Google med 49 omdömen. Ring och boka – vi berättar vad som behöver göras innan vi börjar.",
+    "varforRubrik": "Snabbt, kunnigt och nära",
+    "pitchRubrik": "R-Sport Sweden, kunderna hittar er på kartan – nu kan de hitta er på riktigt",
+    "pitchIngress": "Ni har redan det svåraste: nöjda kunder och ett snitt på 4,2. Det som saknas är en egen plats på nätet. Den här sidan är redan byggd och kan vara live på rsportsater.se inom 7 dagar."
+  },
+  "pitch": {
+    "snittpris": 2000,
+    "doman": "rsportsater.se",
+    "idag": [
+      "Google-profilen länkar bara till MECA:s kedjesida",
+      "Säter och Hedemora syns som två separata kedjerader",
+      "Ingen egen hemsida med era tjänster",
+      "Tjänsterna syns bara i kedjans lista"
+    ],
+    "medSida": [
+      "Egen adress, rsportsater.se, som ni äger",
+      "Rätt adress, nummer och öppettider på ett ställe",
+      "Visar om ni har öppet just nu – ett tryck för att ringa",
+      "Byggd för mobilen, där bilägare letar verkstad"
+    ]
+  },
+  "mejl": {
+    "till": "rsport@mecaverkstad.se",
+    "amne": "R-Sport Sweden, jag har byggt en hemsida åt er",
+    "hej": "R-Sport Sweden",
+    "ert": "verkstaden",
+    "iakttagelse": "Jag fastnade för R-Sport i Säter: 4,2 på Google med 49 omdömen, och en kund sammanfattar det med ”snabbt och seriöst”.",
+    "problem": "Men ni har ingen egen hemsida – den som googlar hittar bara MECA:s kedjesidor, en för Säter och en för Hedemora.",
+    "adressKalla": "MECA:s verkstadssida",
+    "fordelar": [
+      [
+        "Fler bokningar",
+        "Den som läser era omdömen kan ringa direkt med ett tryck."
+      ],
+      [
+        "Ni syns som er själva",
+        "Inte bara som en rad i en kedjelista bland andra verkstäder."
+      ],
+      [
+        "Rätt uppgifter överallt",
+        "Rätt adress, nummer och öppettider – inga missade samtal."
+      ],
+      [
+        "Den är er",
+        "Er egen adress, rsportsater.se, som ni äger och styr."
+      ]
+    ],
+    "prisJamforelse": "ungefär 400 kr i månaden under första året",
+    "kontaktVal": "tar ett kort videosamtal",
+    "psDatum": "10 december",
+    "variant": "B",
+    "test": "lank-2"
+  },
+  "kallor": [
+    "https://www.meca.se/hitta-verkstad/sater/r-sport-sweden-ab – adress, telefon, e-post rsport@mecaverkstad.se, tider mån–fre 07–16, tjänster, koordinater",
+    "https://kundernas.se/meca-bilservice-sater-r-sport-sweden – Google 4,2 (49 omdömen), citat, webbplats = MECA-sidan",
+    "meca.se (R-Sport Sweden AB Hedemora) – andra MECA-verkstaden",
+    "allabolag.se (R-Sport Sweden AB) – aktiebolag, aktivt, registrerat 2015, ingen webbplats",
+    "Shopify domänkoll 2026-11-26: rsportsater.se ledig"
+  ],
+  "status": {
+    "byggd": "2026-11-26",
+    "variant": "B"
+  }
+}

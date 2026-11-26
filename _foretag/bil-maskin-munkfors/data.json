@@ -1,0 +1,204 @@
+{
+  "slug": "bil-maskin-munkfors",
+  "namn": "Bil & Maskin i Munkfors",
+  "bolag": "Bil & Maskin i Munkfors AB",
+  "bolagsform": "AB",
+  "logo": [
+    "Bil & Maskin",
+    "Munkfors"
+  ],
+  "tema": "verkstad",
+  "schemaTyp": "AutoRepair",
+  "adress": "Trollkullevägen 2",
+  "postnr": "684 92",
+  "stad": "Munkfors",
+  "lat": 59.848514,
+  "lng": 13.558967,
+  "telefon": "0563-500 88",
+  "telefonIntl": "+4656350088",
+  "bokning": null,
+  "instagram": null,
+  "facebook": null,
+  "betyg": [
+    {
+      "kalla": "Google",
+      "snitt": "4,9",
+      "antal": "86 omdömen"
+    }
+  ],
+  "oppettider": [
+    [
+      "Måndag",
+      8,
+      17
+    ],
+    [
+      "Tisdag",
+      8,
+      17
+    ],
+    [
+      "Onsdag",
+      8,
+      17
+    ],
+    [
+      "Torsdag",
+      8,
+      17
+    ],
+    [
+      "Fredag",
+      8,
+      15
+    ],
+    [
+      "Lördag",
+      null,
+      null
+    ],
+    [
+      "Söndag",
+      null,
+      null
+    ]
+  ],
+  "tjanster": {
+    "Verkstad": [
+      [
+        "Service",
+        "Alla bilmärken",
+        "Ring för pris"
+      ],
+      [
+        "Elektronik och felsökning",
+        "",
+        "Ring för pris"
+      ],
+      [
+        "Däckbyte och däckhotell",
+        "",
+        "Ring för pris"
+      ],
+      [
+        "Husbil och transportbil",
+        "Exkl. bodelen",
+        "Ring för pris"
+      ]
+    ]
+  },
+  "varfor": [
+    {
+      "big": "4,9",
+      "titel": "av 5 på Google",
+      "text": "86 omdömen. En kund skriver: ”Super trevlig personal samt kunniga.”"
+    },
+    {
+      "big": "86",
+      "titel": "nöjda omdömen",
+      "text": "Snitt 4,9 av 5 på Google – ring och boka en tid."
+    },
+    {
+      "big": "08–17",
+      "titel": "måndag–torsdag",
+      "text": "Måndag–torsdag 08–17, fredag 08–15. Helger stängt."
+    }
+  ],
+  "faq": [
+    [
+      "Hur bokar jag tid?",
+      "Ring oss på 0563-500 88 under öppettiderna."
+    ],
+    [
+      "Vad kostar det?",
+      "Ring för pris – verkstaden ger besked innan arbetet börjar."
+    ],
+    [
+      "Har ni öppet på helgen?",
+      "Nej. Måndag–torsdag 08–17, fredag 08–15."
+    ],
+    [
+      "Var ligger ni?",
+      "På Trollkullevägen 2 i Munkfors – tryck på Hitta hit för vägbeskrivning."
+    ]
+  ],
+  "seo": {
+    "title": "Bil & Maskin i Munkfors – Bilverkstad i Munkfors",
+    "description": "Service, Elektronik och felsökning på Trollkullevägen 2 i Munkfors. 4,9 på Google. Ring 0563-500 88."
+  },
+  "text": {
+    "navTjanster": "Tjänster",
+    "tjanstRubrik": "Vad behöver bilen?",
+    "prisNot": "Ring för pris – verkstaden ger besked innan arbetet börjar.",
+    "tjanstCta": "Ring och boka",
+    "varforKicker": "Därför väljer Munkfors oss",
+    "kontaktRubrik": "Behöver bilen hjälp?",
+    "kontaktText": "Ring oss för tidsbokning eller kom förbi under öppettiderna.",
+    "enhet": "jobb",
+    "enhetPlural": "jobb",
+    "pratText": "Vill ni ställa frågor innan ni bestämmer er? Jag ringer gärna, eller tar ett kort videosamtal – tio minuter räcker.",
+    "rubrik": "Bilverkstad i Munkfors",
+    "ingress": "Service, felsökning och däck på Trollkullevägen 2 i Munkfors. 4,9 på Google med 86 omdömen. Ring och boka – vi berättar vad som behöver göras innan vi börjar.",
+    "varforRubrik": "Snabbt, kunnigt och nära",
+    "pitchRubrik": "Bil & Maskin i Munkfors, kunderna hittar er på kartan – nu kan de hitta er på riktigt",
+    "pitchIngress": "Ni har redan det svåraste: nöjda kunder och ett snitt på 4,9. Det som saknas är en egen plats på nätet. Den här sidan är redan byggd och kan vara live på bilochmaskinmunkfors.se inom 7 dagar."
+  },
+  "pitch": {
+    "snittpris": 2000,
+    "doman": "bilochmaskinmunkfors.se",
+    "idag": [
+      "Google-profilen länkar bara till MECA:s kedjesida",
+      "kundernas.se anger stängning 13 i stället för 17",
+      "Ingen egen hemsida med era tjänster",
+      "Ert snitt på 4,9 syns bara i kataloger"
+    ],
+    "medSida": [
+      "Egen adress, bilochmaskinmunkfors.se, som ni äger",
+      "Rätt adress, nummer och öppettider på ett ställe",
+      "Visar om ni har öppet just nu – ett tryck för att ringa",
+      "Byggd för mobilen, där bilägare letar verkstad"
+    ]
+  },
+  "mejl": {
+    "till": "bil_maskin_munkfors@hotmail.se",
+    "amne": "Bil & Maskin i Munkfors, jag har byggt en hemsida åt er",
+    "hej": "Bil & Maskin i Munkfors",
+    "ert": "verkstaden",
+    "iakttagelse": "Jag fastnade för Bil & Maskin i Munkfors: 4,9 på Google med 86 omdömen, och kunderna lyfter trevlig och kunnig personal.",
+    "problem": "Men ni har ingen egen hemsida, och kundernas.se anger att ni stänger 13 varje vardag.",
+    "adressKalla": "MECA:s verkstadssida",
+    "fordelar": [
+      [
+        "Fler bokningar",
+        "Den som läser era omdömen kan ringa direkt med ett tryck."
+      ],
+      [
+        "Ni syns som er själva",
+        "Inte bara som en rad i en kedjelista bland andra verkstäder."
+      ],
+      [
+        "Rätt uppgifter överallt",
+        "Rätt adress, nummer och öppettider – inga missade samtal."
+      ],
+      [
+        "Den är er",
+        "Er egen adress, bilochmaskinmunkfors.se, som ni äger och styr."
+      ]
+    ],
+    "prisJamforelse": "ungefär 400 kr i månaden under första året",
+    "kontaktVal": "tar ett kort videosamtal",
+    "psDatum": "10 december",
+    "variant": "A",
+    "test": "lank-2"
+  },
+  "kallor": [
+    "https://www.meca.se/hitta-verkstad/munkfors/bil-maskin-ab – adress, telefon, e-post bil_maskin_munkfors@hotmail.se, tider mån–tor 08–17 fre 08–15, tjänster, koordinater",
+    "https://kundernas.se/meca-bilservice-munkfors-bil-maskin – Google 4,9 (86 omdömen), tider mån–fre 08–13, citat",
+    "allabolag.se (Bil & Maskin i Munkfors AB) – aktiebolag, aktivt, registrerat 2011, ingen hemsida",
+    "Shopify domänkoll 2026-11-26: bilochmaskinmunkfors.se ledig"
+  ],
+  "status": {
+    "byggd": "2026-11-26",
+    "variant": "A"
+  }
+}

@@ -1,0 +1,219 @@
+{
+  "slug": "md-bilreparationer",
+  "namn": "MD Bilreparationer",
+  "bolag": "MD Bilreparationer AB",
+  "bolagsform": "AB",
+  "logo": [
+    "MD",
+    "Bilreparationer"
+  ],
+  "tema": "verkstad",
+  "schemaTyp": "AutoRepair",
+  "adress": "Ägirgatan 6",
+  "postnr": "633 52",
+  "stad": "Eskilstuna",
+  "lat": 59.374095,
+  "lng": 16.536237,
+  "telefon": "016-51 94 97",
+  "telefonIntl": "+4616519497",
+  "bokning": null,
+  "instagram": null,
+  "facebook": null,
+  "betyg": [
+    {
+      "kalla": "Google",
+      "snitt": "4,6",
+      "antal": "92 omdömen"
+    }
+  ],
+  "oppettider": [
+    [
+      "Måndag",
+      7,
+      17
+    ],
+    [
+      "Tisdag",
+      7,
+      17
+    ],
+    [
+      "Onsdag",
+      7,
+      17
+    ],
+    [
+      "Torsdag",
+      7,
+      17
+    ],
+    [
+      "Fredag",
+      7,
+      17
+    ],
+    [
+      "Lördag",
+      9,
+      14
+    ],
+    [
+      "Söndag",
+      null,
+      null
+    ]
+  ],
+  "tjanster": {
+    "Verkstad": [
+      [
+        "Service",
+        "Alla bilmärken",
+        "Ring för pris"
+      ],
+      [
+        "AC-service och reparation",
+        "",
+        "Ring för pris"
+      ],
+      [
+        "Kamremsbyte",
+        "",
+        "Ring för pris"
+      ],
+      [
+        "Elektronik och felsökning",
+        "",
+        "Ring för pris"
+      ],
+      [
+        "El- och hybridbilar",
+        "Certifierad verkstad",
+        "Ring för pris"
+      ],
+      [
+        "Däckbyte och däckhotell",
+        "",
+        "Ring för pris"
+      ],
+      [
+        "Husbil och lätta lastbilar",
+        "Exkl. bodelen",
+        "Ring för pris"
+      ]
+    ]
+  },
+  "varfor": [
+    {
+      "big": "4,6",
+      "titel": "av 5 på Google",
+      "text": "92 omdömen. Ring och fråga – verkstaden ger besked innan arbetet börjar."
+    },
+    {
+      "big": "7",
+      "titel": "tjänster under ett tak",
+      "text": "Från service och kamrem till AC och elbil – ring och fråga."
+    },
+    {
+      "big": "6 dagar",
+      "titel": "i veckan",
+      "text": "Måndag–fredag 07–17 och lördag 09–14. Söndag stängt."
+    }
+  ],
+  "faq": [
+    [
+      "Hur bokar jag tid?",
+      "Ring oss på 016-51 94 97 under öppettiderna."
+    ],
+    [
+      "Vad kostar det?",
+      "Ring för pris – verkstaden ger besked innan arbetet börjar."
+    ],
+    [
+      "Har ni öppet på lördagar?",
+      "Ja, lördag 09–14 enligt MECA:s verkstadssida. Söndag stängt."
+    ],
+    [
+      "Var ligger ni?",
+      "På Ägirgatan 6 i Eskilstuna – tryck på Hitta hit för vägbeskrivning."
+    ]
+  ],
+  "seo": {
+    "title": "MD Bilreparationer – Bilverkstad i Eskilstuna",
+    "description": "Service, AC-service och reparation på Ägirgatan 6 i Eskilstuna. 4,6 på Google. Ring 016-51 94 97."
+  },
+  "text": {
+    "navTjanster": "Tjänster",
+    "tjanstRubrik": "Vad behöver bilen?",
+    "prisNot": "Ring för pris – verkstaden ger besked innan arbetet börjar.",
+    "tjanstCta": "Ring och boka",
+    "varforKicker": "Därför väljer Eskilstuna oss",
+    "kontaktRubrik": "Behöver bilen hjälp?",
+    "kontaktText": "Ring oss för tidsbokning eller kom förbi under öppettiderna.",
+    "enhet": "jobb",
+    "enhetPlural": "jobb",
+    "pratText": "Vill ni ställa frågor innan ni bestämmer er? Jag ringer gärna, eller tar ett kort videosamtal – tio minuter räcker.",
+    "rubrik": "Bilverkstad i Eskilstuna",
+    "ingress": "Service, AC, kamrem och elbilar på Ägirgatan 6 i Eskilstuna. 4,6 på Google med 92 omdömen. Ring och boka – vi berättar vad som behöver göras innan vi börjar.",
+    "varforRubrik": "Snabbt, kunnigt och nära",
+    "pitchRubrik": "MD Bilreparationer, kunderna hittar er på kartan – nu kan de hitta er på riktigt",
+    "pitchIngress": "Ni har redan det svåraste: nöjda kunder och ett snitt på 4,6. Det som saknas är en egen plats på nätet. Den här sidan är redan byggd och kan vara live på mdbilreparationereskilstuna.se inom 7 dagar."
+  },
+  "pitch": {
+    "snittpris": 2000,
+    "doman": "mdbilreparationereskilstuna.se",
+    "idag": [
+      "Google-profilen länkar bara till MECA:s kedjesida",
+      "MECA anger lördagsöppet, kundernas.se säger stängt",
+      "Ingen egen hemsida med era tjänster",
+      "Tjänsterna syns bara i kedjans lista"
+    ],
+    "medSida": [
+      "Egen adress, mdbilreparationereskilstuna.se, som ni äger",
+      "Rätt adress, nummer och öppettider på ett ställe",
+      "Visar om ni har öppet just nu – ett tryck för att ringa",
+      "Byggd för mobilen, där bilägare letar verkstad"
+    ]
+  },
+  "mejl": {
+    "till": "mdbilreparationer@gmail.com",
+    "amne": "MD Bilreparationer, jag har byggt en hemsida åt er",
+    "hej": "MD Bilreparationer",
+    "ert": "verkstaden",
+    "iakttagelse": "Jag fastnade för MD Bilreparationer i Eskilstuna: 4,6 på Google med 92 omdömen, och ni har öppet även på lördagar.",
+    "problem": "Men ni har ingen egen hemsida, och kundernas.se säger att ni har stängt på lördagar.",
+    "adressKalla": "MECA:s verkstadssida",
+    "fordelar": [
+      [
+        "Fler bokningar",
+        "Den som läser era omdömen kan ringa direkt med ett tryck."
+      ],
+      [
+        "Ni syns som er själva",
+        "Inte bara som en rad i en kedjelista bland andra verkstäder."
+      ],
+      [
+        "Rätt uppgifter överallt",
+        "Rätt adress, nummer och öppettider – inga missade samtal."
+      ],
+      [
+        "Den är er",
+        "Er egen adress, mdbilreparationereskilstuna.se, som ni äger och styr."
+      ]
+    ],
+    "prisJamforelse": "ungefär 400 kr i månaden under första året",
+    "kontaktVal": "tar ett kort videosamtal",
+    "psDatum": "10 december",
+    "variant": "A",
+    "test": "lank-2"
+  },
+  "kallor": [
+    "https://www.meca.se/hitta-verkstad/eskilstuna/md-bilreparationer-ab – adress, telefon, e-post mdbilreparationer@gmail.com, tider mån–fre 07–17 lör 09–14, tjänster, koordinater",
+    "kundernas.se (MECA Bilservice Eskilstuna, MD Bilreparationer) – Google 4,6 (92 omdömen), lördag stängt (verifierat 2026-11-25)",
+    "allabolag.se – MD Bilreparationer AB, aktiebolag (verifierat 2026-11-25)",
+    "Webbsökning 2026-11-26 på mdbilreparationer.se och \"MD Bilreparationer\" Eskilstuna: ingen egen sida. Shopify domänkoll: mdbilreparationereskilstuna.se ledig"
+  ],
+  "status": {
+    "byggd": "2026-11-26",
+    "variant": "A"
+  }
+}

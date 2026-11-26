@@ -1,0 +1,225 @@
+{
+  "slug": "a-mechanics-tyreso",
+  "namn": "A Mechanics Tyresö",
+  "bolag": "A Mechanics Tyresö AB",
+  "bolagsform": "AB",
+  "logo": [
+    "A Mechanics",
+    "Tyresö"
+  ],
+  "tema": "verkstad",
+  "schemaTyp": "AutoRepair",
+  "adress": "Industrivägen 10",
+  "postnr": "135 40",
+  "stad": "Tyresö",
+  "lat": 59.24664,
+  "lng": 18.21745,
+  "telefon": "08-582 484 74",
+  "telefonIntl": "+46858248474",
+  "bokning": null,
+  "instagram": null,
+  "facebook": null,
+  "betyg": [
+    {
+      "kalla": "Google",
+      "snitt": "4,1",
+      "antal": "110 omdömen"
+    }
+  ],
+  "oppettider": [
+    [
+      "Måndag",
+      7,
+      17
+    ],
+    [
+      "Tisdag",
+      7,
+      17
+    ],
+    [
+      "Onsdag",
+      7,
+      17
+    ],
+    [
+      "Torsdag",
+      7,
+      17
+    ],
+    [
+      "Fredag",
+      7,
+      16
+    ],
+    [
+      "Lördag",
+      null,
+      null
+    ],
+    [
+      "Söndag",
+      null,
+      null
+    ]
+  ],
+  "tjanster": {
+    "Verkstad": [
+      [
+        "Service",
+        "Alla bilmärken",
+        "Ring för pris"
+      ],
+      [
+        "Elektronik och felsökning",
+        "",
+        "Ring för pris"
+      ],
+      [
+        "El- och hybridbilar",
+        "Certifierad verkstad",
+        "Ring för pris"
+      ],
+      [
+        "Däckbyte och däckhotell",
+        "",
+        "Ring för pris"
+      ],
+      [
+        "Alkolås",
+        "",
+        "Ring för pris"
+      ],
+      [
+        "Rekond och biltvätt",
+        "",
+        "Ring för pris"
+      ],
+      [
+        "Hämta och lämna",
+        "",
+        "Ring för pris"
+      ],
+      [
+        "Lånebil",
+        "Låne- eller hyrbil",
+        "Ring för pris"
+      ]
+    ]
+  },
+  "varfor": [
+    {
+      "big": "4,1",
+      "titel": "av 5 på Google",
+      "text": "110 omdömen. En kund skriver: ”Väldigt trevliga och kunniga.”"
+    },
+    {
+      "big": "8",
+      "titel": "tjänster under ett tak",
+      "text": "Från service och däck till rekond och hämta–lämna."
+    },
+    {
+      "big": "07–17",
+      "titel": "måndag–torsdag",
+      "text": "Måndag–torsdag 07–17, fredag 07–16. Helger stängt."
+    }
+  ],
+  "faq": [
+    [
+      "Hur bokar jag tid?",
+      "Ring oss på 08-582 484 74 under öppettiderna."
+    ],
+    [
+      "Vad kostar det?",
+      "Ring för pris – verkstaden ger besked innan arbetet börjar."
+    ],
+    [
+      "Kan ni hämta bilen?",
+      "Ja, verkstaden erbjuder hämta och lämna – ring och fråga."
+    ],
+    [
+      "Var ligger ni?",
+      "På Industrivägen 10 i Tyresö – tryck på Hitta hit för vägbeskrivning."
+    ]
+  ],
+  "seo": {
+    "title": "A Mechanics Tyresö – Bilverkstad i Tyresö",
+    "description": "Service, Elektronik och felsökning på Industrivägen 10 i Tyresö. 4,1 på Google. Ring 08-582 484 74."
+  },
+  "text": {
+    "navTjanster": "Tjänster",
+    "tjanstRubrik": "Vad behöver bilen?",
+    "prisNot": "Ring för pris – verkstaden ger besked innan arbetet börjar.",
+    "tjanstCta": "Ring och boka",
+    "varforKicker": "Därför väljer Tyresö oss",
+    "kontaktRubrik": "Behöver bilen hjälp?",
+    "kontaktText": "Ring oss för tidsbokning eller kom förbi under öppettiderna.",
+    "enhet": "jobb",
+    "enhetPlural": "jobb",
+    "pratText": "Vill ni ställa frågor innan ni bestämmer er? Jag ringer gärna, eller tar ett kort videosamtal – tio minuter räcker.",
+    "rubrik": "Bilverkstad i Tyresö",
+    "ingress": "Service, däck, elbilar och rekond på Industrivägen 10 i Tyresö. 4,1 på Google med 110 omdömen. Ring och boka – vi berättar vad som behöver göras innan vi börjar.",
+    "varforRubrik": "Snabbt, kunnigt och nära",
+    "pitchRubrik": "A Mechanics Tyresö, kunderna hittar er på kartan – nu kan de hitta er på riktigt",
+    "pitchIngress": "Ni har redan det svåraste: nöjda kunder och ett snitt på 4,1. Det som saknas är en egen plats på nätet. Den här sidan är redan byggd och kan vara live på amechanicstyreso.se inom 7 dagar."
+  },
+  "pitch": {
+    "snittpris": 2000,
+    "doman": "amechanicstyreso.se",
+    "idag": [
+      "Google-profilen länkar bara till MECA:s kedjesida",
+      "kundernas.se har två poster för samma adress",
+      "Ingen egen hemsida med era tjänster",
+      "Tjänsterna syns bara i kedjans lista"
+    ],
+    "medSida": [
+      "Egen adress, amechanicstyreso.se, som ni äger",
+      "Rätt adress, nummer och öppettider på ett ställe",
+      "Visar om ni har öppet just nu – ett tryck för att ringa",
+      "Byggd för mobilen, där bilägare letar verkstad"
+    ]
+  },
+  "mejl": {
+    "till": "tyreso@mecabilservice.se",
+    "amne": "A Mechanics Tyresö, jag har byggt en hemsida åt er",
+    "hej": "A Mechanics Tyresö",
+    "ert": "verkstaden",
+    "iakttagelse": "Jag fastnade för A Mechanics i Tyresö: 4,1 på Google med 110 omdömen, och en kund skriver bara ”väldigt trevliga och kunniga”.",
+    "problem": "Men ni har ingen egen hemsida, och på kundernas.se finns två poster för samma adress med olika betyg.",
+    "adressKalla": "MECA:s verkstadssida",
+    "fordelar": [
+      [
+        "Fler bokningar",
+        "Den som läser era omdömen kan ringa direkt med ett tryck."
+      ],
+      [
+        "Ni syns som er själva",
+        "Inte bara som en rad i en kedjelista bland andra verkstäder."
+      ],
+      [
+        "Rätt uppgifter överallt",
+        "Rätt adress, nummer och öppettider – inga missade samtal."
+      ],
+      [
+        "Den är er",
+        "Er egen adress, amechanicstyreso.se, som ni äger och styr."
+      ]
+    ],
+    "prisJamforelse": "ungefär 400 kr i månaden under första året",
+    "kontaktVal": "tar ett kort videosamtal",
+    "psDatum": "10 december",
+    "variant": "A",
+    "test": "lank-2"
+  },
+  "kallor": [
+    "MECA:s verkstadslista (meca.se, A Mechanics Tyresö AB) – adress, telefon, e-post tyreso@mecabilservice.se, tider, tjänster, koordinater (hämtat 2026-11-25)",
+    "https://kundernas.se/meca-bilservice-tyreso-a-mechanics-tyreso – Google 4,1 (110 omdömen), telefon och tider bekräftade, citat, webbplats = MECA-sidan",
+    "https://kundernas.se/bilverkstad/tyreso – två poster på Industrivägen 10 (4,1/110 och 4,0/8)",
+    "allabolag.se (A Mechanics Tyresö AB) – aktiebolag, aktivt, registrerat 2024, ingen webbplats",
+    "Shopify domänkoll 2026-11-26: amechanicstyreso.se ledig"
+  ],
+  "status": {
+    "byggd": "2026-11-26",
+    "variant": "A"
+  }
+}

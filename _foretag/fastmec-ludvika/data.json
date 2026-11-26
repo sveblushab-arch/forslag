@@ -1,0 +1,219 @@
+{
+  "slug": "fastmec-ludvika",
+  "namn": "Fastmec",
+  "bolag": "Fastmec AB",
+  "bolagsform": "AB",
+  "logo": [
+    "Fastmec",
+    "Ludvika"
+  ],
+  "tema": "verkstad",
+  "schemaTyp": "AutoRepair",
+  "adress": "Kranvägen 2",
+  "postnr": "771 41",
+  "stad": "Ludvika",
+  "lat": 60.140956,
+  "lng": 15.17725,
+  "telefon": "0240-370 30",
+  "telefonIntl": "+4624037030",
+  "bokning": null,
+  "instagram": null,
+  "facebook": null,
+  "betyg": [
+    {
+      "kalla": "Google",
+      "snitt": "4,1",
+      "antal": "75 omdömen"
+    }
+  ],
+  "oppettider": [
+    [
+      "Måndag",
+      8,
+      17
+    ],
+    [
+      "Tisdag",
+      8,
+      17
+    ],
+    [
+      "Onsdag",
+      8,
+      17
+    ],
+    [
+      "Torsdag",
+      8,
+      17
+    ],
+    [
+      "Fredag",
+      8,
+      17
+    ],
+    [
+      "Lördag",
+      null,
+      null
+    ],
+    [
+      "Söndag",
+      null,
+      null
+    ]
+  ],
+  "tjanster": {
+    "Verkstad": [
+      [
+        "Service",
+        "Alla bilmärken",
+        "Ring för pris"
+      ],
+      [
+        "Elektronik och felsökning",
+        "",
+        "Ring för pris"
+      ],
+      [
+        "Däckbyte",
+        "Hjulskifte",
+        "Ring för pris"
+      ],
+      [
+        "Test av elbilsbatteri",
+        "",
+        "Ring för pris"
+      ],
+      [
+        "Husbil och lätta lastbilar",
+        "Exkl. bodelen",
+        "Ring för pris"
+      ],
+      [
+        "Stenskottslagning",
+        "",
+        "Ring för pris"
+      ],
+      [
+        "Lånebil",
+        "Låne- eller hyrbil",
+        "Ring för pris"
+      ]
+    ]
+  },
+  "varfor": [
+    {
+      "big": "4,1",
+      "titel": "av 5 på Google",
+      "text": "75 omdömen. En kund skriver att bilen togs in direkt och problemet åtgärdades på plats."
+    },
+    {
+      "big": "7",
+      "titel": "tjänster under ett tak",
+      "text": "Från service till elbilsbatteri – ring och fråga vad bilen behöver."
+    },
+    {
+      "big": "08–17",
+      "titel": "måndag–fredag",
+      "text": "Måndag–fredag 08–17. Lördag och söndag stängt."
+    }
+  ],
+  "faq": [
+    [
+      "Hur bokar jag tid?",
+      "Ring oss på 0240-370 30 under öppettiderna."
+    ],
+    [
+      "Vad kostar det?",
+      "Ring för pris – verkstaden ger besked innan arbetet börjar."
+    ],
+    [
+      "Har ni öppet på helgen?",
+      "Nej. Måndag–fredag 08–17."
+    ],
+    [
+      "Var ligger ni?",
+      "På Kranvägen 2 i Ludvika – tryck på Hitta hit för vägbeskrivning."
+    ]
+  ],
+  "seo": {
+    "title": "Fastmec – Bilverkstad i Ludvika",
+    "description": "Service, Elektronik och felsökning på Kranvägen 2 i Ludvika. 4,1 på Google. Ring 0240-370 30."
+  },
+  "text": {
+    "navTjanster": "Tjänster",
+    "tjanstRubrik": "Vad behöver bilen?",
+    "prisNot": "Ring för pris – verkstaden ger besked innan arbetet börjar.",
+    "tjanstCta": "Ring och boka",
+    "varforKicker": "Därför väljer Ludvika oss",
+    "kontaktRubrik": "Behöver bilen hjälp?",
+    "kontaktText": "Ring oss för tidsbokning eller kom förbi under öppettiderna.",
+    "enhet": "jobb",
+    "enhetPlural": "jobb",
+    "pratText": "Vill ni ställa frågor innan ni bestämmer er? Jag ringer gärna, eller tar ett kort videosamtal – tio minuter räcker.",
+    "rubrik": "Bilservice i Ludvika",
+    "ingress": "Service, felsökning och däck på Kranvägen 2 i Ludvika. 4,1 på Google med 75 omdömen. Ring och boka – vi berättar vad som behöver göras innan vi börjar.",
+    "varforRubrik": "Snabbt, kunnigt och nära",
+    "pitchRubrik": "Fastmec, kunderna hittar er på kartan – nu kan de hitta er på riktigt",
+    "pitchIngress": "Ni har redan det svåraste: nöjda kunder och ett snitt på 4,1. Det som saknas är en egen plats på nätet. Den här sidan är redan byggd och kan vara live på fastmecludvika.se inom 7 dagar."
+  },
+  "pitch": {
+    "snittpris": 2000,
+    "doman": "fastmecludvika.se",
+    "idag": [
+      "Google-profilen länkar bara till MECA:s kedjesida",
+      "kundernas.se visar andra öppettider än MECA",
+      "Ingen egen hemsida med era tjänster",
+      "Tjänsterna syns bara i kedjans lista"
+    ],
+    "medSida": [
+      "Egen adress, fastmecludvika.se, som ni äger",
+      "Rätt adress, nummer och öppettider på ett ställe",
+      "Visar om ni har öppet just nu – ett tryck för att ringa",
+      "Byggd för mobilen, där bilägare letar verkstad"
+    ]
+  },
+  "mejl": {
+    "till": "notgarden@mecabilservice.se",
+    "amne": "Fastmec, jag har byggt en hemsida åt er",
+    "hej": "Fastmec",
+    "ert": "verkstaden",
+    "iakttagelse": "Jag fastnade för Fastmec i Ludvika: 4,1 på Google med 75 omdömen, och en kund skriver att bilen togs in direkt och problemet åtgärdades på plats.",
+    "problem": "Men ni har ingen egen hemsida, och kundernas.se visar andra öppettider än MECA:s sida.",
+    "adressKalla": "MECA:s verkstadssida",
+    "fordelar": [
+      [
+        "Fler bokningar",
+        "Den som läser era omdömen kan ringa direkt med ett tryck."
+      ],
+      [
+        "Ni syns som er själva",
+        "Inte bara som en rad i en kedjelista bland andra verkstäder."
+      ],
+      [
+        "Rätt uppgifter överallt",
+        "Rätt adress, nummer och öppettider – inga missade samtal."
+      ],
+      [
+        "Den är er",
+        "Er egen adress, fastmecludvika.se, som ni äger och styr."
+      ]
+    ],
+    "prisJamforelse": "ungefär 400 kr i månaden under första året",
+    "kontaktVal": "tar ett kort videosamtal",
+    "psDatum": "10 december",
+    "variant": "B",
+    "test": "lank-2"
+  },
+  "kallor": [
+    "https://www.meca.se/hitta-verkstad/ludvika/fastmec-ab – adress, telefon, e-post notgarden@mecabilservice.se, öppettider mån–fre 08–17, tjänster, koordinater",
+    "https://kundernas.se/meca-bilservice-ludvika-fastmec – Google 4,1 (75 omdömen), tider mån–tor 07–17 fre 07–16, citat, webbplats = MECA-sidan",
+    "syna.se (företagssida Fastmec AB) – aktiebolag, aktivt, registrerat 2010, bilreparation, ingen webbplats",
+    "Shopify domänkoll 2026-11-26: fastmec.se upptagen (ingen sida i sökning), fastmecludvika.se ledig"
+  ],
+  "status": {
+    "byggd": "2026-11-26",
+    "variant": "B"
+  }
+}
