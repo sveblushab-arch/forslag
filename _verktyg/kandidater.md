@@ -22,6 +22,13 @@ MekoPartner: Algutsrums Motor AB (Färjestaden), Bilverkstaden G:A Brandstatione
 ## Bortvalda 25 nov (sök inte igen)
 Bilexperten Umeå och Car Service Väst Umeå (e-post på egen domän), Stöde Bilservice (stodebilservice.se), Hörnefors Bil & Teknik (bilochteknik.se), Eozon Trelleborg (eozon.se), Fändriks Kristinehamn (egen sida), Salem Bil & Plåt (salembilservice.se), JM Bil & Lack Enköping (jmbil.se), LE Däck & Motor Arvika (lemotor.se), Trendus (egen domän), Bilhallen Hagfors, Munkfors Bil, Simrishamns Bilservice (1 omdöme), ON Bilservice (7 omdömen), Mikkes Floby (7 omdömen), Hille Gävle (Frendo-kedja), Tjust Servicecenter (Preem), Bo & Jimmy Mölndal (egen sida), TBS Trelleborg (egen domän). Salonger: JobTech-API:t och Bokadirekt gav ingen e-post från molnet 25 nov.
 
+## Nästa körning – betyg finns, saknar bara MECA/MekoPartner-sidan (e-post) och/eller bolagsform
+- MECA Bilservice Kalmar / Kalmar Bilservice – Företagarevägen 10, 394 70 Kalmar, 0480-100 22, Google 4,8/60 (kundernas.se), webbplats = MECA-sidan. Juridiskt namn oklart (BilCity Kalmar AB?) – kolla allabolag + MECA-sidan för e-post.
+- MECA Bilservice Laholm / Madsens Autoteknik – Kristianstadsvägen 65, 312 32 Laholm, 0430-122 40, Google 4,8/33, ingen egen webbplats. MECA-sida meca.se/hitta-verkstad/laholm/madsens-autoteknik (e-post) + bolagsform saknas. kundernas anger mån–fre 07.30–12 – stäm av.
+- Fosie Bilverkstad AB, Malmö (MekoPartner) – Amilonsvägen 2A, 213 76 Malmö, fosie@mekopartner.se (MekoPartners sida). Saknar betyg + hemsidekoll.
+- Okontrollerade MECA-verkstäder (Mälardalen): Bilakuten Södertälje AB, Bilpastorn (Oxelösund), Nj Bilskade & Mek AB (Malmköping), SC Motorsport AB (Arboga), MECA Bilservice Köping, Sigtuna Bilverkstad AB / Arlandastad Bilverkstad AB, Autowork i Örebro AB, Billagret i Örebro AB, Automekanik AB (Bandhagen), Bilmek Bromma AB, AB Vendelsö Personbilar. MECA:s stora lista (meca.se/hitta-verkstad/kalmar/bilcity-kalmar-ab) går att läsa i delar när den kommit via en sökträff.
+- Bortvalda runda 2: Streetpower Olofström (egen sida), Videdals Bil Malmö (egen domän), Motor Bilservice Borlänge (egen sida), Kvarnsvedens Däck (3 omdömen), Bilcenter i Hallsberg, Gummesons Sala, Bilverkstaden Sala, Skarpnäcks Bilservice (egna sidor), MECA Stockholm/Servicespecialisten (3,8), Prime Auto Halmstad (6 omdömen), Vz-Bilservice Laholm och Rolands Bilservice Kalmar och Norbergs Bil & Motor (ingen kedjesida = ingen offentlig e-post).
+
 ## Byggda 26 nov (flyttade härifrån)
 Fastmec AB (Ludvika), MD Bilreparationer AB (Eskilstuna), Torsby Biltjänst AB, A Mechanics Tyresö AB, R-Sport Sweden AB (Säter), Bil & Maskin i Munkfors AB.
 
