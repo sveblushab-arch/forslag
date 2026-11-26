@@ -202,5 +202,10 @@
     "variant": "B",
     "kopsignal": 6,
     "signaler": "82 omdömen (4,5), Däckplatsen visar öppning 12.45 (MekoPartner 08.00), onlinebokning, verkstad"
+  },
+  "domankoll": {
+    "namnDoman": "segersjobilservice.se",
+    "status": "ledig",
+    "bevis": "Shopify 26 nov 13:25: ledig; reco.se: ingen webbplats; ingen egen sida i webbsök"
   }
 }

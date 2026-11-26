@@ -201,5 +201,10 @@
     "variant": "A",
     "kopsignal": 6,
     "signaler": "54 omdömen (4,2), två adresser + olika lördagstider, onlinebokning, verkstad"
+  },
+  "domankoll": {
+    "namnDoman": "attaabrahimbilverkstad.se",
+    "status": "ledig",
+    "bevis": "Shopify 26 nov 13:25: attaabrahim.se, attaabrahimbilverkstad.se och kalltorpsbilverkstad.se lediga; ingen egen sida i webbsök"
   }
 }

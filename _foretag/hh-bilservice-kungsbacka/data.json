@@ -203,5 +203,10 @@
     "variant": "B",
     "kopsignal": 4,
     "signaler": "24 omdömen (4,8), Kabelgatan 4 vs 2E, onlinebokning, verkstad"
+  },
+  "domankoll": {
+    "namnDoman": "hhbilservice.se",
+    "status": "ledig",
+    "bevis": "Shopify 26 nov 13:25: ledig; allabolag: ingen webbplats; ingen egen sida i webbsök"
   }
 }
