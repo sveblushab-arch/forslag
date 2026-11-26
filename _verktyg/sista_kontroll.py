@@ -54,6 +54,12 @@ def kontrollera(slug, nr):
         dom = re.search(r"\b[\w-]+\.(?:se|com|nu|net|org|io)\b", text_utan, re.I)
         if dom:
             fel.append(f"webbadress i mejltexten ({dom.group(0)}) blir en extra länk – skriv om (t.ex. 'på Kundernas sida')")
+    if nr == 1:
+        # Domänkoll (26 nov 13:23): bygg.py kräver den bara för nya byggen – leads byggda före regeln
+        # stod i kön utan. Förstamejlet går bara om <namn>.se är ledig eller visad parkerad.
+        dk = data.get("domankoll") or {}
+        if not dk.get("namnDoman") or dk.get("status") not in ("ledig", "parkerad") or not dk.get("bevis"):
+            fel.append("domankoll saknas/ej godkänd i data.json – kolla <namn>.se (Shopify-koll ledig, eller öppnad och parkerad) innan förstamejlet")
     if re.search(r"[\[\]{}]|XXX|TODO|<[a-z]", body + amne):
         fel.append("hakparenteser eller platshållare kvar")
     sida = ROT / slug / "index.html"
