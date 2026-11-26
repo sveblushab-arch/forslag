@@ -21,6 +21,9 @@ def kolla(pw, slug):
     if 'name="robots" content="noindex' not in html: fel.append("noindex saknas")
     if "Förhandsvisning" not in html: fel.append("bannern saknas")
     if "{{" in html: fel.append("mallfält kvar")
+    # Promptbiblioteket 26 nov: klickbar telefon på mobil, och inget som markerats [SAKNAS] får nå kunden.
+    if 'href="tel:' not in html: fel.append("ingen klickbar telefonlänk (tel:)")
+    if "SAKNAS" in html: fel.append("[SAKNAS]-fält kvar i sidan")
     if re.search(r"\b(?:\d{2})?\d{6}[-+]?\d{4}\b", re.sub(r"\+46\d+", "", html)): fel.append("id-nummer (org.nr/personnr) i sidan")
     if d.get("mejl", {}).get("till") and d["mejl"]["till"] in html: fel.append("mottagarens adress läcker in i sidan")
     if '"kallor":' in html or '"status": {' in html: fel.append("interna fält läcker in i sidan")
