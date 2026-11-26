@@ -114,6 +114,16 @@ def bygg_sida(d, s):
         html = html.replace("Tjänster &amp; priser", nav.replace("&", "&amp;"))
     if "{{" in html:
         fel("mallfält kvar: " + re.search(r"\{\{\w+\}\}", html).group())
+    # Besöksräknare (Elliots ja 26 nov): ett anonymt "forslag_visning" till PostHog när sidan öppnas på
+    # forslag.sveblush.shop. Inga cookies, ingen lagring i webbläsaren, ingen person (IP anonymiseras i projektet).
+    # Ringlistan ringer de som tittat först. Aldrig spårning i själva mejlen.
+    if s.get("posthog"):
+        rakna = ("<script>try{if(location.hostname==='forslag.sveblush.shop'&&navigator.sendBeacon){navigator.sendBeacon("
+                 "'https://eu.i.posthog.com/i/v0/e/',JSON.stringify({api_key:'" + s["posthog"] + "',event:'forslag_visning',"
+                 "distinct_id:'anon-'+Math.random().toString(36).slice(2),properties:{slug:'" + d["slug"] + "',"
+                 "las_saljpanel:location.hash==='#forslag',mobil:innerWidth<700,$current_url:location.href,"
+                 "$process_person_profile:false}}))}}catch(e){}</script>")
+        html = html.replace("</body>", rakna + "\n</body>", 1)
     out = ROT / d["slug"] / "index.html"
     out.parent.mkdir(exist_ok=True)
     out.write_text(html)
