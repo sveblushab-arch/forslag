@@ -5,7 +5,7 @@ Hej MD Bilreparationer,
 
 Jag heter Elliot Bergström och bygger hemsidor åt lokala företag. Jag fastnade för MD Bilreparationer i Eskilstuna: 4,6 på Google med 92 omdömen, och ni har öppet även på lördagar.
 
-Men ni har ingen egen hemsida, och kundernas.se säger att ni har stängt på lördagar.
+Men ni har ingen egen hemsida, och Kundernas sida säger att ni har stängt på lördagar.
 
 Så jag har byggt en hemsida åt er. Den är redan klar:
 https://forslag.sveblush.shop/md-bilreparationer/#forslag
