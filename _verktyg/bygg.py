@@ -68,6 +68,16 @@ def kontrollera(d):
         fel("mejl.variant ska vara A eller B")
     if re.search(r"\[[A-ZÅÄÖ ]+\]|XXX|TODO|lorem", blob, re.I):
         fel("platshållare kvar i data.json")
+    # Leadjakt 26 nov: inga webbadresser i mejltexten (Gmail gör dem till länkar → fler länkar, sämre leverans)
+    mj = d.get("mejl", {})
+    doman = re.compile(r"\b[\w-]+\.(?:se|com|nu|net|org|io)\b", re.I)
+    for k in ("hej", "iakttagelse", "problem"):
+        if doman.search(str(mj.get(k, ""))):
+            msg = f"mejl.{k} innehåller en webbadress ({doman.search(str(mj[k])).group(0)}) – skriv t.ex. 'på Kundernas sida' i stället"
+            if (ROT / "_foretag" / d["slug"] / "mejl1.txt").exists():
+                print("VARNING (redan byggt/skickat):", msg)
+            else:
+                fel(msg)
 
 
 def bygg_sida(d, s):

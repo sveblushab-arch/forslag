@@ -49,6 +49,11 @@ def kontrollera(slug, nr):
         gammal = f"https://sveblushab-arch.github.io/forslag/{slug}/#forslag"  # byggt före 25 nov 08:20 – skickas vidare automatiskt
         if lankar not in ([ratt], [gammal]):
             fel.append(f"länkar {lankar} – ska vara exakt [{ratt}]")
+    if nr == 1:
+        text_utan = re.sub(r"https?://\S+", "", body.split("Varma hälsningar")[0])
+        dom = re.search(r"\b[\w-]+\.(?:se|com|nu|net|org|io)\b", text_utan, re.I)
+        if dom:
+            fel.append(f"webbadress i mejltexten ({dom.group(0)}) blir en extra länk – skriv om (t.ex. 'på Kundernas sida')")
     if re.search(r"[\[\]{}]|XXX|TODO|<[a-z]", body + amne):
         fel.append("hakparenteser eller platshållare kvar")
     sida = ROT / slug / "index.html"
