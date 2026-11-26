@@ -1,0 +1,302 @@
+{
+  "slug": "salong-lafayette-saffle",
+  "namn": "Salong LaFayette",
+  "bolag": "Salong LaFayette AB",
+  "bolagsform": "AB",
+  "logo": [
+    "Salong",
+    "LaFayette"
+  ],
+  "tema": "salong",
+  "schemaTyp": "HairSalon",
+  "adress": "Karlstadsvägen 24",
+  "postnr": "661 41",
+  "stad": "Säffle",
+  "lat": 59.1373,
+  "lng": 12.9418,
+  "telefon": "076-322 82 62",
+  "telefonIntl": "+46763228262",
+  "bokning": "https://www.bokadirekt.se/places/salong-lafayette-128857",
+  "bokningEtikett": "Boka tid",
+  "bokningHero": "Boka tid online",
+  "instagram": "https://www.instagram.com/salonglafayette/",
+  "facebook": null,
+  "betyg": [
+    {
+      "kalla": "Bokadirekt",
+      "snitt": "4,8",
+      "antal": "409 betyg"
+    }
+  ],
+  "oppettider": [
+    [
+      "Måndag",
+      8.5,
+      16
+    ],
+    [
+      "Tisdag",
+      8.5,
+      17
+    ],
+    [
+      "Onsdag",
+      8.5,
+      16
+    ],
+    [
+      "Torsdag",
+      8.5,
+      15
+    ],
+    [
+      "Fredag",
+      null,
+      null
+    ],
+    [
+      "Lördag",
+      null,
+      null
+    ],
+    [
+      "Söndag",
+      null,
+      null
+    ]
+  ],
+  "tjanster": {
+    "Klippning": [
+      [
+        "Klippning",
+        "60 min",
+        "från 770 kr"
+      ],
+      [
+        "Klippning kort hår",
+        "45 min",
+        "från 650 kr"
+      ],
+      [
+        "Klippning lockigt hår",
+        "75 min",
+        "från 810 kr"
+      ],
+      [
+        "Lugg",
+        "15 min",
+        "från 230 kr"
+      ],
+      [
+        "Barn 9–11 år",
+        "45 min",
+        "från 599 kr"
+      ],
+      [
+        "Barn 5–8 år",
+        "30 min",
+        "från 480 kr"
+      ],
+      [
+        "Barn 0–4 år",
+        "30 min",
+        "från 390 kr"
+      ]
+    ],
+    "Färg & slingor": [
+      [
+        "Nyansering + klipp",
+        "90 min",
+        "från 1 650 kr"
+      ],
+      [
+        "Färg utväxt + klipp",
+        "120 min",
+        "från 1 880 kr"
+      ],
+      [
+        "Minislingning inkl. klipp",
+        "120 min",
+        "från 1 880 kr"
+      ],
+      [
+        "Slingor/färg & klipp",
+        "150 min",
+        "från 2 390 kr"
+      ],
+      [
+        "Permanent + klipp, kort hår",
+        "120 min",
+        "från 1 880 kr"
+      ]
+    ],
+    "Bryn, fransar & håltagning": [
+      [
+        "Brynplock",
+        "15 min",
+        "från 230 kr"
+      ],
+      [
+        "Brynfärg + plock",
+        "30 min",
+        "från 380 kr"
+      ],
+      [
+        "Frans- och brynfärg + plock",
+        "45 min",
+        "från 650 kr"
+      ],
+      [
+        "Öronhåltagning 1 hål, Studex",
+        "15 min",
+        "från 350 kr"
+      ],
+      [
+        "Öronhåltagning dubbel, Blomdahl",
+        "20 min",
+        "från 525 kr"
+      ]
+    ],
+    "Tvätt & styling": [
+      [
+        "Tvätt och fön, kort hår",
+        "30 min",
+        "från 470 kr"
+      ],
+      [
+        "Tvätt och fön, långt hår",
+        "45 min",
+        "från 640 kr"
+      ],
+      [
+        "Styling",
+        "30 min",
+        "från 400 kr"
+      ]
+    ]
+  },
+  "varfor": [
+    {
+      "big": "4,8",
+      "titel": "av 5 på Bokadirekt",
+      "text": "409 betyg – och 325 av dem är fulla fem stjärnor."
+    },
+    {
+      "big": "770 kr",
+      "titel": "för en klippning",
+      "text": "Barnklippning från 390 kr. Bryn och fransar från 230 kr."
+    },
+    {
+      "big": "2 sorters",
+      "titel": "öronhåltagning",
+      "text": "Håltagning med både Blomdahl och Studex – i örsnibben eller i brosket."
+    }
+  ],
+  "faq": [
+    [
+      "Hur bokar jag tid?",
+      "Enklast är att boka online via knappen \"Boka tid\" – där ser du alla lediga tider. Hittar du ingen tid kan du ställa dig på väntelistan eller kontakta oss via Instagram eller telefon."
+    ],
+    [
+      "Gör ni öronhåltagning?",
+      "Ja, med både Blomdahl och Studex. Ett hål i örsnibben kostar från 350 kr."
+    ],
+    [
+      "Klipper ni barn?",
+      "Ja. Barnklippning kostar från 390 kr för de minsta och från 599 kr för 9–11 år."
+    ],
+    [
+      "Vad gäller vid avbokning?",
+      "Avboka senast 24 timmar innan. Uteblivet besök eller sen avbokning debiteras med hela behandlingens pris."
+    ],
+    [
+      "Har ni öppet på helger?",
+      "Nej. Vi har öppet måndag–torsdag, och öppettiderna kan variera – se lediga tider när du bokar."
+    ]
+  ],
+  "seo": {
+    "title": "Salong LaFayette – Frisör i Säffle",
+    "description": "Frisör på Karlstadsvägen 24 i Säffle. Klippning, färg och slingor, bryn och fransar och öronhåltagning. 4,8 på Bokadirekt. Boka online."
+  },
+  "text": {
+    "rubrik": "Frisör på Karlstadsvägen i Säffle",
+    "ingress": "Klippning, färg och slingor, bryn och fransar och öronhåltagning – på Karlstadsvägen 24. 4,8 på Bokadirekt med 409 betyg. Boka online eller ring.",
+    "tjanstRubrik": "Vad vill du göra idag?",
+    "prisNot": "Från-priser från salongens bokningssida, november 2026. Se exakta priser och lediga tider när du bokar.",
+    "tjanstCta": "Se lediga tider",
+    "varforKicker": "Därför väljer Säffle LaFayette",
+    "varforRubrik": "Nöjda kunder sedan länge",
+    "kontaktRubrik": "Dags att fixa håret?",
+    "kontaktText": "Boka online dygnet runt, ring oss eller skriv på Instagram. Öppettiderna kan variera – lediga tider syns alltid i bokningen.",
+    "pitchRubrik": "Elin, 409 betyg förtjänar en egen sida",
+    "pitchIngress": "Ni har redan det svåraste: nöjda kunder och 4,8 i snitt. Det som saknas är en egen plats på nätet med ett nummer och rätt tider. Sidan är byggd och kan vara live på salonglafayette.se inom 7 dagar.",
+    "enhet": "besök",
+    "enhetPlural": "besök",
+    "pratText": "Vill ni ställa frågor innan ni bestämmer er? Jag ringer gärna, eller tar ett kort videosamtal – tio minuter räcker."
+  },
+  "pitch": {
+    "snittpris": 770,
+    "doman": "salonglafayette.se",
+    "idag": [
+      "Den som söker er hamnar i en katalog eller på Instagram",
+      "Två olika telefonnummer ligger ute på nätet",
+      "Öronhåltagning syns inte när någon söker",
+      "Varierande öppettider är svåra att hitta"
+    ],
+    "medSida": [
+      "Egen adress, salonglafayette.se, som ni äger",
+      "Ett nummer och rätt öppettider på ett ställe",
+      "Visar om ni har öppet just nu – bokning ett tryck bort",
+      "Byggd för mobilen, där de flesta letar efter salong"
+    ]
+  },
+  "mejl": {
+    "till": "salonglafayette@gmail.com",
+    "amne": "Salong LaFayette, jag har byggt en hemsida åt er",
+    "hej": "Elin",
+    "ert": "salongen",
+    "iakttagelse": "Jag fastnade för Salong LaFayette i Säffle: 4,8 på Bokadirekt med 409 betyg, och 325 av dem är fulla fem stjärnor.",
+    "problem": "Men ni har ingen egen hemsida, och på nätet ligger två olika nummer – ett 0533-nummer i företagsregistren och ett mobilnummer på Bokadirekt.",
+    "adressKalla": "er sida på Bokadirekt",
+    "fordelar": [
+      [
+        "Fler bokningar",
+        "Den som läser era omdömen hittar priser, tider och en bokningsknapp på en gång."
+      ],
+      [
+        "Ni syns för allt ni gör",
+        "Öronhåltagning, bryn och fransar får egna platser när någon söker."
+      ],
+      [
+        "Rätt uppgifter överallt",
+        "Ett telefonnummer och rätt öppettider – inga missade samtal."
+      ],
+      [
+        "Den är er",
+        "Er egen adress, salonglafayette.se, som ni äger och styr."
+      ]
+    ],
+    "prisJamforelse": "ungefär 400 kr i månaden under första året",
+    "kontaktVal": "tar ett kort videosamtal",
+    "psDatum": "11 december",
+    "variant": "A",
+    "test": "lank-2"
+  },
+  "kallor": [
+    "https://www.bokadirekt.se/places/salong-lafayette-128857 – adress, telefon 076-322 82 62, e-post salonglafayette@gmail.com (i tjänstebeskrivningarna för håltagning), tider mån–tor ('Öppettiderna varierar'), tjänster och från-priser, ägare Elin, betyg 4,8 (409), koordinater, Instagram",
+    "https://www.allabolag.se/foretag/salong-lafayette-ab/säffle/hudvårdsprodukter – Salong LaFayette AB, aktivt, registrerat 2002, omsättning 1 204 tkr 2025, resultat 84 tkr, 2 anställda, telefon 0533-133 40, ingen webbplats",
+    "WebSearch 'Salong Lafayette Säffle' 26 nov: ingen egen sida",
+    "Shopify domänkoll 2026-11-26: salonglafayette.se, salonglafayettesaffle.se, lafayette-saffle.se lediga"
+  ],
+  "status": {
+    "byggd": "2026-11-26",
+    "kopsignal": 7,
+    "signaler": "409 betyg (4,8), två olika telefonnummer (allabolag 0533 / Bokadirekt mobil), onlinebokning + Instagram, oms. 1,2 Mkr med vinst, salong",
+    "variant": "A"
+  },
+  "domankoll": {
+    "namnDoman": "salonglafayette.se",
+    "status": "ledig",
+    "bevis": "Shopify 26 nov: salonglafayette.se ledig, salonglafayettesaffle.se ledig, lafayette-saffle.se ledig; sökning 'Salong Lafayette Säffle': ingen egen sida; Bokadirekt och allabolag: ingen webbplats"
+  }
+}

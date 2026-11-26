@@ -1,0 +1,252 @@
+{
+  "slug": "damian-bygg-alvsjo",
+  "namn": "Damian Bygg",
+  "bolag": "Damian Bygg i Stockholm AB",
+  "bolagsform": "AB",
+  "logo": [
+    "Damian",
+    "Bygg"
+  ],
+  "tema": "hantverk",
+  "schemaTyp": "HomeAndConstructionBusiness",
+  "adress": "Slättåkragränd 11",
+  "postnr": "125 72",
+  "stad": "Älvsjö",
+  "telefon": "070-768 47 96",
+  "telefonIntl": "+46707684796",
+  "bokning": null,
+  "instagram": "https://www.instagram.com/damianbygg/",
+  "facebook": null,
+  "betyg": [
+    {
+      "kalla": "Reco",
+      "snitt": "4,9",
+      "antal": "155 omdömen"
+    }
+  ],
+  "oppettider": [
+    [
+      "Måndag",
+      8,
+      18
+    ],
+    [
+      "Tisdag",
+      8,
+      18
+    ],
+    [
+      "Onsdag",
+      8,
+      18
+    ],
+    [
+      "Torsdag",
+      8,
+      18
+    ],
+    [
+      "Fredag",
+      8,
+      18
+    ],
+    [
+      "Lördag",
+      10,
+      15
+    ],
+    [
+      "Söndag",
+      null,
+      null
+    ]
+  ],
+  "tjanster": {
+    "Renovering": [
+      [
+        "Renovering av kök",
+        "Rivning, bänkar, kakel",
+        "Ring för pris"
+      ],
+      [
+        "Renovering av badrum",
+        "",
+        "Ring för pris"
+      ],
+      [
+        "Helrenovering av lägenhet",
+        "",
+        "Ring för pris"
+      ],
+      [
+        "Plattsättning",
+        "",
+        "Ring för pris"
+      ]
+    ],
+    "Måleri & golv": [
+      [
+        "Målning",
+        "Väggar, tak, dörrar",
+        "Ring för pris"
+      ],
+      [
+        "Tapetsering",
+        "",
+        "Ring för pris"
+      ],
+      [
+        "Lägga golv",
+        "",
+        "Ring för pris"
+      ],
+      [
+        "Slipa golv",
+        "",
+        "Ring för pris"
+      ]
+    ],
+    "Bygg & snickeri": [
+      [
+        "Snickeri",
+        "Garderober, dörrar m.m.",
+        "Ring för pris"
+      ],
+      [
+        "Fönster och fasad",
+        "",
+        "Ring för pris"
+      ],
+      [
+        "Takläggning",
+        "",
+        "Ring för pris"
+      ]
+    ]
+  },
+  "varfor": [
+    {
+      "big": "4,9",
+      "titel": "av 5 på Reco",
+      "text": "155 omdömen, och Reco ger trovärdigheten betyget Mycket Bra."
+    },
+    {
+      "big": "Sedan 2015",
+      "titel": "i branschen",
+      "text": "Eget företag sedan 2015, aktiebolag sedan 2020."
+    },
+    {
+      "big": "Helger",
+      "titel": "också",
+      "text": "Vi kan ta jobb på helgen när det passar er bättre – och städar arbetsplatsen varje dag."
+    }
+  ],
+  "faq": [
+    [
+      "Vad gör ni för jobb?",
+      "Måleri, tapetsering, golv, plattsättning, snickeri och renovering av kök och badrum – från mindre jobb till helrenovering av lägenheter."
+    ],
+    [
+      "Jobbar ni på helger?",
+      "Ja, vi kan utföra jobb under helger när det passar kunden."
+    ],
+    [
+      "Hur får jag en offert?",
+      "Ring oss på 070-768 47 96 eller mejla, så kommer vi överens om ett besök och lämnar en offert."
+    ],
+    [
+      "Var jobbar ni?",
+      "Vi utgår från Älvsjö och tar jobb i Stockholm med omnejd."
+    ],
+    [
+      "När kan jag nå er?",
+      "Måndag–fredag 8–18 och lördag 10–15."
+    ]
+  ],
+  "seo": {
+    "title": "Damian Bygg – Bygg, måleri och renovering i Stockholm",
+    "description": "Bygg, måleri, golv och renovering av kök och badrum i Stockholm. Utgår från Älvsjö. 4,9 på Reco med 155 omdömen. Ring för offert."
+  },
+  "text": {
+    "rubrik": "Renovering och måleri i Stockholm",
+    "ingress": "Kök, badrum, måleri, golv och snickeri – från Älvsjö och ut i Stockholm. 4,9 på Reco med 155 omdömen. Ring för offert.",
+    "navTjanster": "Tjänster",
+    "tjanstRubrik": "Vad ska fixas hemma?",
+    "prisNot": "Ring för pris – vi kommer ut och lämnar en offert innan arbetet börjar.",
+    "tjanstCta": "Ring för offert",
+    "varforKicker": "Därför väljer kunderna Damian Bygg",
+    "varforRubrik": "Noggrant, flexibelt och i tid",
+    "kontaktRubrik": "Dags att renovera?",
+    "kontaktText": "Ring eller mejla oss, så bokar vi ett besök och lämnar en offert.",
+    "pitchRubrik": "Damian Bygg, 155 omdömen förtjänar en egen sida",
+    "pitchIngress": "Ni har redan det svåraste: nöjda kunder och 4,9 i snitt på Reco. Det som saknas är en egen plats där de hittar allt ni gör. Sidan är byggd och kan vara live på damianbygg.se inom 7 dagar.",
+    "enhet": "jobb",
+    "enhetPlural": "jobb",
+    "pratText": "Vill ni ställa frågor innan ni bestämmer er? Jag ringer gärna, eller tar ett kort videosamtal – tio minuter räcker."
+  },
+  "pitch": {
+    "snittpris": 20000,
+    "doman": "damianbygg.se",
+    "idag": [
+      "Den som söker er hamnar på Reco eller Instagram",
+      "Ingen egen sida som samlar allt ni gör",
+      "Kök, badrum och golv syns inte när någon söker",
+      "Konkurrenterna i Stockholm syns med egna sidor"
+    ],
+    "medSida": [
+      "Egen adress, damianbygg.se, som ni äger",
+      "Alla tjänster och era omdömen på ett ställe",
+      "Ring- och mejlknapp ett tryck bort",
+      "Byggd för mobilen, där folk letar hantverkare"
+    ]
+  },
+  "mejl": {
+    "till": "damianbygg88@gmail.com",
+    "amne": "Damian Bygg, jag har byggt en hemsida åt er",
+    "hej": "Damian Bygg",
+    "ert": "företaget",
+    "iakttagelse": "Jag fastnade för Damian Bygg: 4,9 på Reco med 155 omdömen, och flera kunder skriver att ni kom på minuten och städade arbetsplatsen varje dag.",
+    "problem": "Men ni har ingen egen hemsida – den som söker er hamnar på Reco eller Instagram, och där syns inte allt ni gör.",
+    "adressKalla": "er profil på Reco",
+    "fordelar": [
+      [
+        "Fler förfrågningar",
+        "Den som läser era omdömen kan ringa eller mejla direkt med ett tryck."
+      ],
+      [
+        "Ni syns för allt ni gör",
+        "Kök, badrum, golv och måleri får egna platser när någon söker."
+      ],
+      [
+        "Ett ställe för allt",
+        "Tjänster, tider och kontakt samlat – inte utspritt på olika sidor."
+      ],
+      [
+        "Den är er",
+        "Er egen adress, damianbygg.se, som ni äger och styr."
+      ]
+    ],
+    "prisJamforelse": "ungefär 400 kr i månaden under första året",
+    "kontaktVal": "tar ett kort videosamtal",
+    "psDatum": "11 december",
+    "variant": "B",
+    "test": "lank-2"
+  },
+  "kallor": [
+    "https://www.reco.se/damian-bygg – Damian Bygg i Stockholm AB, adress, telefon, e-post damianbygg88@gmail.com (i 'Om företaget'), tider mån–fre 08–18 lör 10–15, tjänstekategorier, 4,9 (155 omdömen), trovärdighet Mycket Bra, Verifierat företag, Instagram, ingen webbplats, eget företag sedan 2015 och AB sedan 2020",
+    "https://api.risika.dk/se/report/… (årsredovisning 2022) – nettoomsättning 2,16 Mkr 2022, resultat efter fin. poster 732 tkr, 2 anställda",
+    "WebSearch 'Damian Bygg i Stockholm AB' 26 nov: bara Reco, bolagsfakta, risika – ingen egen sida",
+    "Shopify domänkoll 2026-11-26: damianbygg.se, damianbyggstockholm.se, damian-bygg-stockholm.se lediga"
+  ],
+  "status": {
+    "byggd": "2026-11-26",
+    "kopsignal": 5,
+    "signaler": "155 omdömen (4,9 Reco, senaste sept 2026), Instagram, oms. 2,2 Mkr med vinst (2022), hantverk",
+    "variant": "B"
+  },
+  "domankoll": {
+    "namnDoman": "damianbygg.se",
+    "status": "ledig",
+    "bevis": "Shopify 26 nov: damianbygg.se ledig, damianbyggstockholm.se ledig, damian-bygg-stockholm.se ledig; sökning 'Damian Bygg i Stockholm AB': ingen egen sida; Reco: ingen webbplats"
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "slug": "johnnys-bilservice-ljusdal",
+  "namn": "Johnnys Bilservice",
+  "bolag": "Johnnys Bilservice i Ljusdal AB",
+  "bolagsform": "AB",
+  "logo": [
+    "Johnnys",
+    "Bilservice"
+  ],
+  "tema": "verkstad",
+  "schemaTyp": "AutoRepair",
+  "adress": "Hudiksvallsvägen 8",
+  "postnr": "827 35",
+  "stad": "Ljusdal",
+  "lat": 61.8243655,
+  "lng": 16.1170555,
+  "telefon": "0651-140 10",
+  "telefonIntl": "+4665114010",
+  "bokning": "https://boka.mekopartner.se?workshop=3470-056",
+  "instagram": null,
+  "facebook": null,
+  "betyg": [
+    {
+      "kalla": "Google",
+      "snitt": "4,3",
+      "antal": "48 omdömen"
+    }
+  ],
+  "oppettider": [
+    [
+      "Måndag",
+      7,
+      16
+    ],
+    [
+      "Tisdag",
+      7,
+      16
+    ],
+    [
+      "Onsdag",
+      7,
+      16
+    ],
+    [
+      "Torsdag",
+      7,
+      16
+    ],
+    [
+      "Fredag",
+      7,
+      16
+    ],
+    [
+      "Lördag",
+      null,
+      null
+    ],
+    [
+      "Söndag",
+      null,
+      null
+    ]
+  ],
+  "tjanster": {
+    "Verkstad": [
+      [
+        "Regelbunden bilservice",
+        "Alla bilmärken och modeller",
+        "Se bokning"
+      ],
+      [
+        "Däckservice",
+        "Däckbyte, hjulskifte och balansering",
+        "Se bokning"
+      ],
+      [
+        "Hjulinställning",
+        "Rätt inställda hjul",
+        "Ring för pris"
+      ],
+      [
+        "Avancerade reparationer",
+        "Motor och elektronik",
+        "Ring för pris"
+      ]
+    ]
+  },
+  "varfor": [
+    {
+      "big": "4,3",
+      "titel": "av 5 på Google",
+      "text": "48 omdömen. En kund fick bilen skannad direkt och kostnadsfritt efter ett motorfel."
+    },
+    {
+      "big": "07.00",
+      "titel": "öppnar vardagar",
+      "text": "Måndag–fredag 07.00–16.00, lunchstängt 12–13. Helger stängt."
+    },
+    {
+      "big": "24/7",
+      "titel": "boka online",
+      "text": "Boka tid när det passar dig – eller kom på drop-in."
+    }
+  ],
+  "faq": [
+    [
+      "Hur bokar jag tid?",
+      "Boka online via knappen Boka tid eller ring 0651-140 10."
+    ],
+    [
+      "Kan jag komma utan bokning?",
+      "Ja, verkstaden tar drop-in – eller boka tid i förväg."
+    ],
+    [
+      "När har ni öppet?",
+      "Måndag–fredag 07.00–16.00 med lunch 12–13. Lördag och söndag stängt."
+    ],
+    [
+      "Var ligger ni?",
+      "På Hudiksvallsvägen 8 i Ljusdal – tryck på Hitta hit."
+    ]
+  ],
+  "seo": {
+    "title": "Johnnys Bilservice – Bilverkstad i Ljusdal",
+    "description": "Service, däck och reparationer på Hudiksvallsvägen 8 i Ljusdal. 4,3 på Google. Boka online eller ring 0651-140 10."
+  },
+  "text": {
+    "navTjanster": "Tjänster",
+    "tjanstRubrik": "Vad behöver bilen?",
+    "prisNot": "Ring för pris – verkstaden ger besked innan arbetet börjar.",
+    "tjanstCta": "Boka tid",
+    "varforKicker": "Därför väljer Ljusdal oss",
+    "kontaktRubrik": "Behöver bilen hjälp?",
+    "kontaktText": "Boka tid online, ring oss eller kom förbi under öppettiderna.",
+    "enhet": "jobb",
+    "enhetPlural": "jobb",
+    "pratText": "Vill ni ställa frågor innan ni bestämmer er? Jag ringer gärna, eller tar ett kort videosamtal – tio minuter räcker.",
+    "rubrik": "Bilverkstad i Ljusdal",
+    "ingress": "Service, däck och reparationer på Hudiksvallsvägen 8. 4,3 på Google med 48 omdömen. Boka online, ring eller kom på drop-in.",
+    "varforRubrik": "Snabbt, kunnigt och nära",
+    "pitchRubrik": "Johnnys Bilservice, nu med rätt öppettider på nätet",
+    "pitchIngress": "Ni har redan det svåraste: nöjda kunder i Ljusdal. Det som saknas är en egen plats på nätet med rätt öppettider. Den här sidan är redan byggd och kan vara live på johnnysbilservice.se inom 7 dagar."
+  },
+  "pitch": {
+    "snittpris": 2000,
+    "doman": "johnnysbilservice.se",
+    "idag": [
+      "Google-profilen leder bara till MekoPartners kedjesida",
+      "Olika öppettider ute på nätet",
+      "Ingen egen hemsida med era tjänster",
+      "Onlinebokningen syns inte när någon söker"
+    ],
+    "medSida": [
+      "Egen adress, johnnysbilservice.se, som ni äger",
+      "Rätt öppettider på ett ställe",
+      "Visar om ni har öppet just nu – boka ett tryck bort",
+      "Byggd för mobilen, där bilägare letar verkstad"
+    ]
+  },
+  "mejl": {
+    "till": "ljusdal@mekopartner.se",
+    "amne": "Johnnys Bilservice, jag har byggt en hemsida åt er",
+    "hej": "Johnnys Bilservice",
+    "ert": "verkstaden",
+    "iakttagelse": "Jag fastnade för Johnnys Bilservice i Ljusdal: 4,3 på Google med 48 omdömen, och en kund skriver att ni skannade bilen direkt och kostnadsfritt efter ett motorfel.",
+    "problem": "Men ni har ingen egen hemsida, och tiderna spretar – på Kundernas sida står att ni stänger 12 på vardagar, medan MekoPartners sida säger 16.",
+    "adressKalla": "MekoPartners verkstadssida",
+    "fordelar": [
+      [
+        "Fler bokningar",
+        "Den som läser era omdömen kan ringa eller boka direkt med ett tryck."
+      ],
+      [
+        "Ni syns som er själva",
+        "Inte bara som en rad i MekoPartners lista bland andra verkstäder."
+      ],
+      [
+        "Rätt uppgifter överallt",
+        "Rätt öppettider, nummer och adress – inga missade kunder."
+      ],
+      [
+        "Den är er",
+        "Er egen adress, johnnysbilservice.se, som ni äger och styr."
+      ]
+    ],
+    "prisJamforelse": "ungefär 400 kr i månaden under första året",
+    "kontaktVal": "tar ett kort videosamtal",
+    "psDatum": "11 december",
+    "variant": "A",
+    "test": "lank-2"
+  },
+  "kallor": [
+    "https://www.mekopartner.se/hitta-verkstad/ljusdal/johnnys-bilservice-i-ljusdal-ab/ – adress, telefon, e-post ljusdal@mekopartner.se, tider mån–fre 07–16 (lunch 12–13), tjänster, drop-in, bokningslänk",
+    "https://kundernas.se/mekopartner-bilverkstad-ljusdal-johnnys-bilservice-i-ljusdal – Google 4,3 (48 omdömen), tider mån–fre 07–12, koordinater, omdöme (gratis skanning direkt), webbplats = MekoPartner-sidan",
+    "allabolag.se (Johnnys Bilservice i Ljusdal AB) – aktiebolag, registrerat 2022, omsättning 10,9 Mkr, resultat 593 tkr (2025), 7 anställda, ingen webbplats",
+    "Shopify domänkoll 2026-11-26: johnnysbilservice.se, johnnysbilserviceljusdal.se, johnnysbilservice-ljusdal.se lediga"
+  ],
+  "status": {
+    "byggd": "2026-11-26",
+    "kopsignal": 5,
+    "signaler": "olika tider Kundernas (07–12) vs MekoPartner (07–16), onlinebokning, 10,9 Mkr med vinst, verkstad, 48 omdömen (4,3)",
+    "variant": "A"
+  },
+  "domankoll": {
+    "namnDoman": "johnnysbilservice.se",
+    "status": "ledig",
+    "bevis": "Shopify 26 nov: johnnysbilservice.se ledig, johnnysbilserviceljusdal.se ledig, johnnysbilservice-ljusdal.se ledig; Kundernas och allabolag: ingen egen webbplats (bara MekoPartner-sidan); sökningar (MekoPartner, allabolag m.fl.) på 'Johnnys Bilservice i Ljusdal': ingen egen sida i träffarna"
+  }
+}

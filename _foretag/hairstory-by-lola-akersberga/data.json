@@ -1,0 +1,303 @@
+{
+  "slug": "hairstory-by-lola-akersberga",
+  "namn": "Hairstory by Lola",
+  "bolag": "Hairstory By LS AB",
+  "bolagsform": "AB",
+  "logo": [
+    "Hairstory",
+    "by Lola"
+  ],
+  "tema": "salong",
+  "schemaTyp": "HairSalon",
+  "adress": "Rallarvägen 8",
+  "postnr": "184 40",
+  "stad": "Åkersberga",
+  "lat": 59.4822,
+  "lng": 18.2815,
+  "telefon": "072-253 09 54",
+  "telefonIntl": "+46722530954",
+  "bokning": "https://www.bokadirekt.se/places/milles-salong-hairstory-by-lola-36494",
+  "bokningEtikett": "Boka tid",
+  "bokningHero": "Boka tid online",
+  "instagram": "https://www.instagram.com/hairstory_by_ls/",
+  "facebook": null,
+  "betyg": [
+    {
+      "kalla": "Bokadirekt",
+      "snitt": "4,9",
+      "antal": "462 betyg"
+    }
+  ],
+  "oppettider": [
+    [
+      "Måndag",
+      9,
+      18
+    ],
+    [
+      "Tisdag",
+      9,
+      18
+    ],
+    [
+      "Onsdag",
+      9,
+      18
+    ],
+    [
+      "Torsdag",
+      9,
+      18
+    ],
+    [
+      "Fredag",
+      9,
+      18
+    ],
+    [
+      "Lördag",
+      9.5,
+      14
+    ],
+    [
+      "Söndag",
+      null,
+      null
+    ]
+  ],
+  "tjanster": {
+    "Dam": [
+      [
+        "Premiumklippning",
+        "60 min",
+        "från 980 kr"
+      ],
+      [
+        "Damklippning, medium–långt",
+        "40 min",
+        "från 650 kr"
+      ],
+      [
+        "Damklippning, extra långt hår",
+        "45 min",
+        "från 720 kr"
+      ],
+      [
+        "Damklippning, kort hår",
+        "30 min",
+        "från 480 kr"
+      ],
+      [
+        "Barnklippning flicka, under 8 år",
+        "20 min",
+        "från 420 kr"
+      ]
+    ],
+    "Herr": [
+      [
+        "Herrklippning",
+        "20 min",
+        "från 390 kr"
+      ],
+      [
+        "Fade",
+        "35 min",
+        "560 kr"
+      ],
+      [
+        "Klippning & skäggtrimning",
+        "40 min",
+        "720 kr"
+      ],
+      [
+        "Barnklippning pojke, under 8 år",
+        "20 min",
+        "370 kr"
+      ]
+    ],
+    "Färg": [
+      [
+        "Balayage + klippning",
+        "180 min",
+        "från 3 990 kr"
+      ],
+      [
+        "Folieslingor, nyansering + klippning",
+        "180 min",
+        "från 3 690 kr"
+      ],
+      [
+        "Färg & klippning, utväxt",
+        "90 min",
+        "från 1 850 kr"
+      ],
+      [
+        "Nyansering + klippning",
+        "60 min",
+        "från 1 390 kr"
+      ],
+      [
+        "Färgkonsultation",
+        "20 min",
+        "300 kr"
+      ]
+    ],
+    "Extensions, bryn & mer": [
+      [
+        "Extensions, insättning",
+        "90 min",
+        "från 1 550 kr"
+      ],
+      [
+        "Konsultation extensions",
+        "15 min",
+        "Gratis"
+      ],
+      [
+        "Lash lift keratin",
+        "60 min",
+        "800 kr"
+      ],
+      [
+        "Brow lamination",
+        "75 min",
+        "800 kr"
+      ],
+      [
+        "Brynfärgning & formning",
+        "30 min",
+        "590 kr"
+      ],
+      [
+        "Öronhåltagning, 1 hål",
+        "10 min",
+        "325 kr"
+      ]
+    ]
+  },
+  "varfor": [
+    {
+      "big": "4,9",
+      "titel": "av 5 på Bokadirekt",
+      "text": "462 betyg – och 424 av dem är fulla fem stjärnor."
+    },
+    {
+      "big": "Färg",
+      "titel": "är specialiteten",
+      "text": "Lola är färgspecialist och Hairtalk-stylist: balayage, slingor och extensions."
+    },
+    {
+      "big": "6 dagar",
+      "titel": "i veckan",
+      "text": "Vardagar 9–18 och lördagar 9.30–14 på Rallarvägen 8."
+    }
+  ],
+  "faq": [
+    [
+      "Hur bokar jag tid?",
+      "Enklast är att boka online via knappen \"Boka tid\" – där ser du alla lediga tider. Du kan också ringa oss på 072-253 09 54."
+    ],
+    [
+      "Gör ni extensions?",
+      "Ja, Hairtalk-extensions. Konsultationen är gratis, och en insättning kostar från 1 550 kr."
+    ],
+    [
+      "Klipper ni herr och barn?",
+      "Ja. Herrklippning från 390 kr, fade 560 kr och barnklippning från 370 kr."
+    ],
+    [
+      "Vad gäller vid sjukdom eller avbokning?",
+      "Hör av dig i god tid, gärna via mejl, så hjälper vi dig att boka om."
+    ],
+    [
+      "Har ni öppet på helgen?",
+      "Lördagar 9.30–14. Söndagar är det stängt."
+    ]
+  ],
+  "seo": {
+    "title": "Hairstory by Lola – Frisör i Åkersberga",
+    "description": "Frisör på Rallarvägen 8 i Åkersberga. Klippning, balayage och slingor, extensions, bryn och fransar. 4,9 på Bokadirekt. Boka online."
+  },
+  "text": {
+    "rubrik": "Frisör och färgspecialist i Åkersberga",
+    "ingress": "Klippning för dam, herr och barn, balayage och slingor, extensions, bryn och fransar – på Rallarvägen 8. 4,9 på Bokadirekt med 462 betyg.",
+    "tjanstRubrik": "Vad vill du göra idag?",
+    "prisNot": "Priser från salongens bokningssida, november 2026. Se exakta priser och lediga tider när du bokar.",
+    "tjanstCta": "Se lediga tider",
+    "varforKicker": "Därför väljer Åkersberga Hairstory",
+    "varforRubrik": "Kunden i fokus – och färg som håller",
+    "kontaktRubrik": "Dags att fixa håret?",
+    "kontaktText": "Boka online dygnet runt, ring oss eller titta in. Följ oss på Instagram för nya färgningar och lediga tider.",
+    "pitchRubrik": "Lola, 462 betyg förtjänar en egen sida",
+    "pitchIngress": "Ni har redan det svåraste: nöjda kunder och 4,9 i snitt. Det som saknas är en egen plats på nätet där färg och extensions syns. Sidan är byggd och kan vara live på hairstorybylola.se inom 7 dagar.",
+    "enhet": "besök",
+    "enhetPlural": "besök",
+    "pratText": "Vill ni ställa frågor innan ni bestämmer er? Jag ringer gärna, eller tar ett kort videosamtal – tio minuter räcker."
+  },
+  "pitch": {
+    "snittpris": 650,
+    "doman": "hairstorybylola.se",
+    "idag": [
+      "Den som söker er hamnar i en katalog eller på Instagram",
+      "Två namn – Milles Salong och Hairstory – gör er svåra att hitta",
+      "Balayage och extensions syns inte när någon söker",
+      "Salongerna i Åkersberga syns lika mycket som ni"
+    ],
+    "medSida": [
+      "Egen adress, hairstorybylola.se, som ni äger",
+      "Ett namn, rätt öppettider och priser på ett ställe",
+      "Visar om ni har öppet just nu – bokning ett tryck bort",
+      "Byggd för mobilen, där de flesta letar efter salong"
+    ]
+  },
+  "mejl": {
+    "till": "hairstorybyls@gmail.com",
+    "amne": "Hairstory by Lola, jag har byggt en hemsida åt er",
+    "hej": "Lola",
+    "ert": "salongen",
+    "iakttagelse": "Jag fastnade för Hairstory by Lola i Åkersberga: 4,9 på Bokadirekt med 462 betyg, och 424 av dem är fulla fem stjärnor.",
+    "problem": "Men ni har ingen egen hemsida – den som söker er hamnar på Bokadirekt eller Instagram, där balayage och extensions drunknar bland allt annat.",
+    "adressKalla": "er sida på Bokadirekt",
+    "fordelar": [
+      [
+        "Fler bokningar",
+        "Den som läser era omdömen hittar priser, tider och en bokningsknapp på en gång."
+      ],
+      [
+        "Ni syns för allt ni gör",
+        "Färg, balayage och extensions får egna platser när någon söker."
+      ],
+      [
+        "Rätt uppgifter överallt",
+        "Ett namn, ett nummer och rätt öppettider – inga missade samtal."
+      ],
+      [
+        "Den är er",
+        "Er egen adress, hairstorybylola.se, som ni äger och styr."
+      ]
+    ],
+    "prisJamforelse": "ungefär 400 kr i månaden under första året",
+    "kontaktVal": "tar ett kort videosamtal",
+    "psDatum": "11 december",
+    "variant": "A",
+    "test": "lank-2"
+  },
+  "kallor": [
+    "https://www.bokadirekt.se/places/milles-salong-hairstory-by-lola-36494 – adress, telefon (metadata), e-post hairstorybyls@gmail.com ('kontakta oss på mail' i tjänstetext + avbokningsregler), tider mån–fre 09–18 lör 09.30–14, tjänster och priser, Lola frisör/färgspecialist, 4,9 (462), koordinater, Instagram, ingen webbplats",
+    "https://api.risika.dk/se/report/… (årsredovisning 2025, Hairstory By LS AB, säte Österåker, styrelseledamot Lola) – oms. 1,20 Mkr 2025 (1,30 Mkr 2024), resultat efter fin. poster 63 tkr, 1 anställd",
+    "bolagsfakta.se (sökträff): HAIRSTORY BY LS I NORRORT AB – trol. nuvarande namn på samma bolag",
+    "WebSearch 'Hairstory by Lola Åkersberga frisör' 26 nov: ingen egen sida",
+    "Shopify domänkoll 2026-11-26: hairstorybylola.se, hairstorybyls.se, millessalong.se, hairstorybylola-akersberga.se lediga"
+  ],
+  "status": {
+    "byggd": "2026-11-26",
+    "kopsignal": 5,
+    "signaler": "462 betyg (4,9), onlinebokning + Instagram, oms. 1,2 Mkr med vinst, salong",
+    "variant": "A"
+  },
+  "domankoll": {
+    "namnDoman": "hairstorybylola.se",
+    "status": "ledig",
+    "bevis": "Shopify 26 nov: hairstorybylola.se ledig, hairstorybyls.se ledig, millessalong.se ledig, hairstorybylola-akersberga.se ledig; sökning 'Hairstory by Lola Åkersberga frisör': ingen egen sida; Bokadirekt: ingen webbplats"
+  }
+}

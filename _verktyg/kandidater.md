@@ -63,3 +63,25 @@ Madsens Autoteknik Laholm (e-post egen domän), Din Meko Bilvård Malmö (dinmek
 - Hela kedjelistor: MECA https://www.meca.se/hitta-verkstad/uddevalla/bil-lastvagnscenter-ab (läs i 4 delar à 100 000 tecken), MekoPartner https://www.mekopartner.se/hitta-verkstad/ (2 delar).
 - Betyg för kedjeverkstäder: dackplatsen.se/<ort> och dackplatsen.se/kedjor/mekopartner ger många per anrop.
 - Salonger: WebSearch allowed_domains ["bokadirekt.se"] + "@gmail.com" + bransch → profil med e-post, tider, priser, betyg. Flaskhals = bolagsform (ca 3 av 4 är EF). JobTech-API och Platsbanken går inte från molnet; jobbsafari.se speglar Platsbanken (bra +3-signal, sällan e-post).
+
+## Eftermiddagsjakt 26 nov 15:41 – byggda (flyttade härifrån)
+Salong LaFayette AB (Säffle), Bällsta Bilservice / Lilians Transport & bilverkstad AB (Vallentuna, MekoPartner), Svenska Avgasrör i Bredäng AB (Skärholmen, MECA), Damian Bygg i Stockholm AB (Älvsjö, Reco), Hairstory by Lola (Åkersberga, Bokadirekt), Mjölby Bil- & Maskinservice AB (MekoPartner), Johnnys Bilservice i Ljusdal AB (MekoPartner), Rehman Motor AB (Skillingaryd, MekoPartner), Bilsnabben AB (Storvreta, MECA).
+
+## Eftermiddagsjakt 26 nov – nästan klara (en sak saknas)
+- **Mikael Alm Bilverkstad AB, Hässleholm (MekoPartner)** – smedmastarensvag@mekopartner.se, Google 4,7/74 (Kundernas), AB, två telefonnummer (Kundernas 0451-39 08 50 / MekoPartner 073-776 16 31), oms. 3,7 Mkr med vinst (≈7 p). mikaelalmbilverkstad.se + varianter lediga, men **mikaelalm.se är upptagen och gick inte att öppna** – öppna den; ingen sida/parkerad → bygg (data.json fanns, borttagen 26 nov – bygg om från detta).
+- **Auto-Center i Kristinehamn AB (MekoPartner)** – Kristinehamn@mekopartner.se, Google 4,8/77, olika tider (Kundernas 07–12.15 / MekoPartner 07–16.30). Kundernas anger webbplats auto-center.info – öppna den.
+- **Ingarvet Däck & Bilservice AB, Falun** – ingarvet@mekopartner.se, 4,8/25; ingarvet.se och ingarvetfalun.se upptagna, ej öppnade. ingarvetdack.se ledig.
+- **Arboga Salong AB** – Nygatan 26a, 070-034 89 37, Bokadirekt 4,6/590, AB reg. 2024 (+2). Saknar offentlig e-post.
+- **Salong Djurgården AB, Stockholm** – Husarvikstorget 7, Bokadirekt 4,8/888, ingen webbplats. Saknar e-post.
+- **AND Bygg & Städ AB, Frändefors** – and.service.gbg@gmail.com (i företagets svar på Reco), Reco 4,8/12. Saknar öppettider.
+- **Salong Milla K, Örebro** (salongmillak@gmail.com, 5,0/1214) och **Studio Bara Vara, Hallsberg** (studiobaravara@gmail.com, 4,8/ca 1300, adress 3 vs 11) – bolagsform oklar (trol. EF).
+- **Älvsjö Frisörsalong AB** (4,8/775) och **Andrum skönhet & inspiration AB, Östersund** (4,8/877) – Bokadirekt-sidan gick inte att hämta; kolla e-post och webbplats.
+- Betyg saknas (allt annat finns): Dicks Bil & Motor & Co AB Lomma (lomma@mecaverkstad.se, 040-53 14 80), Träslöv Bilcenter AB Varberg (traslov@mekopartner.se), Tobias Bilservice i Sollentuna AB (tobias.bilservice@gmail.com), Botnia Bil & Däck Örnsköldsvik (sjogatan@mecabilservice.se), Bjurholms Bilverkstad AB, Rekproffset i Halmstad AB, Kjell-Arnes Bilservice AB Halmstad, Cemet AB Farsta, GEC Bilverkstad AB Västerås.
+- E-post saknas (betyg finns): Jordan N Bilservice & Däck AB Strömstad (4,3/110), 11ans Bilverkstad Veberöd (4,5/25), Arvika Fordonsunderhåll HB (4,5/18).
+
+## Bortvalda 26 nov eftermiddag (sök inte igen)
+Bilstrups Motor Vänersborg (bilstrupsmotor.se gick inte att öppna), Kristianstad Däck & Bilservice, Havdhems, Stiven Handen, Södermans Holmsund, Z-verkstan (e-post på egen domän), HC Bilservice, Fordonskyla Varberg, Autoscanic Malmö, Hudik Bilteknik, Auto Gruppen Erikslund, Garage 49, JC Bilservice, Jordbrobilar, Kiruna Bilservice, Malmskogen, BNM, Gällivare Bilteknik, Sikeå, Bilmek Bromma, Automekanik, Branäs, DL Motor, Everts Motor, Autodrive (namndomän upptagen), Harrys Bil Saxtorp, Madcap Karlshamn, Peterssons Nässjö, MS Bil Nässjö, ServiceStoppet Västerås, Carcenter Sandviken, Fairies Nails, Naglar Västerås, Davao Örebro, HK Salong Falun, Maria beauty Bålsta, Salong Cupcake, K som i Kicksson, Blanc Växjö, Karma Spa, Ego Style (egna sidor), Tornby (3,4), Oskarshamn MekoPartner (3,7), Fordonsteamet Linköping (konkurs), Pema Landskrona (6 omdömen), M:beauty, Nina Hårkonst (EF), Däckhuset Torvinge (Däckia).
+
+## Källtips (26 nov eftermiddag)
+- WebFetch nekas på adresser man bygger själv och på länkar till andra sajter. Fungerar: sökträff på kundernas.se → klicka vidare inom kundernas till ortens bilverkstadslista (betyg + webbplats för alla). MECA-hela listan: https://www.meca.se/hitta-verkstad/skovde/bilskadecenter-skovde-ab (4 delar).
+- Reco: sök `"@gmail.com" <bransch> "Om företaget"` med allowed_domains ["reco.se"] → profiler där e-posten står i texten.

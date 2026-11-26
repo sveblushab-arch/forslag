@@ -1,0 +1,254 @@
+{
+  "slug": "rehman-motor-skillingaryd",
+  "namn": "Rehman Motor",
+  "bolag": "Rehman Motor AB",
+  "bolagsform": "AB",
+  "logo": [
+    "Rehman",
+    "Motor"
+  ],
+  "tema": "verkstad",
+  "schemaTyp": "AutoRepair",
+  "adress": "Skolgatan 51",
+  "postnr": "568 31",
+  "stad": "Skillingaryd",
+  "telefon": "0370-708 80",
+  "telefonIntl": "+4637070880",
+  "bokning": "https://boka.mekopartner.se?workshop=3314-082",
+  "instagram": null,
+  "facebook": null,
+  "betyg": [
+    {
+      "kalla": "Google",
+      "snitt": "4,4",
+      "antal": "40 omdömen"
+    }
+  ],
+  "oppettider": [
+    [
+      "Måndag",
+      7,
+      17
+    ],
+    [
+      "Tisdag",
+      7,
+      17
+    ],
+    [
+      "Onsdag",
+      7,
+      17
+    ],
+    [
+      "Torsdag",
+      7,
+      17
+    ],
+    [
+      "Fredag",
+      7,
+      17
+    ],
+    [
+      "Lördag",
+      9,
+      15
+    ],
+    [
+      "Söndag",
+      null,
+      null
+    ]
+  ],
+  "tjanster": {
+    "Service och motor": [
+      [
+        "Service",
+        "Alla bilmärken",
+        "Se bokning"
+      ],
+      [
+        "Oljebyte",
+        "Snabbt och enkelt",
+        "Se bokning"
+      ],
+      [
+        "Kamremsbyte",
+        "Enligt tillverkarens intervall",
+        "Ring för pris"
+      ],
+      [
+        "Elektronik",
+        "Felsökning",
+        "Ring för pris"
+      ]
+    ],
+    "Bromsar": [
+      [
+        "Skivor och belägg",
+        "Fram och bak",
+        "Ring för pris"
+      ],
+      [
+        "Trummor och backar",
+        "Bak",
+        "Ring för pris"
+      ],
+      [
+        "Parkeringsbroms",
+        "Kontroll och åtgärd",
+        "Ring för pris"
+      ],
+      [
+        "Bromsar felsökning",
+        "Ljud, vibrationer, varningslampa",
+        "Ring för pris"
+      ]
+    ],
+    "Däck och batteri": [
+      [
+        "Däckbyte",
+        "Hjulskifte och balansering",
+        "Se bokning"
+      ],
+      [
+        "Däckhotell",
+        "Vi förvarar dina däck",
+        "Ring för pris"
+      ],
+      [
+        "Däckförsäljning",
+        "Nya däck",
+        "Ring för pris"
+      ],
+      [
+        "Batteri",
+        "Test och byte",
+        "Ring för pris"
+      ]
+    ]
+  },
+  "varfor": [
+    {
+      "big": "4,4",
+      "titel": "av 5 på Google",
+      "text": "40 omdömen från bilägare i Skillingaryd med omnejd."
+    },
+    {
+      "big": "Lör",
+      "titel": "öppet lördagar",
+      "text": "Vardagar 07–17 och lördagar 09–15. Lunchstängt 12–13."
+    },
+    {
+      "big": "24/7",
+      "titel": "boka online",
+      "text": "Boka tid när det passar dig – eller ring oss."
+    }
+  ],
+  "faq": [
+    [
+      "Hur bokar jag tid?",
+      "Boka online via knappen Boka tid eller ring 0370-708 80."
+    ],
+    [
+      "Har ni öppet på lördagar?",
+      "Ja, lördagar 09–15. Vardagar 07–17, lunchstängt 12–13."
+    ],
+    [
+      "Kan ni förvara mina däck?",
+      "Ja, vi har däckhotell och byter däck åt dig inför säsongen."
+    ],
+    [
+      "Var ligger ni?",
+      "På Skolgatan 51 i Skillingaryd – tryck på Hitta hit."
+    ]
+  ],
+  "seo": {
+    "title": "Rehman Motor – Bilverkstad i Skillingaryd",
+    "description": "Service, bromsar, däck och däckhotell på Skolgatan 51 i Skillingaryd. Öppet även lördagar. Boka online eller ring 0370-708 80."
+  },
+  "text": {
+    "navTjanster": "Tjänster",
+    "tjanstRubrik": "Vad behöver bilen?",
+    "prisNot": "Ring för pris – verkstaden ger besked innan arbetet börjar.",
+    "tjanstCta": "Boka tid",
+    "varforKicker": "Därför väljer Skillingaryd oss",
+    "kontaktRubrik": "Behöver bilen hjälp?",
+    "kontaktText": "Boka tid online, ring oss eller kom förbi under öppettiderna.",
+    "enhet": "jobb",
+    "enhetPlural": "jobb",
+    "pratText": "Vill ni ställa frågor innan ni bestämmer er? Jag ringer gärna, eller tar ett kort videosamtal – tio minuter räcker.",
+    "rubrik": "Bilverkstad i Skillingaryd",
+    "ingress": "Service, bromsar, däck och däckhotell på Skolgatan 51. 4,4 på Google med 40 omdömen. Öppet även lördagar.",
+    "varforRubrik": "Nära, kunnigt och öppet på lördagar",
+    "pitchRubrik": "Rehman Motor, kunderna hittar er på kartan – nu kan de hitta er på riktigt",
+    "pitchIngress": "Ni har redan nöjda kunder och öppet på lördagar. Det som saknas är en egen plats på nätet. Den här sidan är redan byggd och kan vara live på rehmanmotor.se inom 7 dagar."
+  },
+  "pitch": {
+    "snittpris": 2000,
+    "doman": "rehmanmotor.se",
+    "idag": [
+      "Google-länken leder till AD Bildelars verkstadssida",
+      "Samtidigt listas ni hos MekoPartner",
+      "Ingen egen hemsida med era tjänster",
+      "Onlinebokningen syns inte när någon söker"
+    ],
+    "medSida": [
+      "Egen adress, rehmanmotor.se, som ni äger",
+      "Rätt öppettider och tjänster på ett ställe",
+      "Visar om ni har öppet just nu – boka ett tryck bort",
+      "Byggd för mobilen, där bilägare letar verkstad"
+    ]
+  },
+  "mejl": {
+    "till": "skillingaryd@mekopartner.se",
+    "amne": "Rehman Motor, jag har byggt en hemsida åt er",
+    "hej": "Rehman Motor",
+    "ert": "verkstaden",
+    "iakttagelse": "Jag fastnade för Rehman Motor i Skillingaryd: 4,4 på Google med 40 omdömen – och till skillnad från många verkstäder har ni öppet på lördagar.",
+    "problem": "Men ni har ingen egen hemsida – på Google leder er länk till AD Bildelars sida, fast ni finns hos MekoPartner.",
+    "adressKalla": "MekoPartners verkstadslista",
+    "fordelar": [
+      [
+        "Fler bokningar",
+        "Den som hittar er på Google kan ringa eller boka direkt med ett tryck."
+      ],
+      [
+        "Ni syns som er själva",
+        "Inte bara som en rad i en kedjas lista bland andra verkstäder."
+      ],
+      [
+        "Rätt uppgifter överallt",
+        "Rätt nummer, tjänster och lördagstider – inga missade samtal."
+      ],
+      [
+        "Den är er",
+        "Er egen adress, rehmanmotor.se, som ni äger och styr."
+      ]
+    ],
+    "prisJamforelse": "ungefär 400 kr i månaden under första året",
+    "kontaktVal": "tar ett kort videosamtal",
+    "psDatum": "11 december",
+    "variant": "B",
+    "test": "lank-2"
+  },
+  "kallor": [
+    "https://www.mekopartner.se/hitta-verkstad/ – Rehman Motor AB: adress Skolgatan 51, telefon 0370-708 80, e-post skillingaryd@mekopartner.se, tider mån–fre 07–17 (lunch 12–13), lör 09–15, 21 tjänster, bokningslänk",
+    "https://dackplatsen.se/skillingaryd/rehman-motor-ab-mekopartner – Google 4,4 (40 omdömen), samma tider, Googles webbplatslänk = AD Bildelars verkstadssida (adbildelar.se)",
+    "https://dackplatsen.se/kedjor/mekopartner – listad som MekoPartner-verkstad",
+    "allabolag.se (Rehman Motor AB, Skillingaryd) – aktiebolag, aktivt, registrerat dec 2021, omsättning ca 1,4 Mkr (2024/25, förlust -273 tkr; 2024 vinstmarginal 3,7 %), ingen webbplats",
+    "Shopify domänkoll 2026-11-26: rehmanmotor.se, rehmanmotorskillingaryd.se, rehmanmotor-skillingaryd.se lediga"
+  ],
+  "status": {
+    "byggd": "2026-11-26",
+    "kopsignal": 4,
+    "signaler": "Google-länk till AD Bildelar men listad hos MekoPartner (spretig), onlinebokning, verkstad, 40 omdömen (4,4)",
+    "variant": "B"
+  },
+  "domankoll": {
+    "namnDoman": "rehmanmotor.se",
+    "status": "ledig",
+    "bevis": "Shopify 26 nov: rehmanmotor.se ledig, rehmanmotorskillingaryd.se ledig, rehmanmotor-skillingaryd.se ledig; sökning 'Rehman Motor Skillingaryd': ingen egen sida; allabolag: ingen webbplats"
+  }
+}

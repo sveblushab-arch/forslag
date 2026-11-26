@@ -1,0 +1,211 @@
+{
+  "slug": "svenska-avgasror-skarholmen",
+  "namn": "Svenska Avgasrör",
+  "bolag": "Svenska Avgasrör i Bredäng AB",
+  "bolagsform": "AB",
+  "logo": [
+    "Svenska",
+    "Avgasrör"
+  ],
+  "tema": "verkstad",
+  "schemaTyp": "AutoRepair",
+  "adress": "Bredängsvägen 235",
+  "postnr": "127 32",
+  "stad": "Skärholmen",
+  "lat": 59.2955275,
+  "lng": 17.9365013,
+  "telefon": "08-88 19 64",
+  "telefonIntl": "+468881964",
+  "bokning": "https://boka.meca.se?workshop=5cb734ae-a08f-e611-80e9-5065f38b56b1",
+  "instagram": null,
+  "facebook": null,
+  "betyg": [
+    {
+      "kalla": "Google",
+      "snitt": "4,4",
+      "antal": "129 omdömen"
+    }
+  ],
+  "oppettider": [
+    [
+      "Måndag",
+      8.5,
+      17
+    ],
+    [
+      "Tisdag",
+      8.5,
+      17
+    ],
+    [
+      "Onsdag",
+      8.5,
+      17
+    ],
+    [
+      "Torsdag",
+      8.5,
+      17
+    ],
+    [
+      "Fredag",
+      8.5,
+      17
+    ],
+    [
+      "Lördag",
+      null,
+      null
+    ],
+    [
+      "Söndag",
+      null,
+      null
+    ]
+  ],
+  "tjanster": {
+    "Verkstad": [
+      [
+        "Service och reparationer",
+        "Godkänd MECA-verkstad",
+        "Se bokning"
+      ],
+      [
+        "Däckbyte",
+        "Hjulskifte inför säsongen",
+        "Se bokning"
+      ],
+      [
+        "Felsökning elektronik",
+        "När varningslampan lyser",
+        "Ring för pris"
+      ],
+      [
+        "Kaross och lätta lastbilar",
+        "Karossarbete och transportbilar",
+        "Ring för pris"
+      ]
+    ]
+  },
+  "varfor": [
+    {
+      "big": "4,4",
+      "titel": "av 5 på Google",
+      "text": "129 omdömen. En kund fick handbroms och baklampa fixade efter besiktningen – allt gick smidigt."
+    },
+    {
+      "big": "1988",
+      "titel": "i Bredäng sedan",
+      "text": "Verkstaden har funnits i över 35 år."
+    },
+    {
+      "big": "24/7",
+      "titel": "boka online",
+      "text": "Boka verkstadstid när det passar dig – eller ring oss."
+    }
+  ],
+  "faq": [
+    [
+      "Hur bokar jag tid?",
+      "Boka online via knappen Boka tid eller ring 08-88 19 64."
+    ],
+    [
+      "Fixar ni besiktningsanmärkningar?",
+      "Ja, till exempel handbroms och belysning – ring så får ni besked."
+    ],
+    [
+      "När har ni öppet?",
+      "Måndag–fredag 08.30–17.00. Lördag och söndag stängt."
+    ],
+    [
+      "Var ligger ni?",
+      "På Bredängsvägen 235 i Skärholmen – tryck på Hitta hit."
+    ]
+  ],
+  "seo": {
+    "title": "Svenska Avgasrör – Bilverkstad i Skärholmen",
+    "description": "Service, reparationer och däckbyte på Bredängsvägen 235 i Skärholmen. 4,4 på Google med 129 omdömen. Boka online eller ring 08-88 19 64."
+  },
+  "text": {
+    "navTjanster": "Tjänster",
+    "tjanstRubrik": "Vad behöver bilen?",
+    "prisNot": "Ring för pris – verkstaden ger besked innan arbetet börjar.",
+    "tjanstCta": "Boka tid",
+    "varforKicker": "Därför väljer Skärholmen oss",
+    "kontaktRubrik": "Behöver bilen hjälp?",
+    "kontaktText": "Boka tid online, ring oss eller kom förbi under öppettiderna.",
+    "enhet": "jobb",
+    "enhetPlural": "jobb",
+    "pratText": "Vill ni ställa frågor innan ni bestämmer er? Jag ringer gärna, eller tar ett kort videosamtal – tio minuter räcker.",
+    "rubrik": "Bilverkstad i Skärholmen",
+    "ingress": "Service, reparationer och däckbyte på Bredängsvägen 235. 4,4 på Google med 129 omdömen. Boka online eller ring oss.",
+    "varforRubrik": "Erfarna sedan 1988",
+    "pitchRubrik": "Svenska Avgasrör, kunderna hittar er på kartan – nu kan de hitta er på riktigt",
+    "pitchIngress": "Ni har redan det svåraste: 129 omdömen och lojala kunder sedan 1988. Det som saknas är en egen plats på nätet. Den här sidan är redan byggd och kan vara live på svenskaavgasror.se inom 7 dagar."
+  },
+  "pitch": {
+    "snittpris": 2000,
+    "doman": "svenskaavgasror.se",
+    "idag": [
+      "Google-profilen leder bara till MECA:s kedjesida",
+      "Kunderna ser ett kedjenamn i stället för ert",
+      "Ingen egen hemsida med era tjänster",
+      "Onlinebokningen syns inte när någon söker"
+    ],
+    "medSida": [
+      "Egen adress, svenskaavgasror.se, som ni äger",
+      "Rätt adress och öppettider på ett ställe",
+      "Visar om ni har öppet just nu – boka ett tryck bort",
+      "Byggd för mobilen, där bilägare letar verkstad"
+    ]
+  },
+  "mejl": {
+    "till": "skarholmen@mecabilservice.se",
+    "amne": "Svenska Avgasrör, jag har byggt en hemsida åt er",
+    "hej": "Svenska Avgasrör",
+    "ert": "verkstaden",
+    "iakttagelse": "Jag fastnade för Svenska Avgasrör i Skärholmen: 4,4 på Google med 129 omdömen, och en kund skriver att handbroms och baklampa fixades smidigt efter besiktningen.",
+    "problem": "Men ni har ingen egen hemsida – den som söker hamnar på MECA:s kedjesida, där ert eget namn knappt syns.",
+    "adressKalla": "MECA:s verkstadssida",
+    "fordelar": [
+      [
+        "Fler bokningar",
+        "Den som läser era omdömen kan ringa eller boka direkt med ett tryck."
+      ],
+      [
+        "Ni syns som er själva",
+        "Inte bara som en rad i MECA:s lista bland andra verkstäder."
+      ],
+      [
+        "Rätt uppgifter överallt",
+        "Rätt adress, nummer och öppettider – inga missade samtal."
+      ],
+      [
+        "Den är er",
+        "Er egen adress, svenskaavgasror.se, som ni äger och styr."
+      ]
+    ],
+    "prisJamforelse": "ungefär 400 kr i månaden under första året",
+    "kontaktVal": "tar ett kort videosamtal",
+    "psDatum": "11 december",
+    "variant": "A",
+    "test": "lank-2"
+  },
+  "kallor": [
+    "https://www.meca.se/hitta-verkstad/skarholmen/svenska-avgasror-ab – adress, telefon, e-post skarholmen@mecabilservice.se, tider mån–fre 08.30–17.00, tjänster, bokningslänk, koordinater, ingen egen webbplats",
+    "https://kundernas.se/meca-bilservice-skarholmen-svenska-avgasror – Google 4,4 (129 omdömen), omdöme (handbroms/baklampa efter besiktning), webbplats = MECA-sidan",
+    "allabolag.se (Svenska Avgasrör i Bredäng Aktiebolag, Skärholmen) – aktiebolag sedan 1988, aktivt, oms. 7,9 Mkr och vinst 703 tkr 2025 (2024 −4 % marginal), 6 anställda, ingen webbplats",
+    "Shopify domänkoll 2026-11-26: svenskaavgasror.se, svenskaavgasrorskarholmen.se, svenskaavgasror-skarholmen.se, svenskaavgasroribredang.se lediga"
+  ],
+  "status": {
+    "byggd": "2026-11-26",
+    "kopsignal": 5,
+    "signaler": "129 omdömen (+2), oms 7,9 Mkr och vinst (+1), onlinebokning (+1), verkstad (+1)",
+    "variant": "A"
+  },
+  "domankoll": {
+    "namnDoman": "svenskaavgasror.se",
+    "status": "ledig",
+    "bevis": "Shopify 26 nov: svenskaavgasror.se ledig, svenskaavgasrorskarholmen.se ledig, svenskaavgasror-skarholmen.se ledig, svenskaavgasroribredang.se ledig; allabolag/Kundernas/MECA: ingen egen webbplats"
+  }
+}

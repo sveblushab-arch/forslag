@@ -1,0 +1,212 @@
+{
+  "slug": "ballsta-bilservice-vallentuna",
+  "namn": "Bällsta Bilservice",
+  "bolag": "Lilians Transport & bilverkstad AB",
+  "bolagsform": "AB",
+  "logo": [
+    "Bällsta",
+    "Bilservice"
+  ],
+  "tema": "verkstad",
+  "schemaTyp": "AutoRepair",
+  "adress": "Fågelsångsvägen 6, Lokal 2",
+  "postnr": "186 42",
+  "stad": "Vallentuna",
+  "lat": 59.514617,
+  "lng": 18.0938845,
+  "telefon": "08-428 601 01",
+  "telefonIntl": "+46842860101",
+  "bokning": "https://boka.mekopartner.se?workshop=3454-112",
+  "instagram": null,
+  "facebook": null,
+  "betyg": [
+    {
+      "kalla": "Google",
+      "snitt": "4,2",
+      "antal": "50 omdömen"
+    }
+  ],
+  "oppettider": [
+    [
+      "Måndag",
+      8,
+      17
+    ],
+    [
+      "Tisdag",
+      8,
+      17
+    ],
+    [
+      "Onsdag",
+      8,
+      17
+    ],
+    [
+      "Torsdag",
+      8,
+      17
+    ],
+    [
+      "Fredag",
+      8,
+      17
+    ],
+    [
+      "Lördag",
+      null,
+      null
+    ],
+    [
+      "Söndag",
+      null,
+      null
+    ]
+  ],
+  "tjanster": {
+    "Verkstad": [
+      [
+        "Regelbunden bilservice",
+        "Alla bilmärken välkomna",
+        "Se bokning"
+      ],
+      [
+        "Däckbyte och hjulinställning",
+        "Hjulskifte, balansering och inställning",
+        "Se bokning"
+      ],
+      [
+        "Avancerade reparationer",
+        "Från motor till elfel",
+        "Ring för pris"
+      ],
+      [
+        "Hämtning och lämning",
+        "Vi hämtar och lämnar bilen vid service",
+        "Ring för pris"
+      ]
+    ]
+  },
+  "varfor": [
+    {
+      "big": "4,2",
+      "titel": "av 5 på Google",
+      "text": "50 omdömen. En kund bytte fläktrem: ”Snabb och bra.”"
+    },
+    {
+      "big": "08.00",
+      "titel": "öppnar vardagar",
+      "text": "Måndag–fredag 08–17. Helger stängt."
+    },
+    {
+      "big": "24/7",
+      "titel": "boka online",
+      "text": "Boka tid när det passar dig – eller kom på drop-in."
+    }
+  ],
+  "faq": [
+    [
+      "Hur bokar jag tid?",
+      "Boka online via knappen Boka tid eller ring 08-428 601 01."
+    ],
+    [
+      "Kan jag komma utan bokning?",
+      "Ja, verkstaden har drop-in – eller boka tid i förväg."
+    ],
+    [
+      "När har ni öppet?",
+      "Måndag–fredag 08–17. Lördag och söndag stängt."
+    ],
+    [
+      "Var ligger ni?",
+      "På Fågelsångsvägen 6, lokal 2, i Vallentuna – tryck på Hitta hit."
+    ]
+  ],
+  "seo": {
+    "title": "Bällsta Bilservice – Bilverkstad i Vallentuna",
+    "description": "Service, däck och reparationer på Fågelsångsvägen 6 i Vallentuna. 4,2 på Google med 50 omdömen. Boka online eller ring 08-428 601 01."
+  },
+  "text": {
+    "navTjanster": "Tjänster",
+    "tjanstRubrik": "Vad behöver bilen?",
+    "prisNot": "Ring för pris – verkstaden ger besked innan arbetet börjar.",
+    "tjanstCta": "Boka tid",
+    "varforKicker": "Därför väljer Vallentuna oss",
+    "kontaktRubrik": "Behöver bilen hjälp?",
+    "kontaktText": "Boka tid online, ring oss eller kom förbi under öppettiderna.",
+    "enhet": "jobb",
+    "enhetPlural": "jobb",
+    "pratText": "Vill ni ställa frågor innan ni bestämmer er? Jag ringer gärna, eller tar ett kort videosamtal – tio minuter räcker.",
+    "rubrik": "Bilverkstad i Vallentuna",
+    "ingress": "Service, däck och reparationer på Fågelsångsvägen 6. 4,2 på Google med 50 omdömen. Boka online, ring eller kom på drop-in.",
+    "varforRubrik": "Snabbt, kunnigt och trevligt",
+    "pitchRubrik": "Bällsta Bilservice, kunderna hittar er på kartan – nu kan de hitta er på riktigt",
+    "pitchIngress": "Ni har redan det svåraste: 50 omdömen och kunder som kallar er kompetenta. Det som saknas är en egen plats på nätet under ett namn. Sidan är klar och kan vara live på ballstabilservice.se inom 7 dagar."
+  },
+  "pitch": {
+    "snittpris": 2000,
+    "doman": "ballstabilservice.se",
+    "idag": [
+      "Google-profilen leder bara till MekoPartners kedjesida",
+      "Två olika namn och betyg ute på nätet",
+      "Ingen egen hemsida med era tjänster",
+      "Onlinebokningen syns inte när någon söker"
+    ],
+    "medSida": [
+      "Egen adress, ballstabilservice.se, som ni äger",
+      "Ett namn, rätt adress och öppettider på ett ställe",
+      "Visar om ni har öppet just nu – boka ett tryck bort",
+      "Byggd för mobilen, där bilägare letar verkstad"
+    ]
+  },
+  "mejl": {
+    "till": "ballsta@mekopartner.se",
+    "amne": "Bällsta Bilservice, jag har byggt en hemsida åt er",
+    "hej": "Bällsta Bilservice",
+    "ert": "verkstaden",
+    "iakttagelse": "Jag fastnade för Bällsta Bilservice i Vallentuna: 4,2 på Google med 50 omdömen, och kunderna beskriver er som snabba och bra.",
+    "problem": "Men ni har ingen egen hemsida, och informationen spretar – på Hitta står verkstaden som Lilians Transport & Bilverkstad med 3,0 i betyg, medan Google visar Bällsta med 4,2.",
+    "adressKalla": "MekoPartners verkstadssida",
+    "fordelar": [
+      [
+        "Fler bokningar",
+        "Den som läser era omdömen kan ringa eller boka direkt med ett tryck."
+      ],
+      [
+        "Ni syns som er själva",
+        "Inte bara som en rad i MekoPartners lista bland andra verkstäder."
+      ],
+      [
+        "Rätt uppgifter överallt",
+        "Ett namn, rätt nummer och öppettider – inga missade samtal."
+      ],
+      [
+        "Den är er",
+        "Er egen adress, ballstabilservice.se, som ni äger och styr."
+      ]
+    ],
+    "prisJamforelse": "ungefär 400 kr i månaden under första året",
+    "kontaktVal": "tar ett kort videosamtal",
+    "psDatum": "11 december",
+    "variant": "B",
+    "test": "lank-2"
+  },
+  "kallor": [
+    "https://www.mekopartner.se/hitta-verkstad/vallentuna/ballsta-bilservice/ – adress Fågelsångsvägen 6 Lokal 2, telefon, e-post ballsta@mekopartner.se, tider mån–fre 08–17, tjänster (hjulskifte, hjulinställning, hämta/lämna), drop-in, bokningslänk",
+    "https://kundernas.se/mekopartner-bilverkstad-vallentuna-ballsta-bilservice – Google 4,2 (50 omdömen), tider mån–fre 08–17, koordinater, omdömen (fläktrem, kompetent verkstad), webbplats = MekoPartner-sidan",
+    "allabolag.se (Lilians Transport & bilverkstad AB, Vallentuna) – aktiebolag sedan 2010, aktivt, Fågelsångsvägen 6 Lokal 2 c/o Bällsta Bilrep. & Service, oms. 5,0 Mkr och vinst 159 tkr 2025, 5 anställda, ingen webbplats",
+    "hitta.se (bilverkstäder Bällstaberg Vallentuna) – Lilians Transport & Bilverkstad AB, Fågelsångsvägen 6, 08-428 601…, betyg 3,0 (6 omdömen)",
+    "Shopify domänkoll 2026-11-26: ballstabilservice.se, ballstabilservicevallentuna.se, ballstabilservice-vallentuna.se, ballstabilrep.se, lilianstransport.se lediga"
+  ],
+  "status": {
+    "byggd": "2026-11-26",
+    "kopsignal": 7,
+    "signaler": "olika namn/betyg Hitta vs Google (+2), 50 omdömen (+2), oms 5 Mkr och vinst (+1), onlinebokning/drop-in (+1), verkstad (+1)",
+    "variant": "B"
+  },
+  "domankoll": {
+    "namnDoman": "ballstabilservice.se",
+    "status": "ledig",
+    "bevis": "Shopify 26 nov: ballstabilservice.se ledig, ballstabilservicevallentuna.se ledig, ballstabilservice-vallentuna.se ledig, lilianstransport.se ledig; allabolag/hitta/Kundernas: ingen egen webbplats"
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "slug": "bilsnabben-storvreta",
+  "namn": "Bilsnabben",
+  "bolag": "Bilsnabben AB",
+  "bolagsform": "AB",
+  "logo": [
+    "Bilsnabben",
+    "Storvreta"
+  ],
+  "tema": "verkstad",
+  "schemaTyp": "AutoRepair",
+  "adress": "Kilgärdsvägen 15B",
+  "postnr": "743 30",
+  "stad": "Storvreta",
+  "lat": 59.9630347,
+  "lng": 17.7073308,
+  "telefon": "018-36 60 63",
+  "telefonIntl": "+4618366063",
+  "bokning": "https://boka.meca.se?workshop=260a0482-8722-ec11-b6e6-000d3ade6fe3",
+  "instagram": null,
+  "facebook": null,
+  "betyg": [
+    {
+      "kalla": "Google",
+      "snitt": "4,9",
+      "antal": "41 omdömen"
+    }
+  ],
+  "oppettider": [
+    [
+      "Måndag",
+      8,
+      17
+    ],
+    [
+      "Tisdag",
+      8,
+      17
+    ],
+    [
+      "Onsdag",
+      8,
+      17
+    ],
+    [
+      "Torsdag",
+      8,
+      17
+    ],
+    [
+      "Fredag",
+      8,
+      15.5
+    ],
+    [
+      "Lördag",
+      null,
+      null
+    ],
+    [
+      "Söndag",
+      null,
+      null
+    ]
+  ],
+  "tjanster": {
+    "Verkstad": [
+      [
+        "Service",
+        "Service på alla vanliga bilmärken",
+        "Se bokning"
+      ],
+      [
+        "Reparationer",
+        "Fast pris eller offert innan arbetet",
+        "Ring för pris"
+      ],
+      [
+        "Däckhotell",
+        "Vi förvarar era hjul mellan säsongerna",
+        "Ring för pris"
+      ],
+      [
+        "Godkänd bilverkstad",
+        "Auktoriserad MECA-verkstad",
+        "Se bokning"
+      ]
+    ]
+  },
+  "varfor": [
+    {
+      "big": "4,9",
+      "titel": "av 5 på Google",
+      "text": "41 omdömen. En kund skriver att verkstaden ofta fixar det andra menar är kört."
+    },
+    {
+      "big": "08.00",
+      "titel": "öppnar vardagar",
+      "text": "Måndag–torsdag 08–17, fredag 08–15.30. Helger stängt."
+    },
+    {
+      "big": "24/7",
+      "titel": "boka online",
+      "text": "Boka verkstadstid när det passar dig – eller ring oss."
+    }
+  ],
+  "faq": [
+    [
+      "Hur bokar jag tid?",
+      "Boka online via knappen Boka tid eller ring 018-36 60 63."
+    ],
+    [
+      "Kan jag få pris innan?",
+      "Ja, ni kan få offert eller fast pris innan arbetet börjar."
+    ],
+    [
+      "När har ni öppet?",
+      "Måndag–torsdag 08–17 och fredag 08–15.30. Lördag och söndag stängt."
+    ],
+    [
+      "Var ligger ni?",
+      "På Kilgärdsvägen 15B i Storvreta – tryck på Hitta hit."
+    ]
+  ],
+  "seo": {
+    "title": "Bilsnabben – Bilverkstad i Storvreta",
+    "description": "Service, reparationer och däckhotell på Kilgärdsvägen 15B i Storvreta. 4,9 på Google. Boka online eller ring 018-36 60 63."
+  },
+  "text": {
+    "navTjanster": "Tjänster",
+    "tjanstRubrik": "Vad behöver bilen?",
+    "prisNot": "Ring för pris – verkstaden ger besked innan arbetet börjar.",
+    "tjanstCta": "Boka tid",
+    "varforKicker": "Därför väljer Storvreta oss",
+    "kontaktRubrik": "Behöver bilen hjälp?",
+    "kontaktText": "Boka tid online, ring oss eller kom förbi under öppettiderna.",
+    "enhet": "jobb",
+    "enhetPlural": "jobb",
+    "pratText": "Vill ni ställa frågor innan ni bestämmer er? Jag ringer gärna, eller tar ett kort videosamtal – tio minuter räcker.",
+    "rubrik": "Bilverkstad i Storvreta",
+    "ingress": "Service, reparationer och däckhotell på Kilgärdsvägen 15B. 4,9 på Google med 41 omdömen. Boka online eller ring oss.",
+    "varforRubrik": "Kunnigt, ärligt och nära",
+    "pitchRubrik": "Bilsnabben, kunderna hittar er på kartan – nu kan de hitta er på riktigt",
+    "pitchIngress": "Ni har redan det svåraste: nöjda kunder och ett snitt på 4,9. Det som saknas är en egen plats på nätet med rätt adress. Den här sidan är redan byggd och kan vara live på bilsnabben.se inom 7 dagar."
+  },
+  "pitch": {
+    "snittpris": 2000,
+    "doman": "bilsnabben.se",
+    "idag": [
+      "Google-profilen leder bara till MECA:s kedjesida",
+      "Gatunamnet stavas olika ute på nätet",
+      "Ingen egen hemsida med era tjänster",
+      "Onlinebokningen syns inte när någon söker"
+    ],
+    "medSida": [
+      "Egen adress, bilsnabben.se, som ni äger",
+      "Rätt adress och öppettider på ett ställe",
+      "Visar om ni har öppet just nu – boka ett tryck bort",
+      "Byggd för mobilen, där bilägare letar verkstad"
+    ]
+  },
+  "mejl": {
+    "till": "bilsnabben@outlook.com",
+    "amne": "Bilsnabben, jag har byggt en hemsida åt er",
+    "hej": "Bilsnabben",
+    "ert": "verkstaden",
+    "iakttagelse": "Jag fastnade för Bilsnabben i Storvreta: 4,9 på Google med 41 omdömen, och en kund skriver att ni ofta fixar sådant som andra menar är kört.",
+    "problem": "Men ni har ingen egen hemsida, och adressen spretar – i MECA:s verkstadslista står Kilgärdsvägen, medan Kundernas sida skriver Kilsgärdesvägen.",
+    "adressKalla": "MECA:s verkstadssida",
+    "fordelar": [
+      [
+        "Fler bokningar",
+        "Den som läser era omdömen kan ringa eller boka direkt med ett tryck."
+      ],
+      [
+        "Ni syns som er själva",
+        "Inte bara som en rad i MECA:s lista bland andra verkstäder."
+      ],
+      [
+        "Rätt uppgifter överallt",
+        "Rätt adress, nummer och öppettider – inga missade samtal."
+      ],
+      [
+        "Den är er",
+        "Er egen adress, bilsnabben.se, som ni äger och styr."
+      ]
+    ],
+    "prisJamforelse": "ungefär 400 kr i månaden under första året",
+    "kontaktVal": "tar ett kort videosamtal",
+    "psDatum": "11 december",
+    "variant": "A",
+    "test": "lank-2"
+  },
+  "kallor": [
+    "https://www.meca.se/hitta-verkstad/storvreta/bilsnabben-ab – adress Kilgärdsvägen 15B, telefon, e-post bilsnabben@outlook.com, tider mån–tors 08–17, fre 08–15.30, tjänster, bokningslänk, koordinater",
+    "https://kundernas.se/meca-bilservice-storvreta-bilsnabben – Google 4,9 (41 omdömen), tider, adress Kilsgärdesvägen 15B, omdöme, ingen egen webbplats (länkar till MECA)",
+    "allabolag.se (Bilsnabben AB, Storvreta) – aktiebolag, registrerat 2020, aktivt, oms. 1,7 Mkr 2025 (−179 tkr), 2024 vinstmarginal 1,6 %, ingen webbplats",
+    "Shopify domänkoll 2026-11-26: bilsnabben.se, bilsnabbenstorvreta.se, bilsnabben-storvreta.se lediga"
+  ],
+  "status": {
+    "byggd": "2026-11-26",
+    "kopsignal": 4,
+    "signaler": "Kilgärdsvägen vs Kilsgärdesvägen (+2), onlinebokning (+1), verkstad (+1); 41 omdömen 4,9",
+    "variant": "A"
+  },
+  "domankoll": {
+    "namnDoman": "bilsnabben.se",
+    "status": "ledig",
+    "bevis": "Shopify 26 nov: bilsnabben.se ledig, bilsnabbenstorvreta.se ledig, bilsnabben-storvreta.se ledig; allabolag och Kundernas: ingen egen webbplats"
+  }
+}

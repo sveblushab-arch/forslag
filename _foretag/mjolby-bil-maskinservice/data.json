@@ -1,0 +1,211 @@
+{
+  "slug": "mjolby-bil-maskinservice",
+  "namn": "Mjölby Bil & Maskinservice",
+  "bolag": "Mjölby Bil- & Maskinservice AB",
+  "bolagsform": "AB",
+  "logo": [
+    "Mjölby",
+    "Bil & Maskin"
+  ],
+  "tema": "verkstad",
+  "schemaTyp": "AutoRepair",
+  "adress": "Transformatorgatan 3",
+  "postnr": "595 35",
+  "stad": "Mjölby",
+  "lat": 58.3131985,
+  "lng": 15.1069248,
+  "telefon": "0142-169 99",
+  "telefonIntl": "+4614216999",
+  "bokning": "https://boka.mekopartner.se?workshop=3395-072",
+  "instagram": null,
+  "facebook": null,
+  "betyg": [
+    {
+      "kalla": "Google",
+      "snitt": "4,8",
+      "antal": "20 omdömen"
+    }
+  ],
+  "oppettider": [
+    [
+      "Måndag",
+      7,
+      16
+    ],
+    [
+      "Tisdag",
+      7,
+      16
+    ],
+    [
+      "Onsdag",
+      7,
+      16
+    ],
+    [
+      "Torsdag",
+      7,
+      16
+    ],
+    [
+      "Fredag",
+      7,
+      16
+    ],
+    [
+      "Lördag",
+      null,
+      null
+    ],
+    [
+      "Söndag",
+      null,
+      null
+    ]
+  ],
+  "tjanster": {
+    "Verkstad": [
+      [
+        "Regelbunden bilservice",
+        "Alla bilmärken och modeller",
+        "Se bokning"
+      ],
+      [
+        "Däckbyte och hjulinställning",
+        "Hjulskifte, balansering och inställning",
+        "Se bokning"
+      ],
+      [
+        "AC-reparation",
+        "När kylan inte räcker till",
+        "Ring för pris"
+      ],
+      [
+        "Avancerade reparationer",
+        "Från motor till elfel",
+        "Ring för pris"
+      ]
+    ]
+  },
+  "varfor": [
+    {
+      "big": "4,8",
+      "titel": "av 5 på Google",
+      "text": "20 omdömen. En kund skriver: ”Lagade bilen, bra pris, trevlig personal.”"
+    },
+    {
+      "big": "07.00",
+      "titel": "öppnar vardagar",
+      "text": "Måndag–fredag 07–16, lunchstängt 12–13. Helger stängt."
+    },
+    {
+      "big": "24/7",
+      "titel": "boka online",
+      "text": "Boka tid när det passar dig – eller kom på drop-in."
+    }
+  ],
+  "faq": [
+    [
+      "Hur bokar jag tid?",
+      "Boka online via knappen Boka tid eller ring 0142-169 99."
+    ],
+    [
+      "Kan jag komma utan bokning?",
+      "Ja, verkstaden har drop-in – eller boka tid i förväg."
+    ],
+    [
+      "När har ni öppet?",
+      "Måndag–fredag 07–16, lunchstängt 12–13. Lördag och söndag stängt."
+    ],
+    [
+      "Var ligger ni?",
+      "På Transformatorgatan 3 i Mjölby – tryck på Hitta hit."
+    ]
+  ],
+  "seo": {
+    "title": "Mjölby Bil & Maskinservice – Bilverkstad i Mjölby",
+    "description": "Service, däck, AC och reparationer på Transformatorgatan 3 i Mjölby. 4,8 på Google. Boka online eller ring 0142-169 99."
+  },
+  "text": {
+    "navTjanster": "Tjänster",
+    "tjanstRubrik": "Vad behöver bilen?",
+    "prisNot": "Ring för pris – verkstaden ger besked innan arbetet börjar.",
+    "tjanstCta": "Boka tid",
+    "varforKicker": "Därför väljer Mjölby oss",
+    "kontaktRubrik": "Behöver bilen hjälp?",
+    "kontaktText": "Boka tid online, ring oss eller kom förbi under öppettiderna.",
+    "enhet": "jobb",
+    "enhetPlural": "jobb",
+    "pratText": "Vill ni ställa frågor innan ni bestämmer er? Jag ringer gärna, eller tar ett kort videosamtal – tio minuter räcker.",
+    "rubrik": "Bilverkstad i Mjölby",
+    "ingress": "Service, däck, AC och reparationer på Transformatorgatan 3. 4,8 på Google. Boka online, ring eller kom på drop-in.",
+    "varforRubrik": "Bra pris och trevligt bemötande",
+    "pitchRubrik": "Mjölby Bil & Maskinservice, kunderna hittar er på kartan – nu kan de hitta er på riktigt",
+    "pitchIngress": "Ni har redan det svåraste: nöjda kunder och ett snitt på 4,8. Det som saknas är en egen plats på nätet med rätt öppettider. Sidan är klar och kan vara live på mjolbybilmaskinservice.se inom 7 dagar."
+  },
+  "pitch": {
+    "snittpris": 2000,
+    "doman": "mjolbybilmaskinservice.se",
+    "idag": [
+      "Google-profilen leder bara till MekoPartners kedjesida",
+      "Olika öppettider ute på nätet",
+      "Ingen egen hemsida med era tjänster",
+      "Onlinebokningen syns inte när någon söker"
+    ],
+    "medSida": [
+      "Egen adress, mjolbybilmaskinservice.se, som ni äger",
+      "Rätt öppettider på ett ställe",
+      "Visar om ni har öppet just nu – boka ett tryck bort",
+      "Byggd för mobilen, där bilägare letar verkstad"
+    ]
+  },
+  "mejl": {
+    "till": "mbm@lokalpost.se",
+    "amne": "Mjölby Bil & Maskinservice, jag har byggt en hemsida åt er",
+    "hej": "Mjölby Bil & Maskinservice",
+    "ert": "verkstaden",
+    "iakttagelse": "Jag fastnade för Mjölby Bil & Maskinservice: 4,8 på Google, och en kund skriver att ni lagade bilen till bra pris med trevlig personal.",
+    "problem": "Men ni har ingen egen hemsida, och tiderna spretar – på Kundernas sida står att ni stänger kl. 12, medan MekoPartners sida säger 07–16.",
+    "adressKalla": "MekoPartners verkstadssida",
+    "fordelar": [
+      [
+        "Fler bokningar",
+        "Den som läser era omdömen kan ringa eller boka direkt med ett tryck."
+      ],
+      [
+        "Ni syns som er själva",
+        "Inte bara som en rad i MekoPartners lista bland andra verkstäder."
+      ],
+      [
+        "Rätt uppgifter överallt",
+        "Rätt öppettider och nummer – inga kunder som tror att ni stängt."
+      ],
+      [
+        "Den är er",
+        "Er egen adress, mjolbybilmaskinservice.se, som ni äger och styr."
+      ]
+    ],
+    "prisJamforelse": "ungefär 400 kr i månaden under första året",
+    "kontaktVal": "tar ett kort videosamtal",
+    "psDatum": "11 december",
+    "variant": "B",
+    "test": "lank-2"
+  },
+  "kallor": [
+    "https://www.mekopartner.se/hitta-verkstad/mjolby/mjolby-bil-maskinservice-ab/ – adress, telefon, e-post mbm@lokalpost.se, tider mån–fre 07–16 (lunch 12–13), tjänster (hjulskifte, hjulinställning, AC), drop-in, bokningslänk",
+    "https://kundernas.se/mekopartner-bilverkstad-mjolby-mjolby-bil-maskinservice – Google 4,8 (20 omdömen), tider mån–fre 07–12 (avviker), koordinater, omdöme (bra pris, trevlig personal), webbplats = MekoPartner-sidan",
+    "allabolag.se (Mjölby Bil- & Maskinservice AB) – aktiebolag sedan 2011, aktivt, oms. 4,5 Mkr och vinst 238 tkr 2025 (2024 marginal 2,5 %), 3 anställda, ingen webbplats",
+    "Shopify domänkoll 2026-11-26: mjolbybilmaskinservice.se, mjolbybilochmaskinservice.se, mjolbybilmaskin.se lediga"
+  ],
+  "status": {
+    "byggd": "2026-11-26",
+    "kopsignal": 5,
+    "signaler": "olika tider Kundernas 07–12 vs MekoPartner 07–16 (+2), oms 4,5 Mkr och vinst (+1), onlinebokning/drop-in (+1), verkstad (+1); 20 omdömen 4,8",
+    "variant": "B"
+  },
+  "domankoll": {
+    "namnDoman": "mjolbybilmaskinservice.se",
+    "status": "ledig",
+    "bevis": "Shopify 26 nov: mjolbybilmaskinservice.se ledig, mjolbybilochmaskinservice.se ledig, mjolbybilmaskin.se ledig (namnet innehåller orten); allabolag/Kundernas: ingen egen webbplats"
+  }
+}
