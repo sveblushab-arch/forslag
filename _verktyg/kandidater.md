@@ -126,3 +126,6 @@ Saknar bara Google-betyg (allt annat verifierat):
 - IA Bil AB, Vänersborg (MECA) – Vanersborg@mecabilservice.se; iabil.se upptagen, ej öppnad.
 - Sparsör Bilteknik, Brämhult (MECA) – detaljsidan blockerad.
 Bortvalda: Diva Salong Malmö (ingen AB/HB/KB hittad), Holmers Barber Lidingö (profil blockerad – tider/tjänster ej verifierbara), Autodena Halmstad (autodena.se), Walles Bilservice + Jalles Bil & Däck Halmstad (ingen e-post), AUTOVIBE Ängelholm (autovibe.se), MekoPartner Tollarp (0 omdömen), ca 25 MECA-medlemmar med egen domän/kedja (Lundgruppen, AlltiBil, Werksta, Tunby) – se agentrapport 27 nov.
+
+## Sen körning fre 27 nov ca 22:20 – extra leadjakten (startad manuellt samtidigt som eftermiddagsjakten)
+Två leadjakter kör samtidigt i kväll. För att inte ta samma företag tar **extra leadjakten bara nya kandidater från platsannonser (jobbsafari m.fl.) i frisör/barber, skönhet, städ och måleri/bygg** – inte kön ovan och inte MECA/MekoPartner. Eftermiddagsjakten har kön ovan och kedjelistorna. Före varje bygge: `git fetch` och kolla `_foretag/` + leads i Sveblush OS efter samma namn/e-post.
