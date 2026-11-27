@@ -116,3 +116,13 @@ AND Bygg & Städ Frändefors (inga tider, 0 tkr oms.), Dicks Bil & Motor Lomma, 
 - Kundernas listsidor (/bilverkstad/<ort>) visar bara sida 1 (20 st); ?page=2 ger sida 1 igen. Direkt bygg-URL nekas (Östersund), men går om länken först syns i en hämtad kundernas-sida.
 - MekoPartner-listan nekades vid första försöket (permission-timeout), gick vid andra.
 - Fristående verkstäder med bra betyg i större orter (Umeå, Sundsvall, Östersund) har nästan alltid egen sida.
+
+### Agent 5 (27 nov ca 04:15) – Skåne/Halland/Västra Götaland/Mälardalen, 0 byggda
+Även här är MECA/MekoPartner i praktiken uttömda (egen domän, kedja eller inget betyg på Kundernas/Däckplatsen). Hela MECA-listan: https://www.meca.se/hitta-verkstad/stenungsund-2 (4 delar); MECA:s ortssidor länkar vidare till grannorter utan sökning.
+Saknar bara Google-betyg (allt annat verifierat):
+- Sollebrunns Bilverkstad AB (MECA) – sollebrunn@mecabilservice.se, 0322-830 77, tider OK, sollebrunnsbilverkstad.se ledig, ny bokningsprofil (trol. ny ägare +2).
+- Bengtsson Max Bil & Motor AB / "BEMA", Herrljunga (MECA) – herrljunga@mecabilservice.se, tider OK, bemabil.se ledig, två namn (+2).
+- Fordonscenter AB, Surahammar (MECA) – fordoncenter@allcom.se, fordonscentersurahammar.se ledig (fordonscenter.se upptagen – öppna).
+- IA Bil AB, Vänersborg (MECA) – Vanersborg@mecabilservice.se; iabil.se upptagen, ej öppnad.
+- Sparsör Bilteknik, Brämhult (MECA) – detaljsidan blockerad.
+Bortvalda: Diva Salong Malmö (ingen AB/HB/KB hittad), Holmers Barber Lidingö (profil blockerad – tider/tjänster ej verifierbara), Autodena Halmstad (autodena.se), Walles Bilservice + Jalles Bil & Däck Halmstad (ingen e-post), AUTOVIBE Ängelholm (autovibe.se), MekoPartner Tollarp (0 omdömen), ca 25 MECA-medlemmar med egen domän/kedja (Lundgruppen, AlltiBil, Werksta, Tunby) – se agentrapport 27 nov.
