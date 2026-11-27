@@ -85,3 +85,34 @@ Bilstrups Motor Vänersborg (bilstrupsmotor.se gick inte att öppna), Kristianst
 ## Källtips (26 nov eftermiddag)
 - WebFetch nekas på adresser man bygger själv och på länkar till andra sajter. Fungerar: sökträff på kundernas.se → klicka vidare inom kundernas till ortens bilverkstadslista (betyg + webbplats för alla). MECA-hela listan: https://www.meca.se/hitta-verkstad/skovde/bilskadecenter-skovde-ab (4 delar).
 - Reco: sök `"@gmail.com" <bransch> "Om företaget"` med allowed_domains ["reco.se"] → profiler där e-posten står i texten.
+
+## Del A 27 nov 03:23 – 4 agenter, 0 byggda (läs först!)
+Ca 145 sökningar, ca 120 kandidater granskade, 0 klarade alla krav. Orsaker: kedjelistorna (MECA + MekoPartner) är uttömda för Norrland, Värmland, Östergötland, Blekinge, Gotland och Södermanland; Reco/Kundernas för hantverk/städ ger nästan bara firmor med egen sida; Bokadirekt visar inte e-post (bara ikon). WebFetch-behörighetsfrågor besvaras inte i schemalagda körningar → PROVENANCE_REQUIRED på profilsidor och på upptagna domäner (mikaelalm.se, auto-center.info, ingarvet.se, kalmarbilservice.se). Lägg INTE fler sökningar på dessa källor/regioner – nästa körning: nya källor (t.ex. jobbsafari-listor per yrke som går att hämta utan sökning, platsannonser med e-post) eller Skåne/Halland/Västra Götaland/Mälardalen.
+
+### Nästan klara 27 nov (en–två saker saknas)
+- **Frisör Lidingö Centrum / Holmers Barber (Sarta AB, AB enl. ratsit), Stockholmsvägen 55d, Lidingö** – holmersbarber@gmail.com + 079-023 33 79 i platsannons (jobbsafari, apr 2025), Bokadirekt 4,7/1585. Saknar: tider + tjänster/priser (profilsidan bokadirekt.se/places/frisor-lidingo-centrum-holmers-barber-41034 blockerades), webbplatskoll, domänkoll. Lidingö oanvänt för salong.
+- **Diva Salong, Södra Förstadsgatan 4, Malmö** – diva.salong@hotmail.com (Bokadirekt), 040-789 19, Bokadirekt 4,3/ca 1833, mån–fre 10–19, lör–sön 10–17. Saknar bolagsform (systersalong Diva Beauty Lounge).
+- **AutoCar AK, Östanvindsgatan 21, Karlstad** – Google 4,8/52, 076-583 05 20, mån–fre 09–18, ingen webbplats på Kundernas. Saknar bolagsform + e-post.
+- **Nj's Bilskade & Mek AB, Malmköping (MECA)** – malmkoping@mecabilservice.se, AB (Syna). Saknar Google-betyg.
+- **Ingarvet Däck & Bilservice AB, Falun** – 4,8/25 (dackplatsen), tider skiljer (dackplatsen 13–17 / MekoPartner 08–17 = +2). ingarvet.se/ingarvetfalun.se upptagna – går inte att öppna från molnet (Ingarvet är också ett ortnamn).
+- Halmstad, betyg men e-post saknas: Walles Bilservice (4,6/179), Jalles Bil & Däck AB (4,6/123), Autodena AB (4,6/111). Åkersberga: Smedby Bilverkstad (4,7/81), RJS Bilservice (4,7/60).
+- Salonger som annonserar nu (+3), e-post saknas: Ayaz Beauty Salong HB (Helsingborg), Breaking Dawn AB (Linköping), Fiorna AB/Nailbar (Trollhättan), Shiny Care Sigtuna AB, Duti Beauty AB (Falun), Ivy Nails AB (Varberg), Barber Time AS AB (Malmö). Salong Stefan Karlsson i Markaryd AB (reg. 2024, 1,36 Mkr vinst) – ingen profil/e-post hittad.
+
+### Bortvalda 27 nov (sök inte igen)
+AND Bygg & Städ Frändefors (inga tider, 0 tkr oms.), Dicks Bil & Motor Lomma, Träslöv Bilcenter, GEC Bilverkstad, Fosie Bilverkstad, Cemet, Rekproffset, MK Motor, Bjurholms Bilverkstad, Vellinge Bilverkstad (inget betyg att belägga), Tobias Bilservice (2 omdömen), Kjell-Arnes Halmstad (Bestdrive), Botnia Bil & Däck (Euromaster-adress), Feldts Lomma (Autoexperten), Mikael Alm Hässleholm + Auto-Center Kristinehamn (domän går inte att kontrollera), Älvsjö Frisörsalong, Affessalong Jönköping, Creative Beauty Umeå, Kireeva Nails Malmö, Tips and Cups Uppsala, NyStil, Studio 42, Söderlings Vällingby, Klippa Onsala, VOSS Uddevalla, Skönhetsmakeriet Markaryd (EF), Knutberth Malmö.
+- Bil och Svetsteknik i Linköping (MECA Hackefors) – enskild firma (personnummer i registret)
+- Laxviks Fordonsservice Östersund (MECA, 4,6/37) – egen sida laxviks.se
+- Landbloms Bil AB Nyköping (MekoPartner) – Google 3,9/62
+- MA:S Bilvårdscenter / CE Fordonsservice Nyköping (MekoPartner) – 6 omdömen
+- Cityverkstaden i Karlstad AB (MECA) – 5 omdömen, e-post på egen domän
+- Rallye Bilvård & Service Linköping (MekoPartner) – egen sida rallye.se
+- Arvika Fordonsunderhåll HB (MekoPartner, 4,5/18) – ingen offentlig e-post; samma adress som LE Däck & Motor (egen domän)
+- Teed Maintenance & Tyres AB Kiruna (MECA) – större bolag för tunga fordon/offentlig upphandling, inte en småverkstad
+- MekoPartner Luleå (Roger Niemi Bil AB) – sidan visar 0 verkstäder i Luleå (borta)
+- Egen hemsida (från Kundernas): NorthFire Auto Sundsvall, Strids Garage Sundsvall, M & H Bilverkstad Umeå, Tages Bilservice Umeå, Tegs Bil och Rep Umeå, Biltjänsten Lugnvik Östersund, Optands Bil-El Östersund
+- E-post på egen domän i kedjelistorna (= trol. egen sida): Frösöns Fordonsservice, Gällö Bil & Motor, ÖSD Bilservice, MECA+ Östersund/Järpen, Rossön Däckservice, Kramfors Gummiservice, Kramfors Karosseri, Engströms Dorotea (eafix.se), Klasses Bil Skärblacka, Bilskadecenter Ronneby, Venczels Olofström, Emils Bil Karlshamn, PG Bilservice Visby, MB Service Karlstad, Johan Hagberg/JBM Karlstad, JH Bilteknik Molkom, Edane Maskinservice, Alvar Jacobsson Ed, Sonstorp Finspång, Thoréns Linköping, Däckservice i Kinda, KL Bil Luleå/Boden, Lundmarks Luleå, Ridhults Kalix, Norrlandsgaraget Jokkmokk, Rotarium Norsjö, Willmans Umeå, Bil & Maskinservice Sundsvall, Vattjom Matfors, Sjöströms Örnsköldsvik
+- Mekonomen-märkt: Ramsele Rep & Mek AB (står som Mekonomen Bilverkstad Ramsele)
+- Kedjelistorna (MECA + MekoPartner) är nu i praktiken uttömda för Norrland, Värmland, Östergötland, Blekinge, Gotland och Södermanland: nästan alla medlemmar har egen domän, för få omdömen eller är redan använda/bortvalda.
+- Kundernas listsidor (/bilverkstad/<ort>) visar bara sida 1 (20 st); ?page=2 ger sida 1 igen. Direkt bygg-URL nekas (Östersund), men går om länken först syns i en hämtad kundernas-sida.
+- MekoPartner-listan nekades vid första försöket (permission-timeout), gick vid andra.
+- Fristående verkstäder med bra betyg i större orter (Umeå, Sundsvall, Östersund) har nästan alltid egen sida.
