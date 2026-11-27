@@ -1,0 +1,217 @@
+{
+  "slug": "master-bilservice-huddinge",
+  "namn": "Master Bilservice",
+  "bolag": "Master Bilservice AB",
+  "bolagsform": "AB",
+  "logo": [
+    "Master",
+    "Bilservice"
+  ],
+  "tema": "verkstad",
+  "schemaTyp": "AutoRepair",
+  "adress": "Ågestavägen 2-6",
+  "postnr": "141 38",
+  "stad": "Huddinge",
+  "lat": null,
+  "lng": null,
+  "telefon": "08-711 68 50",
+  "telefonIntl": "+4687116850",
+  "bokning": null,
+  "instagram": null,
+  "facebook": null,
+  "betyg": [
+    {
+      "kalla": "Google",
+      "snitt": "4,6",
+      "antal": "32 omdömen"
+    }
+  ],
+  "oppettider": [
+    [
+      "Måndag",
+      7.5,
+      17
+    ],
+    [
+      "Tisdag",
+      7.5,
+      17
+    ],
+    [
+      "Onsdag",
+      7.5,
+      17
+    ],
+    [
+      "Torsdag",
+      7.5,
+      17
+    ],
+    [
+      "Fredag",
+      7.5,
+      15
+    ],
+    [
+      "Lördag",
+      null,
+      null
+    ],
+    [
+      "Söndag",
+      null,
+      null
+    ]
+  ],
+  "tjanster": {
+    "Verkstad": [
+      [
+        "Service",
+        "Service på personbilar och lätta lastbilar",
+        "Ring för pris"
+      ],
+      [
+        "Reparationer och felsökning",
+        "Vi hittar felet och lagar det",
+        "Ring för pris"
+      ],
+      [
+        "Däckverkstad",
+        "Däckbyte och däckarbeten",
+        "Ring för pris"
+      ],
+      [
+        "Plåtverkstad",
+        "Plåtarbeten på er bil",
+        "Offert"
+      ],
+      [
+        "Reservdelar",
+        "Vi säljer reservdelar till bilen",
+        "Ring för pris"
+      ]
+    ]
+  },
+  "varfor": [
+    {
+      "big": "4,6",
+      "titel": "av 5 på Google",
+      "text": "32 omdömen. En kund skriver: alltid supertydligt vad som bör och kan göras."
+    },
+    {
+      "big": "07.30",
+      "titel": "öppnar vardagar",
+      "text": "Måndag–torsdag 07.30–17, fredag 07.30–15. Helger stängt."
+    },
+    {
+      "big": "1",
+      "titel": "verkstad för allt",
+      "text": "Service, däck, plåt och reservdelar under samma tak i Huddinge."
+    }
+  ],
+  "faq": [
+    [
+      "Hur bokar jag tid?",
+      "Ring oss på 08-711 68 50 så hittar vi en tid som passar."
+    ],
+    [
+      "Kan jag få pris innan?",
+      "Ja, ring och berätta vad som behövs så får ni besked innan vi börjar."
+    ],
+    [
+      "När har ni öppet?",
+      "Måndag–torsdag 07.30–17 och fredag 07.30–15. Lördag och söndag stängt."
+    ],
+    [
+      "Var ligger ni?",
+      "På Ågestavägen 2-6 i Huddinge – tryck på Hitta hit."
+    ]
+  ],
+  "seo": {
+    "title": "Master Bilservice – Bilverkstad i Huddinge",
+    "description": "Service, reparationer, däck och plåt på Ågestavägen 2-6 i Huddinge. 4,6 på Google. Ring 08-711 68 50."
+  },
+  "text": {
+    "navTjanster": "Tjänster",
+    "tjanstRubrik": "Vad behöver bilen?",
+    "prisNot": "Ring för pris – verkstaden ger besked innan arbetet börjar.",
+    "tjanstCta": "Ring oss",
+    "varforKicker": "Därför väljer Huddinge oss",
+    "kontaktRubrik": "Behöver bilen hjälp?",
+    "kontaktText": "Ring oss eller kom förbi under öppettiderna.",
+    "enhet": "jobb",
+    "enhetPlural": "jobb",
+    "pratText": "Vill ni ställa frågor innan ni bestämmer er? Jag ringer gärna, eller tar ett kort videosamtal – tio minuter räcker.",
+    "rubrik": "Bilverkstad i Huddinge",
+    "ingress": "Service, reparationer, däck och plåt på Ågestavägen 2-6. 4,6 på Google med 32 omdömen. Ring oss eller kom förbi.",
+    "varforRubrik": "Tydligt, kunnigt och nära",
+    "pitchRubrik": "Master Bilservice, kunderna hittar er på kartan – nu kan de hitta er på riktigt",
+    "pitchIngress": "Ni har redan det svåraste: nöjda kunder och ett snitt på 4,6. Det som saknas är en egen plats på nätet med rätt adress. Den här sidan är redan byggd och kan vara live på masterbilservice.se inom 7 dagar."
+  },
+  "pitch": {
+    "snittpris": 2000,
+    "doman": "masterbilservice.se",
+    "idag": [
+      "Ingen egen hemsida med era tjänster",
+      "Olika adresser för verkstaden ute på nätet",
+      "Kunderna ser inte att ni gör däck och plåt",
+      "Konkurrenter i Huddinge syns med egna sidor"
+    ],
+    "medSida": [
+      "Egen adress, masterbilservice.se, som ni äger",
+      "Rätt adress och öppettider på ett ställe",
+      "Visar om ni har öppet just nu – ring med ett tryck",
+      "Byggd för mobilen, där bilägare letar verkstad"
+    ]
+  },
+  "mejl": {
+    "till": "jobb.masterbilservice@gmail.com",
+    "amne": "Master Bilservice, jag har byggt en hemsida åt er",
+    "hej": "Michael",
+    "ert": "verkstaden",
+    "iakttagelse": "Jag fastnade för Master Bilservice i Huddinge: 4,6 på Google med 32 omdömen, och en kund skriver att det alltid är supertydligt vad som bör och kan göras.",
+    "problem": "Men ni har ingen egen hemsida, och adressen spretar – Kundernas sida anger Ågestavägen i Huddinge, bolagsregistret Drottningholmsvägen i Stockholm.",
+    "adressKalla": "er platsannons för bilmekaniker",
+    "fordelar": [
+      [
+        "Fler samtal",
+        "Den som läser era omdömen kan ringa direkt med ett tryck."
+      ],
+      [
+        "Allt syns",
+        "Service, däck, plåt och reservdelar – samlat på ett ställe."
+      ],
+      [
+        "Rätt uppgifter överallt",
+        "Rätt adress, nummer och öppettider – inga missade kunder."
+      ],
+      [
+        "Den är er",
+        "Er egen adress, masterbilservice.se, som ni äger och styr."
+      ]
+    ],
+    "prisJamforelse": "ungefär 400 kr i månaden under första året",
+    "kontaktVal": "tar ett kort videosamtal",
+    "psDatum": "14 december",
+    "variant": "B",
+    "test": "lank-2"
+  },
+  "kallor": [
+    "https://kundernas.se/master-bilservice – Master Bilservice Ab, Ågestavägen 2-6, 141 38 Huddinge, 08-711 68 50, tider mån–tors 07.30–17, fre 07.30–15, Google 4,6 (32 omdömen), omdöme (Jonas, mars 2026), ingen webbplats",
+    "https://jobbsafari.se/jobb/bilmekaniker-sasrb-19428017 – platsannons från Master Bilservice AB (Huddinge/Stuvsta, publ. 2025-06-29): ansökan till jobb.masterbilservice@gmail.com, service och reparation av personbilar och lätta lastbilar, ingen webbplats",
+    "https://www.allabolag.se/foretag/master-bilservice-ab/huddinge/bilreparationer/ – aktiebolag, reg. 2017, aktivt, oms. 5,1 Mkr 2025, resultat efter finansnetto 1,5 Mkr, 2 anställda, VD Michael, verksamhet bilverkstad, däckverkstad, plåtverkstad, reservdelsförsäljning, adress Drottningholmsvägen 76 Stockholm, ingen webbplats",
+    "https://kundernas.se/winkler-bil-motor – konkurrent i Huddinge (5,0/32) med egen webbplats",
+    "Shopify domänkoll 2026-11-27: masterbilservice.se, masterbilservicehuddinge.se, master-bilservice-huddinge.se lediga"
+  ],
+  "status": {
+    "byggd": "2026-11-27",
+    "kopsignal": 5,
+    "signaler": "Ågestavägen Huddinge vs Drottningholmsvägen Stockholm (+2), oms. 5,1 Mkr med vinst (+1), konkurrent Winkler har egen sida (+1), verkstad (+1); 32 omdömen 4,6",
+    "variant": "B"
+  },
+  "domankoll": {
+    "namnDoman": "masterbilservice.se",
+    "status": "ledig",
+    "bevis": "Shopify 27 nov: masterbilservice.se ledig, masterbilservicehuddinge.se ledig, master-bilservice-huddinge.se ledig; sökning \"Master Bilservice\" Huddinge Ågestavägen: ingen egen sida; Kundernas, allabolag och annonsen: ingen webbplats"
+  }
+}

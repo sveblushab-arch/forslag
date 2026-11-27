@@ -129,3 +129,21 @@ Bortvalda: Diva Salong Malmö (ingen AB/HB/KB hittad), Holmers Barber Lidingö (
 
 ## Sen körning fre 27 nov ca 22:20 – extra leadjakten (startad manuellt samtidigt som eftermiddagsjakten)
 Två leadjakter kör samtidigt i kväll. För att inte ta samma företag tar **extra leadjakten bara nya kandidater från platsannonser (jobbsafari m.fl.) i frisör/barber, skönhet, städ och måleri/bygg** – inte kön ovan och inte MECA/MekoPartner. Eftermiddagsjakten har kön ovan och kedjelistorna. Före varje bygge: `git fetch` och kolla `_foretag/` + leads i Sveblush OS efter samma namn/e-post.
+
+## Eftermiddagsjakt 27 nov 15:41 – 3 agenter (ca 145 sökningar), 2 byggda
+Byggda (flyttade härifrån): Master Bilservice AB (Huddinge, e-post ur egen platsannons på jobbsafari), Salong Milla K AB (Örebro, Bokadirekt). 
+### Nästan klara 27 nov eftermiddag
+- **Knivsta Carwash & bilverkstad HB (MekoPartner)**, Lodgatan 10E, Knivsta, 018-10 18 50, lodgatan@mekopartner.se (MekoPartner + platsannons 26 nov → +3), mån–fre 08–18. Saknar Google-betyg (ingen Kundernas/Däckplatsen-sida), domänkoll.
+- **La-Wi Motor & Bilcenter AB, Dalby** – Google 4,9/131 (Kundernas), ingen webbplats, olika adress/telefon Kundernas vs Reco (+2). Saknar e-post (Reco-profilen ej aktiverad).
+- **Däckkompaniet i Västerås AB**, Kranbyggargatan 7 – Google 4,8/154, ingen webbplats, Däckplatsen visar 14–16 (trol. fel, +2). Saknar e-post (Reco ej aktiverad).
+- **Fillers By Me Västerås AB**, Sporregatan 7 – Bokadirekt 4,9/1510, josefinecarlsson79@hotmail.com i "Om företaget". Saknar telefon (dold) och fillersbyme.se är upptagen – går inte att öppna (ingen sökträff).
+- **King Cut Borås AB** – kingcutboras@gmail.com (jobbsafari 24 okt, +3). Saknar betyg, adress, tider.
+- **M.A.R Handelsbolag ("City Barbershop"), Kungälv** – e-post i jobbsafari-annons 25 nov (+3). Saknar betyg, adress, tider.
+- **Comfort Salong, Varberg** – Bokadirekt 4,8/534, e-post i annons mars 2025. Bolagsform okänd (trol. EF).
+- Utan e-post (annars bra): Salong 23 Köping (4,8/1145), Creo Halmstad (5,0/1225), Klippstugan Hair Fx Lund (4,8/2379), Bromma Bilanalys & Bilverkstad AB (anställer), Kastberga MC AB Eslöv (anställer). SB Bilservice AB Borlänge – bara 8 omdömen, kolla igen i januari. Trend Billackering Borås (6 omdömen).
+### Bortvalda 27 nov eftermiddag (sök inte igen)
+Salonger: Salong Fältan, City Salongen Kungälv, Rams Barbers, Gabriellas estetik, Estetiska kliniken by Sandra, Inject Beauty Gefle, Salong Magnifique, Salong Stay, SelfCareNess, Barber Time AS, Jimmys Salong Nässjö, Salong Coco, Style By Rodde, Huvudkontoret, Crown & Comb, Frisör & Co, alltiklipp, FAB Varberg, Bebas, Studio Mione (egna sidor/domäner); EstetikZ (förlust); Lunabelle, Vegas Salong, Flower Nails, Studio Bara Vara (trol. EF); Vasa Nails. Verkstäder: AutoCar AK, Nj's Malmköping, Sollebrunn, BEMA, Fordonscenter Surahammar (inget betyg att belägga), Surahammars Däckservice, Däckstället Loo, Rego Racing, Kungälv Bilcenter, Winkler, Milan Bilcenter, MC-Kompaniet Skövde, Smajl (egna sidor), Västerås Däck & Verkstad (Autoexperten), Däckpunkten Uppsala, Vinsta (kedjor). Hantverk/städ i Halland, Jönköping, Västmanland, Uppsala, Göteborg, Luleå, Sundsvall: i princip alla med 10+ omdömen har egen sida (lista i agentrapport) – Hallastäd (329 tkr, egen sida).
+### Källtips 27 nov eftermiddag
+- jobbsafari.se/lediga-jobb/yrke/bilmekaniker?page=2 (sida 1 visar gamla annonser); län/ort-listor /lediga-jobb/ort/<län>/yrke/frisor går att hämta utan sökning – ca 1 av 5 annonser har e-post. ledigajobb.se ger bolagsnamn (bolagsform) men döljer e-post.
+- Bokadirekt-sökning "@gmail.com" + botox/fillers/sjuksköterska: estetiska kliniker är oftare AB.
+- Fixa.se ger 0 träffar i WebSearch. Reco-citatsökningen `"@gmail.com" ... "Om företaget"` ignorerar citattecknen nu. Oaktiverade Reco-profiler har aldrig e-post.

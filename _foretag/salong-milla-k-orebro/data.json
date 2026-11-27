@@ -1,0 +1,297 @@
+{
+  "slug": "salong-milla-k-orebro",
+  "namn": "Salong Milla K",
+  "bolag": "Salong Milla K AB",
+  "bolagsform": "AB",
+  "logo": [
+    "Salong",
+    "Milla K"
+  ],
+  "tema": "salong",
+  "schemaTyp": "BeautySalon",
+  "adress": "Engelbrektsgatan 27",
+  "postnr": "702 13",
+  "stad": "Örebro",
+  "lat": 59.2701,
+  "lng": 15.2249,
+  "telefon": "076-788 46 88",
+  "telefonIntl": "+46767884688",
+  "bokning": "https://www.bokadirekt.se/places/salong-milla-k-37323",
+  "bokningEtikett": "Boka tid",
+  "bokningHero": "Boka tid online",
+  "instagram": "https://www.instagram.com/salongmillak",
+  "facebook": null,
+  "betyg": [
+    {
+      "kalla": "Bokadirekt",
+      "snitt": "5,0",
+      "antal": "1 214 betyg"
+    }
+  ],
+  "oppettider": [
+    [
+      "Måndag",
+      10,
+      18
+    ],
+    [
+      "Tisdag",
+      10,
+      18
+    ],
+    [
+      "Onsdag",
+      10,
+      18
+    ],
+    [
+      "Torsdag",
+      10,
+      18
+    ],
+    [
+      "Fredag",
+      10,
+      17
+    ],
+    [
+      "Lördag",
+      null,
+      null
+    ],
+    [
+      "Söndag",
+      null,
+      null
+    ]
+  ],
+  "tjanster": {
+    "Konsultation": [
+      [
+        "Nykundskonsultation, besök",
+        "15 min",
+        "Gratis"
+      ],
+      [
+        "Nykundskonsultation, FaceTime",
+        "15 min",
+        "Gratis"
+      ],
+      [
+        "Återbesök botox 14–21 dagar",
+        "10 min",
+        "500 kr"
+      ]
+    ],
+    "Botox": [
+      [
+        "Botox 1 område",
+        "Se bokning",
+        "1 850 kr"
+      ],
+      [
+        "Botox 2 områden",
+        "10 min",
+        "2 400 kr"
+      ],
+      [
+        "Botox 3 områden",
+        "15 min",
+        "3 050 kr"
+      ],
+      [
+        "Botox fullface",
+        "15 min",
+        "4 450 kr"
+      ],
+      [
+        "Botox tandgnissel",
+        "15 min",
+        "3 050 kr"
+      ],
+      [
+        "Botox lipflip",
+        "10 min",
+        "1 250 kr"
+      ]
+    ],
+    "Filler": [
+      [
+        "Filler läppar Revolax deep 1,1 ml",
+        "30 min",
+        "2 500 kr"
+      ],
+      [
+        "Filler läppar Juvederm 0,55 ml",
+        "40 min",
+        "2 350 kr"
+      ],
+      [
+        "Filler Russianlips",
+        "30 min",
+        "2 900 kr"
+      ],
+      [
+        "Botox + filler, paket 1",
+        "45 min",
+        "5 250 kr"
+      ],
+      [
+        "Filler Revolax deep 2,2 ml",
+        "60 min",
+        "4 600 kr"
+      ]
+    ],
+    "Hud & kurer": [
+      [
+        "Profhilo, en behandling",
+        "15 min",
+        "2 900 kr"
+      ],
+      [
+        "Profhilo, kur två behandlingar",
+        "15 min",
+        "5 700 kr"
+      ],
+      [
+        "Microbotox Microgold, 1 behandling",
+        "20 min",
+        "1 950 kr"
+      ],
+      [
+        "PRP hud",
+        "60 min",
+        "från 3 000 kr"
+      ],
+      [
+        "Sculptra huduppstramning",
+        "30 min",
+        "från 5 500 kr"
+      ]
+    ]
+  },
+  "varfor": [
+    {
+      "big": "5,0",
+      "titel": "av 5 på Bokadirekt",
+      "text": "1 214 betyg – nästan alla fulla fem stjärnor."
+    },
+    {
+      "big": "Leg.",
+      "titel": "sjuksköterska",
+      "text": "Camilla är legitimerad specialistsjuksköterska sedan 1996 och har arbetat med injektioner sedan 2020."
+    },
+    {
+      "big": "Gratis",
+      "titel": "konsultation",
+      "text": "Nya kunder träffar Milla för rådgivning minst 48 timmar före första behandlingen."
+    }
+  ],
+  "faq": [
+    [
+      "Hur bokar jag tid?",
+      "Enklast är att boka online via knappen \"Boka tid\" – där ser du alla lediga tider. Du kan också ringa 076-788 46 88."
+    ],
+    [
+      "Måste jag göra en konsultation först?",
+      "Ja, som ny kund gör du en kostnadsfri konsultation minst 48 timmar före din behandling – på plats, via FaceTime eller Instagram."
+    ],
+    [
+      "Vem utför behandlingarna?",
+      "Camilla Klemets, legitimerad specialistsjuksköterska sedan 1996. Salongen har en förskrivande läkare."
+    ],
+    [
+      "Vill du ha ett annat märke av filler?",
+      "Hör av dig till salongen minst fyra dagar innan din tid, så ordnar vi det."
+    ],
+    [
+      "Vad gäller vid avbokning?",
+      "Avbokning senare än 24 timmar före tiden debiteras fullt. Behandlingarna är för dig som fyllt 18 år."
+    ]
+  ],
+  "seo": {
+    "title": "Salong Milla K – Botox och fillers i Örebro",
+    "description": "Botox, fillers, Profhilo och hudbehandlingar av legitimerad sjuksköterska på Engelbrektsgatan 27 i Örebro. 5,0 på Bokadirekt. Boka online."
+  },
+  "text": {
+    "rubrik": "Botox och fillers i Örebro",
+    "ingress": "Naturliga resultat med botox, fillers, Profhilo och hudkurer – av legitimerad sjuksköterska på Engelbrektsgatan 27. 5,0 på Bokadirekt med 1 214 betyg.",
+    "tjanstRubrik": "Vad vill du göra idag?",
+    "prisNot": "Priser från salongens bokningssida, november 2026. Se exakta priser och lediga tider när du bokar.",
+    "tjanstCta": "Se lediga tider",
+    "varforKicker": "Därför väljer Örebro Milla K",
+    "varforRubrik": "Tryggt, personligt och naturligt",
+    "kontaktRubrik": "Dags för en konsultation?",
+    "kontaktText": "Boka online dygnet runt, ring eller skicka ett meddelande på Instagram. Konsultationen för nya kunder är gratis.",
+    "pitchRubrik": "Camilla, 1 214 betyg förtjänar en egen sida",
+    "pitchIngress": "Ni har redan det svåraste: nöjda kunder och 5,0 i snitt. Det som saknas är en egen plats på nätet där tryggheten och behandlingarna syns. Sidan är byggd och kan vara live på salongmillak.se inom 7 dagar.",
+    "enhet": "behandling",
+    "enhetPlural": "behandlingar",
+    "pratText": "Vill ni ställa frågor innan ni bestämmer er? Jag ringer gärna, eller tar ett kort videosamtal – tio minuter räcker."
+  },
+  "pitch": {
+    "snittpris": 2500,
+    "doman": "salongmillak.se",
+    "idag": [
+      "Den som söker er hamnar i en katalog eller på Instagram",
+      "Legitimation och trygghet syns inte när någon jämför kliniker",
+      "Konsultationen och avbokningsreglerna ligger gömda i tjänstetexter",
+      "Klinikerna i Örebro syns lika mycket som ni"
+    ],
+    "medSida": [
+      "Egen adress, salongmillak.se, som ni äger",
+      "Behandlingar, priser och regler samlade på ett ställe",
+      "Visar om ni har öppet just nu – bokning ett tryck bort",
+      "Byggd för mobilen, där de flesta letar efter klinik"
+    ]
+  },
+  "mejl": {
+    "till": "salongmillak@gmail.com",
+    "amne": "Salong Milla K, jag har byggt en hemsida åt er",
+    "hej": "Camilla",
+    "ert": "salongen",
+    "iakttagelse": "Jag fastnade för Salong Milla K i Örebro: 5,0 på Bokadirekt med 1 214 betyg – nästan alla fulla fem stjärnor.",
+    "problem": "Men ni har ingen egen hemsida – den som söker er hamnar på Bokadirekt eller Instagram, där er legitimation och konsultationen drunknar bland allt annat.",
+    "adressKalla": "er sida på Bokadirekt",
+    "fordelar": [
+      [
+        "Fler bokningar",
+        "Den som läser era omdömen hittar priser, tider och en bokningsknapp på en gång."
+      ],
+      [
+        "Tryggheten syns",
+        "Legitimation, konsultation och regler får en egen plats när någon jämför."
+      ],
+      [
+        "Rätt uppgifter överallt",
+        "Ett namn, ett nummer och rätt öppettider – inga missade samtal."
+      ],
+      [
+        "Den är er",
+        "Er egen adress, salongmillak.se, som ni äger och styr."
+      ]
+    ],
+    "prisJamforelse": "ungefär 400 kr i månaden under första året",
+    "kontaktVal": "tar ett kort videosamtal",
+    "psDatum": "14 december",
+    "variant": "A",
+    "test": "lank-2"
+  },
+  "kallor": [
+    "https://www.bokadirekt.se/places/salong-milla-k-37323 – adress, telefon (metadata), e-post salongmillak@gmail.com (i tjänstetexterna för Revolax: 'Önskas annan märke av filler kontakta …'), tider mån–tor 10–18 fre 10–17, tjänster och priser, Milla leg. sjuksköterska, Camilla Klemets spec.ssk sedan 1996, 5,0 (1 214), koordinater, Instagram, ingen webbplats",
+    "https://api.risika.dk/se/report/… (årsredovisning 2022/23, Salong Milla K AB, undertecknad i Örebro, styrelseledamot Camilla Klemets) – oms. 1,38 Mkr, resultat efter fin. poster 363 tkr, 2 anställda",
+    "WebSearch '\"Salong Milla K\" Örebro AB' och 'Salong Milla K Örebro' (bokadirekt) 27 nov: ingen egen sida",
+    "Shopify domänkoll 2026-11-27: salongmillak.se, millak.se, salongmillakorebro.se, salongmillak-orebro.se lediga"
+  ],
+  "status": {
+    "byggd": "2026-11-27",
+    "kopsignal": 5,
+    "signaler": "1 214 betyg (5,0), onlinebokning + Instagram, oms. 1,38 Mkr med vinst, skönhet",
+    "variant": "A"
+  },
+  "domankoll": {
+    "namnDoman": "salongmillak.se",
+    "status": "ledig",
+    "bevis": "Shopify 27 nov: salongmillak.se ledig, millak.se ledig, salongmillakorebro.se ledig, salongmillak-orebro.se ledig; sökning 'Salong Milla K Örebro': ingen egen sida; Bokadirekt: ingen webbplats"
+  }
+}
